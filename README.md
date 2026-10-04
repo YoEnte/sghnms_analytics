@@ -1,33 +1,38 @@
 # SGHNMS Analytics
 
-Statisches Analytics-Dashboard der SG Handball Neumünster. Die Website wird über GitHub Pages veröffentlicht und liest ausschließlich vorbereitete JSON-Exporte aus `data/`.
-
-## Bereiche
-
-- **Vereinsstatistik**: Gesamt, Senioren, Junioren, männlich, weiblich und jede einzelne Mannschaft
-- **Trainer Dashboard**: Mannschaftsübersicht, Formkurve, Heim-/Auswärtsbilanz und Match-Historie
-
-Event-basierte Traineranalysen (Runs, 5-Minuten-Splits, Timeouts, Über-/Unterzahl, Spielerstatistiken und Match Flow) sind im UI bereits vorgesehen, benötigen aber zusätzliche Detail-Exporte aus dem privaten Data-Repo.
+Öffentliches, statisches Analytics-Dashboard für die SG Handball Neumünster. Die Seite läuft ohne Build-Schritt auf GitHub Pages und verarbeitet ausschließlich bereits aufbereitete Exporte aus dem privaten Repository `sghnms_handball_data`.
 
 ## Daten
 
-Aktuell erwartete Dateien:
+Die Dateien unter `data/` sind der Public Export der privaten Datenpipeline. In v2 werden zusätzlich genutzt:
 
-```text
-data/overview.json
-data/teams.json
-data/matches.json
-data/coverage.json
-```
+- `coverage.json` – API- und Quality-Abdeckung
+- `quality.json` – Qualität pro Spiel
+- `team-analytics.json` – aggregierte Event-Analytics pro SG-Team
+- `players.json` – Spieler-/Team-Saisonwerte
+- `match-analytics/index.json` – Index aller Match-Detaildateien
+- `match-analytics/<matchId>.json` – Match Flow, 5-Minuten-Splits, Runs, 7m, Timeouts, numerische Situationen und Spielerwerte
 
-Das Dashboard ist vollständig statisch und benötigt keinen Build-Schritt.
+## Bereiche
+
+### Vereinsstatistik
+
+Filter: SG gesamt, Senioren, Junioren, männlich, weiblich und einzelne Mannschaft. Enthalten sind Saisonbilanz, Tordifferenz, Form, Mannschaftsvergleich und Datenqualität.
+
+### Trainer Dashboard
+
+Drei Tabs:
+
+- **Übersicht** – Form, Heim/Auswärts, 5-Minuten-Splits, 7m, Strafen, Über-/Unterzahl, Timeouts und längste Serien.
+- **Spieler** – Einsätze, Tore, Tore pro Spiel, Toranteil, 7m und Zeitstrafen.
+- **Spiele** – Matchauswahl mit Match Flow, 5-Minuten-Splits, Runs, torlosen Phasen, 7m, Timeouts, Über-/Unterzahl und Spielerstatistik des einzelnen Spiels.
+
+Spiele mit nicht plausibel vollständigem Eventstream bleiben in Ergebnis-/Saisonstatistiken enthalten, werden aber aus Event-Analytics ausgeschlossen.
 
 ## GitHub Pages
 
-Der Workflow `.github/workflows/deploy-pages.yml` veröffentlicht bei jedem Push auf `main` den Repository-Inhalt als GitHub Pages Site.
+Deployment erfolgt über `.github/workflows/deploy-pages.yml`. In GitHub unter **Settings → Pages → Source → GitHub Actions** auswählen.
 
-In GitHub unter **Settings -> Pages** muss als Source **GitHub Actions** aktiviert sein.
+## Datenschutz / Indexierung
 
-## Datenschutz / Auffindbarkeit
-
-Die Seite ist technisch öffentlich. `robots.txt` sowie `meta robots=noindex,nofollow` bitten Suchmaschinen darum, die Seite nicht zu indexieren. Das ist keine Zugriffskontrolle.
+Das Repository und GitHub Pages sind technisch öffentlich. `robots.txt` sowie `noindex,nofollow` sollen Suchmaschinen von der Indexierung abhalten, sind aber keine Zugriffskontrolle.

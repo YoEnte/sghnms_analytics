@@ -1,0 +1,1958 @@
+{
+  "generatedAt": "2026-10-04T19:37:02.005Z",
+  "match": {
+    "id": 504568,
+    "date": "2026-10-03",
+    "time": "18:00",
+    "competition": "Kreisoberliga Männer",
+    "phase": {
+      "id": 12963,
+      "name": "Kreisoberliga Männer West"
+    },
+    "venue": {
+      "name": "SPORTHALLE KOLLMAR",
+      "address": "SCHULSTRAßE 97, 25377 KOLLMAR"
+    },
+    "home": {
+      "id": 81682,
+      "name": "SG Kollmar/Neuendorf",
+      "clubId": "0txboff"
+    },
+    "away": {
+      "id": 86805,
+      "name": "SG Handball Neumünster",
+      "clubId": "1yrb3n9"
+    },
+    "result": {
+      "home": 39,
+      "away": 34
+    },
+    "ownTeamId": "86805",
+    "ownTeam": {
+      "label": "HERREN 1",
+      "name": "1. Herren",
+      "ageGroup": "senior",
+      "gender": "male",
+      "matchMinutes": 60
+    },
+    "isHome": false,
+    "opponent": {
+      "id": 81682,
+      "name": "SG Kollmar/Neuendorf",
+      "clubId": "0txboff"
+    }
+  },
+  "quality": {
+    "status": "verified",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 39,
+      "away": 34
+    },
+    "eventFinalScore": {
+      "home": 39,
+      "away": 34
+    },
+    "lineupGoalTotals": {
+      "home": 39,
+      "away": 34
+    },
+    "eventScoreMatchesOfficial": true,
+    "lineupScoreMatchesOfficial": true,
+    "scorerLineupCoverage": {
+      "goalEvents": 73,
+      "goalEventsWithPlayer": 73,
+      "matchedGoalEvents": 73,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "event",
+    "expectedDurationSeconds": 3600,
+    "eventDurationSeconds": 3600,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": true,
+    "lineupEligible": true,
+    "warnings": []
+  },
+  "analytics": {
+    "duration": {
+      "expectedSeconds": 3600,
+      "eventSeconds": 3600,
+      "analysisSeconds": 3600,
+      "analysisClock": "60:00"
+    },
+    "score": {
+      "final": {
+        "own": 34,
+        "opponent": 39
+      },
+      "halftime": {
+        "own": 13,
+        "opponent": 18
+      },
+      "halftimeSource": "event"
+    },
+    "matchFlow": [
+      {
+        "eventId": 44459862,
+        "seconds": 83,
+        "clock": "01:23",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 0,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 44459860,
+        "seconds": 100,
+        "clock": "01:40",
+        "side": "own",
+        "playerId": "0s2pgfl",
+        "playerName": "Erwin Mirzaguliyev",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 44459859,
+        "seconds": 124,
+        "clock": "02:04",
+        "side": "opponent",
+        "playerId": "08l23vd",
+        "playerName": "Kyle Robin Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 44459858,
+        "seconds": 243,
+        "clock": "04:03",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 44459857,
+        "seconds": 301,
+        "clock": "05:01",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 2,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 44459855,
+        "seconds": 365,
+        "clock": "06:05",
+        "side": "opponent",
+        "playerId": "0agashd",
+        "playerName": "Claus Heinrich Thamling",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 44459854,
+        "seconds": 447,
+        "clock": "07:27",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 44459853,
+        "seconds": 556,
+        "clock": "09:16",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 44459852,
+        "seconds": 565,
+        "clock": "09:25",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 44459851,
+        "seconds": 574,
+        "clock": "09:34",
+        "side": "own",
+        "playerId": "1jrnqbk",
+        "playerName": "Jasper Glaubitz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 44459850,
+        "seconds": 599,
+        "clock": "09:59",
+        "side": "opponent",
+        "playerId": "08l23vd",
+        "playerName": "Kyle Robin Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 44459849,
+        "seconds": 675,
+        "clock": "11:15",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 44459848,
+        "seconds": 817,
+        "clock": "13:37",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 44459847,
+        "seconds": 867,
+        "clock": "14:27",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 44459846,
+        "seconds": 893,
+        "clock": "14:53",
+        "side": "opponent",
+        "playerId": "0agashd",
+        "playerName": "Claus Heinrich Thamling",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 44459844,
+        "seconds": 980,
+        "clock": "16:20",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 7,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 44459842,
+        "seconds": 1038,
+        "clock": "17:18",
+        "side": "opponent",
+        "playerId": "1pwfh0w",
+        "playerName": "Dennis Obenhausen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 44459841,
+        "seconds": 1112,
+        "clock": "18:32",
+        "side": "opponent",
+        "playerId": "0agashd",
+        "playerName": "Claus Heinrich Thamling",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 44459840,
+        "seconds": 1159,
+        "clock": "19:19",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": true,
+        "score": {
+          "own": 8,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 44459839,
+        "seconds": 1249,
+        "clock": "20:49",
+        "side": "own",
+        "playerId": "1jrnqbk",
+        "playerName": "Jasper Glaubitz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 44459838,
+        "seconds": 1270,
+        "clock": "21:10",
+        "side": "opponent",
+        "playerId": "08l23vd",
+        "playerName": "Kyle Robin Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 12
+        }
+      },
+      {
+        "eventId": 44459837,
+        "seconds": 1368,
+        "clock": "22:48",
+        "side": "opponent",
+        "playerId": "1kf9tyz",
+        "playerName": "Sören Wegner",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 44459836,
+        "seconds": 1410,
+        "clock": "23:30",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 44459834,
+        "seconds": 1483,
+        "clock": "24:43",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": true,
+        "score": {
+          "own": 11,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 44459833,
+        "seconds": 1513,
+        "clock": "25:13",
+        "side": "opponent",
+        "playerId": "1pwfh0w",
+        "playerName": "Dennis Obenhausen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 14
+        }
+      },
+      {
+        "eventId": 44459831,
+        "seconds": 1589,
+        "clock": "26:29",
+        "side": "opponent",
+        "playerId": "1pwfh0w",
+        "playerName": "Dennis Obenhausen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 15
+        }
+      },
+      {
+        "eventId": 44459829,
+        "seconds": 1662,
+        "clock": "27:42",
+        "side": "own",
+        "playerId": "1ysvzvo",
+        "playerName": "Clemens Brimm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 15
+        }
+      },
+      {
+        "eventId": 44459828,
+        "seconds": 1684,
+        "clock": "28:04",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 16
+        }
+      },
+      {
+        "eventId": 44459826,
+        "seconds": 1736,
+        "clock": "28:56",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 16
+        }
+      },
+      {
+        "eventId": 44459825,
+        "seconds": 1760,
+        "clock": "29:20",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 17
+        }
+      },
+      {
+        "eventId": 44459824,
+        "seconds": 1786,
+        "clock": "29:46",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 18
+        }
+      },
+      {
+        "eventId": 44459821,
+        "seconds": 1842,
+        "clock": "30:42",
+        "side": "own",
+        "playerId": "12lryvb",
+        "playerName": "Steven Appel",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 18
+        }
+      },
+      {
+        "eventId": 44459820,
+        "seconds": 1950,
+        "clock": "32:30",
+        "side": "own",
+        "playerId": "0s2pgfl",
+        "playerName": "Erwin Mirzaguliyev",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 18
+        }
+      },
+      {
+        "eventId": 44459819,
+        "seconds": 1979,
+        "clock": "32:59",
+        "side": "opponent",
+        "playerId": "08l23vd",
+        "playerName": "Kyle Robin Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 19
+        }
+      },
+      {
+        "eventId": 44459818,
+        "seconds": 1993,
+        "clock": "33:13",
+        "side": "opponent",
+        "playerId": "0s0gn9b",
+        "playerName": "Carsten Boedrich",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 20
+        }
+      },
+      {
+        "eventId": 44459817,
+        "seconds": 2039,
+        "clock": "33:59",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 20
+        }
+      },
+      {
+        "eventId": 44459816,
+        "seconds": 2068,
+        "clock": "34:28",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 21
+        }
+      },
+      {
+        "eventId": 44459815,
+        "seconds": 2076,
+        "clock": "34:36",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 21
+        }
+      },
+      {
+        "eventId": 44459814,
+        "seconds": 2083,
+        "clock": "34:43",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 22
+        }
+      },
+      {
+        "eventId": 44459813,
+        "seconds": 2112,
+        "clock": "35:12",
+        "side": "own",
+        "playerId": "12lryvb",
+        "playerName": "Steven Appel",
+        "isSevenMeter": false,
+        "score": {
+          "own": 18,
+          "opponent": 22
+        }
+      },
+      {
+        "eventId": 44459812,
+        "seconds": 2167,
+        "clock": "36:07",
+        "side": "opponent",
+        "playerId": "0q7qbbp",
+        "playerName": "Hauke von Aspern",
+        "isSevenMeter": false,
+        "score": {
+          "own": 18,
+          "opponent": 23
+        }
+      },
+      {
+        "eventId": 44459811,
+        "seconds": 2202,
+        "clock": "36:42",
+        "side": "own",
+        "playerId": "0j29e9h",
+        "playerName": "Tim Krause",
+        "isSevenMeter": false,
+        "score": {
+          "own": 19,
+          "opponent": 23
+        }
+      },
+      {
+        "eventId": 44459810,
+        "seconds": 2211,
+        "clock": "36:51",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 19,
+          "opponent": 24
+        }
+      },
+      {
+        "eventId": 44459809,
+        "seconds": 2259,
+        "clock": "37:39",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 19,
+          "opponent": 25
+        }
+      },
+      {
+        "eventId": 44459808,
+        "seconds": 2269,
+        "clock": "37:49",
+        "side": "own",
+        "playerId": "1azghcr",
+        "playerName": "Jorres Wieben",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 25
+        }
+      },
+      {
+        "eventId": 44459807,
+        "seconds": 2298,
+        "clock": "38:18",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 26
+        }
+      },
+      {
+        "eventId": 44459806,
+        "seconds": 2312,
+        "clock": "38:32",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 21,
+          "opponent": 26
+        }
+      },
+      {
+        "eventId": 44459805,
+        "seconds": 2378,
+        "clock": "39:38",
+        "side": "own",
+        "playerId": "0j29e9h",
+        "playerName": "Tim Krause",
+        "isSevenMeter": false,
+        "score": {
+          "own": 22,
+          "opponent": 26
+        }
+      },
+      {
+        "eventId": 44459804,
+        "seconds": 2387,
+        "clock": "39:47",
+        "side": "opponent",
+        "playerId": "123td4k",
+        "playerName": "Keith Raymond Stabenow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 22,
+          "opponent": 27
+        }
+      },
+      {
+        "eventId": 44459802,
+        "seconds": 2479,
+        "clock": "41:19",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 22,
+          "opponent": 28
+        }
+      },
+      {
+        "eventId": 44459800,
+        "seconds": 2517,
+        "clock": "41:57",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 22,
+          "opponent": 29
+        }
+      },
+      {
+        "eventId": 44459798,
+        "seconds": 2570,
+        "clock": "42:50",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 23,
+          "opponent": 29
+        }
+      },
+      {
+        "eventId": 44459796,
+        "seconds": 2626,
+        "clock": "43:46",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 23,
+          "opponent": 30
+        }
+      },
+      {
+        "eventId": 44459795,
+        "seconds": 2751,
+        "clock": "45:51",
+        "side": "opponent",
+        "playerId": "0vazt41",
+        "playerName": "Kai Pethahn",
+        "isSevenMeter": false,
+        "score": {
+          "own": 23,
+          "opponent": 31
+        }
+      },
+      {
+        "eventId": 44459794,
+        "seconds": 2773,
+        "clock": "46:13",
+        "side": "own",
+        "playerId": "04x44aa",
+        "playerName": "Mika Höppner",
+        "isSevenMeter": false,
+        "score": {
+          "own": 24,
+          "opponent": 31
+        }
+      },
+      {
+        "eventId": 44459793,
+        "seconds": 2799,
+        "clock": "46:39",
+        "side": "opponent",
+        "playerId": "0m4xtdd",
+        "playerName": "Nic Sosat",
+        "isSevenMeter": false,
+        "score": {
+          "own": 24,
+          "opponent": 32
+        }
+      },
+      {
+        "eventId": 44459792,
+        "seconds": 2806,
+        "clock": "46:46",
+        "side": "own",
+        "playerId": "1jrnqbk",
+        "playerName": "Jasper Glaubitz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 25,
+          "opponent": 32
+        }
+      },
+      {
+        "eventId": 44459791,
+        "seconds": 2858,
+        "clock": "47:38",
+        "side": "own",
+        "playerId": "1ysvzvo",
+        "playerName": "Clemens Brimm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 26,
+          "opponent": 32
+        }
+      },
+      {
+        "eventId": 44459790,
+        "seconds": 2884,
+        "clock": "48:04",
+        "side": "opponent",
+        "playerId": "0m4xtdd",
+        "playerName": "Nic Sosat",
+        "isSevenMeter": false,
+        "score": {
+          "own": 26,
+          "opponent": 33
+        }
+      },
+      {
+        "eventId": 44459789,
+        "seconds": 2897,
+        "clock": "48:17",
+        "side": "own",
+        "playerId": "0j29e9h",
+        "playerName": "Tim Krause",
+        "isSevenMeter": false,
+        "score": {
+          "own": 27,
+          "opponent": 33
+        }
+      },
+      {
+        "eventId": 44459787,
+        "seconds": 3056,
+        "clock": "50:56",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 28,
+          "opponent": 33
+        }
+      },
+      {
+        "eventId": 44459785,
+        "seconds": 3083,
+        "clock": "51:23",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 28,
+          "opponent": 34
+        }
+      },
+      {
+        "eventId": 44459784,
+        "seconds": 3104,
+        "clock": "51:44",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 29,
+          "opponent": 34
+        }
+      },
+      {
+        "eventId": 44459783,
+        "seconds": 3141,
+        "clock": "52:21",
+        "side": "opponent",
+        "playerId": "18uyoqa",
+        "playerName": "Tim Christopher Greve",
+        "isSevenMeter": false,
+        "score": {
+          "own": 29,
+          "opponent": 35
+        }
+      },
+      {
+        "eventId": 44459782,
+        "seconds": 3160,
+        "clock": "52:40",
+        "side": "own",
+        "playerId": "1xqc8kc",
+        "playerName": "Marvin Maier",
+        "isSevenMeter": false,
+        "score": {
+          "own": 30,
+          "opponent": 35
+        }
+      },
+      {
+        "eventId": 44459781,
+        "seconds": 3235,
+        "clock": "53:55",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 31,
+          "opponent": 35
+        }
+      },
+      {
+        "eventId": 44459779,
+        "seconds": 3371,
+        "clock": "56:11",
+        "side": "opponent",
+        "playerId": "1f9vkmv",
+        "playerName": "Steffen Schneider",
+        "isSevenMeter": false,
+        "score": {
+          "own": 31,
+          "opponent": 36
+        }
+      },
+      {
+        "eventId": 44459778,
+        "seconds": 3409,
+        "clock": "56:49",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": true,
+        "score": {
+          "own": 32,
+          "opponent": 36
+        }
+      },
+      {
+        "eventId": 44459777,
+        "seconds": 3446,
+        "clock": "57:26",
+        "side": "opponent",
+        "playerId": "0hg24z5",
+        "playerName": "Tom Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 32,
+          "opponent": 37
+        }
+      },
+      {
+        "eventId": 44459776,
+        "seconds": 3493,
+        "clock": "58:13",
+        "side": "own",
+        "playerId": "04x44aa",
+        "playerName": "Mika Höppner",
+        "isSevenMeter": false,
+        "score": {
+          "own": 33,
+          "opponent": 37
+        }
+      },
+      {
+        "eventId": 44459774,
+        "seconds": 3501,
+        "clock": "58:21",
+        "side": "opponent",
+        "playerId": "0m4xtdd",
+        "playerName": "Nic Sosat",
+        "isSevenMeter": true,
+        "score": {
+          "own": 33,
+          "opponent": 38
+        }
+      },
+      {
+        "eventId": 44459773,
+        "seconds": 3558,
+        "clock": "59:18",
+        "side": "opponent",
+        "playerId": "1f9vkmv",
+        "playerName": "Steffen Schneider",
+        "isSevenMeter": false,
+        "score": {
+          "own": 33,
+          "opponent": 39
+        }
+      },
+      {
+        "eventId": 44459772,
+        "seconds": 3582,
+        "clock": "59:42",
+        "side": "own",
+        "playerId": "0tooyml",
+        "playerName": "Dominique Dyon Mannke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 34,
+          "opponent": 39
+        }
+      }
+    ],
+    "fiveMinuteSplits": [
+      {
+        "startSeconds": 0,
+        "endSeconds": 300,
+        "label": "0-5",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 2,
+          "opponent": 2
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 300,
+        "endSeconds": 600,
+        "label": "5-10",
+        "goals": {
+          "own": 3,
+          "opponent": 4
+        },
+        "scoreEnd": {
+          "own": 5,
+          "opponent": 6
+        },
+        "goalDifference": -1
+      },
+      {
+        "startSeconds": 600,
+        "endSeconds": 900,
+        "label": "10-15",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 7,
+          "opponent": 8
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 900,
+        "endSeconds": 1200,
+        "label": "15-20",
+        "goals": {
+          "own": 1,
+          "opponent": 3
+        },
+        "scoreEnd": {
+          "own": 8,
+          "opponent": 11
+        },
+        "goalDifference": -2
+      },
+      {
+        "startSeconds": 1200,
+        "endSeconds": 1500,
+        "label": "20-25",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 11,
+          "opponent": 13
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1500,
+        "endSeconds": 1800,
+        "label": "25-30",
+        "goals": {
+          "own": 2,
+          "opponent": 5
+        },
+        "scoreEnd": {
+          "own": 13,
+          "opponent": 18
+        },
+        "goalDifference": -3
+      },
+      {
+        "startSeconds": 1800,
+        "endSeconds": 2100,
+        "label": "30-35",
+        "goals": {
+          "own": 4,
+          "opponent": 4
+        },
+        "scoreEnd": {
+          "own": 17,
+          "opponent": 22
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 2100,
+        "endSeconds": 2400,
+        "label": "35-40",
+        "goals": {
+          "own": 5,
+          "opponent": 5
+        },
+        "scoreEnd": {
+          "own": 22,
+          "opponent": 27
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 2400,
+        "endSeconds": 2700,
+        "label": "40-45",
+        "goals": {
+          "own": 1,
+          "opponent": 3
+        },
+        "scoreEnd": {
+          "own": 23,
+          "opponent": 30
+        },
+        "goalDifference": -2
+      },
+      {
+        "startSeconds": 2700,
+        "endSeconds": 3000,
+        "label": "45-50",
+        "goals": {
+          "own": 4,
+          "opponent": 3
+        },
+        "scoreEnd": {
+          "own": 27,
+          "opponent": 33
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 3000,
+        "endSeconds": 3300,
+        "label": "50-55",
+        "goals": {
+          "own": 4,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 31,
+          "opponent": 35
+        },
+        "goalDifference": 2
+      },
+      {
+        "startSeconds": 3300,
+        "endSeconds": 3600,
+        "label": "55-60",
+        "goals": {
+          "own": 3,
+          "opponent": 4
+        },
+        "scoreEnd": {
+          "own": 34,
+          "opponent": 39
+        },
+        "goalDifference": -1
+      }
+    ],
+    "sevenMeters": {
+      "own": {
+        "goals": 3,
+        "misses": 2,
+        "attempts": 5,
+        "percentage": 60
+      },
+      "opponent": {
+        "goals": 6,
+        "misses": 0,
+        "attempts": 6,
+        "percentage": 100
+      }
+    },
+    "sanctions": {
+      "own": {
+        "warnings": 3,
+        "twoMinutes": 4,
+        "disqualifications": 0
+      },
+      "opponent": {
+        "warnings": 2,
+        "twoMinutes": 2,
+        "disqualifications": 0
+      }
+    },
+    "longestRuns": {
+      "own": {
+        "side": "away",
+        "goals": 2,
+        "startSeconds": 447,
+        "endSeconds": 556,
+        "startScore": {
+          "home": 4,
+          "away": 2
+        },
+        "endScore": {
+          "home": 4,
+          "away": 4
+        },
+        "start": "07:27",
+        "end": "09:16"
+      },
+      "opponent": {
+        "side": "home",
+        "goals": 4,
+        "startSeconds": 893,
+        "endSeconds": 1112,
+        "startScore": {
+          "home": 7,
+          "away": 7
+        },
+        "endScore": {
+          "home": 11,
+          "away": 7
+        },
+        "start": "14:53",
+        "end": "18:32"
+      }
+    },
+    "scoringDroughts": {
+      "own": {
+        "seconds": 292,
+        "startSeconds": 867,
+        "endSeconds": 1159,
+        "duration": "04:52",
+        "start": "14:27",
+        "end": "19:19"
+      },
+      "opponent": {
+        "seconds": 230,
+        "startSeconds": 3141,
+        "endSeconds": 3371,
+        "duration": "03:50",
+        "start": "52:21",
+        "end": "56:11"
+      }
+    },
+    "timeouts": [
+      {
+        "side": "own",
+        "seconds": 999,
+        "clock": "16:39",
+        "score": {
+          "own": 7,
+          "opponent": 9
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 8,
+          "opponent": 11
+        },
+        "goalsAfter": {
+          "own": 1,
+          "opponent": 2
+        }
+      },
+      {
+        "side": "opponent",
+        "seconds": 1565,
+        "clock": "26:05",
+        "score": {
+          "own": 11,
+          "opponent": 14
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 13,
+          "opponent": 16
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 2
+        }
+      },
+      {
+        "side": "own",
+        "seconds": 2529,
+        "clock": "42:09",
+        "score": {
+          "own": 22,
+          "opponent": 29
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 23,
+          "opponent": 30
+        },
+        "goalsAfter": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "side": "opponent",
+        "seconds": 3328,
+        "clock": "55:28",
+        "score": {
+          "own": 31,
+          "opponent": 35
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 33,
+          "opponent": 37
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 2
+        }
+      }
+    ],
+    "numericSituations": {
+      "suspensions": [
+        {
+          "eventId": 44459861,
+          "side": "opponent",
+          "playerId": "0s0gn9b",
+          "playerName": "Carsten Boedrich",
+          "startSeconds": 100,
+          "endSeconds": 220,
+          "start": "01:40",
+          "end": "03:40"
+        },
+        {
+          "eventId": 44459835,
+          "side": "opponent",
+          "playerId": "123td4k",
+          "playerName": "Keith Raymond Stabenow",
+          "startSeconds": 1479,
+          "endSeconds": 1599,
+          "start": "24:39",
+          "end": "26:39"
+        },
+        {
+          "eventId": 44459801,
+          "side": "own",
+          "playerId": "1azghcr",
+          "playerName": "Jorres Wieben",
+          "startSeconds": 2503,
+          "endSeconds": 2623,
+          "start": "41:43",
+          "end": "43:43"
+        },
+        {
+          "eventId": 44459788,
+          "side": "own",
+          "playerId": "1xqc8kc",
+          "playerName": "Marvin Maier",
+          "startSeconds": 2963,
+          "endSeconds": 3083,
+          "start": "49:23",
+          "end": "51:23"
+        },
+        {
+          "eventId": 44459786,
+          "side": "own",
+          "playerId": "0tooyml",
+          "playerName": "Dominique Dyon Mannke",
+          "startSeconds": 3079,
+          "endSeconds": 3199,
+          "start": "51:19",
+          "end": "53:19"
+        },
+        {
+          "eventId": 44459775,
+          "side": "own",
+          "playerId": "0s2pgfl",
+          "playerName": "Erwin Mirzaguliyev",
+          "startSeconds": 3501,
+          "endSeconds": 3600,
+          "start": "58:21",
+          "end": "60:00"
+        }
+      ],
+      "even": {
+        "seconds": 2905,
+        "goals": {
+          "own": 28,
+          "opponent": 32
+        }
+      },
+      "powerPlay": {
+        "seconds": 240,
+        "goals": {
+          "own": 1,
+          "opponent": 3
+        }
+      },
+      "shortHanded": {
+        "seconds": 455,
+        "goals": {
+          "own": 5,
+          "opponent": 4
+        }
+      }
+    },
+    "players": {
+      "own": [
+        {
+          "playerId": "1xqc8kc",
+          "name": "Marvin Maier",
+          "number": 51,
+          "inLineup": true,
+          "goals": 11,
+          "sevenMeters": {
+            "goals": 2,
+            "misses": 2,
+            "attempts": 4,
+            "percentage": 50
+          },
+          "warnings": 1,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0tooyml",
+          "name": "Dominique Dyon Mannke",
+          "number": 3,
+          "inLineup": true,
+          "goals": 8,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 0,
+            "attempts": 1,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0j29e9h",
+          "name": "Tim Krause",
+          "number": 8,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1jrnqbk",
+          "name": "Jasper Glaubitz",
+          "number": 17,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "12lryvb",
+          "name": "Steven Appel",
+          "number": 11,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0s2pgfl",
+          "name": "Erwin Mirzaguliyev",
+          "number": 33,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1ysvzvo",
+          "name": "Clemens Brimm",
+          "number": 64,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "04x44aa",
+          "name": "Mika Höppner",
+          "number": 77,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1azghcr",
+          "name": "Jorres Wieben",
+          "number": 22,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1ewrb52",
+          "name": "Barne Holdorf",
+          "number": 5,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1u6hfvn",
+          "name": "Joris Alexander Penske",
+          "number": 7,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0py2kbh",
+          "name": "Thorben Pultar",
+          "number": 12,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0tf0590",
+          "name": "Yendrick Weißhaar",
+          "number": 16,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "002ztgg",
+          "name": "Tim Mauersberger",
+          "number": 21,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0luyc2n",
+          "name": "Dennis Reese",
+          "number": 56,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ],
+      "opponent": [
+        {
+          "playerId": "123td4k",
+          "name": "Keith Raymond Stabenow",
+          "number": 7,
+          "inLineup": true,
+          "goals": 8,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0vazt41",
+          "name": "Kai Pethahn",
+          "number": 14,
+          "inLineup": true,
+          "goals": 6,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0hg24z5",
+          "name": "Tom Sosat",
+          "number": 99,
+          "inLineup": true,
+          "goals": 6,
+          "sevenMeters": {
+            "goals": 5,
+            "misses": 0,
+            "attempts": 5,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "08l23vd",
+          "name": "Kyle Robin Stabenow",
+          "number": 9,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0agashd",
+          "name": "Claus Heinrich Thamling",
+          "number": 2,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1pwfh0w",
+          "name": "Dennis Obenhausen",
+          "number": 4,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0m4xtdd",
+          "name": "Nic Sosat",
+          "number": 5,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 0,
+            "attempts": 1,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1f9vkmv",
+          "name": "Steffen Schneider",
+          "number": 11,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0s0gn9b",
+          "name": "Carsten Boedrich",
+          "number": 13,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1kf9tyz",
+          "name": "Sören Wegner",
+          "number": 15,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "18uyoqa",
+          "name": "Tim Christopher Greve",
+          "number": 24,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0q7qbbp",
+          "name": "Hauke von Aspern",
+          "number": 63,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1mxbjsk",
+          "name": "Nico Meinert",
+          "number": 1,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1h7mq7t",
+          "name": "Matthis Dederichs",
+          "number": 6,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "04pz9fv",
+          "name": "Sven Nagel",
+          "number": 31,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0ubb7lg",
+          "name": "Marlon Joel John",
+          "number": 40,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ]
+    }
+  }
+}

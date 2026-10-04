@@ -1,0 +1,735 @@
+{
+  "generatedAt": "2026-10-04T19:37:02.014Z",
+  "matches": [
+    {
+      "id": 448676,
+      "date": "2026-09-04",
+      "time": "20:30",
+      "ownTeamId": "86801",
+      "opponent": "ATSV STOCKELSDORF II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/448676.json"
+    },
+    {
+      "id": 509803,
+      "date": "2026-09-05",
+      "time": "11:45",
+      "ownTeamId": "87110",
+      "opponent": "TV TRAPPENKAMP",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509803.json"
+    },
+    {
+      "id": 411544,
+      "date": "2026-09-05",
+      "time": "13:00",
+      "ownTeamId": "87265",
+      "opponent": "HSG OHLAU",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/411544.json"
+    },
+    {
+      "id": 518566,
+      "date": "2026-09-05",
+      "time": "13:30",
+      "ownTeamId": "87108",
+      "opponent": "SG Bordesholm/Brügge II",
+      "analyticsEligible": false,
+      "qualityStatus": "invalid",
+      "path": "match-analytics/518566.json"
+    },
+    {
+      "id": 450750,
+      "date": "2026-09-05",
+      "time": "14:00",
+      "ownTeamId": "87187",
+      "opponent": "MTV Lübeck II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450750.json"
+    },
+    {
+      "id": 532843,
+      "date": "2026-09-05",
+      "time": "14:30",
+      "ownTeamId": "87104",
+      "opponent": "TV TRAPPENKAMP",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532843.json"
+    },
+    {
+      "id": 598474,
+      "date": "2026-09-05",
+      "time": "14:30",
+      "ownTeamId": "87271",
+      "opponent": "SG BORDESHOLM/BRÜGGE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/598474.json"
+    },
+    {
+      "id": 510174,
+      "date": "2026-09-05",
+      "time": "16:00",
+      "ownTeamId": "87105",
+      "opponent": "SC NAHE 08",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/510174.json"
+    },
+    {
+      "id": 419755,
+      "date": "2026-09-05",
+      "time": "16:15",
+      "ownTeamId": "87275",
+      "opponent": "HSG GETTORF/OSDORF",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/419755.json"
+    },
+    {
+      "id": 505398,
+      "date": "2026-09-05",
+      "time": "18:15",
+      "ownTeamId": "94483",
+      "opponent": "SG HANDBALL EIDERTAL",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/505398.json"
+    },
+    {
+      "id": 518595,
+      "date": "2026-09-06",
+      "time": "10:00",
+      "ownTeamId": "87107",
+      "opponent": "SV Weede v. 1949 e.V. II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/518595.json"
+    },
+    {
+      "id": 553507,
+      "date": "2026-09-06",
+      "time": "10:00",
+      "ownTeamId": "87277",
+      "opponent": "HSG HOHE GEEST",
+      "analyticsEligible": true,
+      "qualityStatus": "warning",
+      "path": "match-analytics/553507.json"
+    },
+    {
+      "id": 532821,
+      "date": "2026-09-06",
+      "time": "13:00",
+      "ownTeamId": "87103",
+      "opponent": "SV HENSTEDT-ULZBURG II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532821.json"
+    },
+    {
+      "id": 508079,
+      "date": "2026-09-06",
+      "time": "13:15",
+      "ownTeamId": "87272",
+      "opponent": "BOIZENBURGER HV",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/508079.json"
+    },
+    {
+      "id": 561249,
+      "date": "2026-09-06",
+      "time": "15:00",
+      "ownTeamId": "94484",
+      "opponent": "HSG OHLAU",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/561249.json"
+    },
+    {
+      "id": 514262,
+      "date": "2026-09-06",
+      "time": "15:15",
+      "ownTeamId": "94482",
+      "opponent": "TV TRAPPENKAMP",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/514262.json"
+    },
+    {
+      "id": 417847,
+      "date": "2026-09-06",
+      "time": "17:00",
+      "ownTeamId": "87274",
+      "opponent": "HSG OHLAU",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417847.json"
+    },
+    {
+      "id": 504551,
+      "date": "2026-09-06",
+      "time": "17:00",
+      "ownTeamId": "86805",
+      "opponent": "TSV Ellerau",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/504551.json"
+    },
+    {
+      "id": 506405,
+      "date": "2026-09-06",
+      "time": "17:00",
+      "ownTeamId": "94481",
+      "opponent": "SUCHSDORFER SV III",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/506405.json"
+    },
+    {
+      "id": 450662,
+      "date": "2026-09-06",
+      "time": "18:30",
+      "ownTeamId": "87175",
+      "opponent": "SG BORDESHOLM/BRÜGGE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450662.json"
+    },
+    {
+      "id": 514352,
+      "date": "2026-09-08",
+      "time": "20:30",
+      "ownTeamId": "94480",
+      "opponent": "TURA MELDORF",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/514352.json"
+    },
+    {
+      "id": 532848,
+      "date": "2026-09-12",
+      "time": "10:00",
+      "ownTeamId": "87104",
+      "opponent": "SV WAHLSTEDT",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532848.json"
+    },
+    {
+      "id": 419759,
+      "date": "2026-09-12",
+      "time": "13:00",
+      "ownTeamId": "87275",
+      "opponent": "SG HANDBALL EIDERTAL",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/419759.json"
+    },
+    {
+      "id": 509807,
+      "date": "2026-09-12",
+      "time": "13:00",
+      "ownTeamId": "87110",
+      "opponent": "SG TODESFELDE/LEEZEN",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509807.json"
+    },
+    {
+      "id": 411552,
+      "date": "2026-09-12",
+      "time": "14:00",
+      "ownTeamId": "87265",
+      "opponent": "Suchsdorfer SV",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/411552.json"
+    },
+    {
+      "id": 561254,
+      "date": "2026-09-12",
+      "time": "14:00",
+      "ownTeamId": "94484",
+      "opponent": "SG Kollmar/Neuendorf II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/561254.json"
+    },
+    {
+      "id": 518571,
+      "date": "2026-09-12",
+      "time": "14:30",
+      "ownTeamId": "87108",
+      "opponent": "SV HENSTEDT-ULZBURG II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/518571.json"
+    },
+    {
+      "id": 510180,
+      "date": "2026-09-13",
+      "time": "11:30",
+      "ownTeamId": "87105",
+      "opponent": "HSG OHLAU II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/510180.json"
+    },
+    {
+      "id": 509975,
+      "date": "2026-09-13",
+      "time": "14:00",
+      "ownTeamId": "87109",
+      "opponent": "TUS HARTENHOLM",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509975.json"
+    },
+    {
+      "id": 514368,
+      "date": "2026-09-13",
+      "time": "14:00",
+      "ownTeamId": "94480",
+      "opponent": "HSG SCHÜLP/WESTERRÖNFELD/RENDSBURG II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/514368.json"
+    },
+    {
+      "id": 532823,
+      "date": "2026-09-13",
+      "time": "14:00",
+      "ownTeamId": "87103",
+      "opponent": "Bramstedter TS II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532823.json"
+    },
+    {
+      "id": 598477,
+      "date": "2026-09-13",
+      "time": "14:00",
+      "ownTeamId": "87271",
+      "opponent": "HSG Störtal Hummeln",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/598477.json"
+    },
+    {
+      "id": 518598,
+      "date": "2026-09-13",
+      "time": "14:15",
+      "ownTeamId": "87107",
+      "opponent": "Bramstedter TS",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/518598.json"
+    },
+    {
+      "id": 450753,
+      "date": "2026-09-13",
+      "time": "15:30",
+      "ownTeamId": "87187",
+      "opponent": "TSV BARGTEHEIDE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450753.json"
+    },
+    {
+      "id": 417854,
+      "date": "2026-09-13",
+      "time": "17:00",
+      "ownTeamId": "87274",
+      "opponent": "HSG Lübecker Bucht",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417854.json"
+    },
+    {
+      "id": 448670,
+      "date": "2026-09-17",
+      "time": "20:00",
+      "ownTeamId": "86801",
+      "opponent": "SV Henstedt-Ulzburg II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/448670.json"
+    },
+    {
+      "id": 598481,
+      "date": "2026-09-19",
+      "time": "13:00",
+      "ownTeamId": "87271",
+      "opponent": "WJA",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/598481.json"
+    },
+    {
+      "id": 450666,
+      "date": "2026-09-19",
+      "time": "15:00",
+      "ownTeamId": "87175",
+      "opponent": "TSV Nord Harrislee",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450666.json"
+    },
+    {
+      "id": 411559,
+      "date": "2026-09-19",
+      "time": "17:30",
+      "ownTeamId": "87265",
+      "opponent": "HSG MÖNKEBERG-SCHÖNKIRCHEN II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/411559.json"
+    },
+    {
+      "id": 518603,
+      "date": "2026-09-20",
+      "time": "10:30",
+      "ownTeamId": "87107",
+      "opponent": "SG BORDESHOLM/BRÜGGE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/518603.json"
+    },
+    {
+      "id": 509981,
+      "date": "2026-09-20",
+      "time": "11:00",
+      "ownTeamId": "87109",
+      "opponent": "HSG KALKBERG 06",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509981.json"
+    },
+    {
+      "id": 419786,
+      "date": "2026-09-20",
+      "time": "12:05",
+      "ownTeamId": "87275",
+      "opponent": "MTV Dänischenhagen II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/419786.json"
+    },
+    {
+      "id": 532854,
+      "date": "2026-09-20",
+      "time": "12:30",
+      "ownTeamId": "87104",
+      "opponent": "HSG OHLAU a.K.",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532854.json"
+    },
+    {
+      "id": 677900,
+      "date": "2026-09-20",
+      "time": "15:15",
+      "ownTeamId": "87276",
+      "opponent": "SG BORDESHOLM/BRÜGGE II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/677900.json"
+    },
+    {
+      "id": 553512,
+      "date": "2026-09-20",
+      "time": "15:30",
+      "ownTeamId": "87277",
+      "opponent": "TSV WACKEN",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/553512.json"
+    },
+    {
+      "id": 508083,
+      "date": "2026-09-20",
+      "time": "16:00",
+      "ownTeamId": "87272",
+      "opponent": "HSG OHLAU",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/508083.json"
+    },
+    {
+      "id": 506416,
+      "date": "2026-09-20",
+      "time": "16:30",
+      "ownTeamId": "94481",
+      "opponent": "HSG GETTORF/OSDORF II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/506416.json"
+    },
+    {
+      "id": 417860,
+      "date": "2026-09-20",
+      "time": "17:30",
+      "ownTeamId": "87274",
+      "opponent": "SG GLINDE-REINBEK",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417860.json"
+    },
+    {
+      "id": 561260,
+      "date": "2026-09-20",
+      "time": "18:00",
+      "ownTeamId": "94484",
+      "opponent": "SV HENSTEDT-ULZBURG II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/561260.json"
+    },
+    {
+      "id": 450665,
+      "date": "2026-09-24",
+      "time": "18:00",
+      "ownTeamId": "87175",
+      "opponent": "Bramstedter TS",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450665.json"
+    },
+    {
+      "id": 419764,
+      "date": "2026-09-26",
+      "time": "14:30",
+      "ownTeamId": "87275",
+      "opponent": "HSG WABO 2011",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/419764.json"
+    },
+    {
+      "id": 450670,
+      "date": "2026-09-26",
+      "time": "15:00",
+      "ownTeamId": "87175",
+      "opponent": "HSG SZOWW",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450670.json"
+    },
+    {
+      "id": 450759,
+      "date": "2026-09-26",
+      "time": "15:00",
+      "ownTeamId": "87187",
+      "opponent": "SG GLINDE-REINBEK",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450759.json"
+    },
+    {
+      "id": 417867,
+      "date": "2026-09-26",
+      "time": "16:00",
+      "ownTeamId": "87274",
+      "opponent": "ATSV STOCKELSDORF",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417867.json"
+    },
+    {
+      "id": 514373,
+      "date": "2026-09-26",
+      "time": "16:30",
+      "ownTeamId": "94480",
+      "opponent": "SV Henstedt-Ulzburg III",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/514373.json"
+    },
+    {
+      "id": 509812,
+      "date": "2026-09-27",
+      "time": "10:30",
+      "ownTeamId": "87110",
+      "opponent": "SV Weede",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509812.json"
+    },
+    {
+      "id": 508088,
+      "date": "2026-09-27",
+      "time": "12:00",
+      "ownTeamId": "87272",
+      "opponent": "DHG Sandesneben",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/508088.json"
+    },
+    {
+      "id": 518575,
+      "date": "2026-09-27",
+      "time": "12:00",
+      "ownTeamId": "87108",
+      "opponent": "HSG WaBo 2011",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/518575.json"
+    },
+    {
+      "id": 553518,
+      "date": "2026-09-27",
+      "time": "13:30",
+      "ownTeamId": "87277",
+      "opponent": "TSV Ellerau",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/553518.json"
+    },
+    {
+      "id": 411564,
+      "date": "2026-09-27",
+      "time": "16:00",
+      "ownTeamId": "87265",
+      "opponent": "HSG GETTORF/OSDORF",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/411564.json"
+    },
+    {
+      "id": 448696,
+      "date": "2026-09-27",
+      "time": "17:00",
+      "ownTeamId": "86801",
+      "opponent": "HSG Holsteinische Schweiz",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/448696.json"
+    },
+    {
+      "id": 505408,
+      "date": "2026-09-27",
+      "time": "17:00",
+      "ownTeamId": "94483",
+      "opponent": "SC FORTUNA WELLSEE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/505408.json"
+    },
+    {
+      "id": 509816,
+      "date": "2026-10-03",
+      "time": "10:00",
+      "ownTeamId": "87110",
+      "opponent": "Bramstedter TS II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509816.json"
+    },
+    {
+      "id": 504568,
+      "date": "2026-10-03",
+      "time": "18:00",
+      "ownTeamId": "86805",
+      "opponent": "SG Kollmar/Neuendorf",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/504568.json"
+    },
+    {
+      "id": 561265,
+      "date": "2026-10-03",
+      "time": "18:00",
+      "ownTeamId": "94484",
+      "opponent": "DIE HAIE I HSG Horst/Kiebitzreihe III",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/561265.json"
+    },
+    {
+      "id": 448689,
+      "date": "2026-10-03",
+      "time": "19:00",
+      "ownTeamId": "86801",
+      "opponent": "HSG HOLSTEIN KIEL/KRONSHAGEN",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/448689.json"
+    },
+    {
+      "id": 509986,
+      "date": "2026-10-04",
+      "time": "10:00",
+      "ownTeamId": "87109",
+      "opponent": "SV Henstedt-Ulzburg II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/509986.json"
+    },
+    {
+      "id": 532859,
+      "date": "2026-10-04",
+      "time": "12:00",
+      "ownTeamId": "87104",
+      "opponent": "SG BORDESHOLM/BRÜGGE II",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532859.json"
+    },
+    {
+      "id": 553523,
+      "date": "2026-10-04",
+      "time": "12:00",
+      "ownTeamId": "87277",
+      "opponent": "SV Henstedt-Ulzburg IV",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/553523.json"
+    },
+    {
+      "id": 532826,
+      "date": "2026-10-04",
+      "time": "13:15",
+      "ownTeamId": "87103",
+      "opponent": "HSG KALKBERG 06",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/532826.json"
+    },
+    {
+      "id": 411572,
+      "date": "2026-10-04",
+      "time": "13:30",
+      "ownTeamId": "87265",
+      "opponent": "SG BORDESHOLM/BRÜGGE",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/411572.json"
+    },
+    {
+      "id": 417873,
+      "date": "2026-10-04",
+      "time": "13:30",
+      "ownTeamId": "87274",
+      "opponent": "VFL GEESTHACHT",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417873.json"
+    },
+    {
+      "id": 677910,
+      "date": "2026-10-04",
+      "time": "14:30",
+      "ownTeamId": "87276",
+      "opponent": "HSG 91 NORTORF",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/677910.json"
+    }
+  ]
+}

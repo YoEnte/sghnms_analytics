@@ -1,0 +1,1113 @@
+{
+  "generatedAt": "2026-10-04T19:37:01.948Z",
+  "match": {
+    "id": 532843,
+    "date": "2026-09-05",
+    "time": "14:30",
+    "competition": "Kreisklasse mD Neumünster",
+    "phase": {
+      "id": 15702,
+      "name": "mD-KK-Hin"
+    },
+    "venue": {
+      "name": "PESTALOZZI-SCHULE",
+      "address": "AM KAMP 5, 24536 NEUMüNSTER"
+    },
+    "home": {
+      "id": 87104,
+      "name": "SG Handball Neumünster II",
+      "clubId": "1yrb3n9"
+    },
+    "away": {
+      "id": 82515,
+      "name": "TV TRAPPENKAMP",
+      "clubId": "02z7nh5"
+    },
+    "result": {
+      "home": 17,
+      "away": 13
+    },
+    "ownTeamId": "87104",
+    "ownTeam": {
+      "label": "MJD 2",
+      "name": "mJD 2",
+      "ageGroup": "youth",
+      "gender": "male",
+      "matchMinutes": 40
+    },
+    "isHome": true,
+    "opponent": {
+      "id": 82515,
+      "name": "TV TRAPPENKAMP",
+      "clubId": "02z7nh5"
+    }
+  },
+  "quality": {
+    "status": "verified",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 17,
+      "away": 13
+    },
+    "eventFinalScore": {
+      "home": 17,
+      "away": 13
+    },
+    "lineupGoalTotals": {
+      "home": 17,
+      "away": 13
+    },
+    "eventScoreMatchesOfficial": true,
+    "lineupScoreMatchesOfficial": true,
+    "scorerLineupCoverage": {
+      "goalEvents": 30,
+      "goalEventsWithPlayer": 30,
+      "matchedGoalEvents": 30,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "derived",
+    "expectedDurationSeconds": 2400,
+    "eventDurationSeconds": 2400,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": true,
+    "lineupEligible": true,
+    "warnings": []
+  },
+  "analytics": {
+    "duration": {
+      "expectedSeconds": 2400,
+      "eventSeconds": 2400,
+      "analysisSeconds": 2400,
+      "analysisClock": "40:00"
+    },
+    "score": {
+      "final": {
+        "own": 17,
+        "opponent": 13
+      },
+      "halftime": {
+        "own": 10,
+        "opponent": 5
+      },
+      "halftimeSource": "derived"
+    },
+    "matchFlow": [
+      {
+        "eventId": 3110826,
+        "seconds": 28,
+        "clock": "00:28",
+        "side": "own",
+        "playerId": "09b3llv",
+        "playerName": "Lian Karow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 0
+        }
+      },
+      {
+        "eventId": 3110825,
+        "seconds": 164,
+        "clock": "02:44",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 3110824,
+        "seconds": 205,
+        "clock": "03:25",
+        "side": "own",
+        "playerId": "09b3llv",
+        "playerName": "Lian Karow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 3110823,
+        "seconds": 280,
+        "clock": "04:40",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 3110822,
+        "seconds": 313,
+        "clock": "05:13",
+        "side": "opponent",
+        "playerId": "09v24nl",
+        "playerName": "Milla Luise Naggert",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 3110821,
+        "seconds": 659,
+        "clock": "10:59",
+        "side": "opponent",
+        "playerId": "09v24nl",
+        "playerName": "Milla Luise Naggert",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 3110820,
+        "seconds": 742,
+        "clock": "12:22",
+        "side": "own",
+        "playerId": "09b3llv",
+        "playerName": "Lian Karow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 3110818,
+        "seconds": 777,
+        "clock": "12:57",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 3110817,
+        "seconds": 865,
+        "clock": "14:25",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": true,
+        "score": {
+          "own": 5,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 3110816,
+        "seconds": 903,
+        "clock": "15:03",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 3110815,
+        "seconds": 960,
+        "clock": "16:00",
+        "side": "opponent",
+        "playerId": "1e1ft8j",
+        "playerName": "Lennart Kelting",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 3110814,
+        "seconds": 980,
+        "clock": "16:20",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 3110813,
+        "seconds": 1008,
+        "clock": "16:48",
+        "side": "own",
+        "playerId": "0uo2hnc",
+        "playerName": "Moritz Hongyang Dejewski",
+        "isSevenMeter": false,
+        "score": {
+          "own": 8,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 3110811,
+        "seconds": 1066,
+        "clock": "17:46",
+        "side": "own",
+        "playerId": "1hwqb0j",
+        "playerName": "Maximilian Lutzmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 3110809,
+        "seconds": 1111,
+        "clock": "18:31",
+        "side": "own",
+        "playerId": "1hwqb0j",
+        "playerName": "Maximilian Lutzmann",
+        "isSevenMeter": true,
+        "score": {
+          "own": 10,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 3110808,
+        "seconds": 1200,
+        "clock": "20:00",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 3110806,
+        "seconds": 1238,
+        "clock": "20:38",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 3110805,
+        "seconds": 1558,
+        "clock": "25:58",
+        "side": "own",
+        "playerId": "15udh2p",
+        "playerName": "Moritz-Lias Bredfeldt",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 3110804,
+        "seconds": 1609,
+        "clock": "26:49",
+        "side": "own",
+        "playerId": "1hwqb0j",
+        "playerName": "Maximilian Lutzmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 3110803,
+        "seconds": 1730,
+        "clock": "28:50",
+        "side": "opponent",
+        "playerId": "1e1ft8j",
+        "playerName": "Lennart Kelting",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 3110801,
+        "seconds": 1769,
+        "clock": "29:29",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 3110800,
+        "seconds": 1793,
+        "clock": "29:53",
+        "side": "opponent",
+        "playerId": "16f7ygh",
+        "playerName": "Jane Christine Wegener",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 3110799,
+        "seconds": 1853,
+        "clock": "30:53",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 3110798,
+        "seconds": 1924,
+        "clock": "32:04",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 3110797,
+        "seconds": 2032,
+        "clock": "33:52",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 3110796,
+        "seconds": 2077,
+        "clock": "34:37",
+        "side": "opponent",
+        "playerId": "1e1ft8j",
+        "playerName": "Lennart Kelting",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 3110795,
+        "seconds": 2106,
+        "clock": "35:06",
+        "side": "own",
+        "playerId": "0vp6a8b",
+        "playerName": "Mads Lenz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 3110794,
+        "seconds": 2250,
+        "clock": "37:30",
+        "side": "own",
+        "playerId": "09b3llv",
+        "playerName": "Lian Karow",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 3110793,
+        "seconds": 2277,
+        "clock": "37:57",
+        "side": "opponent",
+        "playerId": "0tux3te",
+        "playerName": "Lukas Maaß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 12
+        }
+      },
+      {
+        "eventId": 3110792,
+        "seconds": 2341,
+        "clock": "39:01",
+        "side": "opponent",
+        "playerId": "09v24nl",
+        "playerName": "Milla Luise Naggert",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 13
+        }
+      }
+    ],
+    "fiveMinuteSplits": [
+      {
+        "startSeconds": 0,
+        "endSeconds": 300,
+        "label": "0-5",
+        "goals": {
+          "own": 3,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 3,
+          "opponent": 1
+        },
+        "goalDifference": 2
+      },
+      {
+        "startSeconds": 300,
+        "endSeconds": 600,
+        "label": "5-10",
+        "goals": {
+          "own": 0,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 3,
+          "opponent": 2
+        },
+        "goalDifference": -1
+      },
+      {
+        "startSeconds": 600,
+        "endSeconds": 900,
+        "label": "10-15",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 5,
+          "opponent": 4
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 900,
+        "endSeconds": 1200,
+        "label": "15-20",
+        "goals": {
+          "own": 5,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 10,
+          "opponent": 6
+        },
+        "goalDifference": 3
+      },
+      {
+        "startSeconds": 1200,
+        "endSeconds": 1500,
+        "label": "20-25",
+        "goals": {
+          "own": 0,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 10,
+          "opponent": 7
+        },
+        "goalDifference": -2
+      },
+      {
+        "startSeconds": 1500,
+        "endSeconds": 1800,
+        "label": "25-30",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 13,
+          "opponent": 9
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1800,
+        "endSeconds": 2100,
+        "label": "30-35",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 15,
+          "opponent": 11
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 2100,
+        "endSeconds": 2400,
+        "label": "35-40",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 17,
+          "opponent": 13
+        },
+        "goalDifference": 0
+      }
+    ],
+    "sevenMeters": {
+      "own": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "opponent": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      }
+    },
+    "sanctions": {
+      "own": {
+        "warnings": 0,
+        "twoMinutes": 0,
+        "disqualifications": 0
+      },
+      "opponent": {
+        "warnings": 1,
+        "twoMinutes": 1,
+        "disqualifications": 0
+      }
+    },
+    "longestRuns": {
+      "own": {
+        "side": "home",
+        "goals": 4,
+        "startSeconds": 980,
+        "endSeconds": 1111,
+        "startScore": {
+          "home": 6,
+          "away": 5
+        },
+        "endScore": {
+          "home": 10,
+          "away": 5
+        },
+        "start": "16:20",
+        "end": "18:31"
+      },
+      "opponent": {
+        "side": "away",
+        "goals": 2,
+        "startSeconds": 313,
+        "endSeconds": 659,
+        "startScore": {
+          "home": 3,
+          "away": 1
+        },
+        "endScore": {
+          "home": 3,
+          "away": 3
+        },
+        "start": "05:13",
+        "end": "10:59"
+      }
+    },
+    "scoringDroughts": {
+      "own": {
+        "seconds": 462,
+        "startSeconds": 280,
+        "endSeconds": 742,
+        "duration": "07:42",
+        "start": "04:40",
+        "end": "12:22"
+      },
+      "opponent": {
+        "seconds": 492,
+        "startSeconds": 1238,
+        "endSeconds": 1730,
+        "duration": "08:12",
+        "start": "20:38",
+        "end": "28:50"
+      }
+    },
+    "timeouts": [
+      {
+        "side": "opponent",
+        "seconds": 1013,
+        "clock": "16:53",
+        "score": {
+          "own": 8,
+          "opponent": 5
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 10,
+          "opponent": 5
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 0
+        }
+      },
+      {
+        "side": "own",
+        "seconds": 1736,
+        "clock": "28:56",
+        "score": {
+          "own": 12,
+          "opponent": 8
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 14,
+          "opponent": 9
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 1
+        }
+      }
+    ],
+    "numericSituations": {
+      "suspensions": [
+        {
+          "eventId": 3110810,
+          "side": "opponent",
+          "playerId": "1e1ft8j",
+          "playerName": "Lennart Kelting",
+          "startSeconds": 1107,
+          "endSeconds": 1227,
+          "start": "18:27",
+          "end": "20:27"
+        }
+      ],
+      "even": {
+        "seconds": 2280,
+        "goals": {
+          "own": 16,
+          "opponent": 12
+        }
+      },
+      "powerPlay": {
+        "seconds": 120,
+        "goals": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      "shortHanded": {
+        "seconds": 0,
+        "goals": {
+          "own": 0,
+          "opponent": 0
+        }
+      }
+    },
+    "players": {
+      "own": [
+        {
+          "playerId": "09b3llv",
+          "name": "Lian Karow",
+          "number": 19,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1hwqb0j",
+          "name": "Maximilian Lutzmann",
+          "number": 6,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 0,
+            "attempts": 1,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0hnfhvg",
+          "name": "Paul Frank Tollmien",
+          "number": 15,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1bwncfo",
+          "name": "Emil Salm",
+          "number": 8,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1u11it9",
+          "name": "Piet Florian Steingräber",
+          "number": 26,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0vp6a8b",
+          "name": "Mads Lenz",
+          "number": 4,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0uo2hnc",
+          "name": "Moritz Hongyang Dejewski",
+          "number": 16,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "15udh2p",
+          "name": "Moritz-Lias Bredfeldt",
+          "number": 21,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "04whfyo",
+          "name": "Jonas Klopfer",
+          "number": 5,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "06xox3n",
+          "name": "Lasse-Bo Delfs",
+          "number": 12,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1ahtrit",
+          "name": "Emilian Louis Messer",
+          "number": 14,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1v1q1c0",
+          "name": "Paul Luis Kettner",
+          "number": 20,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ],
+      "opponent": [
+        {
+          "playerId": "0tux3te",
+          "name": "Lukas Maaß",
+          "number": 10,
+          "inLineup": true,
+          "goals": 6,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 0,
+            "attempts": 1,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1e1ft8j",
+          "name": "Lennart Kelting",
+          "number": 6,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "09v24nl",
+          "name": "Milla Luise Naggert",
+          "number": 7,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "16f7ygh",
+          "name": "Jane Christine Wegener",
+          "number": 11,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1fo7zmy",
+          "name": "Lennox Joel Damerau",
+          "number": 1,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0ol323a",
+          "name": "Enna Marie Borchers",
+          "number": 3,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0ljztwi",
+          "name": "Lisa Marie Baustmann",
+          "number": 4,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "02pl5ay",
+          "name": "Elias Joel Wolfgang Burghardt",
+          "number": 8,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1vjuybs",
+          "name": "Oliver Kallweit",
+          "number": 13,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0dew7nr",
+          "name": "Miray Tunoğlu",
+          "number": 14,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1492 @@
+{
+  "generatedAt": "2026-10-04T19:37:02.004Z",
+  "match": {
+    "id": 505408,
+    "date": "2026-09-27",
+    "time": "17:00",
+    "competition": "Kreisliga Männer",
+    "phase": {
+      "id": 12972,
+      "name": "Kreisliga Männer - Staffel D"
+    },
+    "venue": {
+      "name": "SPORTHALLE WELLSEE",
+      "address": "LISELOTTE-HERRMANN-STR. 15, 24145 KIEL"
+    },
+    "home": {
+      "id": 81772,
+      "name": "SC FORTUNA WELLSEE",
+      "clubId": "00tcvb1"
+    },
+    "away": {
+      "id": 94483,
+      "name": "SG Handball Neumünster II",
+      "clubId": "1yrb3n9"
+    },
+    "result": {
+      "home": 25,
+      "away": 25
+    },
+    "ownTeamId": "94483",
+    "ownTeam": {
+      "label": "HERREN 2",
+      "name": "2. Herren",
+      "ageGroup": "senior",
+      "gender": "male",
+      "matchMinutes": 60
+    },
+    "isHome": false,
+    "opponent": {
+      "id": 81772,
+      "name": "SC FORTUNA WELLSEE",
+      "clubId": "00tcvb1"
+    }
+  },
+  "quality": {
+    "status": "verified",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 25,
+      "away": 25
+    },
+    "eventFinalScore": {
+      "home": 25,
+      "away": 25
+    },
+    "lineupGoalTotals": {
+      "home": 25,
+      "away": 25
+    },
+    "eventScoreMatchesOfficial": true,
+    "lineupScoreMatchesOfficial": true,
+    "scorerLineupCoverage": {
+      "goalEvents": 50,
+      "goalEventsWithPlayer": 50,
+      "matchedGoalEvents": 50,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "event",
+    "expectedDurationSeconds": 3600,
+    "eventDurationSeconds": 3600,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": true,
+    "lineupEligible": true,
+    "warnings": []
+  },
+  "analytics": {
+    "duration": {
+      "expectedSeconds": 3600,
+      "eventSeconds": 3600,
+      "analysisSeconds": 3600,
+      "analysisClock": "60:00"
+    },
+    "score": {
+      "final": {
+        "own": 25,
+        "opponent": 25
+      },
+      "halftime": {
+        "own": 13,
+        "opponent": 13
+      },
+      "halftimeSource": "event"
+    },
+    "matchFlow": [
+      {
+        "eventId": 40166059,
+        "seconds": 110,
+        "clock": "01:50",
+        "side": "opponent",
+        "playerId": "04d54im",
+        "playerName": "Niklas Knäsche",
+        "isSevenMeter": false,
+        "score": {
+          "own": 0,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 40166058,
+        "seconds": 127,
+        "clock": "02:07",
+        "side": "own",
+        "playerId": "19ornoa",
+        "playerName": "Hendrik Sebastian Gass",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 40166057,
+        "seconds": 168,
+        "clock": "02:48",
+        "side": "opponent",
+        "playerId": "0l84r8l",
+        "playerName": "Markus Walker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 40166056,
+        "seconds": 216,
+        "clock": "03:36",
+        "side": "own",
+        "playerId": "17wpvvq",
+        "playerName": "Janek Jäger",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 40166055,
+        "seconds": 268,
+        "clock": "04:28",
+        "side": "own",
+        "playerId": "16soyyk",
+        "playerName": "Ken Bottke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 40166054,
+        "seconds": 315,
+        "clock": "05:15",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 40166053,
+        "seconds": 533,
+        "clock": "08:53",
+        "side": "opponent",
+        "playerId": "10p18ef",
+        "playerName": "Jacob Lohmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 40166052,
+        "seconds": 564,
+        "clock": "09:24",
+        "side": "own",
+        "playerId": "19ornoa",
+        "playerName": "Hendrik Sebastian Gass",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 40166051,
+        "seconds": 662,
+        "clock": "11:02",
+        "side": "opponent",
+        "playerId": "1nhrjew",
+        "playerName": "Kevin Kölsch",
+        "isSevenMeter": true,
+        "score": {
+          "own": 4,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 40166049,
+        "seconds": 877,
+        "clock": "14:37",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 40166048,
+        "seconds": 906,
+        "clock": "15:06",
+        "side": "opponent",
+        "playerId": "1y8dyhm",
+        "playerName": "Henryk Branski",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 40166047,
+        "seconds": 984,
+        "clock": "16:24",
+        "side": "opponent",
+        "playerId": "0l84r8l",
+        "playerName": "Markus Walker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 40166046,
+        "seconds": 1011,
+        "clock": "16:51",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 40166044,
+        "seconds": 1033,
+        "clock": "17:13",
+        "side": "opponent",
+        "playerId": "1nhrjew",
+        "playerName": "Kevin Kölsch",
+        "isSevenMeter": true,
+        "score": {
+          "own": 6,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 40166043,
+        "seconds": 1062,
+        "clock": "17:42",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 40166042,
+        "seconds": 1139,
+        "clock": "18:59",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": true,
+        "score": {
+          "own": 6,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 40166041,
+        "seconds": 1154,
+        "clock": "19:14",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 40166040,
+        "seconds": 1192,
+        "clock": "19:52",
+        "side": "own",
+        "playerId": "0pkifkr",
+        "playerName": "Jonas-Maximilian Wisper",
+        "isSevenMeter": false,
+        "score": {
+          "own": 8,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 40166039,
+        "seconds": 1250,
+        "clock": "20:50",
+        "side": "own",
+        "playerId": "0pkifkr",
+        "playerName": "Jonas-Maximilian Wisper",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 40166038,
+        "seconds": 1298,
+        "clock": "21:38",
+        "side": "own",
+        "playerId": "0yoj799",
+        "playerName": "Joost Buchwald",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 40166037,
+        "seconds": 1414,
+        "clock": "23:34",
+        "side": "opponent",
+        "playerId": "1y8dyhm",
+        "playerName": "Henryk Branski",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 40166036,
+        "seconds": 1445,
+        "clock": "24:05",
+        "side": "own",
+        "playerId": "0pkifkr",
+        "playerName": "Jonas-Maximilian Wisper",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 40166035,
+        "seconds": 1490,
+        "clock": "24:50",
+        "side": "opponent",
+        "playerId": "10p18ef",
+        "playerName": "Jacob Lohmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 12
+        }
+      },
+      {
+        "eventId": 40166034,
+        "seconds": 1580,
+        "clock": "26:20",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": true,
+        "score": {
+          "own": 11,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 40166033,
+        "seconds": 1640,
+        "clock": "27:20",
+        "side": "own",
+        "playerId": "1m9uid6",
+        "playerName": "Niklas Alexander Behrens",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 40166032,
+        "seconds": 1685,
+        "clock": "28:05",
+        "side": "own",
+        "playerId": "1m9uid6",
+        "playerName": "Niklas Alexander Behrens",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 40166030,
+        "seconds": 1800,
+        "clock": "30:00",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 13
+        }
+      },
+      {
+        "eventId": 40166026,
+        "seconds": 1848,
+        "clock": "30:48",
+        "side": "opponent",
+        "playerId": "1s4aquo",
+        "playerName": "Timon Steiner",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 14
+        }
+      },
+      {
+        "eventId": 40166025,
+        "seconds": 1901,
+        "clock": "31:41",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 14
+        }
+      },
+      {
+        "eventId": 40166024,
+        "seconds": 1939,
+        "clock": "32:19",
+        "side": "opponent",
+        "playerId": "10p18ef",
+        "playerName": "Jacob Lohmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 15
+        }
+      },
+      {
+        "eventId": 40166022,
+        "seconds": 2036,
+        "clock": "33:56",
+        "side": "own",
+        "playerId": "19ornoa",
+        "playerName": "Hendrik Sebastian Gass",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 15
+        }
+      },
+      {
+        "eventId": 40166020,
+        "seconds": 2238,
+        "clock": "37:18",
+        "side": "opponent",
+        "playerId": "04d54im",
+        "playerName": "Niklas Knäsche",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 16
+        }
+      },
+      {
+        "eventId": 40166019,
+        "seconds": 2289,
+        "clock": "38:09",
+        "side": "opponent",
+        "playerId": "0l84r8l",
+        "playerName": "Markus Walker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 17
+        }
+      },
+      {
+        "eventId": 40166018,
+        "seconds": 2321,
+        "clock": "38:41",
+        "side": "own",
+        "playerId": "16soyyk",
+        "playerName": "Ken Bottke",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 17
+        }
+      },
+      {
+        "eventId": 40166017,
+        "seconds": 2336,
+        "clock": "38:56",
+        "side": "opponent",
+        "playerId": "0gxox9p",
+        "playerName": "Jul Friedrich Babenerd",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 18
+        }
+      },
+      {
+        "eventId": 40166016,
+        "seconds": 2388,
+        "clock": "39:48",
+        "side": "own",
+        "playerId": "09o5bp5",
+        "playerName": "Lukas Böttger",
+        "isSevenMeter": false,
+        "score": {
+          "own": 18,
+          "opponent": 18
+        }
+      },
+      {
+        "eventId": 40166013,
+        "seconds": 2420,
+        "clock": "40:20",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": false,
+        "score": {
+          "own": 18,
+          "opponent": 19
+        }
+      },
+      {
+        "eventId": 40166012,
+        "seconds": 2451,
+        "clock": "40:51",
+        "side": "own",
+        "playerId": "0yfpp2h",
+        "playerName": "Marc Phillip Eschrich-Schygulla",
+        "isSevenMeter": true,
+        "score": {
+          "own": 19,
+          "opponent": 19
+        }
+      },
+      {
+        "eventId": 40166011,
+        "seconds": 2480,
+        "clock": "41:20",
+        "side": "opponent",
+        "playerId": "1s4aquo",
+        "playerName": "Timon Steiner",
+        "isSevenMeter": true,
+        "score": {
+          "own": 19,
+          "opponent": 20
+        }
+      },
+      {
+        "eventId": 40166010,
+        "seconds": 2602,
+        "clock": "43:22",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 20
+        }
+      },
+      {
+        "eventId": 40166009,
+        "seconds": 2702,
+        "clock": "45:02",
+        "side": "opponent",
+        "playerId": "04d54im",
+        "playerName": "Niklas Knäsche",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 21
+        }
+      },
+      {
+        "eventId": 40166008,
+        "seconds": 2801,
+        "clock": "46:41",
+        "side": "opponent",
+        "playerId": "04d54im",
+        "playerName": "Niklas Knäsche",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 22
+        }
+      },
+      {
+        "eventId": 40166006,
+        "seconds": 2927,
+        "clock": "48:47",
+        "side": "own",
+        "playerId": "0yfpp2h",
+        "playerName": "Marc Phillip Eschrich-Schygulla",
+        "isSevenMeter": false,
+        "score": {
+          "own": 21,
+          "opponent": 22
+        }
+      },
+      {
+        "eventId": 40166005,
+        "seconds": 2955,
+        "clock": "49:15",
+        "side": "opponent",
+        "playerId": "0vqdh57",
+        "playerName": "Dennis Eckhard Fahrenkrog",
+        "isSevenMeter": false,
+        "score": {
+          "own": 21,
+          "opponent": 23
+        }
+      },
+      {
+        "eventId": 40166003,
+        "seconds": 3060,
+        "clock": "51:00",
+        "side": "own",
+        "playerId": "19ornoa",
+        "playerName": "Hendrik Sebastian Gass",
+        "isSevenMeter": true,
+        "score": {
+          "own": 22,
+          "opponent": 23
+        }
+      },
+      {
+        "eventId": 40166002,
+        "seconds": 3125,
+        "clock": "52:05",
+        "side": "opponent",
+        "playerId": "1d04wnp",
+        "playerName": "Frederic Groß",
+        "isSevenMeter": true,
+        "score": {
+          "own": 22,
+          "opponent": 24
+        }
+      },
+      {
+        "eventId": 40166001,
+        "seconds": 3316,
+        "clock": "55:16",
+        "side": "own",
+        "playerId": "17wpvvq",
+        "playerName": "Janek Jäger",
+        "isSevenMeter": false,
+        "score": {
+          "own": 23,
+          "opponent": 24
+        }
+      },
+      {
+        "eventId": 40166000,
+        "seconds": 3387,
+        "clock": "56:27",
+        "side": "own",
+        "playerId": "19ornoa",
+        "playerName": "Hendrik Sebastian Gass",
+        "isSevenMeter": false,
+        "score": {
+          "own": 24,
+          "opponent": 24
+        }
+      },
+      {
+        "eventId": 40165999,
+        "seconds": 3467,
+        "clock": "57:47",
+        "side": "own",
+        "playerId": "0cob12a",
+        "playerName": "Trygve Dohm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 25,
+          "opponent": 24
+        }
+      },
+      {
+        "eventId": 40165998,
+        "seconds": 3556,
+        "clock": "59:16",
+        "side": "opponent",
+        "playerId": "0l84r8l",
+        "playerName": "Markus Walker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 25,
+          "opponent": 25
+        }
+      }
+    ],
+    "fiveMinuteSplits": [
+      {
+        "startSeconds": 0,
+        "endSeconds": 300,
+        "label": "0-5",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 3,
+          "opponent": 2
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 300,
+        "endSeconds": 600,
+        "label": "5-10",
+        "goals": {
+          "own": 1,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 4,
+          "opponent": 4
+        },
+        "goalDifference": -1
+      },
+      {
+        "startSeconds": 600,
+        "endSeconds": 900,
+        "label": "10-15",
+        "goals": {
+          "own": 1,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 5,
+          "opponent": 5
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 900,
+        "endSeconds": 1200,
+        "label": "15-20",
+        "goals": {
+          "own": 3,
+          "opponent": 5
+        },
+        "scoreEnd": {
+          "own": 8,
+          "opponent": 10
+        },
+        "goalDifference": -2
+      },
+      {
+        "startSeconds": 1200,
+        "endSeconds": 1500,
+        "label": "20-25",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 11,
+          "opponent": 12
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1500,
+        "endSeconds": 1800,
+        "label": "25-30",
+        "goals": {
+          "own": 2,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 13,
+          "opponent": 13
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1800,
+        "endSeconds": 2100,
+        "label": "30-35",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 16,
+          "opponent": 15
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 2100,
+        "endSeconds": 2400,
+        "label": "35-40",
+        "goals": {
+          "own": 2,
+          "opponent": 3
+        },
+        "scoreEnd": {
+          "own": 18,
+          "opponent": 18
+        },
+        "goalDifference": -1
+      },
+      {
+        "startSeconds": 2400,
+        "endSeconds": 2700,
+        "label": "40-45",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 20,
+          "opponent": 20
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 2700,
+        "endSeconds": 3000,
+        "label": "45-50",
+        "goals": {
+          "own": 1,
+          "opponent": 3
+        },
+        "scoreEnd": {
+          "own": 21,
+          "opponent": 23
+        },
+        "goalDifference": -2
+      },
+      {
+        "startSeconds": 3000,
+        "endSeconds": 3300,
+        "label": "50-55",
+        "goals": {
+          "own": 1,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 22,
+          "opponent": 24
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 3300,
+        "endSeconds": 3600,
+        "label": "55-60",
+        "goals": {
+          "own": 3,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 25,
+          "opponent": 25
+        },
+        "goalDifference": 2
+      }
+    ],
+    "sevenMeters": {
+      "own": {
+        "goals": 2,
+        "misses": 2,
+        "attempts": 4,
+        "percentage": 50
+      },
+      "opponent": {
+        "goals": 6,
+        "misses": 3,
+        "attempts": 9,
+        "percentage": 66.7
+      }
+    },
+    "sanctions": {
+      "own": {
+        "warnings": 1,
+        "twoMinutes": 3,
+        "disqualifications": 0
+      },
+      "opponent": {
+        "warnings": 1,
+        "twoMinutes": 0,
+        "disqualifications": 0
+      }
+    },
+    "longestRuns": {
+      "own": {
+        "side": "away",
+        "goals": 4,
+        "startSeconds": 1154,
+        "endSeconds": 1298,
+        "startScore": {
+          "home": 10,
+          "away": 6
+        },
+        "endScore": {
+          "home": 10,
+          "away": 10
+        },
+        "start": "19:14",
+        "end": "21:38"
+      },
+      "opponent": {
+        "side": "home",
+        "goals": 3,
+        "startSeconds": 1033,
+        "endSeconds": 1139,
+        "startScore": {
+          "home": 7,
+          "away": 6
+        },
+        "endScore": {
+          "home": 10,
+          "away": 6
+        },
+        "start": "17:13",
+        "end": "18:59"
+      }
+    },
+    "scoringDroughts": {
+      "own": {
+        "seconds": 325,
+        "startSeconds": 2602,
+        "endSeconds": 2927,
+        "duration": "05:25",
+        "start": "43:22",
+        "end": "48:47"
+      },
+      "opponent": {
+        "seconds": 431,
+        "startSeconds": 3125,
+        "endSeconds": 3556,
+        "duration": "07:11",
+        "start": "52:05",
+        "end": "59:16"
+      }
+    },
+    "timeouts": [],
+    "numericSituations": {
+      "suspensions": [
+        {
+          "eventId": 40166050,
+          "side": "own",
+          "playerId": "0yfpp2h",
+          "playerName": "Marc Phillip Eschrich-Schygulla",
+          "startSeconds": 778,
+          "endSeconds": 898,
+          "start": "12:58",
+          "end": "14:58"
+        },
+        {
+          "eventId": 40166021,
+          "side": "own",
+          "playerId": "0yfpp2h",
+          "playerName": "Marc Phillip Eschrich-Schygulla",
+          "startSeconds": 2073,
+          "endSeconds": 2193,
+          "start": "34:33",
+          "end": "36:33"
+        },
+        {
+          "eventId": 40166015,
+          "side": "own",
+          "playerId": "16soyyk",
+          "playerName": "Ken Bottke",
+          "startSeconds": 2404,
+          "endSeconds": 2524,
+          "start": "40:04",
+          "end": "42:04"
+        }
+      ],
+      "even": {
+        "seconds": 3240,
+        "goals": {
+          "own": 23,
+          "opponent": 23
+        }
+      },
+      "powerPlay": {
+        "seconds": 0,
+        "goals": {
+          "own": 0,
+          "opponent": 0
+        }
+      },
+      "shortHanded": {
+        "seconds": 360,
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        }
+      }
+    },
+    "players": {
+      "own": [
+        {
+          "playerId": "0cob12a",
+          "name": "Trygve Dohm",
+          "number": 22,
+          "inLineup": true,
+          "goals": 7,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 1,
+            "attempts": 1,
+            "percentage": 0
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "19ornoa",
+          "name": "Hendrik Sebastian Gass",
+          "number": 25,
+          "inLineup": true,
+          "goals": 5,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 0,
+            "attempts": 1,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0pkifkr",
+          "name": "Jonas-Maximilian Wisper",
+          "number": 7,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0yfpp2h",
+          "name": "Marc Phillip Eschrich-Schygulla",
+          "number": 9,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 1,
+            "attempts": 2,
+            "percentage": 50
+          },
+          "warnings": 0,
+          "twoMinutes": 2,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1m9uid6",
+          "name": "Niklas Alexander Behrens",
+          "number": 10,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "17wpvvq",
+          "name": "Janek Jäger",
+          "number": 23,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "16soyyk",
+          "name": "Ken Bottke",
+          "number": 44,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "09o5bp5",
+          "name": "Lukas Böttger",
+          "number": 14,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0yoj799",
+          "name": "Joost Buchwald",
+          "number": 15,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0bnatiq",
+          "name": "Felix Labahn",
+          "number": 2,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0xk67e4",
+          "name": "Jonas Küster",
+          "number": 4,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "00m56ow",
+          "name": "Mika Hendrik Grummel",
+          "number": 5,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1w0nkkw",
+          "name": "Alexander Schuh",
+          "number": 16,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1rybqhq",
+          "name": "Andre Mannke",
+          "number": 53,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ],
+      "opponent": [
+        {
+          "playerId": "1d04wnp",
+          "name": "Frederic Groß",
+          "number": 91,
+          "inLineup": true,
+          "goals": 6,
+          "sevenMeters": {
+            "goals": 3,
+            "misses": 1,
+            "attempts": 4,
+            "percentage": 75
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "04d54im",
+          "name": "Niklas Knäsche",
+          "number": 12,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0l84r8l",
+          "name": "Markus Walker",
+          "number": 28,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "10p18ef",
+          "name": "Jacob Lohmann",
+          "number": 6,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1s4aquo",
+          "name": "Timon Steiner",
+          "number": 8,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 1,
+            "misses": 2,
+            "attempts": 3,
+            "percentage": 33.3
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1nhrjew",
+          "name": "Kevin Kölsch",
+          "number": 61,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 2,
+            "misses": 0,
+            "attempts": 2,
+            "percentage": 100
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1y8dyhm",
+          "name": "Henryk Branski",
+          "number": 82,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0gxox9p",
+          "name": "Jul Friedrich Babenerd",
+          "number": 9,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0vqdh57",
+          "name": "Dennis Eckhard Fahrenkrog",
+          "number": 64,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0rk1aq3",
+          "name": "Malte Marquardt",
+          "number": 19,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0pt4ojl",
+          "name": "Timo Bruckmann",
+          "number": 21,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1q8q0sf",
+          "name": "Cedric Alexander Heissel",
+          "number": 77,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1hkx8zd",
+          "name": "Johannes Reiter",
+          "number": 79,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ]
+    }
+  }
+}

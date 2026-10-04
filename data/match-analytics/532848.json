@@ -1,0 +1,1077 @@
+{
+  "generatedAt": "2026-10-04T19:37:01.966Z",
+  "match": {
+    "id": 532848,
+    "date": "2026-09-12",
+    "time": "10:00",
+    "competition": "Kreisklasse mD Neumünster",
+    "phase": {
+      "id": 15702,
+      "name": "mD-KK-Hin"
+    },
+    "venue": {
+      "name": "REALS SCHARNHORST",
+      "address": "SCHARNHORSTSTRAßE, 23812 WAHLSTEDT"
+    },
+    "home": {
+      "id": 82516,
+      "name": "SV WAHLSTEDT",
+      "clubId": "1i29zj6"
+    },
+    "away": {
+      "id": 87104,
+      "name": "SG Handball Neumünster II",
+      "clubId": "1yrb3n9"
+    },
+    "result": {
+      "home": 13,
+      "away": 20
+    },
+    "ownTeamId": "87104",
+    "ownTeam": {
+      "label": "MJD 2",
+      "name": "mJD 2",
+      "ageGroup": "youth",
+      "gender": "male",
+      "matchMinutes": 40
+    },
+    "isHome": false,
+    "opponent": {
+      "id": 82516,
+      "name": "SV WAHLSTEDT",
+      "clubId": "1i29zj6"
+    }
+  },
+  "quality": {
+    "status": "verified",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 13,
+      "away": 20
+    },
+    "eventFinalScore": {
+      "home": 13,
+      "away": 20
+    },
+    "lineupGoalTotals": {
+      "home": 13,
+      "away": 20
+    },
+    "eventScoreMatchesOfficial": true,
+    "lineupScoreMatchesOfficial": true,
+    "scorerLineupCoverage": {
+      "goalEvents": 33,
+      "goalEventsWithPlayer": 33,
+      "matchedGoalEvents": 33,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "event",
+    "expectedDurationSeconds": 2400,
+    "eventDurationSeconds": 2400,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": true,
+    "lineupEligible": true,
+    "warnings": []
+  },
+  "analytics": {
+    "duration": {
+      "expectedSeconds": 2400,
+      "eventSeconds": 2400,
+      "analysisSeconds": 2400,
+      "analysisClock": "40:00"
+    },
+    "score": {
+      "final": {
+        "own": 20,
+        "opponent": 13
+      },
+      "halftime": {
+        "own": 13,
+        "opponent": 7
+      },
+      "halftimeSource": "event"
+    },
+    "matchFlow": [
+      {
+        "eventId": 7332185,
+        "seconds": 18,
+        "clock": "00:18",
+        "side": "opponent",
+        "playerId": "1uhym6i",
+        "playerName": "Robin Schulz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 0,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 7332184,
+        "seconds": 81,
+        "clock": "01:21",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 7332183,
+        "seconds": 113,
+        "clock": "01:53",
+        "side": "opponent",
+        "playerId": "0fcmh14",
+        "playerName": "Noah Derksen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332182,
+        "seconds": 162,
+        "clock": "02:42",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332181,
+        "seconds": 205,
+        "clock": "03:25",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332180,
+        "seconds": 288,
+        "clock": "04:48",
+        "side": "own",
+        "playerId": "1q0drs8",
+        "playerName": "Paul Frieder Simon",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332179,
+        "seconds": 334,
+        "clock": "05:34",
+        "side": "own",
+        "playerId": "1q0drs8",
+        "playerName": "Paul Frieder Simon",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332178,
+        "seconds": 420,
+        "clock": "07:00",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332177,
+        "seconds": 451,
+        "clock": "07:31",
+        "side": "own",
+        "playerId": "15udh2p",
+        "playerName": "Moritz-Lias Bredfeldt",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332176,
+        "seconds": 529,
+        "clock": "08:49",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 8,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332175,
+        "seconds": 704,
+        "clock": "11:44",
+        "side": "own",
+        "playerId": "15udh2p",
+        "playerName": "Moritz-Lias Bredfeldt",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332173,
+        "seconds": 734,
+        "clock": "12:14",
+        "side": "own",
+        "playerId": "15udh2p",
+        "playerName": "Moritz-Lias Bredfeldt",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332172,
+        "seconds": 789,
+        "clock": "13:09",
+        "side": "own",
+        "playerId": "1q0drs8",
+        "playerName": "Paul Frieder Simon",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 7332171,
+        "seconds": 846,
+        "clock": "14:06",
+        "side": "opponent",
+        "playerId": "0h0z8hg",
+        "playerName": "Noah Levi Keil",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 7332170,
+        "seconds": 864,
+        "clock": "14:24",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 7332169,
+        "seconds": 959,
+        "clock": "15:59",
+        "side": "opponent",
+        "playerId": "0mqffct",
+        "playerName": "Emil Lasse Hafermann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 7332168,
+        "seconds": 1000,
+        "clock": "16:40",
+        "side": "opponent",
+        "playerId": "1uhym6i",
+        "playerName": "Robin Schulz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 7332167,
+        "seconds": 1045,
+        "clock": "17:25",
+        "side": "opponent",
+        "playerId": "0mqffct",
+        "playerName": "Emil Lasse Hafermann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 7332166,
+        "seconds": 1072,
+        "clock": "17:52",
+        "side": "opponent",
+        "playerId": "1uhym6i",
+        "playerName": "Robin Schulz",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 7332165,
+        "seconds": 1180,
+        "clock": "19:40",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 7332162,
+        "seconds": 1242,
+        "clock": "20:42",
+        "side": "opponent",
+        "playerId": "1j4ct08",
+        "playerName": "Ryan Kenneth Dieumo Kenfack",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 7332161,
+        "seconds": 1276,
+        "clock": "21:16",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 7332160,
+        "seconds": 1407,
+        "clock": "23:27",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 7332159,
+        "seconds": 1515,
+        "clock": "25:15",
+        "side": "opponent",
+        "playerId": "1j4ct08",
+        "playerName": "Ryan Kenneth Dieumo Kenfack",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 7332158,
+        "seconds": 1677,
+        "clock": "27:57",
+        "side": "own",
+        "playerId": "0hnfhvg",
+        "playerName": "Paul Frank Tollmien",
+        "isSevenMeter": false,
+        "score": {
+          "own": 16,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 7332156,
+        "seconds": 1907,
+        "clock": "31:47",
+        "side": "own",
+        "playerId": "1u11it9",
+        "playerName": "Piet Florian Steingräber",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 9
+        }
+      },
+      {
+        "eventId": 7332155,
+        "seconds": 1930,
+        "clock": "32:10",
+        "side": "opponent",
+        "playerId": "0tnflc6",
+        "playerName": "Tino Wenzel",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 10
+        }
+      },
+      {
+        "eventId": 7332154,
+        "seconds": 2071,
+        "clock": "34:31",
+        "side": "opponent",
+        "playerId": "1j4ct08",
+        "playerName": "Ryan Kenneth Dieumo Kenfack",
+        "isSevenMeter": false,
+        "score": {
+          "own": 17,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 7332153,
+        "seconds": 2093,
+        "clock": "34:53",
+        "side": "own",
+        "playerId": "06xox3n",
+        "playerName": "Lasse-Bo Delfs",
+        "isSevenMeter": false,
+        "score": {
+          "own": 18,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 7332152,
+        "seconds": 2127,
+        "clock": "35:27",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 19,
+          "opponent": 11
+        }
+      },
+      {
+        "eventId": 7332151,
+        "seconds": 2159,
+        "clock": "35:59",
+        "side": "opponent",
+        "playerId": "0h0z8hg",
+        "playerName": "Noah Levi Keil",
+        "isSevenMeter": false,
+        "score": {
+          "own": 19,
+          "opponent": 12
+        }
+      },
+      {
+        "eventId": 7332150,
+        "seconds": 2178,
+        "clock": "36:18",
+        "side": "own",
+        "playerId": "1bwncfo",
+        "playerName": "Emil Salm",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 12
+        }
+      },
+      {
+        "eventId": 7332149,
+        "seconds": 2218,
+        "clock": "36:58",
+        "side": "opponent",
+        "playerId": "0tnflc6",
+        "playerName": "Tino Wenzel",
+        "isSevenMeter": false,
+        "score": {
+          "own": 20,
+          "opponent": 13
+        }
+      }
+    ],
+    "fiveMinuteSplits": [
+      {
+        "startSeconds": 0,
+        "endSeconds": 300,
+        "label": "0-5",
+        "goals": {
+          "own": 4,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 4,
+          "opponent": 2
+        },
+        "goalDifference": 2
+      },
+      {
+        "startSeconds": 300,
+        "endSeconds": 600,
+        "label": "5-10",
+        "goals": {
+          "own": 4,
+          "opponent": 0
+        },
+        "scoreEnd": {
+          "own": 8,
+          "opponent": 2
+        },
+        "goalDifference": 4
+      },
+      {
+        "startSeconds": 600,
+        "endSeconds": 900,
+        "label": "10-15",
+        "goals": {
+          "own": 4,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 12,
+          "opponent": 3
+        },
+        "goalDifference": 3
+      },
+      {
+        "startSeconds": 900,
+        "endSeconds": 1200,
+        "label": "15-20",
+        "goals": {
+          "own": 1,
+          "opponent": 4
+        },
+        "scoreEnd": {
+          "own": 13,
+          "opponent": 7
+        },
+        "goalDifference": -3
+      },
+      {
+        "startSeconds": 1200,
+        "endSeconds": 1500,
+        "label": "20-25",
+        "goals": {
+          "own": 2,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 15,
+          "opponent": 8
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1500,
+        "endSeconds": 1800,
+        "label": "25-30",
+        "goals": {
+          "own": 1,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 16,
+          "opponent": 9
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 1800,
+        "endSeconds": 2100,
+        "label": "30-35",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 18,
+          "opponent": 11
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 2100,
+        "endSeconds": 2400,
+        "label": "35-40",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 20,
+          "opponent": 13
+        },
+        "goalDifference": 0
+      }
+    ],
+    "sevenMeters": {
+      "own": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "opponent": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      }
+    },
+    "sanctions": {
+      "own": {
+        "warnings": 1,
+        "twoMinutes": 0,
+        "disqualifications": 0
+      },
+      "opponent": {
+        "warnings": 0,
+        "twoMinutes": 0,
+        "disqualifications": 0
+      }
+    },
+    "longestRuns": {
+      "own": {
+        "side": "away",
+        "goals": 10,
+        "startSeconds": 162,
+        "endSeconds": 789,
+        "startScore": {
+          "home": 2,
+          "away": 1
+        },
+        "endScore": {
+          "home": 2,
+          "away": 11
+        },
+        "start": "02:42",
+        "end": "13:09"
+      },
+      "opponent": {
+        "side": "home",
+        "goals": 4,
+        "startSeconds": 959,
+        "endSeconds": 1072,
+        "startScore": {
+          "home": 3,
+          "away": 12
+        },
+        "endScore": {
+          "home": 7,
+          "away": 12
+        },
+        "start": "15:59",
+        "end": "17:52"
+      }
+    },
+    "scoringDroughts": {
+      "own": {
+        "seconds": 316,
+        "startSeconds": 864,
+        "endSeconds": 1180,
+        "duration": "05:16",
+        "start": "14:24",
+        "end": "19:40"
+      },
+      "opponent": {
+        "seconds": 733,
+        "startSeconds": 113,
+        "endSeconds": 846,
+        "duration": "12:13",
+        "start": "01:53",
+        "end": "14:06"
+      }
+    },
+    "timeouts": [
+      {
+        "side": "opponent",
+        "seconds": 710,
+        "clock": "11:50",
+        "score": {
+          "own": 9,
+          "opponent": 2
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 12,
+          "opponent": 3
+        },
+        "goalsAfter": {
+          "own": 3,
+          "opponent": 1
+        }
+      },
+      {
+        "side": "own",
+        "seconds": 1868,
+        "clock": "31:08",
+        "score": {
+          "own": 16,
+          "opponent": 9
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 17,
+          "opponent": 10
+        },
+        "goalsAfter": {
+          "own": 1,
+          "opponent": 1
+        }
+      }
+    ],
+    "numericSituations": {
+      "suspensions": [],
+      "even": {
+        "seconds": 2400,
+        "goals": {
+          "own": 20,
+          "opponent": 13
+        }
+      },
+      "powerPlay": {
+        "seconds": 0,
+        "goals": {
+          "own": 0,
+          "opponent": 0
+        }
+      },
+      "shortHanded": {
+        "seconds": 0,
+        "goals": {
+          "own": 0,
+          "opponent": 0
+        }
+      }
+    },
+    "players": {
+      "own": [
+        {
+          "playerId": "1bwncfo",
+          "name": "Emil Salm",
+          "number": 8,
+          "inLineup": true,
+          "goals": 6,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1u11it9",
+          "name": "Piet Florian Steingräber",
+          "number": 22,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0hnfhvg",
+          "name": "Paul Frank Tollmien",
+          "number": 15,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "15udh2p",
+          "name": "Moritz-Lias Bredfeldt",
+          "number": 21,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1q0drs8",
+          "name": "Paul Frieder Simon",
+          "number": 23,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "06xox3n",
+          "name": "Lasse-Bo Delfs",
+          "number": 12,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1v1q1c0",
+          "name": "Paul Luis Kettner",
+          "number": 1,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1hwqb0j",
+          "name": "Maximilian Lutzmann",
+          "number": 6,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "025p3cy",
+          "name": "Arik Noah Dongowsky",
+          "number": 7,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0uo2hnc",
+          "name": "Moritz Hongyang Dejewski",
+          "number": 16,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1ahtrit",
+          "name": "Emilian Louis Messer",
+          "number": 25,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ],
+      "opponent": [
+        {
+          "playerId": "1uhym6i",
+          "name": "Robin Schulz",
+          "number": 11,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1j4ct08",
+          "name": "Ryan Kenneth Dieumo Kenfack",
+          "number": 12,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0h0z8hg",
+          "name": "Noah Levi Keil",
+          "number": 2,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0tnflc6",
+          "name": "Tino Wenzel",
+          "number": 3,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0mqffct",
+          "name": "Emil Lasse Hafermann",
+          "number": 27,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0fcmh14",
+          "name": "Noah Derksen",
+          "number": 19,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "17g1zae",
+          "name": "Adnan Ahmad",
+          "number": 14,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ]
+    }
+  }
+}

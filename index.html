@@ -73,7 +73,7 @@
           <div class="panel-head">
             <div>
               <span class="section-eyebrow">DATENBASIS</span>
-              <h2>Abdeckung</h2>
+              <h2>Abdeckung & Qualität</h2>
             </div>
           </div>
           <div id="coverage-content"></div>
@@ -119,11 +119,11 @@
     </section>
 
     <section id="trainer-view" class="view" hidden>
-      <section class="scope-panel panel">
+      <section class="scope-panel panel trainer-header-panel">
         <div class="scope-copy">
           <span class="section-eyebrow">TRAINER DASHBOARD</span>
           <h1 id="trainer-title">Mannschaft</h1>
-          <p>Teambasierte Saisonübersicht. Event-basierte Detailanalysen werden im nächsten Export ergänzt.</p>
+          <p id="trainer-subtitle">Saison- und Matchanalyse aus verifizierten Eventdaten.</p>
         </div>
         <label class="team-select-wrap team-select-wrap--trainer">
           <span>Mannschaft</span>
@@ -133,56 +133,128 @@
 
       <section class="kpi-grid" id="trainer-kpis"></section>
 
-      <section class="content-grid content-grid--main">
-        <article class="panel chart-panel">
-          <div class="panel-head">
-            <div>
-              <span class="section-eyebrow">FORMKURVE</span>
-              <h2>Ergebnisse & Tordifferenz</h2>
-            </div>
-          </div>
-          <div id="trainer-trend-chart" class="chart"></div>
-        </article>
+      <section class="trainer-tabs" aria-label="Trainer-Bereiche">
+        <button class="trainer-tab is-active" type="button" data-trainer-tab="overview">Übersicht</button>
+        <button class="trainer-tab" type="button" data-trainer-tab="players">Spieler</button>
+        <button class="trainer-tab" type="button" data-trainer-tab="matches">Spiele</button>
+      </section>
 
+      <section id="trainer-tab-overview" class="trainer-tab-panel">
+        <section class="content-grid content-grid--main">
+          <article class="panel chart-panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">FORMKURVE</span>
+                <h2>Ergebnisse & Tordifferenz</h2>
+              </div>
+            </div>
+            <div id="trainer-trend-chart" class="chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">HEIM / AUSWÄRTS</span>
+                <h2>Bilanz</h2>
+              </div>
+            </div>
+            <div id="home-away" class="split-stats"></div>
+          </article>
+        </section>
+
+        <section class="content-grid content-grid--main">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">SPIELPHASEN</span>
+                <h2>5-Minuten-Splits</h2>
+              </div>
+              <span class="panel-note">Tordifferenz pro Spiel</span>
+            </div>
+            <div id="team-five-minute" class="mini-bar-chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">SONDERSITUATIONEN</span>
+                <h2>7m, Strafen & Zeitstrafen</h2>
+              </div>
+            </div>
+            <div id="team-special-stats" class="stat-stack"></div>
+          </article>
+        </section>
+
+        <section class="content-grid content-grid--main">
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">AUSZEITEN</span>
+                <h2>3 Minuten nach Timeout</h2>
+              </div>
+              <span class="panel-note">deskriptiv, keine Kausalität</span>
+            </div>
+            <div id="team-timeouts" class="split-stats"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">SERIEN</span>
+                <h2>Runs & torlose Phasen</h2>
+              </div>
+            </div>
+            <div id="team-runs" class="split-stats"></div>
+          </article>
+        </section>
+      </section>
+
+      <section id="trainer-tab-players" class="trainer-tab-panel" hidden>
         <article class="panel">
           <div class="panel-head">
             <div>
-              <span class="section-eyebrow">HEIM / AUSWÄRTS</span>
-              <h2>Bilanz</h2>
+              <span class="section-eyebrow">SPIELERSTATISTIK</span>
+              <h2>Kader & Scoring</h2>
             </div>
+            <span class="panel-note">Tore aus Events · Einsätze aus Lineups</span>
           </div>
-          <div id="home-away" class="split-stats"></div>
+          <div class="table-wrap">
+            <table class="data-table data-table--players">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Spieler</th>
+                  <th>Eins.</th>
+                  <th>Tore</th>
+                  <th>Tore/Sp.</th>
+                  <th>Anteil</th>
+                  <th>7m</th>
+                  <th>2 Min.</th>
+                </tr>
+              </thead>
+              <tbody id="team-player-table"></tbody>
+            </table>
+          </div>
         </article>
       </section>
 
-      <section class="content-grid content-grid--split trainer-lower">
-        <article class="panel">
-          <div class="panel-head">
-            <div>
-              <span class="section-eyebrow">SPIELE</span>
-              <h2>Match-Historie</h2>
+      <section id="trainer-tab-matches" class="trainer-tab-panel" hidden>
+        <section class="match-workspace">
+          <aside class="panel match-browser-panel">
+            <div class="panel-head">
+              <div>
+                <span class="section-eyebrow">SPIELE</span>
+                <h2>Match-Historie</h2>
+              </div>
             </div>
-          </div>
-          <div id="trainer-matches" class="match-list match-list--full"></div>
-        </article>
+            <div id="trainer-matches" class="match-list match-list--selectable"></div>
+          </aside>
 
-        <article class="panel detail-preview">
-          <div class="panel-head">
-            <div>
-              <span class="section-eyebrow">NÄCHSTER SCHRITT</span>
-              <h2>Event Analytics</h2>
-            </div>
+          <div class="match-detail-column">
+            <article id="match-detail-header" class="panel match-detail-header"></article>
+            <section id="match-detail" class="match-detail"></section>
           </div>
-          <div class="locked-grid">
-            <div class="locked-card"><strong>Runs</strong><span>längste eigene / gegnerische Serien</span></div>
-            <div class="locked-card"><strong>5-Minuten-Splits</strong><span>Spielphasen und Einbrüche</span></div>
-            <div class="locked-card"><strong>Timeouts</strong><span>Entwicklung vor / nach Auszeiten</span></div>
-            <div class="locked-card"><strong>Über-/Unterzahl</strong><span>Tordifferenz in Zeitstrafen</span></div>
-            <div class="locked-card"><strong>Spieler</strong><span>Tore, 7m, Kaderhäufigkeit</span></div>
-            <div class="locked-card"><strong>Match Flow</strong><span>sekundengenauer Spielverlauf</span></div>
-          </div>
-          <p class="detail-note">Die aktuelle Public-Exportdatei enthält Match-Stammdaten und Saison-Aggregate, aber noch keine Eventdetails pro Spiel. Deshalb zeigt v1 hier bewusst keine erfundenen Werte.</p>
-        </article>
+        </section>
       </section>
     </section>
   </main>

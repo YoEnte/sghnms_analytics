@@ -1,33 +1,9 @@
 {
-  "generatedAt": "2026-10-04T19:37:01.754Z",
+  "generatedAt": "2026-10-04T19:37:01.753Z",
   "matches": [
     {
       "id": 448676,
       "date": "2026-09-04",
-      "time": "20:30",
-      "home": {
-        "id": 81541,
-        "name": "ATSV STOCKELSDORF II",
-        "clubId": "0xo2eha"
-      },
-      "away": {
-        "id": 86801,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 32,
-        "away": 30
-      },
-      "competition": "Oberliga Schleswig-Holstein Frauen",
-      "phase": {
-        "id": 14062,
-        "name": "Meisterrunde"
-      },
-      "venue": {
-        "name": "ATSV HALLE",
-        "address": "GEORG-OHM-STRAßE 24, 23617 STOCKELSDORF"
-      },
       "ownTeamId": "86801",
       "ownTeam": {
         "label": "FRAUEN 1",
@@ -69,37 +45,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/448676.json"
+      }
     },
     {
       "id": 509803,
       "date": "2026-09-05",
-      "time": "11:45",
-      "home": {
-        "id": 87110,
-        "name": "SG HANDBALL NEUMÜNSTER II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82495,
-        "name": "TV TRAPPENKAMP",
-        "clubId": "02z7nh5"
-      },
-      "result": {
-        "home": 1,
-        "away": 21
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15510,
-        "name": "wE-KL-Ost"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87110",
       "ownTeam": {
         "label": "WJE 2",
@@ -141,37 +91,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509803.json"
+      }
     },
     {
       "id": 411544,
       "date": "2026-09-05",
-      "time": "13:00",
-      "home": {
-        "id": 87265,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82084,
-        "name": "HSG OHLAU",
-        "clubId": "0vigdzt"
-      },
-      "result": {
-        "home": 35,
-        "away": 13
-      },
-      "competition": "Regionsoberliga WEIBLICH",
-      "phase": {
-        "id": 14637,
-        "name": "WJC-ROL-2"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87265",
       "ownTeam": {
         "label": "WJC 1",
@@ -213,37 +137,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/411544.json"
+      }
     },
     {
       "id": 518566,
       "date": "2026-09-05",
-      "time": "13:30",
-      "home": {
-        "id": 87097,
-        "name": "SG Bordesholm/Brügge II",
-        "clubId": "0mjcjfn"
-      },
-      "away": {
-        "id": 87108,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 26,
-        "away": 10
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15499,
-        "name": "mE-KL-Ost"
-      },
-      "venue": {
-        "name": "HANS BRüGGEMANN REALSCHULE",
-        "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
-      },
       "ownTeamId": "87108",
       "ownTeam": {
         "label": "MJE 2",
@@ -296,37 +194,11 @@
             "message": "Lineup goal totals 7:5 differ from official result 26:10."
           }
         ]
-      },
-      "analyticsAvailable": false,
-      "analyticsPath": "match-analytics/518566.json"
+      }
     },
     {
       "id": 450750,
       "date": "2026-09-05",
-      "time": "14:00",
-      "home": {
-        "id": 87189,
-        "name": "MTV Lübeck II",
-        "clubId": "1j9nrl7"
-      },
-      "away": {
-        "id": 87187,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 37,
-        "away": 35
-      },
-      "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
-      "phase": {
-        "id": 14076,
-        "name": "Vorrunde B"
-      },
-      "venue": {
-        "name": "STRUCKBACHHALLE",
-        "address": "GEORG-KERSCHENSTEINER-STRAßE 29, 23554 LüBECK"
-      },
       "ownTeamId": "87187",
       "ownTeam": {
         "label": "MJC 1",
@@ -368,37 +240,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450750.json"
+      }
     },
     {
       "id": 532843,
       "date": "2026-09-05",
-      "time": "14:30",
-      "home": {
-        "id": 87104,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82515,
-        "name": "TV TRAPPENKAMP",
-        "clubId": "02z7nh5"
-      },
-      "result": {
-        "home": 17,
-        "away": 13
-      },
-      "competition": "Kreisklasse mD Neumünster",
-      "phase": {
-        "id": 15702,
-        "name": "mD-KK-Hin"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87104",
       "ownTeam": {
         "label": "MJD 2",
@@ -440,37 +286,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532843.json"
+      }
     },
     {
       "id": 598474,
       "date": "2026-09-05",
-      "time": "14:30",
-      "home": {
-        "id": 87271,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81961,
-        "name": "SG BORDESHOLM/BRÜGGE",
-        "clubId": "0mjcjfn"
-      },
-      "result": {
-        "home": 18,
-        "away": 20
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13872,
-        "name": "wJA-ROL-3"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87271",
       "ownTeam": {
         "label": "WJA 1",
@@ -512,37 +332,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/598474.json"
+      }
     },
     {
       "id": 510174,
       "date": "2026-09-05",
-      "time": "16:00",
-      "home": {
-        "id": 87105,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82486,
-        "name": "SC NAHE 08",
-        "clubId": "1qw756m"
-      },
-      "result": {
-        "home": 37,
-        "away": 10
-      },
-      "competition": "Kreisklasse wD Neumünster",
-      "phase": {
-        "id": 15531,
-        "name": "wD-KK"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87105",
       "ownTeam": {
         "label": "WJD",
@@ -584,37 +378,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/510174.json"
+      }
     },
     {
       "id": 419755,
       "date": "2026-09-05",
-      "time": "16:15",
-      "home": {
-        "id": 87275,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82024,
-        "name": "HSG GETTORF/OSDORF",
-        "clubId": "1wy6z5h"
-      },
-      "result": {
-        "home": 25,
-        "away": 24
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14688,
-        "name": "wJB-RL-2"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87275",
       "ownTeam": {
         "label": "WJB 2",
@@ -656,37 +424,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/419755.json"
+      }
     },
     {
       "id": 505398,
       "date": "2026-09-05",
-      "time": "18:15",
-      "home": {
-        "id": 81774,
-        "name": "SG HANDBALL EIDERTAL",
-        "clubId": "1ftrwtg"
-      },
-      "away": {
-        "id": 94483,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 26,
-        "away": 31
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12972,
-        "name": "Kreisliga Männer - Staffel D"
-      },
-      "venue": {
-        "name": "SPORTHALLE MOLFSEE",
-        "address": "HAMBURGER CHAUSSEE 2, 24113 MOLFSEE"
-      },
       "ownTeamId": "94483",
       "ownTeam": {
         "label": "HERREN 2",
@@ -728,37 +470,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/505398.json"
+      }
     },
     {
       "id": 518595,
       "date": "2026-09-06",
-      "time": "10:00",
-      "home": {
-        "id": 94507,
-        "name": "SV Weede v. 1949 e.V. II",
-        "clubId": "1kccyht"
-      },
-      "away": {
-        "id": 87107,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 19,
-        "away": 28
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15496,
-        "name": "mE-KL-West"
-      },
-      "venue": {
-        "name": "SPORTHALLE OST",
-        "address": "DORFSTRAßE 1, 23815 GESCHENDORF"
-      },
       "ownTeamId": "87107",
       "ownTeam": {
         "label": "MJE 1",
@@ -800,37 +516,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/518595.json"
+      }
     },
     {
       "id": 553507,
       "date": "2026-09-06",
-      "time": "10:00",
-      "home": {
-        "id": 87277,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82150,
-        "name": "HSG HOHE GEEST",
-        "clubId": "1hslhxe"
-      },
-      "result": {
-        "home": 14,
-        "away": 20
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14626,
-        "name": "WJC-RL-4"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87277",
       "ownTeam": {
         "label": "WJC 2",
@@ -878,37 +568,11 @@
             "message": "Event duration 3300s differs from expected duration 3000s by 300s."
           }
         ]
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/553507.json"
+      }
     },
     {
       "id": 532821,
       "date": "2026-09-06",
-      "time": "13:00",
-      "home": {
-        "id": 87103,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82517,
-        "name": "SV HENSTEDT-ULZBURG II",
-        "clubId": "1j3w2i1"
-      },
-      "result": {
-        "home": 36,
-        "away": 11
-      },
-      "competition": "Kreisliga mD Neumünster",
-      "phase": {
-        "id": 15492,
-        "name": "mD-KL-Hin"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87103",
       "ownTeam": {
         "label": "MJD 1",
@@ -950,37 +614,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532821.json"
+      }
     },
     {
       "id": 508079,
       "date": "2026-09-06",
-      "time": "13:15",
-      "home": {
-        "id": 87272,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81972,
-        "name": "BOIZENBURGER HV",
-        "clubId": "1wbsvia"
-      },
-      "result": {
-        "home": 13,
-        "away": 13
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13873,
-        "name": "wJA-ROL-4"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87272",
       "ownTeam": {
         "label": "WJA 2",
@@ -1022,37 +660,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/508079.json"
+      }
     },
     {
       "id": 561249,
       "date": "2026-09-06",
-      "time": "15:00",
-      "home": {
-        "id": 94484,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81724,
-        "name": "HSG OHLAU",
-        "clubId": "0vigdzt"
-      },
-      "result": {
-        "home": 26,
-        "away": 26
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12973,
-        "name": "Kreisliga Männer - Staffel E"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "94484",
       "ownTeam": {
         "label": "HERREN 3",
@@ -1094,37 +706,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/561249.json"
+      }
     },
     {
       "id": 514262,
       "date": "2026-09-06",
-      "time": "15:15",
-      "home": {
-        "id": 94482,
-        "name": "SG Handball Neumünster IV",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81897,
-        "name": "TV TRAPPENKAMP",
-        "clubId": "02z7nh5"
-      },
-      "result": {
-        "home": 20,
-        "away": 9
-      },
-      "competition": "Kreisklasse Frauen",
-      "phase": {
-        "id": 12993,
-        "name": "Kreisklasse Frauen Mitte"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "94482",
       "ownTeam": {
         "label": "FRAUEN 4",
@@ -1166,37 +752,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/514262.json"
+      }
     },
     {
       "id": 417847,
       "date": "2026-09-06",
-      "time": "17:00",
-      "home": {
-        "id": 82009,
-        "name": "HSG OHLAU",
-        "clubId": "0vigdzt"
-      },
-      "away": {
-        "id": 87274,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 16,
-        "away": 34
-      },
-      "competition": "Regionsoberliga MÄNNLICH",
-      "phase": {
-        "id": 14694,
-        "name": "mJB-ROL-2"
-      },
-      "venue": {
-        "name": "LAKWEGHALLE",
-        "address": "LAKWEG 20, 24568 KALTENKIRCHEN"
-      },
       "ownTeamId": "87274",
       "ownTeam": {
         "label": "MJB",
@@ -1238,37 +798,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/417847.json"
+      }
     },
     {
       "id": 504551,
       "date": "2026-09-06",
-      "time": "17:00",
-      "home": {
-        "id": 86805,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81719,
-        "name": "TSV Ellerau",
-        "clubId": "1u01tx2"
-      },
-      "result": {
-        "home": 34,
-        "away": 26
-      },
-      "competition": "Kreisoberliga Männer",
-      "phase": {
-        "id": 12963,
-        "name": "Kreisoberliga Männer West"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "86805",
       "ownTeam": {
         "label": "HERREN 1",
@@ -1310,37 +844,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/504551.json"
+      }
     },
     {
       "id": 506405,
       "date": "2026-09-06",
-      "time": "17:00",
-      "home": {
-        "id": 94481,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81929,
-        "name": "SUCHSDORFER SV III",
-        "clubId": "0zmeofz"
-      },
-      "result": {
-        "home": 29,
-        "away": 26
-      },
-      "competition": "Kreisliga Frauen",
-      "phase": {
-        "id": 12978,
-        "name": "Kreisliga Frauen - Staffel C"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "94481",
       "ownTeam": {
         "label": "FRAUEN 3",
@@ -1382,37 +890,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/506405.json"
+      }
     },
     {
       "id": 450662,
       "date": "2026-09-06",
-      "time": "18:30",
-      "home": {
-        "id": 87174,
-        "name": "SG BORDESHOLM/BRÜGGE",
-        "clubId": "0mjcjfn"
-      },
-      "away": {
-        "id": 87175,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 29,
-        "away": 26
-      },
-      "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
-      "phase": {
-        "id": 14073,
-        "name": "Vorrunde A"
-      },
-      "venue": {
-        "name": "HANS BRüGGEMANN REALSCHULE",
-        "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
-      },
       "ownTeamId": "87175",
       "ownTeam": {
         "label": "WJB 1",
@@ -1454,37 +936,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450662.json"
+      }
     },
     {
       "id": 514352,
       "date": "2026-09-08",
-      "time": "20:30",
-      "home": {
-        "id": 81860,
-        "name": "TURA MELDORF",
-        "clubId": "1gz2zvt"
-      },
-      "away": {
-        "id": 94480,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 30,
-        "away": 24
-      },
-      "competition": "Kreisoberliga Frauen",
-      "phase": {
-        "id": 12967,
-        "name": "Kreisoberliga Frauen West"
-      },
-      "venue": {
-        "name": "GROßSPORTHALLE AM SCHWIMMBAD",
-        "address": "BüTTELSWEG 2, 25704 MELDORF"
-      },
       "ownTeamId": "94480",
       "ownTeam": {
         "label": "FRAUEN 2",
@@ -1526,37 +982,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/514352.json"
+      }
     },
     {
       "id": 532848,
       "date": "2026-09-12",
-      "time": "10:00",
-      "home": {
-        "id": 82516,
-        "name": "SV WAHLSTEDT",
-        "clubId": "1i29zj6"
-      },
-      "away": {
-        "id": 87104,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 13,
-        "away": 20
-      },
-      "competition": "Kreisklasse mD Neumünster",
-      "phase": {
-        "id": 15702,
-        "name": "mD-KK-Hin"
-      },
-      "venue": {
-        "name": "REALS SCHARNHORST",
-        "address": "SCHARNHORSTSTRAßE, 23812 WAHLSTEDT"
-      },
       "ownTeamId": "87104",
       "ownTeam": {
         "label": "MJD 2",
@@ -1598,37 +1028,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532848.json"
+      }
     },
     {
       "id": 419759,
       "date": "2026-09-12",
-      "time": "13:00",
-      "home": {
-        "id": 82025,
-        "name": "SG HANDBALL EIDERTAL",
-        "clubId": "1ftrwtg"
-      },
-      "away": {
-        "id": 87275,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 28,
-        "away": 27
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14688,
-        "name": "wJB-RL-2"
-      },
-      "venue": {
-        "name": "SPORTHALLE MOLFSEE",
-        "address": "HAMBURGER CHAUSSEE 2, 24113 MOLFSEE"
-      },
       "ownTeamId": "87275",
       "ownTeam": {
         "label": "WJB 2",
@@ -1670,37 +1074,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/419759.json"
+      }
     },
     {
       "id": 509807,
       "date": "2026-09-12",
-      "time": "13:00",
-      "home": {
-        "id": 82499,
-        "name": "SG TODESFELDE/LEEZEN",
-        "clubId": "0wkml89"
-      },
-      "away": {
-        "id": 87110,
-        "name": "SG HANDBALL NEUMÜNSTER II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 20,
-        "away": 9
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15510,
-        "name": "wE-KL-Ost"
-      },
-      "venue": {
-        "name": "ASH TODESFELDE",
-        "address": "DORFSTRASSE, 23826 TODESFELDE"
-      },
       "ownTeamId": "87110",
       "ownTeam": {
         "label": "WJE 2",
@@ -1742,37 +1120,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509807.json"
+      }
     },
     {
       "id": 411552,
       "date": "2026-09-12",
-      "time": "14:00",
-      "home": {
-        "id": 82073,
-        "name": "Suchsdorfer SV",
-        "clubId": "0zmeofz"
-      },
-      "away": {
-        "id": 87265,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 25,
-        "away": 46
-      },
-      "competition": "Regionsoberliga WEIBLICH",
-      "phase": {
-        "id": 14637,
-        "name": "WJC-ROL-2"
-      },
-      "venue": {
-        "name": "SUCHSDORF",
-        "address": "NIENBRüGGER WEG 48, 24107 KIEL"
-      },
       "ownTeamId": "87265",
       "ownTeam": {
         "label": "WJC 1",
@@ -1814,37 +1166,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/411552.json"
+      }
     },
     {
       "id": 561254,
       "date": "2026-09-12",
-      "time": "14:00",
-      "home": {
-        "id": 81688,
-        "name": "SG Kollmar/Neuendorf II",
-        "clubId": "0txboff"
-      },
-      "away": {
-        "id": 94484,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 33,
-        "away": 27
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12973,
-        "name": "Kreisliga Männer - Staffel E"
-      },
-      "venue": {
-        "name": "SPORTHALLE KOLLMAR",
-        "address": "SCHULSTRAßE 97, 25377 KOLLMAR"
-      },
       "ownTeamId": "94484",
       "ownTeam": {
         "label": "HERREN 3",
@@ -1886,37 +1212,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/561254.json"
+      }
     },
     {
       "id": 518571,
       "date": "2026-09-12",
-      "time": "14:30",
-      "home": {
-        "id": 87108,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 94508,
-        "name": "SV HENSTEDT-ULZBURG II",
-        "clubId": "1j3w2i1"
-      },
-      "result": {
-        "home": 25,
-        "away": 11
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15499,
-        "name": "mE-KL-Ost"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87108",
       "ownTeam": {
         "label": "MJE 2",
@@ -1958,37 +1258,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/518571.json"
+      }
     },
     {
       "id": 510180,
       "date": "2026-09-13",
-      "time": "11:30",
-      "home": {
-        "id": 82479,
-        "name": "HSG OHLAU II",
-        "clubId": "0vigdzt"
-      },
-      "away": {
-        "id": 87105,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 7,
-        "away": 26
-      },
-      "competition": "Kreisklasse wD Neumünster",
-      "phase": {
-        "id": 15531,
-        "name": "wD-KK"
-      },
-      "venue": {
-        "name": "LAKWEGHALLE",
-        "address": "LAKWEG 20, 24568 KALTENKIRCHEN"
-      },
       "ownTeamId": "87105",
       "ownTeam": {
         "label": "WJD",
@@ -2030,37 +1304,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/510180.json"
+      }
     },
     {
       "id": 509975,
       "date": "2026-09-13",
-      "time": "14:00",
-      "home": {
-        "id": 82496,
-        "name": "TUS HARTENHOLM",
-        "clubId": "11bbz3c"
-      },
-      "away": {
-        "id": 87109,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 9,
-        "away": 15
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15509,
-        "name": "wE-KL-West"
-      },
-      "venue": {
-        "name": "GERHARD LAWERENZ HALLE",
-        "address": "TIMM-SCHOTT WEG, 24628 HARTENHOLM"
-      },
       "ownTeamId": "87109",
       "ownTeam": {
         "label": "WJE 1",
@@ -2102,37 +1350,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509975.json"
+      }
     },
     {
       "id": 514368,
       "date": "2026-09-13",
-      "time": "14:00",
-      "home": {
-        "id": 81839,
-        "name": "HSG SCHÜLP/WESTERRÖNFELD/RENDSBURG II",
-        "clubId": "1myb91w"
-      },
-      "away": {
-        "id": 94480,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 33,
-        "away": 28
-      },
-      "competition": "Kreisoberliga Frauen",
-      "phase": {
-        "id": 12967,
-        "name": "Kreisoberliga Frauen West"
-      },
-      "venue": {
-        "name": "HEIDESANDHALLE",
-        "address": "AM SPORTPLATZ, 24784 WESTERRöNFELD"
-      },
       "ownTeamId": "94480",
       "ownTeam": {
         "label": "FRAUEN 2",
@@ -2174,37 +1396,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/514368.json"
+      }
     },
     {
       "id": 532823,
       "date": "2026-09-13",
-      "time": "14:00",
-      "home": {
-        "id": 87085,
-        "name": "Bramstedter TS II",
-        "clubId": "030n5ma"
-      },
-      "away": {
-        "id": 87103,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 18,
-        "away": 25
-      },
-      "competition": "Kreisliga mD Neumünster",
-      "phase": {
-        "id": 15492,
-        "name": "mD-KL-Hin"
-      },
-      "venue": {
-        "name": "HALLE SCHäFERBERG ALT",
-        "address": "SCHäFERBERG, 24576 BAD BRAMSTEDT"
-      },
       "ownTeamId": "87103",
       "ownTeam": {
         "label": "MJD 1",
@@ -2246,37 +1442,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532823.json"
+      }
     },
     {
       "id": 598477,
       "date": "2026-09-13",
-      "time": "14:00",
-      "home": {
-        "id": 81964,
-        "name": "HSG Störtal Hummeln",
-        "clubId": "1qw4nbk"
-      },
-      "away": {
-        "id": 87271,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 17,
-        "away": 33
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13872,
-        "name": "wJA-ROL-3"
-      },
-      "venue": {
-        "name": "SPORTHALLE WRIST",
-        "address": "WITTENKAMPSWEG, 25563 WRIST"
-      },
       "ownTeamId": "87271",
       "ownTeam": {
         "label": "WJA 1",
@@ -2318,37 +1488,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/598477.json"
+      }
     },
     {
       "id": 518598,
       "date": "2026-09-13",
-      "time": "14:15",
-      "home": {
-        "id": 87107,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87088,
-        "name": "Bramstedter TS",
-        "clubId": "030n5ma"
-      },
-      "result": {
-        "home": 36,
-        "away": 21
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15496,
-        "name": "mE-KL-West"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87107",
       "ownTeam": {
         "label": "MJE 1",
@@ -2390,37 +1534,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/518598.json"
+      }
     },
     {
       "id": 450753,
       "date": "2026-09-13",
-      "time": "15:30",
-      "home": {
-        "id": 87187,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87190,
-        "name": "TSV BARGTEHEIDE",
-        "clubId": "0b7tq6z"
-      },
-      "result": {
-        "home": 32,
-        "away": 38
-      },
-      "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
-      "phase": {
-        "id": 14076,
-        "name": "Vorrunde B"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87187",
       "ownTeam": {
         "label": "MJC 1",
@@ -2462,37 +1580,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450753.json"
+      }
     },
     {
       "id": 417854,
       "date": "2026-09-13",
-      "time": "17:00",
-      "home": {
-        "id": 87274,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87228,
-        "name": "HSG Lübecker Bucht",
-        "clubId": "0xeeh9s"
-      },
-      "result": {
-        "home": 28,
-        "away": 17
-      },
-      "competition": "Regionsoberliga MÄNNLICH",
-      "phase": {
-        "id": 14694,
-        "name": "mJB-ROL-2"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87274",
       "ownTeam": {
         "label": "MJB",
@@ -2534,37 +1626,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/417854.json"
+      }
     },
     {
       "id": 448670,
       "date": "2026-09-17",
-      "time": "20:00",
-      "home": {
-        "id": 86801,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81546,
-        "name": "SV Henstedt-Ulzburg II",
-        "clubId": "1j3w2i1"
-      },
-      "result": {
-        "home": 33,
-        "away": 19
-      },
-      "competition": "Oberliga Schleswig-Holstein Frauen",
-      "phase": {
-        "id": 14062,
-        "name": "Meisterrunde"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "86801",
       "ownTeam": {
         "label": "FRAUEN 1",
@@ -2606,37 +1672,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/448670.json"
+      }
     },
     {
       "id": 598481,
       "date": "2026-09-19",
-      "time": "13:00",
-      "home": {
-        "id": 87271,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81966,
-        "name": "WJA",
-        "clubId": "0crfeig"
-      },
-      "result": {
-        "home": 36,
-        "away": 14
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13872,
-        "name": "wJA-ROL-3"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87271",
       "ownTeam": {
         "label": "WJA 1",
@@ -2678,37 +1718,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/598481.json"
+      }
     },
     {
       "id": 450666,
       "date": "2026-09-19",
-      "time": "15:00",
-      "home": {
-        "id": 87175,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87169,
-        "name": "TSV Nord Harrislee",
-        "clubId": "0btnixw"
-      },
-      "result": {
-        "home": 15,
-        "away": 32
-      },
-      "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
-      "phase": {
-        "id": 14073,
-        "name": "Vorrunde A"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87175",
       "ownTeam": {
         "label": "WJB 1",
@@ -2750,37 +1764,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450666.json"
+      }
     },
     {
       "id": 411559,
       "date": "2026-09-19",
-      "time": "17:30",
-      "home": {
-        "id": 94451,
-        "name": "HSG MÖNKEBERG-SCHÖNKIRCHEN II",
-        "clubId": "1csssp9"
-      },
-      "away": {
-        "id": 87265,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 10,
-        "away": 42
-      },
-      "competition": "Regionsoberliga WEIBLICH",
-      "phase": {
-        "id": 14637,
-        "name": "WJC-ROL-2"
-      },
-      "venue": {
-        "name": "HALLE MöNKEBERG",
-        "address": "DORFSTRAßE 6, 24248 MöNKEBERG"
-      },
       "ownTeamId": "87265",
       "ownTeam": {
         "label": "WJC 1",
@@ -2822,37 +1810,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/411559.json"
+      }
     },
     {
       "id": 518603,
       "date": "2026-09-20",
-      "time": "10:30",
-      "home": {
-        "id": 87096,
-        "name": "SG BORDESHOLM/BRÜGGE",
-        "clubId": "0mjcjfn"
-      },
-      "away": {
-        "id": 87107,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 15,
-        "away": 27
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15496,
-        "name": "mE-KL-West"
-      },
-      "venue": {
-        "name": "HANS BRüGGEMANN REALSCHULE",
-        "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
-      },
       "ownTeamId": "87107",
       "ownTeam": {
         "label": "MJE 1",
@@ -2894,37 +1856,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/518603.json"
+      }
     },
     {
       "id": 509981,
       "date": "2026-09-20",
-      "time": "11:00",
-      "home": {
-        "id": 87109,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82497,
-        "name": "HSG KALKBERG 06",
-        "clubId": "03erpv1"
-      },
-      "result": {
-        "home": 16,
-        "away": 6
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15509,
-        "name": "wE-KL-West"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87109",
       "ownTeam": {
         "label": "WJE 1",
@@ -2966,37 +1902,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509981.json"
+      }
     },
     {
       "id": 419786,
       "date": "2026-09-20",
-      "time": "12:05",
-      "home": {
-        "id": 82023,
-        "name": "MTV Dänischenhagen II",
-        "clubId": "1e2ucwp"
-      },
-      "away": {
-        "id": 87275,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 11,
-        "away": 23
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14688,
-        "name": "wJB-RL-2"
-      },
-      "venue": {
-        "name": "HANS-BERND-HALLE",
-        "address": "ERLENWEG 15, 24229 DäNISCHENHAGEN"
-      },
       "ownTeamId": "87275",
       "ownTeam": {
         "label": "WJB 2",
@@ -3038,37 +1948,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/419786.json"
+      }
     },
     {
       "id": 532854,
       "date": "2026-09-20",
-      "time": "12:30",
-      "home": {
-        "id": 87104,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82519,
-        "name": "HSG OHLAU a.K.",
-        "clubId": "0vigdzt"
-      },
-      "result": {
-        "home": 9,
-        "away": 22
-      },
-      "competition": "Kreisklasse mD Neumünster",
-      "phase": {
-        "id": 15702,
-        "name": "mD-KK-Hin"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87104",
       "ownTeam": {
         "label": "MJD 2",
@@ -3110,37 +1994,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532854.json"
+      }
     },
     {
       "id": 677900,
       "date": "2026-09-20",
-      "time": "15:15",
-      "home": {
-        "id": 87276,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 94455,
-        "name": "SG BORDESHOLM/BRÜGGE II",
-        "clubId": "0mjcjfn"
-      },
-      "result": {
-        "home": 32,
-        "away": 28
-      },
-      "competition": "Regionsliga MÄNNLICH",
-      "phase": {
-        "id": 14617,
-        "name": "MJC-RL-2"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87276",
       "ownTeam": {
         "label": "MJC 2",
@@ -3182,37 +2040,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/677900.json"
+      }
     },
     {
       "id": 553512,
       "date": "2026-09-20",
-      "time": "15:30",
-      "home": {
-        "id": 82151,
-        "name": "TSV WACKEN",
-        "clubId": "0ebl2s0"
-      },
-      "away": {
-        "id": 87277,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 27,
-        "away": 15
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14626,
-        "name": "WJC-RL-4"
-      },
-      "venue": {
-        "name": "SPORTHALLE",
-        "address": "BOKELREHMER STRAßE 51, 25596 WACKEN"
-      },
       "ownTeamId": "87277",
       "ownTeam": {
         "label": "WJC 2",
@@ -3254,37 +2086,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/553512.json"
+      }
     },
     {
       "id": 508083,
       "date": "2026-09-20",
-      "time": "16:00",
-      "home": {
-        "id": 81968,
-        "name": "HSG OHLAU",
-        "clubId": "0vigdzt"
-      },
-      "away": {
-        "id": 87272,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 24,
-        "away": 26
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13873,
-        "name": "wJA-ROL-4"
-      },
-      "venue": {
-        "name": "LAKWEGHALLE",
-        "address": "LAKWEG 20, 24568 KALTENKIRCHEN"
-      },
       "ownTeamId": "87272",
       "ownTeam": {
         "label": "WJA 2",
@@ -3326,37 +2132,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/508083.json"
+      }
     },
     {
       "id": 506416,
       "date": "2026-09-20",
-      "time": "16:30",
-      "home": {
-        "id": 94481,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81930,
-        "name": "HSG GETTORF/OSDORF II",
-        "clubId": "1wy6z5h"
-      },
-      "result": {
-        "home": 31,
-        "away": 25
-      },
-      "competition": "Kreisliga Frauen",
-      "phase": {
-        "id": 12978,
-        "name": "Kreisliga Frauen - Staffel C"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "94481",
       "ownTeam": {
         "label": "FRAUEN 3",
@@ -3398,37 +2178,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/506416.json"
+      }
     },
     {
       "id": 417860,
       "date": "2026-09-20",
-      "time": "17:30",
-      "home": {
-        "id": 82010,
-        "name": "SG GLINDE-REINBEK",
-        "clubId": "1muw0yi"
-      },
-      "away": {
-        "id": 87274,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 32,
-        "away": 31
-      },
-      "competition": "Regionsoberliga MÄNNLICH",
-      "phase": {
-        "id": 14694,
-        "name": "mJB-ROL-2"
-      },
-      "venue": {
-        "name": "HEINRICH-WILLERS-HALLE",
-        "address": "ERNST-ANTON-STRAßE 27, 21521 AUMüHLE"
-      },
       "ownTeamId": "87274",
       "ownTeam": {
         "label": "MJB",
@@ -3470,37 +2224,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/417860.json"
+      }
     },
     {
       "id": 561260,
       "date": "2026-09-20",
-      "time": "18:00",
-      "home": {
-        "id": 94484,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81723,
-        "name": "SV HENSTEDT-ULZBURG II",
-        "clubId": "1j3w2i1"
-      },
-      "result": {
-        "home": 33,
-        "away": 28
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12973,
-        "name": "Kreisliga Männer - Staffel E"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "94484",
       "ownTeam": {
         "label": "HERREN 3",
@@ -3542,37 +2270,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/561260.json"
+      }
     },
     {
       "id": 450665,
       "date": "2026-09-24",
-      "time": "18:00",
-      "home": {
-        "id": 87176,
-        "name": "Bramstedter TS",
-        "clubId": "030n5ma"
-      },
-      "away": {
-        "id": 87175,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 28,
-        "away": 22
-      },
-      "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
-      "phase": {
-        "id": 14073,
-        "name": "Vorrunde A"
-      },
-      "venue": {
-        "name": "HALLE SCHäFERBERG ALT",
-        "address": "SCHäFERBERG, 24576 BAD BRAMSTEDT"
-      },
       "ownTeamId": "87175",
       "ownTeam": {
         "label": "WJB 1",
@@ -3614,37 +2316,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450665.json"
+      }
     },
     {
       "id": 419764,
       "date": "2026-09-26",
-      "time": "14:30",
-      "home": {
-        "id": 87275,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82027,
-        "name": "HSG WABO 2011",
-        "clubId": "12j6jtz"
-      },
-      "result": {
-        "home": 26,
-        "away": 15
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14688,
-        "name": "wJB-RL-2"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87275",
       "ownTeam": {
         "label": "WJB 2",
@@ -3686,37 +2362,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/419764.json"
+      }
     },
     {
       "id": 450670,
       "date": "2026-09-26",
-      "time": "15:00",
-      "home": {
-        "id": 87170,
-        "name": "HSG SZOWW",
-        "clubId": "0x7sv8m"
-      },
-      "away": {
-        "id": 87175,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 25,
-        "away": 15
-      },
-      "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
-      "phase": {
-        "id": 14073,
-        "name": "Vorrunde A"
-      },
-      "venue": {
-        "name": "HEINRICH-CARSTENSEN-HALLE",
-        "address": "BI DE SCHOOL 1, 25885 OHRSTEDT"
-      },
       "ownTeamId": "87175",
       "ownTeam": {
         "label": "WJB 1",
@@ -3758,37 +2408,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450670.json"
+      }
     },
     {
       "id": 450759,
       "date": "2026-09-26",
-      "time": "15:00",
-      "home": {
-        "id": 87187,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87192,
-        "name": "SG GLINDE-REINBEK",
-        "clubId": "1muw0yi"
-      },
-      "result": {
-        "home": 24,
-        "away": 29
-      },
-      "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
-      "phase": {
-        "id": 14076,
-        "name": "Vorrunde B"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87187",
       "ownTeam": {
         "label": "MJC 1",
@@ -3830,37 +2454,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/450759.json"
+      }
     },
     {
       "id": 417867,
       "date": "2026-09-26",
-      "time": "16:00",
-      "home": {
-        "id": 87274,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87229,
-        "name": "ATSV STOCKELSDORF",
-        "clubId": "0xo2eha"
-      },
-      "result": {
-        "home": 28,
-        "away": 29
-      },
-      "competition": "Regionsoberliga MÄNNLICH",
-      "phase": {
-        "id": 14694,
-        "name": "mJB-ROL-2"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87274",
       "ownTeam": {
         "label": "MJB",
@@ -3902,37 +2500,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/417867.json"
+      }
     },
     {
       "id": 514373,
       "date": "2026-09-26",
-      "time": "16:30",
-      "home": {
-        "id": 94480,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81889,
-        "name": "SV Henstedt-Ulzburg III",
-        "clubId": "1j3w2i1"
-      },
-      "result": {
-        "home": 19,
-        "away": 27
-      },
-      "competition": "Kreisoberliga Frauen",
-      "phase": {
-        "id": 12967,
-        "name": "Kreisoberliga Frauen West"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "94480",
       "ownTeam": {
         "label": "FRAUEN 2",
@@ -3974,37 +2546,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/514373.json"
+      }
     },
     {
       "id": 509812,
       "date": "2026-09-27",
-      "time": "10:30",
-      "home": {
-        "id": 87110,
-        "name": "SG HANDBALL NEUMÜNSTER II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82500,
-        "name": "SV Weede",
-        "clubId": "1kccyht"
-      },
-      "result": {
-        "home": 7,
-        "away": 19
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15510,
-        "name": "wE-KL-Ost"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87110",
       "ownTeam": {
         "label": "WJE 2",
@@ -4046,37 +2592,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509812.json"
+      }
     },
     {
       "id": 508088,
       "date": "2026-09-27",
-      "time": "12:00",
-      "home": {
-        "id": 87272,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81973,
-        "name": "DHG Sandesneben",
-        "clubId": "0q0phxv"
-      },
-      "result": {
-        "home": 15,
-        "away": 36
-      },
-      "competition": "wJA-Regionsoberliga",
-      "phase": {
-        "id": 13873,
-        "name": "wJA-ROL-4"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87272",
       "ownTeam": {
         "label": "WJA 2",
@@ -4118,37 +2638,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/508088.json"
+      }
     },
     {
       "id": 518575,
       "date": "2026-09-27",
-      "time": "12:00",
-      "home": {
-        "id": 87108,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 87126,
-        "name": "HSG WaBo 2011",
-        "clubId": "12j6jtz"
-      },
-      "result": {
-        "home": 12,
-        "away": 20
-      },
-      "competition": "Kreisoberliga mE Neumünster",
-      "phase": {
-        "id": 15499,
-        "name": "mE-KL-Ost"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87108",
       "ownTeam": {
         "label": "MJE 2",
@@ -4190,37 +2684,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/518575.json"
+      }
     },
     {
       "id": 553518,
       "date": "2026-09-27",
-      "time": "13:30",
-      "home": {
-        "id": 87277,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82154,
-        "name": "TSV Ellerau",
-        "clubId": "1u01tx2"
-      },
-      "result": {
-        "home": 13,
-        "away": 34
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14626,
-        "name": "WJC-RL-4"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "87277",
       "ownTeam": {
         "label": "WJC 2",
@@ -4262,37 +2730,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/553518.json"
+      }
     },
     {
       "id": 411564,
       "date": "2026-09-27",
-      "time": "16:00",
-      "home": {
-        "id": 82075,
-        "name": "HSG GETTORF/OSDORF",
-        "clubId": "1wy6z5h"
-      },
-      "away": {
-        "id": 87265,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 13,
-        "away": 40
-      },
-      "competition": "Regionsoberliga WEIBLICH",
-      "phase": {
-        "id": 14637,
-        "name": "WJC-ROL-2"
-      },
-      "venue": {
-        "name": "PARKSCHULE GETTORF",
-        "address": "KIRCHHOFSALLEE 28-30, 24214 GETTORF"
-      },
       "ownTeamId": "87265",
       "ownTeam": {
         "label": "WJC 1",
@@ -4334,37 +2776,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/411564.json"
+      }
     },
     {
       "id": 448696,
       "date": "2026-09-27",
-      "time": "17:00",
-      "home": {
-        "id": 86801,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 81548,
-        "name": "HSG Holsteinische Schweiz",
-        "clubId": "1qiybue"
-      },
-      "result": {
-        "home": 24,
-        "away": 25
-      },
-      "competition": "Oberliga Schleswig-Holstein Frauen",
-      "phase": {
-        "id": 14062,
-        "name": "Meisterrunde"
-      },
-      "venue": {
-        "name": "KSV-HALLE NMS",
-        "address": "HANSARING 130, 24534 NEUMüNSTER"
-      },
       "ownTeamId": "86801",
       "ownTeam": {
         "label": "FRAUEN 1",
@@ -4406,37 +2822,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/448696.json"
+      }
     },
     {
       "id": 505408,
       "date": "2026-09-27",
-      "time": "17:00",
-      "home": {
-        "id": 81772,
-        "name": "SC FORTUNA WELLSEE",
-        "clubId": "00tcvb1"
-      },
-      "away": {
-        "id": 94483,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 25,
-        "away": 25
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12972,
-        "name": "Kreisliga Männer - Staffel D"
-      },
-      "venue": {
-        "name": "SPORTHALLE WELLSEE",
-        "address": "LISELOTTE-HERRMANN-STR. 15, 24145 KIEL"
-      },
       "ownTeamId": "94483",
       "ownTeam": {
         "label": "HERREN 2",
@@ -4478,37 +2868,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/505408.json"
+      }
     },
     {
       "id": 509816,
       "date": "2026-10-03",
-      "time": "10:00",
-      "home": {
-        "id": 87090,
-        "name": "Bramstedter TS II",
-        "clubId": "030n5ma"
-      },
-      "away": {
-        "id": 87110,
-        "name": "SG HANDBALL NEUMÜNSTER II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 10,
-        "away": 5
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15510,
-        "name": "wE-KL-Ost"
-      },
-      "venue": {
-        "name": "HALLE SCHäFERBERG ALT",
-        "address": "SCHäFERBERG, 24576 BAD BRAMSTEDT"
-      },
       "ownTeamId": "87110",
       "ownTeam": {
         "label": "WJE 2",
@@ -4550,37 +2914,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509816.json"
+      }
     },
     {
       "id": 504568,
       "date": "2026-10-03",
-      "time": "18:00",
-      "home": {
-        "id": 81682,
-        "name": "SG Kollmar/Neuendorf",
-        "clubId": "0txboff"
-      },
-      "away": {
-        "id": 86805,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 39,
-        "away": 34
-      },
-      "competition": "Kreisoberliga Männer",
-      "phase": {
-        "id": 12963,
-        "name": "Kreisoberliga Männer West"
-      },
-      "venue": {
-        "name": "SPORTHALLE KOLLMAR",
-        "address": "SCHULSTRAßE 97, 25377 KOLLMAR"
-      },
       "ownTeamId": "86805",
       "ownTeam": {
         "label": "HERREN 1",
@@ -4622,37 +2960,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/504568.json"
+      }
     },
     {
       "id": 561265,
       "date": "2026-10-03",
-      "time": "18:00",
-      "home": {
-        "id": 81691,
-        "name": "DIE HAIE I HSG Horst/Kiebitzreihe III",
-        "clubId": "1w9jsx8"
-      },
-      "away": {
-        "id": 94484,
-        "name": "SG Handball Neumünster III",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 35,
-        "away": 19
-      },
-      "competition": "Kreisliga Männer",
-      "phase": {
-        "id": 12973,
-        "name": "Kreisliga Männer - Staffel E"
-      },
-      "venue": {
-        "name": "JACOB-STRUVE-SCHULE",
-        "address": "HEISTERENDER WEG 19, 25358 HORST"
-      },
       "ownTeamId": "94484",
       "ownTeam": {
         "label": "HERREN 3",
@@ -4694,37 +3006,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/561265.json"
+      }
     },
     {
       "id": 448689,
       "date": "2026-10-03",
-      "time": "19:00",
-      "home": {
-        "id": 81542,
-        "name": "HSG HOLSTEIN KIEL/KRONSHAGEN",
-        "clubId": "1hf9d75"
-      },
-      "away": {
-        "id": 86801,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 32,
-        "away": 30
-      },
-      "competition": "Oberliga Schleswig-Holstein Frauen",
-      "phase": {
-        "id": 14062,
-        "name": "Meisterrunde"
-      },
-      "venue": {
-        "name": "SPORTHALLE KRONSHAGEN (MIT TRIBüNE)",
-        "address": "SUCHSDORFER WEG 66, 24119 KRONSHAGEN"
-      },
       "ownTeamId": "86801",
       "ownTeam": {
         "label": "FRAUEN 1",
@@ -4766,37 +3052,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/448689.json"
+      }
     },
     {
       "id": 509986,
       "date": "2026-10-04",
-      "time": "10:00",
-      "home": {
-        "id": 82498,
-        "name": "SV Henstedt-Ulzburg II",
-        "clubId": "1j3w2i1"
-      },
-      "away": {
-        "id": 87109,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 7,
-        "away": 15
-      },
-      "competition": "Kreisoberliga wE Neumünster",
-      "phase": {
-        "id": 15509,
-        "name": "wE-KL-West"
-      },
-      "venue": {
-        "name": "ALSTERGYMNASIUM 1",
-        "address": "MAUREPASS STRAßE 67, 24558 HENSTEDT-ULZBURG"
-      },
       "ownTeamId": "87109",
       "ownTeam": {
         "label": "WJE 1",
@@ -4838,37 +3098,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/509986.json"
+      }
     },
     {
       "id": 532859,
       "date": "2026-10-04",
-      "time": "12:00",
-      "home": {
-        "id": 87094,
-        "name": "SG BORDESHOLM/BRÜGGE II",
-        "clubId": "0mjcjfn"
-      },
-      "away": {
-        "id": 87104,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 43,
-        "away": 15
-      },
-      "competition": "Kreisklasse mD Neumünster",
-      "phase": {
-        "id": 15702,
-        "name": "mD-KK-Hin"
-      },
-      "venue": {
-        "name": "HANS BRüGGEMANN REALSCHULE",
-        "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
-      },
       "ownTeamId": "87104",
       "ownTeam": {
         "label": "MJD 2",
@@ -4910,37 +3144,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532859.json"
+      }
     },
     {
       "id": 553523,
       "date": "2026-10-04",
-      "time": "12:00",
-      "home": {
-        "id": 82155,
-        "name": "SV Henstedt-Ulzburg IV",
-        "clubId": "1j3w2i1"
-      },
-      "away": {
-        "id": 87277,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 21,
-        "away": 18
-      },
-      "competition": "Regionsliga WEIBLICH",
-      "phase": {
-        "id": 14626,
-        "name": "WJC-RL-4"
-      },
-      "venue": {
-        "name": "ALSTERGYMNASIUM 2",
-        "address": "MAUREPASS STRAßE 67, 24558 HENSTEDT-ULZBURG"
-      },
       "ownTeamId": "87277",
       "ownTeam": {
         "label": "WJC 2",
@@ -4982,37 +3190,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/553523.json"
+      }
     },
     {
       "id": 532826,
       "date": "2026-10-04",
-      "time": "13:15",
-      "home": {
-        "id": 87103,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82511,
-        "name": "HSG KALKBERG 06",
-        "clubId": "03erpv1"
-      },
-      "result": {
-        "home": 34,
-        "away": 24
-      },
-      "competition": "Kreisliga mD Neumünster",
-      "phase": {
-        "id": 15492,
-        "name": "mD-KL-Hin"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87103",
       "ownTeam": {
         "label": "MJD 1",
@@ -5054,37 +3236,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/532826.json"
+      }
     },
     {
       "id": 411572,
       "date": "2026-10-04",
-      "time": "13:30",
-      "home": {
-        "id": 82079,
-        "name": "SG BORDESHOLM/BRÜGGE",
-        "clubId": "0mjcjfn"
-      },
-      "away": {
-        "id": 87265,
-        "name": "SG Handball Neumünster",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 22,
-        "away": 39
-      },
-      "competition": "Regionsoberliga WEIBLICH",
-      "phase": {
-        "id": 14637,
-        "name": "WJC-ROL-2"
-      },
-      "venue": {
-        "name": "HANS BRüGGEMANN REALSCHULE",
-        "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
-      },
       "ownTeamId": "87265",
       "ownTeam": {
         "label": "WJC 1",
@@ -5126,37 +3282,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/411572.json"
+      }
     },
     {
       "id": 417873,
       "date": "2026-10-04",
-      "time": "13:30",
-      "home": {
-        "id": 82011,
-        "name": "VFL GEESTHACHT",
-        "clubId": "06kfb6c"
-      },
-      "away": {
-        "id": 87274,
-        "name": "SG HANDBALL NEUMÜNSTER",
-        "clubId": "1yrb3n9"
-      },
-      "result": {
-        "home": 37,
-        "away": 24
-      },
-      "competition": "Regionsoberliga MÄNNLICH",
-      "phase": {
-        "id": 14694,
-        "name": "mJB-ROL-2"
-      },
-      "venue": {
-        "name": "SPORTHALLE OTTO-HAHN GYMNASIUM",
-        "address": "NEUER KRUG 5, 21502 GEESTHACHT"
-      },
       "ownTeamId": "87274",
       "ownTeam": {
         "label": "MJB",
@@ -5198,37 +3328,11 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/417873.json"
+      }
     },
     {
       "id": 677910,
       "date": "2026-10-04",
-      "time": "14:30",
-      "home": {
-        "id": 87276,
-        "name": "SG Handball Neumünster II",
-        "clubId": "1yrb3n9"
-      },
-      "away": {
-        "id": 82199,
-        "name": "HSG 91 NORTORF",
-        "clubId": "08ocj2r"
-      },
-      "result": {
-        "home": 23,
-        "away": 12
-      },
-      "competition": "Regionsliga MÄNNLICH",
-      "phase": {
-        "id": 14617,
-        "name": "MJC-RL-2"
-      },
-      "venue": {
-        "name": "PESTALOZZI-SCHULE",
-        "address": "AM KAMP 5, 24536 NEUMüNSTER"
-      },
       "ownTeamId": "87276",
       "ownTeam": {
         "label": "MJC 2",
@@ -5270,9 +3374,7 @@
         "analyticsEligible": true,
         "lineupEligible": true,
         "warnings": []
-      },
-      "analyticsAvailable": true,
-      "analyticsPath": "match-analytics/677910.json"
+      }
     }
   ]
 }

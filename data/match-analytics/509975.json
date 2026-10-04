@@ -1,0 +1,1021 @@
+{
+  "generatedAt": "2026-10-04T19:37:01.972Z",
+  "match": {
+    "id": 509975,
+    "date": "2026-09-13",
+    "time": "14:00",
+    "competition": "Kreisoberliga wE Neumünster",
+    "phase": {
+      "id": 15509,
+      "name": "wE-KL-West"
+    },
+    "venue": {
+      "name": "GERHARD LAWERENZ HALLE",
+      "address": "TIMM-SCHOTT WEG, 24628 HARTENHOLM"
+    },
+    "home": {
+      "id": 82496,
+      "name": "TUS HARTENHOLM",
+      "clubId": "11bbz3c"
+    },
+    "away": {
+      "id": 87109,
+      "name": "SG HANDBALL NEUMÜNSTER",
+      "clubId": "1yrb3n9"
+    },
+    "result": {
+      "home": 9,
+      "away": 15
+    },
+    "ownTeamId": "87109",
+    "ownTeam": {
+      "label": "WJE 1",
+      "name": "wJE 1",
+      "ageGroup": "youth",
+      "gender": "female",
+      "matchMinutes": 40
+    },
+    "isHome": false,
+    "opponent": {
+      "id": 82496,
+      "name": "TUS HARTENHOLM",
+      "clubId": "11bbz3c"
+    }
+  },
+  "quality": {
+    "status": "verified",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 9,
+      "away": 15
+    },
+    "eventFinalScore": {
+      "home": 9,
+      "away": 15
+    },
+    "lineupGoalTotals": {
+      "home": 9,
+      "away": 15
+    },
+    "eventScoreMatchesOfficial": true,
+    "lineupScoreMatchesOfficial": true,
+    "scorerLineupCoverage": {
+      "goalEvents": 24,
+      "goalEventsWithPlayer": 24,
+      "matchedGoalEvents": 24,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "event",
+    "expectedDurationSeconds": 2400,
+    "eventDurationSeconds": 2400,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": true,
+    "lineupEligible": true,
+    "warnings": []
+  },
+  "analytics": {
+    "duration": {
+      "expectedSeconds": 2400,
+      "eventSeconds": 2400,
+      "analysisSeconds": 2400,
+      "analysisClock": "40:00"
+    },
+    "score": {
+      "final": {
+        "own": 15,
+        "opponent": 9
+      },
+      "halftime": {
+        "own": 8,
+        "opponent": 4
+      },
+      "halftimeSource": "event"
+    },
+    "matchFlow": [
+      {
+        "eventId": 14461852,
+        "seconds": 84,
+        "clock": "01:24",
+        "side": "opponent",
+        "playerId": "1gdnqp8",
+        "playerName": "Maje Tillmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 0,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 14461851,
+        "seconds": 186,
+        "clock": "03:06",
+        "side": "own",
+        "playerId": "1phawzg",
+        "playerName": "Lia Sophie John",
+        "isSevenMeter": false,
+        "score": {
+          "own": 1,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 14461850,
+        "seconds": 464,
+        "clock": "07:44",
+        "side": "own",
+        "playerId": "1phawzg",
+        "playerName": "Lia Sophie John",
+        "isSevenMeter": false,
+        "score": {
+          "own": 2,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 14461849,
+        "seconds": 474,
+        "clock": "07:54",
+        "side": "own",
+        "playerId": "1phawzg",
+        "playerName": "Lia Sophie John",
+        "isSevenMeter": false,
+        "score": {
+          "own": 3,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 14461847,
+        "seconds": 655,
+        "clock": "10:55",
+        "side": "own",
+        "playerId": "0fs9mty",
+        "playerName": "Ida Knaack",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 1
+        }
+      },
+      {
+        "eventId": 14461846,
+        "seconds": 701,
+        "clock": "11:41",
+        "side": "opponent",
+        "playerId": "1gdnqp8",
+        "playerName": "Maje Tillmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 2
+        }
+      },
+      {
+        "eventId": 14461845,
+        "seconds": 771,
+        "clock": "12:51",
+        "side": "opponent",
+        "playerId": "08tmqag",
+        "playerName": "Mattea Maercker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 4,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 14461844,
+        "seconds": 806,
+        "clock": "13:26",
+        "side": "own",
+        "playerId": "0fs9mty",
+        "playerName": "Ida Knaack",
+        "isSevenMeter": false,
+        "score": {
+          "own": 5,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 14461843,
+        "seconds": 899,
+        "clock": "14:59",
+        "side": "own",
+        "playerId": "0gwys9c",
+        "playerName": "Nea Marie Vetterick",
+        "isSevenMeter": false,
+        "score": {
+          "own": 6,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 14461841,
+        "seconds": 957,
+        "clock": "15:57",
+        "side": "own",
+        "playerId": "0gwys9c",
+        "playerName": "Nea Marie Vetterick",
+        "isSevenMeter": false,
+        "score": {
+          "own": 7,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 14461840,
+        "seconds": 1026,
+        "clock": "17:06",
+        "side": "own",
+        "playerId": "0gwys9c",
+        "playerName": "Nea Marie Vetterick",
+        "isSevenMeter": false,
+        "score": {
+          "own": 8,
+          "opponent": 3
+        }
+      },
+      {
+        "eventId": 14461838,
+        "seconds": 1173,
+        "clock": "19:33",
+        "side": "opponent",
+        "playerId": "0oe3wi7",
+        "playerName": "Lilli Seeburg",
+        "isSevenMeter": false,
+        "score": {
+          "own": 8,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 14461834,
+        "seconds": 1257,
+        "clock": "20:57",
+        "side": "own",
+        "playerId": "08t1k2s",
+        "playerName": "Mia-Sophie Behnsen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 4
+        }
+      },
+      {
+        "eventId": 14461833,
+        "seconds": 1337,
+        "clock": "22:17",
+        "side": "opponent",
+        "playerId": "1b7vo9t",
+        "playerName": "Lea Estrella Rothe",
+        "isSevenMeter": false,
+        "score": {
+          "own": 9,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 14461832,
+        "seconds": 1357,
+        "clock": "22:37",
+        "side": "own",
+        "playerId": "1phawzg",
+        "playerName": "Lia Sophie John",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 5
+        }
+      },
+      {
+        "eventId": 14461831,
+        "seconds": 1714,
+        "clock": "28:34",
+        "side": "opponent",
+        "playerId": "1b7vo9t",
+        "playerName": "Lea Estrella Rothe",
+        "isSevenMeter": false,
+        "score": {
+          "own": 10,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 14461829,
+        "seconds": 1805,
+        "clock": "30:05",
+        "side": "own",
+        "playerId": "1aidwd7",
+        "playerName": "Maila Annike Schuh",
+        "isSevenMeter": false,
+        "score": {
+          "own": 11,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 14461828,
+        "seconds": 1912,
+        "clock": "31:52",
+        "side": "own",
+        "playerId": "1aidwd7",
+        "playerName": "Maila Annike Schuh",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 6
+        }
+      },
+      {
+        "eventId": 14461827,
+        "seconds": 1989,
+        "clock": "33:09",
+        "side": "opponent",
+        "playerId": "1b7vo9t",
+        "playerName": "Lea Estrella Rothe",
+        "isSevenMeter": false,
+        "score": {
+          "own": 12,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 14461825,
+        "seconds": 2039,
+        "clock": "33:59",
+        "side": "own",
+        "playerId": "08t1k2s",
+        "playerName": "Mia-Sophie Behnsen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 13,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 14461824,
+        "seconds": 2105,
+        "clock": "35:05",
+        "side": "own",
+        "playerId": "0gwys9c",
+        "playerName": "Nea Marie Vetterick",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 7
+        }
+      },
+      {
+        "eventId": 14461823,
+        "seconds": 2159,
+        "clock": "35:59",
+        "side": "opponent",
+        "playerId": "1gdnqp8",
+        "playerName": "Maje Tillmann",
+        "isSevenMeter": false,
+        "score": {
+          "own": 14,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 14461822,
+        "seconds": 2211,
+        "clock": "36:51",
+        "side": "own",
+        "playerId": "08t1k2s",
+        "playerName": "Mia-Sophie Behnsen",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 8
+        }
+      },
+      {
+        "eventId": 14461821,
+        "seconds": 2261,
+        "clock": "37:41",
+        "side": "opponent",
+        "playerId": "08tmqag",
+        "playerName": "Mattea Maercker",
+        "isSevenMeter": false,
+        "score": {
+          "own": 15,
+          "opponent": 9
+        }
+      }
+    ],
+    "fiveMinuteSplits": [
+      {
+        "startSeconds": 0,
+        "endSeconds": 300,
+        "label": "0-5",
+        "goals": {
+          "own": 1,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 1,
+          "opponent": 1
+        },
+        "goalDifference": 0
+      },
+      {
+        "startSeconds": 300,
+        "endSeconds": 600,
+        "label": "5-10",
+        "goals": {
+          "own": 2,
+          "opponent": 0
+        },
+        "scoreEnd": {
+          "own": 3,
+          "opponent": 1
+        },
+        "goalDifference": 2
+      },
+      {
+        "startSeconds": 600,
+        "endSeconds": 900,
+        "label": "10-15",
+        "goals": {
+          "own": 3,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 6,
+          "opponent": 3
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 900,
+        "endSeconds": 1200,
+        "label": "15-20",
+        "goals": {
+          "own": 2,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 8,
+          "opponent": 4
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1200,
+        "endSeconds": 1500,
+        "label": "20-25",
+        "goals": {
+          "own": 2,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 10,
+          "opponent": 5
+        },
+        "goalDifference": 1
+      },
+      {
+        "startSeconds": 1500,
+        "endSeconds": 1800,
+        "label": "25-30",
+        "goals": {
+          "own": 0,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 10,
+          "opponent": 6
+        },
+        "goalDifference": -1
+      },
+      {
+        "startSeconds": 1800,
+        "endSeconds": 2100,
+        "label": "30-35",
+        "goals": {
+          "own": 3,
+          "opponent": 1
+        },
+        "scoreEnd": {
+          "own": 13,
+          "opponent": 7
+        },
+        "goalDifference": 2
+      },
+      {
+        "startSeconds": 2100,
+        "endSeconds": 2400,
+        "label": "35-40",
+        "goals": {
+          "own": 2,
+          "opponent": 2
+        },
+        "scoreEnd": {
+          "own": 15,
+          "opponent": 9
+        },
+        "goalDifference": 0
+      }
+    ],
+    "sevenMeters": {
+      "own": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "opponent": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      }
+    },
+    "sanctions": {
+      "own": {
+        "warnings": 1,
+        "twoMinutes": 0,
+        "disqualifications": 0
+      },
+      "opponent": {
+        "warnings": 1,
+        "twoMinutes": 1,
+        "disqualifications": 0
+      }
+    },
+    "longestRuns": {
+      "own": {
+        "side": "away",
+        "goals": 4,
+        "startSeconds": 186,
+        "endSeconds": 655,
+        "startScore": {
+          "home": 1,
+          "away": 0
+        },
+        "endScore": {
+          "home": 1,
+          "away": 4
+        },
+        "start": "03:06",
+        "end": "10:55"
+      },
+      "opponent": {
+        "side": "home",
+        "goals": 2,
+        "startSeconds": 701,
+        "endSeconds": 771,
+        "startScore": {
+          "home": 1,
+          "away": 4
+        },
+        "endScore": {
+          "home": 3,
+          "away": 4
+        },
+        "start": "11:41",
+        "end": "12:51"
+      }
+    },
+    "scoringDroughts": {
+      "own": {
+        "seconds": 448,
+        "startSeconds": 1357,
+        "endSeconds": 1805,
+        "duration": "07:28",
+        "start": "22:37",
+        "end": "30:05"
+      },
+      "opponent": {
+        "seconds": 617,
+        "startSeconds": 84,
+        "endSeconds": 701,
+        "duration": "10:17",
+        "start": "01:24",
+        "end": "11:41"
+      }
+    },
+    "timeouts": [
+      {
+        "side": "opponent",
+        "seconds": 619,
+        "clock": "10:19",
+        "score": {
+          "own": 3,
+          "opponent": 1
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 4,
+          "opponent": 3
+        },
+        "goalsAfter": {
+          "own": 1,
+          "opponent": 2
+        }
+      },
+      {
+        "side": "own",
+        "seconds": 934,
+        "clock": "15:34",
+        "score": {
+          "own": 6,
+          "opponent": 3
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 8,
+          "opponent": 3
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 0
+        }
+      },
+      {
+        "side": "own",
+        "seconds": 1745,
+        "clock": "29:05",
+        "score": {
+          "own": 10,
+          "opponent": 6
+        },
+        "windowSeconds": 180,
+        "scoreAfterWindow": {
+          "own": 12,
+          "opponent": 6
+        },
+        "goalsAfter": {
+          "own": 2,
+          "opponent": 0
+        }
+      }
+    ],
+    "numericSituations": {
+      "suspensions": [
+        {
+          "eventId": 14461826,
+          "side": "opponent",
+          "playerId": "1gdnqp8",
+          "playerName": "Maje Tillmann",
+          "startSeconds": 2013,
+          "endSeconds": 2133,
+          "start": "33:33",
+          "end": "35:33"
+        }
+      ],
+      "even": {
+        "seconds": 2280,
+        "goals": {
+          "own": 13,
+          "opponent": 9
+        }
+      },
+      "powerPlay": {
+        "seconds": 120,
+        "goals": {
+          "own": 2,
+          "opponent": 0
+        }
+      },
+      "shortHanded": {
+        "seconds": 0,
+        "goals": {
+          "own": 0,
+          "opponent": 0
+        }
+      }
+    },
+    "players": {
+      "own": [
+        {
+          "playerId": "0gwys9c",
+          "name": "Nea Marie Vetterick",
+          "number": 4,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1phawzg",
+          "name": "Lia Sophie John",
+          "number": 18,
+          "inLineup": true,
+          "goals": 4,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "08t1k2s",
+          "name": "Mia-Sophie Behnsen",
+          "number": 8,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1aidwd7",
+          "name": "Maila Annike Schuh",
+          "number": 10,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0fs9mty",
+          "name": "Ida Knaack",
+          "number": 20,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "094ncoy",
+          "name": "Mia Sophie Schilling",
+          "number": 2,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1gea7v4",
+          "name": "Luisa Madeleine Haase",
+          "number": 6,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1vvtw54",
+          "name": "Lene Madita Wutzke",
+          "number": 12,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0u5zwfb",
+          "name": "Ida Marie Föh",
+          "number": 14,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ],
+      "opponent": [
+        {
+          "playerId": "1b7vo9t",
+          "name": "Lea Estrella Rothe",
+          "number": 13,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1gdnqp8",
+          "name": "Maje Tillmann",
+          "number": 24,
+          "inLineup": true,
+          "goals": 3,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 1,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "08tmqag",
+          "name": "Mattea Maercker",
+          "number": 2,
+          "inLineup": true,
+          "goals": 2,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0oe3wi7",
+          "name": "Lilli Seeburg",
+          "number": 12,
+          "inLineup": true,
+          "goals": 1,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1pn1bqr",
+          "name": "Romi Rathsack",
+          "number": 3,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "0r7qisa",
+          "name": "Freya Marlén Kröger",
+          "number": 4,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1rvx2m8",
+          "name": "Fiora Lisa Santella",
+          "number": 6,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "04lvvqh",
+          "name": "Jette Holz",
+          "number": 7,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "1380lno",
+          "name": "Lina Zieße",
+          "number": 9,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "01b3za4",
+          "name": "Amelie Sophie Gärtner",
+          "number": 10,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 0,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        },
+        {
+          "playerId": "051j0wv",
+          "name": "Nila Emilia Lengsfeld",
+          "number": 14,
+          "inLineup": true,
+          "goals": 0,
+          "sevenMeters": {
+            "goals": 0,
+            "misses": 0,
+            "attempts": 0,
+            "percentage": null
+          },
+          "warnings": 1,
+          "twoMinutes": 0,
+          "disqualifications": 0
+        }
+      ]
+    }
+  }
+}

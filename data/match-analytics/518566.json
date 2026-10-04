@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-10-04T19:37:01.936Z",
+  "match": {
+    "id": 518566,
+    "date": "2026-09-05",
+    "time": "13:30",
+    "competition": "Kreisoberliga mE Neumünster",
+    "phase": {
+      "id": 15499,
+      "name": "mE-KL-Ost"
+    },
+    "venue": {
+      "name": "HANS BRüGGEMANN REALSCHULE",
+      "address": "LANGENHEISCH 27 - 29, 24582 BORDESHOLM"
+    },
+    "home": {
+      "id": 87097,
+      "name": "SG Bordesholm/Brügge II",
+      "clubId": "0mjcjfn"
+    },
+    "away": {
+      "id": 87108,
+      "name": "SG Handball Neumünster II",
+      "clubId": "1yrb3n9"
+    },
+    "result": {
+      "home": 26,
+      "away": 10
+    },
+    "ownTeamId": "87108",
+    "ownTeam": {
+      "label": "MJE 2",
+      "name": "mJE 2",
+      "ageGroup": "youth",
+      "gender": "male",
+      "matchMinutes": 40
+    },
+    "isHome": false,
+    "opponent": {
+      "id": 87097,
+      "name": "SG Bordesholm/Brügge II",
+      "clubId": "0mjcjfn"
+    }
+  },
+  "quality": {
+    "status": "invalid",
+    "eventsAvailable": true,
+    "lineupsAvailable": true,
+    "officialScore": {
+      "home": 26,
+      "away": 10
+    },
+    "eventFinalScore": {
+      "home": 7,
+      "away": 5
+    },
+    "lineupGoalTotals": {
+      "home": 7,
+      "away": 5
+    },
+    "eventScoreMatchesOfficial": false,
+    "lineupScoreMatchesOfficial": false,
+    "scorerLineupCoverage": {
+      "goalEvents": 12,
+      "goalEventsWithPlayer": 12,
+      "matchedGoalEvents": 12,
+      "percentage": 100
+    },
+    "halftimeAvailable": true,
+    "halftimeSource": "derived",
+    "expectedDurationSeconds": 2400,
+    "eventDurationSeconds": 2400,
+    "durationDeltaSeconds": 0,
+    "durationMatchesExpected": true,
+    "analyticsEligible": false,
+    "lineupEligible": true,
+    "warnings": [
+      {
+        "code": "EVENT_SCORE_MISMATCH",
+        "severity": "critical",
+        "message": "Event score 7:5 differs from official result 26:10."
+      },
+      {
+        "code": "LINEUP_SCORE_MISMATCH",
+        "severity": "warning",
+        "message": "Lineup goal totals 7:5 differ from official result 26:10."
+      }
+    ]
+  },
+  "analytics": null
+}

@@ -1,0 +1,7165 @@
+{
+  "generatedAt": "2026-10-04T19:37:02.016Z",
+  "players": [
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1c64ci9",
+      "name": "Kristin Bahde",
+      "number": 18,
+      "appearances": 4,
+      "goals": 29,
+      "goalsPerAppearance": 7.25,
+      "goalSharePercent": 24.8,
+      "sevenMeters": {
+        "goals": 5,
+        "misses": 3,
+        "attempts": 8,
+        "percentage": 62.5
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "04xdzd6",
+      "name": "Johanna Jochims",
+      "number": 44,
+      "appearances": 4,
+      "goals": 20,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 17.1,
+      "sevenMeters": {
+        "goals": 4,
+        "misses": 0,
+        "attempts": 4,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1mgbveb",
+      "name": "Lena Frauke Siebken",
+      "number": 8,
+      "appearances": 4,
+      "goals": 12,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 10.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 1
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0ulundt",
+      "name": "Caithlin Zeidler",
+      "number": 66,
+      "appearances": 4,
+      "goals": 9,
+      "goalsPerAppearance": 2.25,
+      "goalSharePercent": 7.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "17enfwp",
+      "name": "Aviella Nickels",
+      "number": 7,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 6.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0q2chk9",
+      "name": "Sina Retelstorf",
+      "number": 11,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 6.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0nxmg2n",
+      "name": "Emely Dierßen",
+      "number": 90,
+      "appearances": 3,
+      "goals": 7,
+      "goalsPerAppearance": 2.33,
+      "goalSharePercent": 6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1t8y838",
+      "name": "Dorothee Arthaus",
+      "number": 19,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 5.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 4,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0gsrsgk",
+      "name": "Celina Kortum",
+      "number": 4,
+      "appearances": 3,
+      "goals": 5,
+      "goalsPerAppearance": 1.67,
+      "goalSharePercent": 4.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "13czq1v",
+      "name": "Ronja Goniwiecha",
+      "number": 17,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 4.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1so4d6h",
+      "name": "Lea Aengenheyster",
+      "number": 5,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 2.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0yeky8i",
+      "name": "Miya Lynn Rose",
+      "number": 9,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0m4yjq7",
+      "name": "Emely Riemenschneider",
+      "number": 14,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1kcz9rl",
+      "name": "Shari Malin Albers",
+      "number": 10,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 0.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1uli77x",
+      "name": "Inga Hennings",
+      "number": 30,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0w14tpp",
+      "name": "Annkatrin Lütt",
+      "number": 24,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "06pa1vu",
+      "name": "Christina Will",
+      "number": 16,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1bwno16",
+      "name": "Julia Jolanta Rozek",
+      "number": 6,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "03pohni",
+      "name": "Tessa Clasen",
+      "number": 5,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "1dke1nh",
+      "name": "Lena Vossbeck",
+      "number": 16,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86801",
+      "teamName": "1. Frauen",
+      "playerId": "0oy4h71",
+      "name": "Mareike Hein",
+      "number": 2,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1xqc8kc",
+      "name": "Marvin Maier",
+      "number": 51,
+      "appearances": 2,
+      "goals": 22,
+      "goalsPerAppearance": 11,
+      "goalSharePercent": 32.4,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 2,
+        "attempts": 4,
+        "percentage": 50
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0tooyml",
+      "name": "Dominique Dyon Mannke",
+      "number": 3,
+      "appearances": 2,
+      "goals": 14,
+      "goalsPerAppearance": 7,
+      "goalSharePercent": 20.6,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0s2pgfl",
+      "name": "Erwin Mirzaguliyev",
+      "number": 33,
+      "appearances": 2,
+      "goals": 7,
+      "goalsPerAppearance": 3.5,
+      "goalSharePercent": 10.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1ysvzvo",
+      "name": "Clemens Brimm",
+      "number": 64,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 8.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "04x44aa",
+      "name": "Mika Höppner",
+      "number": 77,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 8.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0j29e9h",
+      "name": "Tim Krause",
+      "number": 8,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1jrnqbk",
+      "name": "Jasper Glaubitz",
+      "number": 17,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 4.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "12lryvb",
+      "name": "Steven Appel",
+      "number": 11,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 2.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1u6hfvn",
+      "name": "Joris Alexander Penske",
+      "number": 7,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1azghcr",
+      "name": "Jorres Wieben",
+      "number": 22,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "002ztgg",
+      "name": "Tim Mauersberger",
+      "number": 21,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1eajsjy",
+      "name": "Nikola Tim Kraljevic",
+      "number": 13,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "1ewrb52",
+      "name": "Barne Holdorf",
+      "number": 5,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0luyc2n",
+      "name": "Dennis Reese",
+      "number": 56,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0py2kbh",
+      "name": "Thorben Pultar",
+      "number": 12,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "86805",
+      "teamName": "1. Herren",
+      "playerId": "0tf0590",
+      "name": "Yendrick Weißhaar",
+      "number": 16,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "1unz4hm",
+      "name": "Bosse Funda",
+      "number": 9,
+      "appearances": 3,
+      "goals": 28,
+      "goalsPerAppearance": 9.33,
+      "goalSharePercent": 29.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 2,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "1sjtbh0",
+      "name": "Bela Twelkemeyer",
+      "number": 3,
+      "appearances": 3,
+      "goals": 16,
+      "goalsPerAppearance": 5.33,
+      "goalSharePercent": 16.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "12tasze",
+      "name": "Henri Horst Hein",
+      "number": 19,
+      "appearances": 3,
+      "goals": 16,
+      "goalsPerAppearance": 5.33,
+      "goalSharePercent": 16.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "0popg38",
+      "name": "Jesse Borde",
+      "number": 11,
+      "appearances": 3,
+      "goals": 10,
+      "goalsPerAppearance": 3.33,
+      "goalSharePercent": 10.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "1k59ybk",
+      "name": "Birk Jonte Harder",
+      "number": 17,
+      "appearances": 2,
+      "goals": 8,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 8.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "1hd7oax",
+      "name": "Mattis Kröger",
+      "number": 22,
+      "appearances": 3,
+      "goals": 7,
+      "goalsPerAppearance": 2.33,
+      "goalSharePercent": 7.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "06ntphq",
+      "name": "Mats Obernberger",
+      "number": 14,
+      "appearances": 3,
+      "goals": 4,
+      "goalsPerAppearance": 1.33,
+      "goalSharePercent": 4.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "09b3llv",
+      "name": "Lian Karow",
+      "number": 4,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 3.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "0rwvd0q",
+      "name": "Piet Pfützenreuter",
+      "number": 6,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 2.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "167evvc",
+      "name": "Friedrich Riedel",
+      "number": 18,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87103",
+      "teamName": "mJD 1",
+      "playerId": "10iwmej",
+      "name": "Ben Leihberg",
+      "number": 33,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1u11it9",
+      "name": "Piet Florian Steingräber",
+      "number": 26,
+      "appearances": 4,
+      "goals": 9,
+      "goalsPerAppearance": 2.25,
+      "goalSharePercent": 14.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1q0drs8",
+      "name": "Paul Frieder Simon",
+      "number": 23,
+      "appearances": 3,
+      "goals": 9,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 14.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1bwncfo",
+      "name": "Emil Salm",
+      "number": 8,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 13.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "0hnfhvg",
+      "name": "Paul Frank Tollmien",
+      "number": 15,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 13.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1hwqb0j",
+      "name": "Maximilian Lutzmann",
+      "number": 6,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 9.8,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "15udh2p",
+      "name": "Moritz-Lias Bredfeldt",
+      "number": 21,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 9.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "09b3llv",
+      "name": "Lian Karow",
+      "number": 19,
+      "appearances": 1,
+      "goals": 4,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 6.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1ahtrit",
+      "name": "Emilian Louis Messer",
+      "number": 14,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 4.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "0uo2hnc",
+      "name": "Moritz Hongyang Dejewski",
+      "number": 16,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 4.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "025p3cy",
+      "name": "Arik Noah Dongowsky",
+      "number": 7,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "0vp6a8b",
+      "name": "Mads Lenz",
+      "number": 4,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "06xox3n",
+      "name": "Lasse-Bo Delfs",
+      "number": 12,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1v1q1c0",
+      "name": "Paul Luis Kettner",
+      "number": 20,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "04whfyo",
+      "name": "Jonas Klopfer",
+      "number": 5,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87104",
+      "teamName": "mJD 2",
+      "playerId": "1oq21er",
+      "name": "Hannes Schröder",
+      "number": 5,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "04gfvxj",
+      "name": "Louisa Weinert",
+      "number": 2,
+      "appearances": 2,
+      "goals": 18,
+      "goalsPerAppearance": 9,
+      "goalSharePercent": 28.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1j750tl",
+      "name": "Madita Sophie Fieback",
+      "number": 10,
+      "appearances": 2,
+      "goals": 14,
+      "goalsPerAppearance": 7,
+      "goalSharePercent": 22.2,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1tvusq0",
+      "name": "Mathea Jedita Kettler",
+      "number": 16,
+      "appearances": 2,
+      "goals": 9,
+      "goalsPerAppearance": 4.5,
+      "goalSharePercent": 14.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1i08w84",
+      "name": "Greta Sophie Wieduwilt",
+      "number": 14,
+      "appearances": 2,
+      "goals": 7,
+      "goalsPerAppearance": 3.5,
+      "goalSharePercent": 11.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "0v231oa",
+      "name": "Mia Henke",
+      "number": 12,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 7.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1f9mi7y",
+      "name": "Theresa Franziska Duske",
+      "number": 13,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 4.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "19ig51u",
+      "name": "Maja Michaeli",
+      "number": 9,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 3.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "043mucy",
+      "name": "Lena Brunswieck",
+      "number": 3,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1ro66ie",
+      "name": "Lonni Luise Schröder",
+      "number": 67,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1q8mcov",
+      "name": "Mila Sophie Salkowski",
+      "number": 7,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "0ukv4e5",
+      "name": "Lene Andresen",
+      "number": 8,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "10q969m",
+      "name": "Sophie Lang",
+      "number": 19,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1yjw79b",
+      "name": "Andrea Omolola Bollow",
+      "number": 4,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1ww7zl4",
+      "name": "Lina Nea Neidahl",
+      "number": 22,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "07cgu0k",
+      "name": "Mira Blume",
+      "number": 1,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1pfew6i",
+      "name": "Mila Johanna Kurz",
+      "number": 5,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87105",
+      "teamName": "wJD",
+      "playerId": "1cu5lq5",
+      "name": "Soey Naya Petersen",
+      "number": 17,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0lmc1n1",
+      "name": "Jaro Borde",
+      "number": 2,
+      "appearances": 3,
+      "goals": 28,
+      "goalsPerAppearance": 9.33,
+      "goalSharePercent": 30.8,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "03olhtz",
+      "name": "Henry Leihberg",
+      "number": 18,
+      "appearances": 3,
+      "goals": 18,
+      "goalsPerAppearance": 6,
+      "goalSharePercent": 19.8,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "032bhz7",
+      "name": "Bendix Kramer",
+      "number": 21,
+      "appearances": 3,
+      "goals": 17,
+      "goalsPerAppearance": 5.67,
+      "goalSharePercent": 18.7,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "04hzbjg",
+      "name": "Momme Johannes Haase",
+      "number": 20,
+      "appearances": 3,
+      "goals": 9,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 9.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0lhzaiu",
+      "name": "Noah Friso Schelzig",
+      "number": 24,
+      "appearances": 1,
+      "goals": 8,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 8.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0rwvd0q",
+      "name": "Piet Pfützenreuter",
+      "number": 6,
+      "appearances": 1,
+      "goals": 4,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 4.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "13fusx6",
+      "name": "Mika Becker",
+      "number": 28,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0mcjoqo",
+      "name": "Henri Lange",
+      "number": 3,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 2.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0psznnb",
+      "name": "Pelle Pfützenreuter",
+      "number": 19,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "1h9bu3u",
+      "name": "Theo Mitscherling",
+      "number": 13,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0nkhfij",
+      "name": "Claas Mikkel Rostock",
+      "number": 12,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "09r8cs4",
+      "name": "Oscar Pepe Jäger",
+      "number": 10,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "04zb91m",
+      "name": "Emirhan Kadir Saritürk",
+      "number": 17,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0l5vr2b",
+      "name": "Julian Mielke",
+      "number": 16,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87107",
+      "teamName": "mJE 1",
+      "playerId": "0kkjncp",
+      "name": "Leo Günter Beierke",
+      "number": 1,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0lhzaiu",
+      "name": "Noah Friso Schelzig",
+      "number": 24,
+      "appearances": 2,
+      "goals": 13,
+      "goalsPerAppearance": 6.5,
+      "goalSharePercent": 35.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0rwvd0q",
+      "name": "Piet Pfützenreuter",
+      "number": 6,
+      "appearances": 1,
+      "goals": 12,
+      "goalsPerAppearance": 12,
+      "goalSharePercent": 32.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0l5vr2b",
+      "name": "Julian Mielke",
+      "number": 16,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 13.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0u627w4",
+      "name": "Ben Louis Brockmann",
+      "number": 27,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "1o40ila",
+      "name": "Christophe Weidle",
+      "number": 4,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "1h9bu3u",
+      "name": "Theo Mitscherling",
+      "number": 13,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0s63ryj",
+      "name": "Rune Leif Jäger",
+      "number": 14,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 2.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "1ex1sw7",
+      "name": "Bennet Krüger",
+      "number": 9,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "1gzdbzt",
+      "name": "Erik Brunswieck",
+      "number": 7,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0kgn2pr",
+      "name": "Jeppe Brandt",
+      "number": 15,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "0kkjncp",
+      "name": "Leo Günter Beierke",
+      "number": 1,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87108",
+      "teamName": "mJE 2",
+      "playerId": "19hxopz",
+      "name": "Luca-André Schlüter",
+      "number": 8,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "0gwys9c",
+      "name": "Nea Marie Vetterick",
+      "number": 4,
+      "appearances": 3,
+      "goals": 14,
+      "goalsPerAppearance": 4.67,
+      "goalSharePercent": 30.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "1phawzg",
+      "name": "Lia Sophie John",
+      "number": 18,
+      "appearances": 3,
+      "goals": 10,
+      "goalsPerAppearance": 3.33,
+      "goalSharePercent": 21.7,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "1aidwd7",
+      "name": "Maila Annike Schuh",
+      "number": 10,
+      "appearances": 3,
+      "goals": 5,
+      "goalsPerAppearance": 1.67,
+      "goalSharePercent": 10.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "08t1k2s",
+      "name": "Mia-Sophie Behnsen",
+      "number": 8,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 10.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "0u5zwfb",
+      "name": "Ida Marie Föh",
+      "number": 14,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 6.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "1vvtw54",
+      "name": "Lene Madita Wutzke",
+      "number": 12,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 6.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "094ncoy",
+      "name": "Mia Sophie Schilling",
+      "number": 2,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 6.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "0fs9mty",
+      "name": "Ida Knaack",
+      "number": 20,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 4.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "0bi35de",
+      "name": "Johanna Stoehr",
+      "number": 17,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 2.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "1gea7v4",
+      "name": "Luisa Madeleine Haase",
+      "number": 6,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "0me88v5",
+      "name": "Magdalena Barbara Schedlbauer",
+      "number": 16,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "1mw1zr2",
+      "name": "Carlotta Krause",
+      "number": 9,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87109",
+      "teamName": "wJE 1",
+      "playerId": "04rtg5x",
+      "name": "Lisbeth Schulz",
+      "number": 23,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0bi35de",
+      "name": "Johanna Stoehr",
+      "number": 17,
+      "appearances": 4,
+      "goals": 9,
+      "goalsPerAppearance": 2.25,
+      "goalSharePercent": 40.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "1mw1zr2",
+      "name": "Carlotta Krause",
+      "number": 9,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 13.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "04rtg5x",
+      "name": "Lisbeth Schulz",
+      "number": 23,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 13.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0boqkew",
+      "name": "Zofija Mitevski",
+      "number": 13,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 13.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0m9bohy",
+      "name": "Lotta Emilia Hein",
+      "number": 5,
+      "appearances": 4,
+      "goals": 2,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 9.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0u5zwfb",
+      "name": "Ida Marie Föh",
+      "number": 11,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 9.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "17ioco3",
+      "name": "* *",
+      "number": 29,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0czt2ox",
+      "name": "Ida Musfeldt",
+      "number": 19,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "1ibhue7",
+      "name": "Lia Duske",
+      "number": 25,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "1olouie",
+      "name": "Karla Hein",
+      "number": 33,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0crst1a",
+      "name": "Lina Schütte",
+      "number": 21,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0jwvmfq",
+      "name": "Livia Edith Jacob",
+      "number": 1,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "1shgizy",
+      "name": "Mariella Goldbach",
+      "number": 7,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0j7dlm0",
+      "name": "Emma Modes",
+      "number": 15,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87110",
+      "teamName": "wJE 2",
+      "playerId": "0me88v5",
+      "name": "Magdalena Barbara Schedlbauer",
+      "number": 16,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "10rygbg",
+      "name": "Leni Louisa Tomaschewski",
+      "number": 28,
+      "appearances": 2,
+      "goals": 19,
+      "goalsPerAppearance": 9.5,
+      "goalSharePercent": 24.4,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 1,
+        "attempts": 3,
+        "percentage": 66.7
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1ikcuuk",
+      "name": "Lea Reese",
+      "number": 8,
+      "appearances": 3,
+      "goals": 12,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 15.4,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 0,
+        "attempts": 3,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1tts887",
+      "name": "Sofia Wolter",
+      "number": 9,
+      "appearances": 4,
+      "goals": 10,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 12.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "15bvao4",
+      "name": "Anne-Kathrin Habeck",
+      "number": 44,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 10.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "081pfz6",
+      "name": "Jette-Marleen Callsen-Bracker",
+      "number": 87,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 7.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1rn7e28",
+      "name": "Lotta Kerstin Rieper",
+      "number": 24,
+      "appearances": 4,
+      "goals": 5,
+      "goalsPerAppearance": 1.25,
+      "goalSharePercent": 6.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1wl78w9",
+      "name": "Finja Katharina Barz",
+      "number": 22,
+      "appearances": 4,
+      "goals": 4,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 5.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1sbl9ad",
+      "name": "Sarah Schnoor",
+      "number": 13,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.1,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 2,
+        "attempts": 5,
+        "percentage": 60
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "0d1i8mt",
+      "name": "Lele Feline Köster",
+      "number": 19,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 3.8,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "0ngjlpf",
+      "name": "Lena Schnoor",
+      "number": 18,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 3.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1xbga1g",
+      "name": "Amelie Brüggen",
+      "number": 12,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 3.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "09x1tce",
+      "name": "Ida Charlotte Krebs",
+      "number": 7,
+      "appearances": 4,
+      "goals": 1,
+      "goalsPerAppearance": 0.25,
+      "goalSharePercent": 1.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1ipfrnm",
+      "name": "Lina Elli Plieth",
+      "number": 78,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "1ucq8bs",
+      "name": "Mathilda Riedel",
+      "number": 69,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87175",
+      "teamName": "wJB 1",
+      "playerId": "03vel0h",
+      "name": "Julia Stahl",
+      "number": 1,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "16jvmbo",
+      "name": "Klaas Alexander Möller",
+      "number": 9,
+      "appearances": 3,
+      "goals": 24,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 26.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "16ztfh8",
+      "name": "Lian Klenz",
+      "number": 7,
+      "appearances": 3,
+      "goals": 18,
+      "goalsPerAppearance": 6,
+      "goalSharePercent": 19.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1pbc7g9",
+      "name": "Magnus Elias Knöchel",
+      "number": 13,
+      "appearances": 3,
+      "goals": 13,
+      "goalsPerAppearance": 4.33,
+      "goalSharePercent": 14.3,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 1,
+        "attempts": 3,
+        "percentage": 66.7
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1s9nx5a",
+      "name": "Mino Leander Marks",
+      "number": 14,
+      "appearances": 3,
+      "goals": 11,
+      "goalsPerAppearance": 3.67,
+      "goalSharePercent": 12.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "03uyvba",
+      "name": "Jonas Trapp",
+      "number": 21,
+      "appearances": 3,
+      "goals": 9,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 9.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "11tszv0",
+      "name": "Jari Tomaschewski",
+      "number": 28,
+      "appearances": 3,
+      "goals": 4,
+      "goalsPerAppearance": 1.33,
+      "goalSharePercent": 4.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1d02ysp",
+      "name": "Daan Meister",
+      "number": 16,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "04enfvp",
+      "name": "Bosse Julian Alexander Neelsen",
+      "number": 23,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "0aceu5w",
+      "name": "Jakob Sebastian Köstlin",
+      "number": 54,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1kox15v",
+      "name": "Mats Puphal",
+      "number": 8,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "199o4ev",
+      "name": "Berkant Sasmaz",
+      "number": 15,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1uu9xc8",
+      "name": "Michel Jochen Osbahr",
+      "number": 20,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "1v2ssu5",
+      "name": "Darian Trimpin",
+      "number": 41,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "0dj0k6g",
+      "name": "Lian Henry Becker",
+      "number": 33,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "07a03we",
+      "name": "Luca Höppner",
+      "number": null,
+      "appearances": 0,
+      "goals": 0,
+      "goalsPerAppearance": null,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 1
+    },
+    {
+      "teamId": "87187",
+      "teamName": "mJC 1",
+      "playerId": "0pv0x83",
+      "name": "Oliver Klenz",
+      "number": null,
+      "appearances": 0,
+      "goals": 0,
+      "goalsPerAppearance": null,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "02qnkth",
+      "name": "Lara Gerritzen",
+      "number": 23,
+      "appearances": 5,
+      "goals": 31,
+      "goalsPerAppearance": 6.2,
+      "goalSharePercent": 15.3,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 1,
+        "attempts": 4,
+        "percentage": 75
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "0hfs5mt",
+      "name": "Madleen Juliana Geist",
+      "number": 18,
+      "appearances": 5,
+      "goals": 30,
+      "goalsPerAppearance": 6,
+      "goalSharePercent": 14.9,
+      "sevenMeters": {
+        "goals": 7,
+        "misses": 2,
+        "attempts": 9,
+        "percentage": 77.8
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1npxv0f",
+      "name": "Sophia Charlotte Frida Schade",
+      "number": 11,
+      "appearances": 5,
+      "goals": 29,
+      "goalsPerAppearance": 5.8,
+      "goalSharePercent": 14.4,
+      "sevenMeters": {
+        "goals": 4,
+        "misses": 1,
+        "attempts": 5,
+        "percentage": 80
+      },
+      "warnings": 1,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "0el3feu",
+      "name": "Emma Gau",
+      "number": 14,
+      "appearances": 5,
+      "goals": 22,
+      "goalsPerAppearance": 4.4,
+      "goalSharePercent": 10.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "05vzgcz",
+      "name": "Paulina Sofia Sieglinde Tullius",
+      "number": 9,
+      "appearances": 5,
+      "goals": 21,
+      "goalsPerAppearance": 4.2,
+      "goalSharePercent": 10.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1nc9arv",
+      "name": "Lena Davina Krawutschke",
+      "number": 4,
+      "appearances": 5,
+      "goals": 15,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 7.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "0t9jtet",
+      "name": "Lilien Kalusok",
+      "number": 53,
+      "appearances": 5,
+      "goals": 15,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 7.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1rfgfwu",
+      "name": "Tuana Saritürk",
+      "number": 12,
+      "appearances": 5,
+      "goals": 14,
+      "goalsPerAppearance": 2.8,
+      "goalSharePercent": 6.9,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 0,
+        "attempts": 3,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1n16wdz",
+      "name": "Anna-Laura Duske",
+      "number": 5,
+      "appearances": 5,
+      "goals": 9,
+      "goalsPerAppearance": 1.8,
+      "goalSharePercent": 4.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "051cr6n",
+      "name": "Maryam Murad Zeyad",
+      "number": 10,
+      "appearances": 5,
+      "goals": 7,
+      "goalsPerAppearance": 1.4,
+      "goalSharePercent": 3.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "01f7c1u",
+      "name": "Felina Gebel",
+      "number": 7,
+      "appearances": 3,
+      "goals": 6,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1rcttyd",
+      "name": "Maya Karczewska",
+      "number": 8,
+      "appearances": 5,
+      "goals": 3,
+      "goalsPerAppearance": 0.6,
+      "goalSharePercent": 1.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "03vel0h",
+      "name": "Julia Stahl",
+      "number": 1,
+      "appearances": 5,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "1g8w6vz",
+      "name": "Nele Böhmfeldt",
+      "number": 21,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "0rmg0qe",
+      "name": "Lia Fahrenkrug",
+      "number": 3,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87265",
+      "teamName": "wJC 1",
+      "playerId": "01ayxs1",
+      "name": "Mara Luisa Lipp",
+      "number": 28,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "14irqjb",
+      "name": "Josephine Andrea Tomaschewski",
+      "number": 28,
+      "appearances": 3,
+      "goals": 20,
+      "goalsPerAppearance": 6.67,
+      "goalSharePercent": 23,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 2,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "0sgwha5",
+      "name": "Lewe Marie Reß",
+      "number": 3,
+      "appearances": 3,
+      "goals": 13,
+      "goalsPerAppearance": 4.33,
+      "goalSharePercent": 14.9,
+      "sevenMeters": {
+        "goals": 7,
+        "misses": 1,
+        "attempts": 8,
+        "percentage": 87.5
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "0qu20d9",
+      "name": "Luise Erich",
+      "number": 33,
+      "appearances": 3,
+      "goals": 12,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 13.8,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 1,
+        "attempts": 3,
+        "percentage": 66.7
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "002koog",
+      "name": "Nieke Gau",
+      "number": 14,
+      "appearances": 3,
+      "goals": 10,
+      "goalsPerAppearance": 3.33,
+      "goalSharePercent": 11.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1u2fzg3",
+      "name": "Raquel Larsen",
+      "number": 59,
+      "appearances": 3,
+      "goals": 10,
+      "goalsPerAppearance": 3.33,
+      "goalSharePercent": 11.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1xypytj",
+      "name": "Hannah Lilly Paulsen",
+      "number": 5,
+      "appearances": 3,
+      "goals": 8,
+      "goalsPerAppearance": 2.67,
+      "goalSharePercent": 9.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1qt7439",
+      "name": "Frieda Hauschildt",
+      "number": 52,
+      "appearances": 3,
+      "goals": 5,
+      "goalsPerAppearance": 1.67,
+      "goalSharePercent": 5.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1qbcl4q",
+      "name": "Thea Schulz",
+      "number": 10,
+      "appearances": 3,
+      "goals": 4,
+      "goalsPerAppearance": 1.33,
+      "goalSharePercent": 4.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "0dxc1na",
+      "name": "Sarah Leonie Knopp",
+      "number": 30,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "15bvao4",
+      "name": "Anne-Kathrin Habeck",
+      "number": 44,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 2.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1csh8j5",
+      "name": "Katrine Arlt",
+      "number": 1,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "03grfrn",
+      "name": "Vanessa Baer",
+      "number": 78,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87271",
+      "teamName": "wJA 1",
+      "playerId": "1wl78w9",
+      "name": "Finja Katharina Barz",
+      "number": 22,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "0och9pg",
+      "name": "Celina Rauschke",
+      "number": 8,
+      "appearances": 3,
+      "goals": 15,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 27.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "0tstlih",
+      "name": "Lenja-Melissa Arslan",
+      "number": 18,
+      "appearances": 3,
+      "goals": 10,
+      "goalsPerAppearance": 3.33,
+      "goalSharePercent": 18.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1yf9xq9",
+      "name": "Taisa Lotta Klug",
+      "number": 10,
+      "appearances": 1,
+      "goals": 6,
+      "goalsPerAppearance": 6,
+      "goalSharePercent": 11.1,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1xn6g99",
+      "name": "Liv-Stine Wilken",
+      "number": 11,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 9.3,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "19jt45h",
+      "name": "Nica Elisa Klug",
+      "number": 2,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 7.4,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "0al7qqd",
+      "name": "Chiara Wegener",
+      "number": 21,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 5.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1cwda29",
+      "name": "Aylin Saglam",
+      "number": 27,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 5.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "0j4med1",
+      "name": "Senay Saglam",
+      "number": 3,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 3.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1lg8fti",
+      "name": "Jette Günther",
+      "number": 9,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "171imem",
+      "name": "Finja Rachow",
+      "number": 29,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "13j5x3z",
+      "name": "Zoe-Luisa Schlüter",
+      "number": 5,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1ev13av",
+      "name": "Amy Lee Voß",
+      "number": 78,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "1ceoq5u",
+      "name": "Hannah Marie Lange",
+      "number": 10,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "061og58",
+      "name": "Nisa Karakoza",
+      "number": 78,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "09c0rlj",
+      "name": "Pia Sofie Jäger",
+      "number": 1,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87272",
+      "teamName": "wJA 2",
+      "playerId": "0rpy5cx",
+      "name": "Mia Anna Kraushaar",
+      "number": 72,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0a4gos2",
+      "name": "Jason Beck",
+      "number": 11,
+      "appearances": 3,
+      "goals": 27,
+      "goalsPerAppearance": 9,
+      "goalSharePercent": 18.6,
+      "sevenMeters": {
+        "goals": 5,
+        "misses": 0,
+        "attempts": 5,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "03fy4yx",
+      "name": "Kian Lars Frankiewicz",
+      "number": 59,
+      "appearances": 4,
+      "goals": 20,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 13.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "06hxabp",
+      "name": "Leon Böhmfeldt",
+      "number": 16,
+      "appearances": 5,
+      "goals": 15,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 10.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "10aya8s",
+      "name": "Mirac Aziz Ünal",
+      "number": 7,
+      "appearances": 5,
+      "goals": 13,
+      "goalsPerAppearance": 2.6,
+      "goalSharePercent": 9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0xr87cw",
+      "name": "Jonas Noack",
+      "number": 43,
+      "appearances": 4,
+      "goals": 11,
+      "goalsPerAppearance": 2.75,
+      "goalSharePercent": 7.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "1domq71",
+      "name": "Lennard Bülow",
+      "number": 15,
+      "appearances": 4,
+      "goals": 11,
+      "goalsPerAppearance": 2.75,
+      "goalSharePercent": 7.6,
+      "sevenMeters": {
+        "goals": 5,
+        "misses": 0,
+        "attempts": 5,
+        "percentage": 100
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "122ruin",
+      "name": "Lasse Ferdinand Krebs",
+      "number": 9,
+      "appearances": 4,
+      "goals": 9,
+      "goalsPerAppearance": 2.25,
+      "goalSharePercent": 6.2,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "1tfcl6j",
+      "name": "Tamme Andresen",
+      "number": 18,
+      "appearances": 3,
+      "goals": 9,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 6.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 2,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0x36n13",
+      "name": "Tjorben Neuwald",
+      "number": 32,
+      "appearances": 4,
+      "goals": 8,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "1tj7k5c",
+      "name": "Aaron Will",
+      "number": 24,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 4.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "1dondaj",
+      "name": "Robert Popescu Jenei",
+      "number": 11,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 4.1,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 1,
+        "attempts": 4,
+        "percentage": 75
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0nh4yg6",
+      "name": "Timo Große-Schütte",
+      "number": 14,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 2.1,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 1
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0vn5aos",
+      "name": "Kilian Hardt",
+      "number": 10,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 2.1,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0e2rn7q",
+      "name": "Mats Schröder",
+      "number": 2,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 1.4,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0k8crce",
+      "name": "Lewe Bo Weber",
+      "number": 5,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0ff52yd",
+      "name": "Jannik Mika Schultz",
+      "number": 12,
+      "appearances": 5,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "03ki0uh",
+      "name": "Piet-Leander Pörksen",
+      "number": 1,
+      "appearances": 5,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "0ouoy9j",
+      "name": "Paul Eric Schütt",
+      "number": 4,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "1mhdxer",
+      "name": "Jakob Haarig",
+      "number": 3,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87274",
+      "teamName": "mJB",
+      "playerId": "04jdiiu",
+      "name": "Linus Westermann",
+      "number": 8,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "19jt45h",
+      "name": "* *",
+      "number": 2,
+      "appearances": 4,
+      "goals": 32,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 31.7,
+      "sevenMeters": {
+        "goals": 5,
+        "misses": 3,
+        "attempts": 8,
+        "percentage": 62.5
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1ceoq5u",
+      "name": "* *",
+      "number": 5,
+      "appearances": 4,
+      "goals": 21,
+      "goalsPerAppearance": 5.25,
+      "goalSharePercent": 20.8,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "18w742e",
+      "name": "* *",
+      "number": 4,
+      "appearances": 4,
+      "goals": 17,
+      "goalsPerAppearance": 4.25,
+      "goalSharePercent": 16.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "17cbyrp",
+      "name": "* *",
+      "number": 15,
+      "appearances": 3,
+      "goals": 11,
+      "goalsPerAppearance": 3.67,
+      "goalSharePercent": 10.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1vk83v2",
+      "name": "* *",
+      "number": 8,
+      "appearances": 3,
+      "goals": 9,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 8.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1cwda29",
+      "name": "* *",
+      "number": 11,
+      "appearances": 4,
+      "goals": 6,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 5.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1dsd3jy",
+      "name": "* *",
+      "number": 54,
+      "appearances": 4,
+      "goals": 2,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "112xbdh",
+      "name": "* *",
+      "number": 9,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 2,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "0audvy3",
+      "name": "* *",
+      "number": 20,
+      "appearances": 4,
+      "goals": 1,
+      "goalsPerAppearance": 0.25,
+      "goalSharePercent": 1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1feql7b",
+      "name": "* *",
+      "number": 12,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1od4ijp",
+      "name": "* *",
+      "number": 17,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "17ap9av",
+      "name": "* *",
+      "number": 6,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "0rd9wvi",
+      "name": "* *",
+      "number": 28,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87275",
+      "teamName": "wJB 2",
+      "playerId": "1g8w6vz",
+      "name": "* *",
+      "number": 21,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1y3yeg3",
+      "name": "Aryan Mohammad",
+      "number": 8,
+      "appearances": 2,
+      "goals": 13,
+      "goalsPerAppearance": 6.5,
+      "goalSharePercent": 23.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1d54cd9",
+      "name": "Leon Thomsen",
+      "number": 10,
+      "appearances": 2,
+      "goals": 10,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 18.2,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1yeih8j",
+      "name": "Tobias Mielke",
+      "number": 55,
+      "appearances": 2,
+      "goals": 8,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 14.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "199o4ev",
+      "name": "Berkant Sasmaz",
+      "number": 15,
+      "appearances": 1,
+      "goals": 8,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 14.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1vo8zia",
+      "name": "Luis Thien Ho Kim",
+      "number": 2,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 10.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "0aj6hf4",
+      "name": "Fabian Helmut Dieter Lohmüller",
+      "number": 3,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 5.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "0n9r7pq",
+      "name": "Jonte Krüger",
+      "number": 9,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 5.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "18q9e8a",
+      "name": "Gerrit Springborn",
+      "number": 7,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "15jvpar",
+      "name": "Kjell Fahrenkrog",
+      "number": 6,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1u4xeci",
+      "name": "Marian Magnus Geist",
+      "number": 77,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "0bzp386",
+      "name": "Arian Luca Dongowsky",
+      "number": 11,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "1aa3vsl",
+      "name": "Jon Luca Bellgardt",
+      "number": 64,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87276",
+      "teamName": "mJC 2",
+      "playerId": "0boll4i",
+      "name": "John Siebold",
+      "number": 12,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "197j4oh",
+      "name": "Stella-Laticha Beibatschenko",
+      "number": 18,
+      "appearances": 4,
+      "goals": 22,
+      "goalsPerAppearance": 5.5,
+      "goalSharePercent": 36.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 2,
+      "twoMinutes": 3,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "0c5z9gz",
+      "name": "Beke Schwember",
+      "number": 14,
+      "appearances": 4,
+      "goals": 17,
+      "goalsPerAppearance": 4.25,
+      "goalSharePercent": 28.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "1ezr4rw",
+      "name": "Zoe Lilith Mengler",
+      "number": 11,
+      "appearances": 4,
+      "goals": 7,
+      "goalsPerAppearance": 1.75,
+      "goalSharePercent": 11.7,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "13kwerx",
+      "name": "Carlotta Behmerburg",
+      "number": 9,
+      "appearances": 4,
+      "goals": 4,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 6.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "1uo5zhz",
+      "name": "Emily Rita Böhm",
+      "number": 13,
+      "appearances": 4,
+      "goals": 3,
+      "goalsPerAppearance": 0.75,
+      "goalSharePercent": 5,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 1,
+        "attempts": 2,
+        "percentage": 50
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "06cvbpv",
+      "name": "Leona Gligorova",
+      "number": 17,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "0ndkgfn",
+      "name": "Ida Börding",
+      "number": 24,
+      "appearances": 4,
+      "goals": 1,
+      "goalsPerAppearance": 0.25,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "1p76fbj",
+      "name": "Lisa Eschrich",
+      "number": 7,
+      "appearances": 4,
+      "goals": 1,
+      "goalsPerAppearance": 0.25,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "1f7f0b1",
+      "name": "Smilla Sophie Behmerburg",
+      "number": 28,
+      "appearances": 4,
+      "goals": 1,
+      "goalsPerAppearance": 0.25,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "1ein8ma",
+      "name": "Nilay-Marlin Arslan",
+      "number": 12,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "0y5xahf",
+      "name": "Emma Brunswieck",
+      "number": 4,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "15y6j0k",
+      "name": "Eentje Sonwelt Clasen",
+      "number": 8,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "10l9z9l",
+      "name": "Mia-Melina Simmroß",
+      "number": 5,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "14m4hy3",
+      "name": "Lara Knobel",
+      "number": 59,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "0ltrd7p",
+      "name": "Mira Amalia Reichert",
+      "number": 18,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "87277",
+      "teamName": "wJC 2",
+      "playerId": "0jb8mjj",
+      "name": "Sascha Eschrich",
+      "number": null,
+      "appearances": 0,
+      "goals": 0,
+      "goalsPerAppearance": null,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1ikc5lz",
+      "name": "Sarah Labahn",
+      "number": 30,
+      "appearances": 3,
+      "goals": 15,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 21.1,
+      "sevenMeters": {
+        "goals": 8,
+        "misses": 0,
+        "attempts": 8,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1mgbveb",
+      "name": "Lena Frauke Siebken",
+      "number": 10,
+      "appearances": 2,
+      "goals": 9,
+      "goalsPerAppearance": 4.5,
+      "goalSharePercent": 12.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0yeky8i",
+      "name": "Miya Lynn Rose",
+      "number": 33,
+      "appearances": 2,
+      "goals": 9,
+      "goalsPerAppearance": 4.5,
+      "goalSharePercent": 12.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1m0y4rs",
+      "name": "Jella Reher",
+      "number": 7,
+      "appearances": 1,
+      "goals": 8,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 11.3,
+      "sevenMeters": {
+        "goals": 3,
+        "misses": 0,
+        "attempts": 3,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "13k8or3",
+      "name": "Marla Reher",
+      "number": 5,
+      "appearances": 3,
+      "goals": 7,
+      "goalsPerAppearance": 2.33,
+      "goalSharePercent": 9.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0hffjww",
+      "name": "Marlin Böge",
+      "number": 2,
+      "appearances": 3,
+      "goals": 7,
+      "goalsPerAppearance": 2.33,
+      "goalSharePercent": 9.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "00e09q6",
+      "name": "Maya Koopmann",
+      "number": 4,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 8.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0x0cojg",
+      "name": "Lea Sophie Roy",
+      "number": 16,
+      "appearances": 3,
+      "goals": 3,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 4.2,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1xjyb8c",
+      "name": "Janina Böge",
+      "number": 21,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 2.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "02juoc1",
+      "name": "Lena Kristin Petersen",
+      "number": 9,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 2.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1xosiwa",
+      "name": "Davina Katharina Jaxen",
+      "number": 15,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1e8yssh",
+      "name": "Sabrina Redmer",
+      "number": 39,
+      "appearances": 3,
+      "goals": 1,
+      "goalsPerAppearance": 0.33,
+      "goalSharePercent": 1.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0wfo341",
+      "name": "Tabea Rehberg",
+      "number": 44,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.4,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1as5tab",
+      "name": "Fiona Deinert",
+      "number": 19,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0l9isoy",
+      "name": "Sarah Schroers",
+      "number": 12,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1ef2ln3",
+      "name": "Dana Camin",
+      "number": 58,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "0m4yjq7",
+      "name": "Emely Riemenschneider",
+      "number": 14,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1cbdbxy",
+      "name": "Fiona Rachow",
+      "number": 25,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94480",
+      "teamName": "2. Frauen",
+      "playerId": "1fpz1p5",
+      "name": "Jana Dibbern",
+      "number": 22,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1jn5bvq",
+      "name": "Lena Stegelmann",
+      "number": 13,
+      "appearances": 2,
+      "goals": 21,
+      "goalsPerAppearance": 10.5,
+      "goalSharePercent": 35,
+      "sevenMeters": {
+        "goals": 8,
+        "misses": 1,
+        "attempts": 9,
+        "percentage": 88.9
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "0v1v5ls",
+      "name": "Annalena Kumpmann",
+      "number": 3,
+      "appearances": 2,
+      "goals": 10,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 16.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1xypytj",
+      "name": "Hannah Lilly Paulsen",
+      "number": 12,
+      "appearances": 2,
+      "goals": 10,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 16.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1rwm55o",
+      "name": "Nele Katharina Bumann",
+      "number": 9,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 10,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "119f0zo",
+      "name": "Merle Klug",
+      "number": 4,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 6.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "11akj44",
+      "name": "Julia Waldow",
+      "number": 42,
+      "appearances": 1,
+      "goals": 4,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 6.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "07hu9ja",
+      "name": "Lisann Asta Pfennig",
+      "number": 10,
+      "appearances": 2,
+      "goals": 2,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 3.3,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1xv36ly",
+      "name": "Julia Tonn",
+      "number": 18,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1suwys2",
+      "name": "Thurid Helgard Schmalfeld",
+      "number": 23,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1atvkth",
+      "name": "Kira Brethack",
+      "number": 24,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1nunh9z",
+      "name": "Christine Kähler",
+      "number": 1,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1m7ora9",
+      "name": "Emmily Kristin Kasnitz",
+      "number": 8,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1weos3v",
+      "name": "Janine Kähler",
+      "number": 14,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "0hhsmw8",
+      "name": "Melissa Hornauf",
+      "number": 16,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "1ha9j2y",
+      "name": "Chelsy Brügmann",
+      "number": 52,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "048wubu",
+      "name": "Janne Fritz",
+      "number": 29,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94481",
+      "teamName": "3. Frauen",
+      "playerId": "17tw3vw",
+      "name": "Michelle Ahlf",
+      "number": 2,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "0rvc9qh",
+      "name": "Vanessa Sellmer",
+      "number": 7,
+      "appearances": 1,
+      "goals": 8,
+      "goalsPerAppearance": 8,
+      "goalSharePercent": 40,
+      "sevenMeters": {
+        "goals": 6,
+        "misses": 1,
+        "attempts": 7,
+        "percentage": 85.7
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "0ar9tue",
+      "name": "Michaela Langmaack",
+      "number": 13,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 15,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "111i9tz",
+      "name": "Nancy Nitschke",
+      "number": 4,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 15,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "0ixk7f3",
+      "name": "Celina Rasch",
+      "number": 52,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 10,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "1t85ecq",
+      "name": "Laura Maria Ruge",
+      "number": 6,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 10,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "1gtcyy2",
+      "name": "Jessica Zibell",
+      "number": 10,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "10efqs3",
+      "name": "Johanna Prey",
+      "number": 23,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "1g2q2eh",
+      "name": "Nicole Tollmien",
+      "number": 20,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "0f8v51y",
+      "name": "Tanja Habeck",
+      "number": 1,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94482",
+      "teamName": "4. Frauen",
+      "playerId": "12jtqun",
+      "name": "Anja Brohm",
+      "number": null,
+      "appearances": 0,
+      "goals": 0,
+      "goalsPerAppearance": null,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0yfpp2h",
+      "name": "Marc Phillip Eschrich-Schygulla",
+      "number": 9,
+      "appearances": 2,
+      "goals": 10,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 17.9,
+      "sevenMeters": {
+        "goals": 4,
+        "misses": 1,
+        "attempts": 5,
+        "percentage": 80
+      },
+      "warnings": 1,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0cob12a",
+      "name": "Trygve Dohm",
+      "number": 58,
+      "appearances": 2,
+      "goals": 9,
+      "goalsPerAppearance": 4.5,
+      "goalSharePercent": 16.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "16soyyk",
+      "name": "Ken Bottke",
+      "number": 44,
+      "appearances": 2,
+      "goals": 7,
+      "goalsPerAppearance": 3.5,
+      "goalSharePercent": 12.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0cic3ru",
+      "name": "Nils Torge Hennings",
+      "number": 77,
+      "appearances": 1,
+      "goals": 7,
+      "goalsPerAppearance": 7,
+      "goalSharePercent": 12.5,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0pkifkr",
+      "name": "Jonas-Maximilian Wisper",
+      "number": 7,
+      "appearances": 2,
+      "goals": 6,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 10.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "19ornoa",
+      "name": "Hendrik Sebastian Gass",
+      "number": 25,
+      "appearances": 1,
+      "goals": 5,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 8.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 0,
+        "attempts": 1,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "17wpvvq",
+      "name": "Janek Jäger",
+      "number": 24,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 7.1,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "1m9uid6",
+      "name": "Niklas Alexander Behrens",
+      "number": 10,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 3.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0lejmsv",
+      "name": "Sascha Thomsen",
+      "number": 36,
+      "appearances": 1,
+      "goals": 2,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 3.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0yoj799",
+      "name": "Joost Buchwald",
+      "number": 15,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "09o5bp5",
+      "name": "Lukas Böttger",
+      "number": 14,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "00m56ow",
+      "name": "Mika Hendrik Grummel",
+      "number": 5,
+      "appearances": 2,
+      "goals": 1,
+      "goalsPerAppearance": 0.5,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0n3ci24",
+      "name": "Jannick Neve",
+      "number": 19,
+      "appearances": 1,
+      "goals": 1,
+      "goalsPerAppearance": 1,
+      "goalSharePercent": 1.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "1rybqhq",
+      "name": "Andre Mannke",
+      "number": 11,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0bnatiq",
+      "name": "Felix Labahn",
+      "number": 2,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "09bl33k",
+      "name": "Alexander Pollak",
+      "number": 21,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "1w0nkkw",
+      "name": "Alexander Schuh",
+      "number": 16,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94483",
+      "teamName": "2. Herren",
+      "playerId": "0xk67e4",
+      "name": "Jonas Küster",
+      "number": 4,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0icc3lx",
+      "name": "Lennox Tyler Voß",
+      "number": 79,
+      "appearances": 4,
+      "goals": 28,
+      "goalsPerAppearance": 7,
+      "goalSharePercent": 26.7,
+      "sevenMeters": {
+        "goals": 7,
+        "misses": 2,
+        "attempts": 9,
+        "percentage": 77.8
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0ba83d9",
+      "name": "Jan Niclas Massannek",
+      "number": 99,
+      "appearances": 4,
+      "goals": 20,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 19,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0vvg95p",
+      "name": "Torben Hinz",
+      "number": 51,
+      "appearances": 2,
+      "goals": 10,
+      "goalsPerAppearance": 5,
+      "goalSharePercent": 9.5,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 1,
+        "attempts": 3,
+        "percentage": 66.7
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1bsra1x",
+      "name": "Christopher Haupt",
+      "number": 13,
+      "appearances": 2,
+      "goals": 8,
+      "goalsPerAppearance": 4,
+      "goalSharePercent": 7.6,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 2,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0yoj799",
+      "name": "Joost Buchwald",
+      "number": 15,
+      "appearances": 4,
+      "goals": 7,
+      "goalsPerAppearance": 1.75,
+      "goalSharePercent": 6.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1kagx2v",
+      "name": "Oliver Pohl",
+      "number": 20,
+      "appearances": 3,
+      "goals": 6,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1qb9nrj",
+      "name": "Philipp Alkenings",
+      "number": 5,
+      "appearances": 3,
+      "goals": 6,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 5.7,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1blps00",
+      "name": "Matthias Schillkorn",
+      "number": 78,
+      "appearances": 2,
+      "goals": 5,
+      "goalsPerAppearance": 2.5,
+      "goalSharePercent": 4.8,
+      "sevenMeters": {
+        "goals": 2,
+        "misses": 0,
+        "attempts": 2,
+        "percentage": 100
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "09ljgol",
+      "name": "Marco Garbers",
+      "number": 15,
+      "appearances": 2,
+      "goals": 4,
+      "goalsPerAppearance": 2,
+      "goalSharePercent": 3.8,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0xk67e4",
+      "name": "Jonas Küster",
+      "number": 4,
+      "appearances": 2,
+      "goals": 3,
+      "goalsPerAppearance": 1.5,
+      "goalSharePercent": 2.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 1,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0wg9gbh",
+      "name": "Lukas Georg Hänfler",
+      "number": 31,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 2.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0yfpp2h",
+      "name": "Marc Phillip Eschrich-Schygulla",
+      "number": 9,
+      "appearances": 1,
+      "goals": 3,
+      "goalsPerAppearance": 3,
+      "goalSharePercent": 2.9,
+      "sevenMeters": {
+        "goals": 1,
+        "misses": 3,
+        "attempts": 4,
+        "percentage": 25
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "02qcmgu",
+      "name": "Christopher Hagen",
+      "number": 94,
+      "appearances": 3,
+      "goals": 2,
+      "goalsPerAppearance": 0.67,
+      "goalSharePercent": 1.9,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1nxtmos",
+      "name": "Jonas Hänfler",
+      "number": 8,
+      "appearances": 4,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1jpz31a",
+      "name": "Len-David Bill Imert",
+      "number": 1,
+      "appearances": 3,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "08vqrfp",
+      "name": "Christian Meve",
+      "number": 26,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "16gbugs",
+      "name": "Felix Lindemann",
+      "number": 87,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 1,
+        "attempts": 1,
+        "percentage": 0
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "1m8rgyl",
+      "name": "Philipp Hänfler",
+      "number": 12,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0vfgths",
+      "name": "Sascha Bock",
+      "number": 2,
+      "appearances": 2,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 0,
+      "disqualifications": 0
+    },
+    {
+      "teamId": "94484",
+      "teamName": "3. Herren",
+      "playerId": "0znkpe8",
+      "name": "Felix Müller",
+      "number": 69,
+      "appearances": 1,
+      "goals": 0,
+      "goalsPerAppearance": 0,
+      "goalSharePercent": 0,
+      "sevenMeters": {
+        "goals": 0,
+        "misses": 0,
+        "attempts": 0,
+        "percentage": null
+      },
+      "warnings": 0,
+      "twoMinutes": 1,
+      "disqualifications": 0
+    }
+  ]
+}
