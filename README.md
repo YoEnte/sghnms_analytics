@@ -4,7 +4,7 @@
 
 ## Daten
 
-Die Dateien unter `data/` sind der Public Export der privaten Datenpipeline. In v2 werden zusätzlich genutzt:
+Die Dateien unter `data/` sind der Public Export der privaten Datenpipeline. Für die erweiterte Analytics-Ansicht werden zusätzlich genutzt:
 
 - `coverage.json` – API- und Quality-Abdeckung
 - `quality.json` – Qualität pro Spiel
@@ -17,7 +17,7 @@ Die Dateien unter `data/` sind der Public Export der privaten Datenpipeline. In 
 
 ### Vereinsstatistik
 
-Filter: SG gesamt, Senioren, Junioren, männlich, weiblich und einzelne Mannschaft. Enthalten sind Saisonbilanz, Tordifferenz, Form, Mannschaftsvergleich und Datenqualität.
+Filter: SG gesamt, Senioren, Junioren, männlich, weiblich und einzelne Mannschaft. Enthalten sind Saisonbilanz, Tordifferenz, Form, Mannschaftsvergleich und Datenqualität. Zusätzlich zeigt die Vereinsstatistik filterabhängige Top-Spieler mit Einsätzen, Toren, Toren pro Spiel und 7m-Werten sowie sortierbare Offensive-/Defensive-Rankings aller Mannschaften. Die Rankings enthalten Tore, Gegentore, Werte pro Spiel und altersklassenübergreifend vergleichbare Werte pro 10 Minuten nomineller Spielzeit.
 
 ### Trainer Dashboard
 

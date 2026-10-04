@@ -15,7 +15,12 @@ const state = {
   trainerTeamId: null,
   selectedMatchId: null,
   trainerTab: "overview",
-  product: "club"
+  product: "club",
+  clubSort: {
+    players: { key: "goals", dir: "desc" },
+    offense: { key: "goalsForPer10", dir: "desc" },
+    defense: { key: "goalsAgainstPer10", dir: "asc" }
+  }
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -223,6 +228,149 @@ function renderTeamTable() {
   }).join("") || `<tr><td colspan="6">Keine Daten.</td></tr>`;
 }
 
+function scopedTeamIds() {
+  return new Set(scopeTeams().map(team => String(team.id)));
+}
+
+function scopePlayers() {
+  const ids = scopedTeamIds();
+  const grouped = new Map();
+
+  for (const row of state.players) {
+    if (!ids.has(String(row.teamId))) continue;
+    const key = String(row.playerId || `${row.name}:${row.teamId}`);
+    if (!grouped.has(key)) {
+      grouped.set(key, {
+        playerId: row.playerId || null,
+        name: row.name || "Unbekannt",
+        appearances: 0,
+        goals: 0,
+        sevenMeterGoals: 0,
+        sevenMeterAttempts: 0,
+        teamNames: new Set()
+      });
+    }
+    const player = grouped.get(key);
+    player.appearances += Number(row.appearances || 0);
+    player.goals += Number(row.goals || 0);
+    player.sevenMeterGoals += Number(row.sevenMeters?.goals || 0);
+    player.sevenMeterAttempts += Number(row.sevenMeters?.attempts || 0);
+    if (row.teamName) player.teamNames.add(row.teamName);
+  }
+
+  return [...grouped.values()].map(player => ({
+    ...player,
+    teamNames: [...player.teamNames].sort((a, b) => a.localeCompare(b, "de")),
+    goalsPerAppearance: player.appearances ? player.goals / player.appearances : 0,
+    sevenMeterPercentage: player.sevenMeterAttempts
+      ? (player.sevenMeterGoals / player.sevenMeterAttempts) * 100
+      : null
+  }));
+}
+
+function teamRankingRows() {
+  return scopeTeams().map(team => {
+    const games = Number(team.games || 0);
+    const matchMinutes = Number(team.matchMinutes || 0);
+    const totalMinutes = games * matchMinutes;
+    return {
+      ...team,
+      games,
+      goalsFor: Number(team.goalsFor || 0),
+      goalsAgainst: Number(team.goalsAgainst || 0),
+      goalsForAvg: games ? Number(team.goalsFor || 0) / games : null,
+      goalsAgainstAvg: games ? Number(team.goalsAgainst || 0) / games : null,
+      goalsForPer10: totalMinutes ? Number(team.goalsFor || 0) * 10 / totalMinutes : null,
+      goalsAgainstPer10: totalMinutes ? Number(team.goalsAgainst || 0) * 10 / totalMinutes : null
+    };
+  });
+}
+
+function compareSortValue(a, b, key, dir) {
+  const av = a[key];
+  const bv = b[key];
+  const aMissing = av === null || av === undefined || Number.isNaN(av);
+  const bMissing = bv === null || bv === undefined || Number.isNaN(bv);
+
+  // Fehlende Werte bleiben unabhängig von der Sortierrichtung am Tabellenende.
+  if (aMissing || bMissing) {
+    if (aMissing && bMissing) return String(a.name || "").localeCompare(String(b.name || ""), "de");
+    return aMissing ? 1 : -1;
+  }
+
+  let result = 0;
+  if (typeof av === "string" || typeof bv === "string") result = String(av).localeCompare(String(bv), "de");
+  else result = Number(av) - Number(bv);
+
+  if (result === 0 && key !== "name") result = String(a.name || "").localeCompare(String(b.name || ""), "de");
+  return dir === "asc" ? result : -result;
+}
+
+function updateSortIndicators(tableName) {
+  const spec = state.clubSort[tableName];
+  $$(`[data-sort-table="${tableName}"]`).forEach(button => {
+    const active = button.dataset.sortKey === spec.key;
+    button.classList.toggle("is-active", active);
+    button.dataset.sortDir = active ? spec.dir : "";
+    button.setAttribute("aria-sort", active ? (spec.dir === "asc" ? "ascending" : "descending") : "none");
+  });
+}
+
+function renderClubPlayers() {
+  const spec = state.clubSort.players;
+  const players = scopePlayers()
+    .sort((a, b) => compareSortValue(a, b, spec.key, spec.dir))
+    .slice(0, 20);
+
+  $("#club-player-table-body").innerHTML = players.map(player => {
+    const teams = player.teamNames.join(" · ");
+    const seven = `${player.sevenMeterGoals}/${player.sevenMeterAttempts}`;
+    return `<tr>
+      <td class="team-cell"><strong>${player.name}</strong><span>${teams || "–"}</span></td>
+      <td>${player.appearances}</td>
+      <td class="rate">${player.goals}</td>
+      <td>${deNumber(player.goalsPerAppearance, 2)}</td>
+      <td>${seven}</td>
+      <td>${player.sevenMeterPercentage === null ? "–" : percent(player.sevenMeterPercentage)}</td>
+    </tr>`;
+  }).join("") || `<tr><td colspan="6">Keine Spielerdaten im gewählten Filter.</td></tr>`;
+
+  updateSortIndicators("players");
+}
+
+function rankingTableHtml(rows) {
+  return rows.map(team => `<tr>
+    <td class="team-cell"><strong>${team.name}</strong><span>${team.matchMinutes} Min. Spielzeit</span></td>
+    <td>${team.games}</td>
+    <td>${team.goalsFor}</td>
+    <td>${team.goalsAgainst}</td>
+    <td>${team.goalsForAvg === null ? "–" : deNumber(team.goalsForAvg, 2)}</td>
+    <td>${team.goalsAgainstAvg === null ? "–" : deNumber(team.goalsAgainstAvg, 2)}</td>
+    <td class="rate">${team.goalsForPer10 === null ? "–" : deNumber(team.goalsForPer10, 2)}</td>
+    <td>${team.goalsAgainstPer10 === null ? "–" : deNumber(team.goalsAgainstPer10, 2)}</td>
+  </tr>`).join("") || `<tr><td colspan="8">Keine Mannschaftsdaten im gewählten Filter.</td></tr>`;
+}
+
+function renderClubTeamRankings() {
+  const rows = teamRankingRows();
+  for (const tableName of ["offense", "defense"]) {
+    const spec = state.clubSort[tableName];
+    const sorted = rows.slice().sort((a, b) => compareSortValue(a, b, spec.key, spec.dir));
+    $(`#club-${tableName}-table-body`).innerHTML = rankingTableHtml(sorted);
+    updateSortIndicators(tableName);
+  }
+}
+
+function toggleClubSort(tableName, key, defaultDir = "desc") {
+  const current = state.clubSort[tableName];
+  if (!current) return;
+  if (current.key === key) current.dir = current.dir === "asc" ? "desc" : "asc";
+  else state.clubSort[tableName] = { key, dir: defaultDir };
+
+  if (tableName === "players") renderClubPlayers();
+  else renderClubTeamRankings();
+}
+
 function matchRow(match, { showTeam = true, selectable = false } = {}) {
   const p = perspective(match);
   const teamName = match.ownTeam?.name || match.ownTeam?.label || "SG";
@@ -353,6 +501,8 @@ function renderClub() {
   renderTeamTable();
   renderRecentMatches();
   renderCoverage();
+  renderClubPlayers();
+  renderClubTeamRankings();
 }
 
 function homeAwayStats(matches) {
@@ -770,6 +920,10 @@ function bindEvents() {
   });
 
   $$(".trainer-tab").forEach(button => button.addEventListener("click", () => setTrainerTab(button.dataset.trainerTab)));
+
+  $$(".sort-button").forEach(button => button.addEventListener("click", () => {
+    toggleClubSort(button.dataset.sortTable, button.dataset.sortKey, button.dataset.defaultDir || "desc");
+  }));
 
   $("#trainer-matches").addEventListener("click", event => {
     const row = event.target.closest("[data-match-id]");

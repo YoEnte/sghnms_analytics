@@ -116,6 +116,87 @@
           <div id="recent-matches" class="match-list"></div>
         </article>
       </section>
+
+      <article class="panel club-ranking-panel">
+        <div class="panel-head">
+          <div>
+            <span class="section-eyebrow">TOP SPIELER</span>
+            <h2>Scoring im gewählten Filter</h2>
+          </div>
+          <span class="panel-note">Top 20 · Einsätze aus Lineups · 7m aus Events</span>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table data-table--sortable" id="club-player-table">
+            <thead>
+              <tr>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="name" data-default-dir="asc">Spieler</button></th>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="appearances" data-default-dir="desc">Spiele</button></th>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="goals" data-default-dir="desc">Tore</button></th>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="goalsPerAppearance" data-default-dir="desc">Tore/Sp.</button></th>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="sevenMeterGoals" data-default-dir="desc">7m</button></th>
+                <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="sevenMeterPercentage" data-default-dir="desc">7m-Quote</button></th>
+              </tr>
+            </thead>
+            <tbody id="club-player-table-body"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <section class="club-rankings-grid">
+        <article class="panel club-ranking-panel">
+          <div class="panel-head">
+            <div>
+              <span class="section-eyebrow">TEAM-RANKING</span>
+              <h2>Beste Offensive</h2>
+            </div>
+            <span class="panel-note">Standard: Tore je 10 Min.</span>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table data-table--sortable team-ranking-table" id="club-offense-table">
+              <thead>
+                <tr>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="name" data-default-dir="asc">Team</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="games" data-default-dir="desc">Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsFor" data-default-dir="desc">Tore</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsAgainst" data-default-dir="asc">Gegentore</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsForAvg" data-default-dir="desc">Tore/Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsAgainstAvg" data-default-dir="asc">GT/Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsForPer10" data-default-dir="desc">Tore/10</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="offense" data-sort-key="goalsAgainstPer10" data-default-dir="asc">GT/10</button></th>
+                </tr>
+              </thead>
+              <tbody id="club-offense-table-body"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel club-ranking-panel">
+          <div class="panel-head">
+            <div>
+              <span class="section-eyebrow">TEAM-RANKING</span>
+              <h2>Beste Defensive</h2>
+            </div>
+            <span class="panel-note">Standard: Gegentore je 10 Min.</span>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table data-table--sortable team-ranking-table" id="club-defense-table">
+              <thead>
+                <tr>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="name" data-default-dir="asc">Team</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="games" data-default-dir="desc">Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsFor" data-default-dir="desc">Tore</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsAgainst" data-default-dir="asc">Gegentore</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsForAvg" data-default-dir="desc">Tore/Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsAgainstAvg" data-default-dir="asc">GT/Sp.</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsForPer10" data-default-dir="desc">Tore/10</button></th>
+                  <th><button class="sort-button" type="button" data-sort-table="defense" data-sort-key="goalsAgainstPer10" data-default-dir="asc">GT/10</button></th>
+                </tr>
+              </thead>
+              <tbody id="club-defense-table-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
     </section>
 
     <section id="trainer-view" class="view" hidden>
