@@ -1,0 +1,90 @@
+name: Refresh handball data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 */6 * * *"
+
+permissions:
+  contents: write
+
+env:
+  ANALYTICS_REPOSITORY: hannesmodes-sghnms/sghnms_analytics
+  ANALYTICS_BRANCH: main
+
+concurrency:
+  group: refresh-handball-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout private data repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: QA
+        run: npm run qa
+
+      - name: Refresh data
+        run: npm run refresh
+
+      - name: Commit changed data to private repository
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No private data changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add raw generated
+            git commit -m "Update handball analytics data"
+            git push
+          fi
+
+      - name: Verify analytics repository token
+        env:
+          ANALYTICS_REPO_TOKEN: ${{ secrets.ANALYTICS_REPO_TOKEN }}
+        run: |
+          if [ -z "$ANALYTICS_REPO_TOKEN" ]; then
+            echo "::error::Repository secret ANALYTICS_REPO_TOKEN is missing."
+            echo "Create a fine-grained PAT with Contents: Read and write for ${ANALYTICS_REPOSITORY} and store it as ANALYTICS_REPO_TOKEN in this private repository."
+            exit 1
+          fi
+
+      - name: Checkout public analytics repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.ANALYTICS_REPOSITORY }}
+          ref: ${{ env.ANALYTICS_BRANCH }}
+          token: ${{ secrets.ANALYTICS_REPO_TOKEN }}
+          path: _publish/sghnms_analytics
+
+      - name: Sync public dashboard data
+        run: |
+          rm -rf _publish/sghnms_analytics/data
+          mkdir -p _publish/sghnms_analytics/data
+          cp -a generated/public/. _publish/sghnms_analytics/data/
+
+      - name: Commit public dashboard data
+        working-directory: _publish/sghnms_analytics
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No public dashboard data changes."
+            exit 0
+          fi
+
+          git config user.name "sghnms-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Update analytics data"
+          git push origin "${ANALYTICS_BRANCH}"
