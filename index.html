@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#001f44">
   <title>SGHNMS Analytics</title>
-  <link rel="stylesheet" href="./styles.css?v=4.0">
+  <link rel="stylesheet" href="./styles.css?v=5.0">
 </head>
 <body>
   <header class="topbar">
@@ -60,6 +60,18 @@
             <span>Mannschaft</span>
             <select id="club-team-select"></select>
           </label>
+          <label class="team-select-wrap filter-select-wrap">
+            <span>Zeitraum</span>
+            <select id="club-period-select"></select>
+          </label>
+          <div class="filter-level">
+            <span class="filter-level-label">Spielort</span>
+            <div class="segmented" id="venue-buttons" aria-label="Spielort">
+              <button class="segment is-active" data-venue="all" type="button">Alle</button>
+              <button class="segment" data-venue="home" type="button">Heim</button>
+              <button class="segment" data-venue="away" type="button">Auswärts</button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -69,12 +81,12 @@
         <article class="panel chart-panel">
           <div class="panel-head">
             <div>
-              <span class="section-eyebrow">SAISONVERLAUF</span>
-              <h2>Kumulative Tordifferenz</h2>
+              <span class="section-eyebrow">ERFOLGSVERLAUF</span>
+              <h2>Kumulative Siegquote</h2>
             </div>
-            <div class="legend"><span class="legend-line"></span> nach jedem Spiel</div>
+            <div class="legend"><span class="legend-line"></span> nach Spieltag</div>
           </div>
-          <div id="trend-chart" class="chart" aria-label="Kumulative Tordifferenz"></div>
+          <div id="trend-chart" class="chart" aria-label="Kumulative Siegquote"></div>
         </article>
 
         <article class="panel quality-panel">
@@ -131,7 +143,7 @@
             <span class="section-eyebrow">TOP SPIELER</span>
             <h2>Scoring im gewählten Filter</h2>
           </div>
-          <span class="panel-note">Top 20 · Einsätze aus Lineups · 7m aus Events</span>
+          <span class="panel-note" id="club-player-note">Top 20 · Saisonwerte</span>
         </div>
         <div class="table-wrap">
           <table class="data-table data-table--sortable" id="club-player-table">
@@ -364,6 +376,6 @@
     <span>Interne Auswertung · Datenquelle handball.net</span>
   </footer>
 
-  <script type="module" src="./app.js?v=4.0"></script>
+  <script type="module" src="./app.js?v=5.0"></script>
 </body>
 </html>

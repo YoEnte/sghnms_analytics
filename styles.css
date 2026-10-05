@@ -93,6 +93,8 @@ button { color: inherit; }
 .team-select-wrap { display: grid; gap: 5px; min-width: 230px; }
 .team-select-wrap span { font-size: 10px; letter-spacing: .09em; text-transform: uppercase; font-weight: 850; color: var(--muted); }
 .team-select-wrap select { width: 100%; padding: 10px 36px 10px 12px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--ink); }
+.filter-select-wrap { width: 100%; min-width: 310px; }
+.filter-select-wrap select { cursor: pointer; }
 .team-select-wrap--trainer { min-width: 270px; }
 
 .kpi-grid { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 12px; margin-bottom: 18px; }
@@ -293,7 +295,7 @@ button { color: inherit; }
   .filter-level { align-items: stretch; flex-direction: column; gap: 5px; }
   .filter-level-label { min-width: 0; text-align: left; }
   .segmented { justify-content: flex-start; }
-  .team-select-wrap, .team-select-wrap--trainer { min-width: 0; }
+  .team-select-wrap, .team-select-wrap--trainer, .filter-select-wrap { min-width: 0; width: 100%; }
   .kpi-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .panel-head { padding: 17px 17px 0; }
   .split-stats, .split-stats--three { grid-template-columns: 1fr; }

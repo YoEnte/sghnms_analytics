@@ -13,6 +13,8 @@ const state = {
   clubScope: "overall",
   clubGender: "all",
   clubTeamId: "",
+  clubPeriod: "all",
+  clubVenue: "all",
   trainerTeamId: null,
   selectedMatchId: null,
   trainerTab: "overview",
@@ -96,6 +98,42 @@ function teamMatches(teamId) {
   return state.matches.filter(match => String(match.ownTeamId) === String(teamId));
 }
 
+function monthKey(iso) {
+  return String(iso || "").slice(0, 7);
+}
+
+function weekendStartIso(iso) {
+  if (!iso) return "";
+  const date = new Date(`${iso}T12:00:00`);
+  const day = date.getDay();
+  const offset = day === 5 ? 0 : day === 6 ? 1 : day === 0 ? 2 : null;
+  if (offset === null) return "";
+  date.setDate(date.getDate() - offset);
+  return date.toISOString().slice(0, 10);
+}
+
+function addDaysIso(iso, days) {
+  const date = new Date(`${iso}T12:00:00`);
+  date.setDate(date.getDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function monthLabel(key) {
+  if (!key) return "";
+  const [year, month] = key.split("-").map(Number);
+  return new Intl.DateTimeFormat("de-DE", { month: "long", year: "numeric" })
+    .format(new Date(year, month - 1, 1));
+}
+
+function weekendLabel(startIso) {
+  const endIso = addDaysIso(startIso, 2);
+  const start = new Date(`${startIso}T12:00:00`);
+  const end = new Date(`${endIso}T12:00:00`);
+  const startText = new Intl.DateTimeFormat("de-DE", { day: "2-digit", month: "2-digit" }).format(start);
+  const endText = new Intl.DateTimeFormat("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }).format(end);
+  return `Spieltagswochenende ${startText}–${endText}`;
+}
+
 function matchPassesClubBaseFilters(match) {
   const team = match.ownTeam || {};
   if (state.clubScope === "seniors" && team.ageGroup !== "senior") return false;
@@ -104,9 +142,33 @@ function matchPassesClubBaseFilters(match) {
   return true;
 }
 
+function matchPassesClubContextFilters(match) {
+  const p = perspective(match);
+  if (state.clubVenue === "home" && !p.isHome) return false;
+  if (state.clubVenue === "away" && p.isHome) return false;
+
+  if (state.clubPeriod.startsWith("month:")) {
+    return monthKey(match.date) === state.clubPeriod.slice(6);
+  }
+  if (state.clubPeriod.startsWith("weekend:")) {
+    return weekendStartIso(match.date) === state.clubPeriod.slice(8);
+  }
+  return true;
+}
+
+function clubBaseMatches() {
+  const matches = state.clubTeamId ? teamMatches(state.clubTeamId) : state.matches;
+  return matches.filter(matchPassesClubBaseFilters);
+}
+
 function scopeMatches() {
-  if (state.clubTeamId) return teamMatches(state.clubTeamId).filter(matchPassesClubBaseFilters);
-  return state.matches.filter(matchPassesClubBaseFilters);
+  return clubBaseMatches().filter(matchPassesClubContextFilters);
+}
+
+function filteredMatchesForTeam(teamId) {
+  return teamMatches(teamId)
+    .filter(matchPassesClubBaseFilters)
+    .filter(matchPassesClubContextFilters);
 }
 
 function summarize(matches) {
@@ -208,7 +270,7 @@ function renderKpis(target, summary) {
 }
 
 function formForTeam(teamId, limit = 5) {
-  return teamMatches(teamId)
+  return filteredMatchesForTeam(teamId)
     .slice()
     .sort((a, b) => `${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`))
     .slice(-limit)
@@ -221,9 +283,10 @@ function formHtml(form) {
 }
 
 function renderTeamTable() {
-  const teams = scopeTeams().slice().sort((a, b) =>
-    b.winRate - a.winRate || b.goalDifference - a.goalDifference || a.name.localeCompare(b.name, "de")
-  );
+  const teams = scopeTeams()
+    .map(team => ({ ...team, ...summarize(filteredMatchesForTeam(team.id)) }))
+    .filter(team => team.games > 0 || Boolean(state.clubTeamId))
+    .sort((a, b) => b.winRate - a.winRate || b.goalDifference - a.goalDifference || a.name.localeCompare(b.name, "de"));
 
   $("#team-table-body").innerHTML = teams.map(team => {
     const gdAvg = team.games ? team.goalDifference / team.games : 0;
@@ -235,7 +298,7 @@ function renderTeamTable() {
       <td class="rate">${percent(team.winRate)}</td>
       <td>${formHtml(formForTeam(team.id))}</td>
     </tr>`;
-  }).join("") || `<tr><td colspan="6">Keine Daten.</td></tr>`;
+  }).join("") || `<tr><td colspan="6">Keine Spiele im gewählten Filter.</td></tr>`;
 }
 
 function scopedTeamIds() {
@@ -280,20 +343,21 @@ function scopePlayers() {
 
 function teamRankingRows() {
   return scopeTeams().map(team => {
-    const games = Number(team.games || 0);
+    const summary = summarize(filteredMatchesForTeam(team.id));
+    const games = summary.games;
     const matchMinutes = Number(team.matchMinutes || 0);
     const totalMinutes = games * matchMinutes;
     return {
       ...team,
       games,
-      goalsFor: Number(team.goalsFor || 0),
-      goalsAgainst: Number(team.goalsAgainst || 0),
-      goalsForAvg: games ? Number(team.goalsFor || 0) / games : null,
-      goalsAgainstAvg: games ? Number(team.goalsAgainst || 0) / games : null,
-      goalsForPer10: totalMinutes ? Number(team.goalsFor || 0) * 10 / totalMinutes : null,
-      goalsAgainstPer10: totalMinutes ? Number(team.goalsAgainst || 0) * 10 / totalMinutes : null
+      goalsFor: summary.goalsFor,
+      goalsAgainst: summary.goalsAgainst,
+      goalsForAvg: games ? summary.goalsFor / games : null,
+      goalsAgainstAvg: games ? summary.goalsAgainst / games : null,
+      goalsForPer10: totalMinutes ? summary.goalsFor * 10 / totalMinutes : null,
+      goalsAgainstPer10: totalMinutes ? summary.goalsAgainst * 10 / totalMinutes : null
     };
-  });
+  }).filter(team => team.games > 0 || Boolean(state.clubTeamId));
 }
 
 function compareSortValue(a, b, key, dir) {
@@ -327,6 +391,14 @@ function updateSortIndicators(tableName) {
 }
 
 function renderClubPlayers() {
+  const note = $("#club-player-note");
+  if (note) {
+    const contextualFilterActive = state.clubPeriod !== "all" || state.clubVenue !== "all";
+    note.textContent = contextualFilterActive
+      ? "Saisonwerte · Zeitraum/Spielort gelten nicht für Spielerwerte"
+      : "Top 20 · Saisonwerte · Teamfilter wird berücksichtigt";
+  }
+
   const spec = state.clubSort.players;
   const players = scopePlayers()
     .sort((a, b) => compareSortValue(a, b, spec.key, spec.dir))
@@ -447,37 +519,35 @@ function renderTrend(target, matches, { trainer = false } = {}) {
     return;
   }
 
-  let cumulative = 0;
-  const data = sorted.map((match, index) => {
-    const p = perspective(match);
-    cumulative += p.own - p.opp;
-    return { index, match, cumulative, diff: p.own - p.opp, result: p.result };
-  });
-
   const w = 900;
   const h = 270;
-  const left = 46;
+  const left = 54;
   const right = 20;
   const top = 18;
   const bottom = 34;
   const innerW = w - left - right;
   const innerH = h - top - bottom;
-  const values = trainer ? data.map(d => d.diff) : data.map(d => d.cumulative);
-  const minVal = Math.min(0, ...values);
-  const maxVal = Math.max(0, ...values);
-  const pad = Math.max(2, (maxVal - minVal) * 0.12);
-  const yMin = minVal - pad;
-  const yMax = maxVal + pad;
-  const x = i => left + (data.length === 1 ? innerW / 2 : (i / (data.length - 1)) * innerW);
-  const y = v => top + ((yMax - v) / (yMax - yMin || 1)) * innerH;
-  const zeroY = y(0);
-  const gridVals = Array.from({ length: 5 }, (_, i) => yMax - i * (yMax - yMin) / 4);
-
-  let body = `<svg viewBox="0 0 ${w} ${h}" role="img">`;
-  body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#7a8798">${Math.round(v)}</text>`).join("");
-  body += `<line x1="${left}" x2="${w-right}" y1="${zeroY}" y2="${zeroY}" stroke="#aebac9" stroke-width="1.2"/>`;
 
   if (trainer) {
+    const data = sorted.map((match, index) => {
+      const p = perspective(match);
+      return { index, match, diff: p.own - p.opp, result: p.result };
+    });
+    const values = data.map(d => d.diff);
+    const minVal = Math.min(0, ...values);
+    const maxVal = Math.max(0, ...values);
+    const pad = Math.max(2, (maxVal - minVal) * 0.12);
+    const yMin = minVal - pad;
+    const yMax = maxVal + pad;
+    const x = i => left + (data.length === 1 ? innerW / 2 : (i / (data.length - 1)) * innerW);
+    const y = v => top + ((yMax - v) / (yMax - yMin || 1)) * innerH;
+    const zeroY = y(0);
+    const gridVals = Array.from({ length: 5 }, (_, i) => yMax - i * (yMax - yMin) / 4);
+
+    let body = `<svg viewBox="0 0 ${w} ${h}" role="img">`;
+    body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#7a8798">${Math.round(v)}</text>`).join("");
+    body += `<line x1="${left}" x2="${w-right}" y1="${zeroY}" y2="${zeroY}" stroke="#aebac9" stroke-width="1.2"/>`;
+
     const barW = Math.max(5, Math.min(28, innerW / Math.max(data.length, 1) * 0.58));
     body += data.map((d, i) => {
       const bx = x(i) - barW / 2;
@@ -486,26 +556,64 @@ function renderTrend(target, matches, { trainer = false } = {}) {
       const fill = d.result === "W" ? "#0f7a49" : d.result === "D" ? "#9a6500" : "#bf0b0f";
       return `<rect x="${bx}" y="${by}" width="${barW}" height="${bh}" rx="3" fill="${fill}" opacity=".82"><title>${d.match.date}: ${signed(d.diff)}</title></rect>`;
     }).join("");
-  } else {
-    const pts = data.map((d, i) => `${x(i)},${y(d.cumulative)}`).join(" ");
-    const area = `${left},${zeroY} ${pts} ${x(data.length - 1)},${zeroY}`;
-    body += `<polygon points="${area}" fill="rgba(13,77,142,.08)"/><polyline points="${pts}" fill="none" stroke="#bf0b0f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
-    body += data.map((d, i) => `<circle cx="${x(i)}" cy="${y(d.cumulative)}" r="3.4" fill="#fff" stroke="#bf0b0f" stroke-width="2"><title>${d.match.date}: ${signed(d.cumulative)}</title></circle>`).join("");
+
+    const labelIdx = [0, Math.floor((data.length - 1) / 2), data.length - 1].filter((v, i, a) => a.indexOf(v) === i);
+    body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(data[i].match.date)}</text>`).join("");
+    body += `</svg>`;
+    root.innerHTML = body;
+    return;
   }
 
+  const byDate = new Map();
+  for (const match of sorted) {
+    if (!byDate.has(match.date)) byDate.set(match.date, { date: match.date, games: 0, wins: 0 });
+    const day = byDate.get(match.date);
+    day.games += 1;
+    if (perspective(match).result === "W") day.wins += 1;
+  }
+
+  let cumulativeGames = 0;
+  let cumulativeWins = 0;
+  const data = [...byDate.values()].map(day => {
+    cumulativeGames += day.games;
+    cumulativeWins += day.wins;
+    return {
+      ...day,
+      cumulativeGames,
+      cumulativeWins,
+      winRate: cumulativeGames ? (cumulativeWins / cumulativeGames) * 100 : 0
+    };
+  });
+
+  const yMin = 0;
+  const yMax = 100;
+  const x = i => left + (data.length === 1 ? innerW / 2 : (i / (data.length - 1)) * innerW);
+  const y = v => top + ((yMax - v) / (yMax - yMin)) * innerH;
+  const gridVals = [100, 75, 50, 25, 0];
+
+  let body = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Kumulative Siegquote">`;
+  body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#7a8798">${v}%</text>`).join("");
+  const pts = data.map((d, i) => `${x(i)},${y(d.winRate)}`).join(" ");
+  const area = `${left},${y(0)} ${pts} ${x(data.length - 1)},${y(0)}`;
+  body += `<polygon points="${area}" fill="rgba(13,77,142,.08)"/><polyline points="${pts}" fill="none" stroke="#bf0b0f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
+  body += data.map((d, i) => `<circle cx="${x(i)}" cy="${y(d.winRate)}" r="3.8" fill="#fff" stroke="#bf0b0f" stroke-width="2"><title>${dateLong(d.date)} · ${percent(d.winRate)} kumulativ · ${d.cumulativeWins}/${d.cumulativeGames} Siege · Spieltag ${d.wins}/${d.games}</title></circle>`).join("");
+
   const labelIdx = [0, Math.floor((data.length - 1) / 2), data.length - 1].filter((v, i, a) => a.indexOf(v) === i);
-  body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(data[i].match.date)}</text>`).join("");
+  body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(data[i].date)}</text>`).join("");
   body += `</svg>`;
   root.innerHTML = body;
 }
-
 function renderClub() {
   const matches = scopeMatches();
   const summary = summarize(matches);
   $("#scope-title").textContent = scopeName();
-  $("#scope-subtitle").textContent = state.clubTeamId
-    ? `${summary.games} abgeschlossene Saisonspiele.`
-    : "Alle abgeschlossenen Spiele im gewählten Vereinsfilter.";
+
+  const context = [];
+  if (state.clubPeriod !== "all") context.push($("#club-period-select")?.selectedOptions?.[0]?.textContent || "Zeitraum");
+  if (state.clubVenue === "home") context.push("Heimspiele");
+  if (state.clubVenue === "away") context.push("Auswärtsspiele");
+  $("#scope-subtitle").textContent = `${summary.games} abgeschlossene Spiele${context.length ? ` · ${context.join(" · ")}` : ""}.`;
+
   renderKpis("#club-kpis", summary);
   renderTrend("#trend-chart", matches);
   renderTeamTable();
@@ -941,6 +1049,27 @@ function fillClubTeamSelect() {
   select.value = state.clubTeamId || "";
 }
 
+function fillClubPeriodSelect() {
+  const select = $("#club-period-select");
+  const matches = clubBaseMatches();
+  const months = [...new Set(matches.map(match => monthKey(match.date)).filter(Boolean))].sort();
+  const weekends = [...new Set(matches.map(match => weekendStartIso(match.date)).filter(Boolean))].sort();
+  const validValues = new Set([
+    "all",
+    ...months.map(key => `month:${key}`),
+    ...weekends.map(key => `weekend:${key}`)
+  ]);
+  if (!validValues.has(state.clubPeriod)) state.clubPeriod = "all";
+
+  const monthOptions = months.map(key => `<option value="month:${key}">${monthLabel(key)}</option>`).join("");
+  const weekendOptions = weekends.map(key => `<option value="weekend:${key}">${weekendLabel(key)}</option>`).join("");
+  select.innerHTML = `
+    <option value="all">Gesamte Saison</option>
+    ${monthOptions ? `<optgroup label="Monate">${monthOptions}</optgroup>` : ""}
+    ${weekendOptions ? `<optgroup label="Spieltagswochenenden">${weekendOptions}</optgroup>` : ""}`;
+  select.value = state.clubPeriod;
+}
+
 function fillTeamSelect(select) {
   select.innerHTML = state.teams
     .slice()
@@ -971,6 +1100,7 @@ function bindEvents() {
     state.clubScope = button.dataset.scope;
     $$("#scope-buttons .segment").forEach(item => item.classList.toggle("is-active", item === button));
     fillClubTeamSelect();
+    fillClubPeriodSelect();
     renderClub();
   }));
 
@@ -978,13 +1108,26 @@ function bindEvents() {
     state.clubGender = button.dataset.gender;
     $$("#gender-buttons .segment").forEach(item => item.classList.toggle("is-active", item === button));
     fillClubTeamSelect();
+    fillClubPeriodSelect();
     renderClub();
   }));
 
   $("#club-team-select").addEventListener("change", event => {
     state.clubTeamId = event.target.value;
+    fillClubPeriodSelect();
     renderClub();
   });
+
+  $("#club-period-select").addEventListener("change", event => {
+    state.clubPeriod = event.target.value;
+    renderClub();
+  });
+
+  $$("#venue-buttons .segment").forEach(button => button.addEventListener("click", () => {
+    state.clubVenue = button.dataset.venue;
+    $$("#venue-buttons .segment").forEach(item => item.classList.toggle("is-active", item === button));
+    renderClub();
+  }));
 
   $("#trainer-team-select").addEventListener("change", event => {
     state.trainerTeamId = event.target.value;
@@ -1038,6 +1181,7 @@ async function init() {
     state.selectedMatchId = defaultMatchForTeam(state.trainerTeamId);
 
     fillClubTeamSelect();
+    fillClubPeriodSelect();
     fillTeamSelect($("#trainer-team-select"));
     $("#trainer-team-select").value = state.trainerTeamId || "";
 
