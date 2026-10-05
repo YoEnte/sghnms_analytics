@@ -1,0 +1,21 @@
+{
+  "name": "sghnms-handball-data",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch:season": "node scripts/fetch-season.js",
+    "fetch:details": "node scripts/fetch-match-details.js",
+    "normalize": "node scripts/normalize.js",
+    "analyze:match": "node scripts/analyze-match.js",
+    "analyze:all": "node scripts/analyze-all.js",
+    "build:exports": "node scripts/build-exports.js",
+    "validate:data": "node scripts/validate-data.js",
+    "refresh": "npm run fetch:season && npm run fetch:details && npm run normalize && npm run analyze:all && npm run build:exports && npm run build:analytics && npm run validate:data",
+    "qa": "node scripts/qa.js",
+    "build:analytics": "node scripts/build-analytics-exports.js"
+  }
+}
