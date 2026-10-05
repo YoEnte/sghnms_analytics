@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.959Z",
+  "generatedAt": "2026-10-05T09:32:54.404Z",
   "match": {
     "id": 509816,
     "date": "2026-10-03",
@@ -33,7 +33,9 @@
       "name": "wJE 2",
       "ageGroup": "youth",
       "gender": "female",
-      "matchMinutes": 40
+      "youthClass": "E",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": false,
     "opponent": {
@@ -405,6 +407,32 @@
         "goalDifference": 1
       }
     ],
+    "gamePhases": [
+      {
+        "key": "threeOnThree",
+        "label": "1. Halbzeit",
+        "format": "2×3 gegen 3",
+        "startSeconds": 0,
+        "endSeconds": 1200,
+        "goals": {
+          "own": 0,
+          "opponent": 4
+        },
+        "goalDifference": -4
+      },
+      {
+        "key": "sixOnSix",
+        "label": "2. Halbzeit",
+        "format": "6 gegen 6",
+        "startSeconds": 1200,
+        "endSeconds": 2400,
+        "goals": {
+          "own": 5,
+          "opponent": 6
+        },
+        "goalDifference": -1
+      }
+    ],
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -522,6 +550,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [],
       "even": {
         "seconds": 2400,

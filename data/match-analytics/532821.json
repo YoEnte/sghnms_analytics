@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.893Z",
+  "generatedAt": "2026-10-05T09:32:54.369Z",
   "match": {
     "id": 532821,
     "date": "2026-09-06",
@@ -33,7 +33,9 @@
       "name": "mJD 1",
       "ageGroup": "youth",
       "gender": "male",
-      "matchMinutes": 40
+      "youthClass": "D",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": true,
     "opponent": {
@@ -821,6 +823,7 @@
         "goalDifference": 1
       }
     ],
+    "gamePhases": null,
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -956,6 +959,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [],
       "even": {
         "seconds": 2400,

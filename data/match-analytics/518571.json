@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.912Z",
+  "generatedAt": "2026-10-05T09:32:54.380Z",
   "match": {
     "id": 518571,
     "date": "2026-09-12",
@@ -33,7 +33,9 @@
       "name": "mJE 2",
       "ageGroup": "youth",
       "gender": "male",
-      "matchMinutes": 40
+      "youthClass": "E",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": true,
     "opponent": {
@@ -678,6 +680,32 @@
         "goalDifference": 2
       }
     ],
+    "gamePhases": [
+      {
+        "key": "threeOnThree",
+        "label": "1. Halbzeit",
+        "format": "2×3 gegen 3",
+        "startSeconds": 0,
+        "endSeconds": 1200,
+        "goals": {
+          "own": 16,
+          "opponent": 5
+        },
+        "goalDifference": 11
+      },
+      {
+        "key": "sixOnSix",
+        "label": "2. Halbzeit",
+        "format": "6 gegen 6",
+        "startSeconds": 1200,
+        "endSeconds": 2400,
+        "goals": {
+          "own": 10,
+          "opponent": 6
+        },
+        "goalDifference": 4
+      }
+    ],
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -813,6 +841,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [
         {
           "eventId": 9024296,
@@ -846,10 +875,10 @@
         }
       ],
       "even": {
-        "seconds": 2048,
+        "seconds": 2400,
         "goals": {
-          "own": 24,
-          "opponent": 10
+          "own": 25,
+          "opponent": 11
         }
       },
       "powerPlay": {
@@ -860,10 +889,10 @@
         }
       },
       "shortHanded": {
-        "seconds": 352,
+        "seconds": 0,
         "goals": {
-          "own": 1,
-          "opponent": 1
+          "own": 0,
+          "opponent": 0
         }
       }
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.884Z",
+  "generatedAt": "2026-10-05T09:32:54.363Z",
   "match": {
     "id": 532843,
     "date": "2026-09-05",
@@ -33,7 +33,9 @@
       "name": "mJD 2",
       "ageGroup": "youth",
       "gender": "male",
-      "matchMinutes": 40
+      "youthClass": "D",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": true,
     "opponent": {
@@ -600,6 +602,7 @@
         "goalDifference": 0
       }
     ],
+    "gamePhases": null,
     "sevenMeters": {
       "own": {
         "goals": 1,
@@ -717,6 +720,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [
         {
           "eventId": 3110810,
@@ -730,17 +734,17 @@
         }
       ],
       "even": {
-        "seconds": 2280,
+        "seconds": 2400,
         "goals": {
-          "own": 16,
-          "opponent": 12
+          "own": 17,
+          "opponent": 13
         }
       },
       "powerPlay": {
-        "seconds": 120,
+        "seconds": 0,
         "goals": {
-          "own": 1,
-          "opponent": 1
+          "own": 0,
+          "opponent": 0
         }
       },
       "shortHanded": {

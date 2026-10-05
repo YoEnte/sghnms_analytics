@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.887Z",
+  "generatedAt": "2026-10-05T09:32:54.365Z",
   "match": {
     "id": 510174,
     "date": "2026-09-05",
@@ -33,7 +33,9 @@
       "name": "wJD",
       "ageGroup": "youth",
       "gender": "female",
-      "matchMinutes": 40
+      "youthClass": "D",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": true,
     "opponent": {
@@ -821,6 +823,7 @@
         "goalDifference": 6
       }
     ],
+    "gamePhases": null,
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -938,6 +941,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [
         {
           "eventId": 3498557,
@@ -981,24 +985,24 @@
         }
       ],
       "even": {
-        "seconds": 2005,
+        "seconds": 2400,
         "goals": {
-          "own": 34,
-          "opponent": 9
+          "own": 37,
+          "opponent": 10
         }
       },
       "powerPlay": {
-        "seconds": 155,
+        "seconds": 0,
         "goals": {
-          "own": 1,
+          "own": 0,
           "opponent": 0
         }
       },
       "shortHanded": {
-        "seconds": 240,
+        "seconds": 0,
         "goals": {
-          "own": 2,
-          "opponent": 1
+          "own": 0,
+          "opponent": 0
         }
       }
     },

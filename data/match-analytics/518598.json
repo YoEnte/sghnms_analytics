@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.919Z",
+  "generatedAt": "2026-10-05T09:32:54.383Z",
   "match": {
     "id": 518598,
     "date": "2026-09-13",
@@ -33,7 +33,9 @@
       "name": "mJE 1",
       "ageGroup": "youth",
       "gender": "male",
-      "matchMinutes": 40
+      "youthClass": "E",
+      "matchMinutes": 40,
+      "twoMinutePlayerReduction": false
     },
     "isHome": true,
     "opponent": {
@@ -951,6 +953,32 @@
         "goalDifference": 2
       }
     ],
+    "gamePhases": [
+      {
+        "key": "threeOnThree",
+        "label": "1. Halbzeit",
+        "format": "2×3 gegen 3",
+        "startSeconds": 0,
+        "endSeconds": 1200,
+        "goals": {
+          "own": 14,
+          "opponent": 7
+        },
+        "goalDifference": 7
+      },
+      {
+        "key": "sixOnSix",
+        "label": "2. Halbzeit",
+        "format": "6 gegen 6",
+        "startSeconds": 1200,
+        "endSeconds": 2400,
+        "goals": {
+          "own": 22,
+          "opponent": 14
+        },
+        "goalDifference": 8
+      }
+    ],
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -1068,6 +1096,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": false,
       "suspensions": [],
       "even": {
         "seconds": 2400,

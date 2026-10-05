@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.974Z",
+  "generatedAt": "2026-10-05T09:32:54.414Z",
   "teams": [
     {
       "id": "86801",
@@ -41,6 +41,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 11933,
           "goalsFor": 93,
@@ -203,6 +204,7 @@
           "goalDifferencePerGame": -0.5
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 448670,
         "date": "2026-09-17",
@@ -641,6 +643,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 6265,
           "goalsFor": 60,
@@ -803,6 +806,7 @@
           "goalDifferencePerGame": -0.5
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 504551,
         "date": "2026-09-06",
@@ -1117,7 +1121,9 @@
       "name": "mJD 1",
       "ageGroup": "youth",
       "gender": "male",
+      "youthClass": "D",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 3,
       "analyticsMatches": 3,
       "coveragePercent": 100,
@@ -1151,20 +1157,21 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 6840,
-          "goalsFor": 90,
-          "goalsAgainst": 50
+          "seconds": 7200,
+          "goalsFor": 95,
+          "goalsAgainst": 53
         },
         "powerPlay": {
-          "seconds": 120,
-          "goalsFor": 1,
-          "goalsAgainst": 2
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         },
         "shortHanded": {
-          "seconds": 240,
-          "goalsFor": 4,
-          "goalsAgainst": 1
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         }
       },
       "fiveMinuteSplits": [
@@ -1265,6 +1272,7 @@
           "goalDifferencePerGame": 0.33
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 532826,
         "date": "2026-10-04",
@@ -1489,7 +1497,9 @@
       "name": "mJD 2",
       "ageGroup": "youth",
       "gender": "male",
+      "youthClass": "D",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 4,
       "analyticsMatches": 4,
       "coveragePercent": 100,
@@ -1523,20 +1533,21 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 9248,
-          "goalsFor": 60,
-          "goalsAgainst": 87
+          "seconds": 9600,
+          "goalsFor": 61,
+          "goalsAgainst": 91
         },
         "powerPlay": {
-          "seconds": 120,
-          "goalsFor": 1,
-          "goalsAgainst": 1
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         },
         "shortHanded": {
-          "seconds": 232,
+          "seconds": 0,
           "goalsFor": 0,
-          "goalsAgainst": 3
+          "goalsAgainst": 0
         }
       },
       "fiveMinuteSplits": [
@@ -1637,6 +1648,7 @@
           "goalDifferencePerGame": -1
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 532848,
         "date": "2026-09-12",
@@ -1933,7 +1945,9 @@
       "name": "wJD",
       "ageGroup": "youth",
       "gender": "female",
+      "youthClass": "D",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 2,
       "analyticsMatches": 2,
       "coveragePercent": 100,
@@ -1967,20 +1981,21 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 4285,
-          "goalsFor": 59,
-          "goalsAgainst": 16
+          "seconds": 4800,
+          "goalsFor": 63,
+          "goalsAgainst": 17
         },
         "powerPlay": {
-          "seconds": 275,
-          "goalsFor": 2,
+          "seconds": 0,
+          "goalsFor": 0,
           "goalsAgainst": 0
         },
         "shortHanded": {
-          "seconds": 240,
-          "goalsFor": 2,
-          "goalsAgainst": 1
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         }
       },
       "fiveMinuteSplits": [
@@ -2081,6 +2096,7 @@
           "goalDifferencePerGame": 5
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 510174,
         "date": "2026-09-05",
@@ -2413,7 +2429,9 @@
       "name": "mJE 1",
       "ageGroup": "youth",
       "gender": "male",
+      "youthClass": "E",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 3,
       "analyticsMatches": 3,
       "coveragePercent": 100,
@@ -2447,6 +2465,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
           "seconds": 7200,
           "goalsFor": 91,
@@ -2559,6 +2578,36 @@
           "goalsForPerGame": 5,
           "goalsAgainstPerGame": 2,
           "goalDifferencePerGame": 3
+        }
+      ],
+      "gamePhases": [
+        {
+          "key": "threeOnThree",
+          "label": "1. Halbzeit",
+          "format": "2×3 gegen 3",
+          "startSeconds": 0,
+          "endSeconds": 1200,
+          "games": 3,
+          "goalsFor": 43,
+          "goalsAgainst": 25,
+          "goalDifference": 18,
+          "goalsForPerGame": 14.33,
+          "goalsAgainstPerGame": 8.33,
+          "goalDifferencePerGame": 6
+        },
+        {
+          "key": "sixOnSix",
+          "label": "2. Halbzeit",
+          "format": "6 gegen 6",
+          "startSeconds": 1200,
+          "endSeconds": 2400,
+          "games": 3,
+          "goalsFor": 48,
+          "goalsAgainst": 30,
+          "goalDifference": 18,
+          "goalsForPerGame": 16,
+          "goalsAgainstPerGame": 10,
+          "goalDifferencePerGame": 6
         }
       ],
       "longestRun": {
@@ -2857,7 +2906,9 @@
       "name": "mJE 2",
       "ageGroup": "youth",
       "gender": "male",
+      "youthClass": "E",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 3,
       "analyticsMatches": 2,
       "coveragePercent": 66.7,
@@ -2891,10 +2942,11 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 4264,
-          "goalsFor": 35,
-          "goalsAgainst": 29
+          "seconds": 4800,
+          "goalsFor": 37,
+          "goalsAgainst": 31
         },
         "powerPlay": {
           "seconds": 0,
@@ -2902,9 +2954,9 @@
           "goalsAgainst": 0
         },
         "shortHanded": {
-          "seconds": 536,
-          "goalsFor": 2,
-          "goalsAgainst": 2
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         }
       },
       "fiveMinuteSplits": [
@@ -3002,6 +3054,36 @@
           "goalDifference": 5,
           "goalsForPerGame": 2.5,
           "goalsAgainstPerGame": 0,
+          "goalDifferencePerGame": 2.5
+        }
+      ],
+      "gamePhases": [
+        {
+          "key": "threeOnThree",
+          "label": "1. Halbzeit",
+          "format": "2×3 gegen 3",
+          "startSeconds": 0,
+          "endSeconds": 1200,
+          "games": 2,
+          "goalsFor": 21,
+          "goalsAgainst": 19,
+          "goalDifference": 2,
+          "goalsForPerGame": 10.5,
+          "goalsAgainstPerGame": 9.5,
+          "goalDifferencePerGame": 1
+        },
+        {
+          "key": "sixOnSix",
+          "label": "2. Halbzeit",
+          "format": "6 gegen 6",
+          "startSeconds": 1200,
+          "endSeconds": 2400,
+          "games": 2,
+          "goalsFor": 17,
+          "goalsAgainst": 12,
+          "goalDifference": 5,
+          "goalsForPerGame": 8.5,
+          "goalsAgainstPerGame": 6,
           "goalDifferencePerGame": 2.5
         }
       ],
@@ -3247,7 +3329,9 @@
       "name": "wJE 1",
       "ageGroup": "youth",
       "gender": "female",
+      "youthClass": "E",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 3,
       "analyticsMatches": 3,
       "coveragePercent": 100,
@@ -3281,14 +3365,15 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 6960,
-          "goalsFor": 43,
+          "seconds": 7200,
+          "goalsFor": 46,
           "goalsAgainst": 22
         },
         "powerPlay": {
-          "seconds": 240,
-          "goalsFor": 3,
+          "seconds": 0,
+          "goalsFor": 0,
           "goalsAgainst": 0
         },
         "shortHanded": {
@@ -3393,6 +3478,36 @@
           "goalsForPerGame": 2.67,
           "goalsAgainstPerGame": 0.67,
           "goalDifferencePerGame": 2
+        }
+      ],
+      "gamePhases": [
+        {
+          "key": "threeOnThree",
+          "label": "1. Halbzeit",
+          "format": "2×3 gegen 3",
+          "startSeconds": 0,
+          "endSeconds": 1200,
+          "games": 3,
+          "goalsFor": 21,
+          "goalsAgainst": 11,
+          "goalDifference": 10,
+          "goalsForPerGame": 7,
+          "goalsAgainstPerGame": 3.67,
+          "goalDifferencePerGame": 3.33
+        },
+        {
+          "key": "sixOnSix",
+          "label": "2. Halbzeit",
+          "format": "6 gegen 6",
+          "startSeconds": 1200,
+          "endSeconds": 2400,
+          "games": 3,
+          "goalsFor": 25,
+          "goalsAgainst": 11,
+          "goalDifference": 14,
+          "goalsForPerGame": 8.33,
+          "goalsAgainstPerGame": 3.67,
+          "goalDifferencePerGame": 4.67
         }
       ],
       "longestRun": {
@@ -3655,7 +3770,9 @@
       "name": "wJE 2",
       "ageGroup": "youth",
       "gender": "female",
+      "youthClass": "E",
       "matchMinutes": 40,
+      "twoMinutePlayerReduction": false,
       "finishedMatches": 4,
       "analyticsMatches": 4,
       "coveragePercent": 100,
@@ -3689,15 +3806,16 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": false,
         "even": {
-          "seconds": 9480,
-          "goalsFor": 21,
-          "goalsAgainst": 69
+          "seconds": 9600,
+          "goalsFor": 22,
+          "goalsAgainst": 70
         },
         "powerPlay": {
-          "seconds": 120,
-          "goalsFor": 1,
-          "goalsAgainst": 1
+          "seconds": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0
         },
         "shortHanded": {
           "seconds": 0,
@@ -3801,6 +3919,36 @@
           "goalsForPerGame": 1.25,
           "goalsAgainstPerGame": 2.75,
           "goalDifferencePerGame": -1.5
+        }
+      ],
+      "gamePhases": [
+        {
+          "key": "threeOnThree",
+          "label": "1. Halbzeit",
+          "format": "2×3 gegen 3",
+          "startSeconds": 0,
+          "endSeconds": 1200,
+          "games": 4,
+          "goalsFor": 8,
+          "goalsAgainst": 31,
+          "goalDifference": -23,
+          "goalsForPerGame": 2,
+          "goalsAgainstPerGame": 7.75,
+          "goalDifferencePerGame": -5.75
+        },
+        {
+          "key": "sixOnSix",
+          "label": "2. Halbzeit",
+          "format": "6 gegen 6",
+          "startSeconds": 1200,
+          "endSeconds": 2400,
+          "games": 4,
+          "goalsFor": 14,
+          "goalsAgainst": 39,
+          "goalDifference": -25,
+          "goalsForPerGame": 3.5,
+          "goalsAgainstPerGame": 9.75,
+          "goalDifferencePerGame": -6.25
         }
       ],
       "longestRun": {
@@ -4133,6 +4281,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 9786,
           "goalsFor": 63,
@@ -4271,6 +4420,7 @@
           "goalDifferencePerGame": -1
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 450665,
         "date": "2026-09-24",
@@ -4601,6 +4751,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 7656,
           "goalsFor": 72,
@@ -4739,6 +4890,7 @@
           "goalDifferencePerGame": -2
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 450750,
         "date": "2026-09-05",
@@ -5087,6 +5239,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 12364,
           "goalsFor": 170,
@@ -5225,6 +5378,7 @@
           "goalDifferencePerGame": 3
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 411564,
         "date": "2026-09-27",
@@ -5573,6 +5727,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 9960,
           "goalsFor": 81,
@@ -5735,6 +5890,7 @@
           "goalDifferencePerGame": 1.33
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 598481,
         "date": "2026-09-19",
@@ -6029,6 +6185,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 9960,
           "goalsFor": 49,
@@ -6191,6 +6348,7 @@
           "goalDifferencePerGame": 0.33
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 508079,
         "date": "2026-09-06",
@@ -6539,6 +6697,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 12888,
           "goalsFor": 122,
@@ -6677,6 +6836,7 @@
           "goalDifferencePerGame": -0.4
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 417854,
         "date": "2026-09-13",
@@ -7097,6 +7257,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 11400,
           "goalsFor": 100,
@@ -7235,6 +7396,7 @@
           "goalDifferencePerGame": 0.75
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 419786,
         "date": "2026-09-20",
@@ -7547,6 +7709,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 5564,
           "goalsFor": 52,
@@ -7685,6 +7848,7 @@
           "goalDifferencePerGame": 1.5
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 677900,
         "date": "2026-09-20",
@@ -7979,6 +8143,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 10859,
           "goalsFor": 56,
@@ -8117,6 +8282,7 @@
           "goalDifferencePerGame": -1.75
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 553507,
         "date": "2026-09-06",
@@ -8465,6 +8631,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 9281,
           "goalsFor": 58,
@@ -8627,6 +8794,7 @@
           "goalDifferencePerGame": -1
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 514368,
         "date": "2026-09-13",
@@ -9029,6 +9197,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 6480,
           "goalsFor": 52,
@@ -9191,6 +9360,7 @@
           "goalDifferencePerGame": -1
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 506405,
         "date": "2026-09-06",
@@ -9557,6 +9727,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 3018,
           "goalsFor": 16,
@@ -9719,6 +9890,7 @@
           "goalDifferencePerGame": 0
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 514262,
         "date": "2026-09-06",
@@ -9959,6 +10131,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 6480,
           "goalsFor": 51,
@@ -10121,6 +10294,7 @@
           "goalDifferencePerGame": 0.5
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 505398,
         "date": "2026-09-05",
@@ -10505,6 +10679,7 @@
         }
       },
       "numericSituations": {
+        "suspensionsAffectPlayerCount": true,
         "even": {
           "seconds": 12403,
           "goalsFor": 88,
@@ -10667,6 +10842,7 @@
           "goalDifferencePerGame": 0
         }
       ],
+      "gamePhases": null,
       "longestRun": {
         "matchId": 561249,
         "date": "2026-09-06",

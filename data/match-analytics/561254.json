@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.911Z",
+  "generatedAt": "2026-10-05T09:32:54.379Z",
   "match": {
     "id": 561254,
     "date": "2026-09-12",
@@ -1046,6 +1046,7 @@
         "goalDifference": 4
       }
     ],
+    "gamePhases": null,
     "sevenMeters": {
       "own": {
         "goals": 0,
@@ -1163,6 +1164,7 @@
       }
     ],
     "numericSituations": {
+      "suspensionsAffectPlayerCount": true,
       "suspensions": [
         {
           "eventId": 8935697,

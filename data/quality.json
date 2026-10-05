@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:35:45.693Z",
+  "generatedAt": "2026-10-05T09:32:54.219Z",
   "matches": [
     {
       "id": 448676,
@@ -56,7 +56,9 @@
         "name": "wJE 2",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -148,7 +150,9 @@
         "name": "mJE 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "invalid",
@@ -251,7 +255,9 @@
         "name": "mJD 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -343,7 +349,9 @@
         "name": "wJD",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -481,7 +489,9 @@
         "name": "mJE 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -579,7 +589,9 @@
         "name": "mJD 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -993,7 +1005,9 @@
         "name": "mJD 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1085,7 +1099,9 @@
         "name": "wJE 2",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1223,7 +1239,9 @@
         "name": "mJE 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1269,7 +1287,9 @@
         "name": "wJD",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1315,7 +1335,9 @@
         "name": "wJE 1",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1407,7 +1429,9 @@
         "name": "mJD 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1499,7 +1523,9 @@
         "name": "mJE 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1821,7 +1847,9 @@
         "name": "mJE 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1867,7 +1895,9 @@
         "name": "wJE 1",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -1959,7 +1989,9 @@
         "name": "mJD 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -2557,7 +2589,9 @@
         "name": "wJE 2",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -2649,7 +2683,9 @@
         "name": "mJE 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -2879,7 +2915,9 @@
         "name": "wJE 2",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -3063,7 +3101,9 @@
         "name": "wJE 1",
         "ageGroup": "youth",
         "gender": "female",
-        "matchMinutes": 40
+        "youthClass": "E",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -3109,7 +3149,9 @@
         "name": "mJD 2",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
@@ -3201,7 +3243,9 @@
         "name": "mJD 1",
         "ageGroup": "youth",
         "gender": "male",
-        "matchMinutes": 40
+        "youthClass": "D",
+        "matchMinutes": 40,
+        "twoMinutePlayerReduction": false
       },
       "quality": {
         "status": "verified",
