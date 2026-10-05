@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#001f44">
   <title>SGHNMS Analytics</title>
-  <link rel="stylesheet" href="./styles.css?v=3.1">
+  <link rel="stylesheet" href="./styles.css?v=4.0">
 </head>
 <body>
   <header class="topbar">
@@ -40,15 +40,23 @@
           <p id="scope-subtitle">Alle abgeschlossenen Spiele der Saison.</p>
         </div>
         <div class="scope-controls">
-          <div class="segmented" id="scope-buttons" aria-label="Statistik-Ebene">
-            <button class="segment is-active" data-scope="overall" type="button">Gesamt</button>
-            <button class="segment" data-scope="seniors" type="button">Senioren</button>
-            <button class="segment" data-scope="juniors" type="button">Junioren</button>
-            <button class="segment" data-scope="male" type="button">Männlich</button>
-            <button class="segment" data-scope="female" type="button">Weiblich</button>
-            <button class="segment" data-scope="team" type="button">Mannschaft</button>
+          <div class="filter-level">
+            <span class="filter-level-label">Bereich</span>
+            <div class="segmented" id="scope-buttons" aria-label="Bereich">
+              <button class="segment is-active" data-scope="overall" type="button">Gesamt</button>
+              <button class="segment" data-scope="seniors" type="button">Senioren</button>
+              <button class="segment" data-scope="juniors" type="button">Junioren</button>
+            </div>
           </div>
-          <label class="team-select-wrap" id="club-team-wrap" hidden>
+          <div class="filter-level">
+            <span class="filter-level-label">Geschlecht</span>
+            <div class="segmented" id="gender-buttons" aria-label="Geschlecht">
+              <button class="segment is-active" data-gender="all" type="button">Alle</button>
+              <button class="segment" data-gender="male" type="button">Männlich</button>
+              <button class="segment" data-gender="female" type="button">Weiblich</button>
+            </div>
+          </div>
+          <label class="team-select-wrap" id="club-team-wrap">
             <span>Mannschaft</span>
             <select id="club-team-select"></select>
           </label>
@@ -243,6 +251,17 @@
           </article>
         </section>
 
+        <article class="panel youth-phase-panel" id="team-game-phases-panel" hidden>
+          <div class="panel-head">
+            <div>
+              <span class="section-eyebrow">E-JUGEND SPIELSYSTEM</span>
+              <h2>2×3 gegen 3 vs. 6 gegen 6</h2>
+            </div>
+            <span class="panel-note">1. Halbzeit / 2. Halbzeit</span>
+          </div>
+          <div id="team-game-phases" class="split-stats"></div>
+        </article>
+
         <section class="content-grid content-grid--main">
           <article class="panel">
             <div class="panel-head">
@@ -345,6 +364,6 @@
     <span>Interne Auswertung · Datenquelle handball.net</span>
   </footer>
 
-  <script type="module" src="./app.js?v=3.1"></script>
+  <script type="module" src="./app.js?v=4.0"></script>
 </body>
 </html>

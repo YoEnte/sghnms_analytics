@@ -11,7 +11,8 @@ const state = {
   matchAnalyticsIndex: [],
   matchAnalyticsCache: new Map(),
   clubScope: "overall",
-  clubTeamId: null,
+  clubGender: "all",
+  clubTeamId: "",
   trainerTeamId: null,
   selectedMatchId: null,
   trainerTab: "overview",
@@ -95,16 +96,17 @@ function teamMatches(teamId) {
   return state.matches.filter(match => String(match.ownTeamId) === String(teamId));
 }
 
-function scopeMatches(scope = state.clubScope) {
-  if (scope === "team") return teamMatches(state.clubTeamId);
-  return state.matches.filter(match => {
-    const t = match.ownTeam || {};
-    if (scope === "seniors") return t.ageGroup === "senior";
-    if (scope === "juniors") return t.ageGroup === "youth";
-    if (scope === "male") return t.gender === "male";
-    if (scope === "female") return t.gender === "female";
-    return true;
-  });
+function matchPassesClubBaseFilters(match) {
+  const team = match.ownTeam || {};
+  if (state.clubScope === "seniors" && team.ageGroup !== "senior") return false;
+  if (state.clubScope === "juniors" && team.ageGroup !== "youth") return false;
+  if (state.clubGender !== "all" && team.gender !== state.clubGender) return false;
+  return true;
+}
+
+function scopeMatches() {
+  if (state.clubTeamId) return teamMatches(state.clubTeamId).filter(matchPassesClubBaseFilters);
+  return state.matches.filter(matchPassesClubBaseFilters);
 }
 
 function summarize(matches) {
@@ -139,30 +141,38 @@ function summarize(matches) {
   };
 }
 
-function scopeTeams() {
-  const scope = state.clubScope;
-  if (scope === "team") return state.teams.filter(team => String(team.id) === String(state.clubTeamId));
+function clubBaseTeams() {
   return state.teams.filter(team => {
-    if (scope === "seniors") return team.ageGroup === "senior";
-    if (scope === "juniors") return team.ageGroup === "youth";
-    if (scope === "male") return team.gender === "male";
-    if (scope === "female") return team.gender === "female";
+    if (state.clubScope === "seniors" && team.ageGroup !== "senior") return false;
+    if (state.clubScope === "juniors" && team.ageGroup !== "youth") return false;
+    if (state.clubGender !== "all" && team.gender !== state.clubGender) return false;
     return true;
   });
 }
 
+function scopeTeams() {
+  const teams = clubBaseTeams();
+  if (!state.clubTeamId) return teams;
+  return teams.filter(team => String(team.id) === String(state.clubTeamId));
+}
+
 function scopeName() {
-  const names = {
-    overall: "SG gesamt",
-    seniors: "Senioren",
-    juniors: "Junioren",
-    male: "Männlich",
-    female: "Weiblich"
-  };
-  if (state.clubScope === "team") {
-    return state.teams.find(t => String(t.id) === String(state.clubTeamId))?.name || "Mannschaft";
+  if (state.clubTeamId) {
+    return state.teams.find(team => String(team.id) === String(state.clubTeamId))?.name || "Mannschaft";
   }
-  return names[state.clubScope] || "SG gesamt";
+
+  const area = state.clubScope === "seniors"
+    ? "Senioren"
+    : state.clubScope === "juniors"
+      ? "Junioren"
+      : "SG gesamt";
+  const gender = state.clubGender === "male"
+    ? "Männlich"
+    : state.clubGender === "female"
+      ? "Weiblich"
+      : "";
+
+  return gender ? `${area} · ${gender}` : area;
 }
 
 function teamAnalytics(teamId = state.trainerTeamId) {
@@ -396,7 +406,7 @@ function renderRecentMatches() {
     .sort((a, b) => `${b.date}T${b.time}`.localeCompare(`${a.date}T${a.time}`))
     .slice(0, 8);
 
-  $("#recent-matches").innerHTML = matches.map(m => matchRow(m, { showTeam: state.clubScope !== "team" })).join("") || `<div class="chart-empty">Keine Spiele.</div>`;
+  $("#recent-matches").innerHTML = matches.map(m => matchRow(m, { showTeam: !state.clubTeamId })).join("") || `<div class="chart-empty">Keine Spiele.</div>`;
 }
 
 function coverageRow(name, value, total, extra = "") {
@@ -493,7 +503,7 @@ function renderClub() {
   const matches = scopeMatches();
   const summary = summarize(matches);
   $("#scope-title").textContent = scopeName();
-  $("#scope-subtitle").textContent = state.clubScope === "team"
+  $("#scope-subtitle").textContent = state.clubTeamId
     ? `${summary.games} abgeschlossene Saisonspiele.`
     : "Alle abgeschlossenen Spiele im gewählten Vereinsfilter.";
   renderKpis("#club-kpis", summary);
@@ -532,6 +542,31 @@ function renderTeamFiveMinute(team) {
   }).join("")}</div>`;
 }
 
+function gamePhaseCard(phase, { aggregate = false } = {}) {
+  const goalsFor = aggregate ? Number(phase?.goalsFor || 0) : Number(phase?.goals?.own || 0);
+  const goalsAgainst = aggregate ? Number(phase?.goalsAgainst || 0) : Number(phase?.goals?.opponent || 0);
+  const difference = aggregate ? Number(phase?.goalDifference || 0) : goalsFor - goalsAgainst;
+  const average = aggregate && phase?.games
+    ? `Ø ${deNumber(phase.goalsForPerGame, 2)}:${deNumber(phase.goalsAgainstPerGame, 2)} Tore / Spiel`
+    : "";
+
+  return `<div class="split-card">
+    <h3>${phase?.label || "Spielphase"}</h3>
+    <div class="split-record">${phase?.format || "–"}</div>
+    <div class="split-caption">${goalsFor}:${goalsAgainst} Tore · TD ${signed(difference)}</div>
+    ${average ? `<div class="split-caption">${phase.games} Spiele · ${average}</div>` : ""}
+  </div>`;
+}
+
+function renderTeamGamePhases(team) {
+  const panel = $("#team-game-phases-panel");
+  const root = $("#team-game-phases");
+  const phases = team?.gamePhases;
+  const visible = Array.isArray(phases) && phases.length > 0;
+  panel.hidden = !visible;
+  root.innerHTML = visible ? phases.map(phase => gamePhaseCard(phase, { aggregate: true })).join("") : "";
+}
+
 function renderTeamSpecialStats(team) {
   const seven = team?.sevenMeters || {};
   const sanc = team?.sanctions || {};
@@ -539,13 +574,18 @@ function renderTeamSpecialStats(team) {
   const power = numeric.powerPlay || {};
   const short = numeric.shortHanded || {};
 
+  const numericRows = numeric.suspensionsAffectPlayerCount === false
+    ? `<div class="stat-row"><span>Numerische Situationen</span><strong>Gleichzahl</strong><em>2-Min.-Strafen ohne Spielerreduktion</em></div>`
+    : `
+      <div class="stat-row"><span>Überzahl</span><strong>${clockFromSeconds(power.seconds)}</strong><em>${power.goalsFor || 0}:${power.goalsAgainst || 0} Tore</em></div>
+      <div class="stat-row"><span>Unterzahl</span><strong>${clockFromSeconds(short.seconds)}</strong><em>${short.goalsFor || 0}:${short.goalsAgainst || 0} Tore</em></div>`;
+
   $("#team-special-stats").innerHTML = `
     <div class="stat-row"><span>7 Meter</span><strong>${seven.goals || 0}/${seven.attempts || 0}</strong><em>${percent(seven.percentage)}</em></div>
     <div class="stat-row"><span>Verwarnungen</span><strong>${sanc.warnings || 0}</strong><em>Saison</em></div>
     <div class="stat-row"><span>2-Minuten</span><strong>${sanc.twoMinutes || 0}</strong><em>Saison</em></div>
     <div class="stat-row"><span>Disqualifikationen</span><strong>${sanc.disqualifications || 0}</strong><em>Saison</em></div>
-    <div class="stat-row"><span>Überzahl</span><strong>${clockFromSeconds(power.seconds)}</strong><em>${power.goalsFor || 0}:${power.goalsAgainst || 0} Tore</em></div>
-    <div class="stat-row"><span>Unterzahl</span><strong>${clockFromSeconds(short.seconds)}</strong><em>${short.goalsFor || 0}:${short.goalsAgainst || 0} Tore</em></div>
+    ${numericRows}
   `;
 }
 
@@ -625,6 +665,7 @@ function renderTrainerOverview() {
       <div class="split-caption">${s.games} Spiele · ${s.goalsFor}:${s.goalsAgainst} Tore · ${percent(s.winRate)} Siege</div>
     </div>`).join("");
 
+  renderTeamGamePhases(analytics);
   renderTeamFiveMinute(analytics);
   renderTeamSpecialStats(analytics);
   renderTeamTimeouts(analytics);
@@ -757,6 +798,16 @@ function situationCard(label, item) {
   return `<div class="split-card"><h3>${label}</h3><div class="split-record">${clockFromSeconds(item?.seconds || 0)}</div><div class="split-caption">${item?.goals?.own || 0}:${item?.goals?.opponent || 0} Tore</div></div>`;
 }
 
+function renderMatchGamePhases(phases) {
+  if (!Array.isArray(phases) || !phases.length) return "";
+  return `<section class="content-grid">
+    <article class="panel">
+      <div class="panel-head"><div><span class="section-eyebrow">E-JUGEND SPIELSYSTEM</span><h2>2×3 gegen 3 vs. 6 gegen 6</h2></div><span class="panel-note">1. Halbzeit / 2. Halbzeit</span></div>
+      <div class="split-stats">${phases.map(phase => gamePhaseCard(phase)).join("")}</div>
+    </article>
+  </section>`;
+}
+
 function renderMatchPlayerTable(players, title) {
   const rows = (players || []).map(player => `
     <tr>
@@ -806,6 +857,8 @@ function renderMatchDetail(detail) {
       </div></article>
     </section>
 
+    ${renderMatchGamePhases(analytics.gamePhases)}
+
     <section class="content-grid content-grid--main">
       <article class="panel"><div class="panel-head"><div><span class="section-eyebrow">SPIELPHASEN</span><h2>5-Minuten-Splits</h2></div><span class="legend-inline"><i></i> SG <i></i> Gegner</span></div>${renderMatchSplits(analytics)}</article>
       <article class="panel"><div class="panel-head"><div><span class="section-eyebrow">7 METER & STRAFEN</span><h2>Sondersituationen</h2></div></div><div class="stat-stack">
@@ -818,10 +871,11 @@ function renderMatchDetail(detail) {
 
     <section class="content-grid content-grid--main">
       <article class="panel"><div class="panel-head"><div><span class="section-eyebrow">AUSZEITEN</span><h2>Was passiert danach?</h2></div><span class="panel-note">3-Minuten-Fenster</span></div>${renderTimeoutList(analytics)}</article>
-      <article class="panel"><div class="panel-head"><div><span class="section-eyebrow">ÜBER-/UNTERZAHL</span><h2>Numerische Situationen</h2></div></div><div class="split-stats split-stats--three">
+      <article class="panel"><div class="panel-head"><div><span class="section-eyebrow">ÜBER-/UNTERZAHL</span><h2>Numerische Situationen</h2></div></div><div class="split-stats ${numeric.suspensionsAffectPlayerCount === false ? "" : "split-stats--three"}">
         ${situationCard("Gleichzahl", numeric.even)}
-        ${situationCard("Überzahl", numeric.powerPlay)}
-        ${situationCard("Unterzahl", numeric.shortHanded)}
+        ${numeric.suspensionsAffectPlayerCount === false
+          ? `<div class="split-card"><h3>Jugendregel</h3><div class="split-record">Keine Unterzahl</div><div class="split-caption">2-Min.-Strafen führen nicht zu einer Spielerreduktion.</div></div>`
+          : `${situationCard("Überzahl", numeric.powerPlay)}${situationCard("Unterzahl", numeric.shortHanded)}`}
       </div></article>
     </section>
 
@@ -875,6 +929,18 @@ function renderTrainer() {
   if (state.trainerTab === "matches" && state.selectedMatchId) selectMatch(state.selectedMatchId);
 }
 
+function fillClubTeamSelect() {
+  const select = $("#club-team-select");
+  const teams = clubBaseTeams().slice().sort((a, b) => a.name.localeCompare(b.name, "de"));
+  const selectedStillValid = !state.clubTeamId || teams.some(team => String(team.id) === String(state.clubTeamId));
+  if (!selectedStillValid) state.clubTeamId = "";
+  select.innerHTML = [
+    `<option value="">Alle Mannschaften</option>`,
+    ...teams.map(team => `<option value="${team.id}">${team.name}</option>`)
+  ].join("");
+  select.value = state.clubTeamId || "";
+}
+
 function fillTeamSelect(select) {
   select.innerHTML = state.teams
     .slice()
@@ -904,7 +970,14 @@ function bindEvents() {
   $$("#scope-buttons .segment").forEach(button => button.addEventListener("click", () => {
     state.clubScope = button.dataset.scope;
     $$("#scope-buttons .segment").forEach(item => item.classList.toggle("is-active", item === button));
-    $("#club-team-wrap").hidden = state.clubScope !== "team";
+    fillClubTeamSelect();
+    renderClub();
+  }));
+
+  $$("#gender-buttons .segment").forEach(button => button.addEventListener("click", () => {
+    state.clubGender = button.dataset.gender;
+    $$("#gender-buttons .segment").forEach(item => item.classList.toggle("is-active", item === button));
+    fillClubTeamSelect();
     renderClub();
   }));
 
@@ -960,13 +1033,12 @@ async function init() {
     state.matchAnalyticsIndex = indexPayload.matches || indexPayload || [];
 
     const firstTeam = state.teams.slice().sort((a, b) => a.name.localeCompare(b.name, "de"))[0];
-    state.clubTeamId = firstTeam?.id || null;
+    state.clubTeamId = "";
     state.trainerTeamId = firstTeam?.id || null;
     state.selectedMatchId = defaultMatchForTeam(state.trainerTeamId);
 
-    fillTeamSelect($("#club-team-select"));
+    fillClubTeamSelect();
     fillTeamSelect($("#trainer-team-select"));
-    $("#club-team-select").value = state.clubTeamId || "";
     $("#trainer-team-select").value = state.trainerTeamId || "";
 
     $("#generated-label").textContent = generatedText(coverage.generatedAt || overview.generatedAt);
