@@ -4,6 +4,7 @@ const state = {
   overview: null,
   teams: [],
   matches: [],
+  upcomingMatches: [],
   coverage: null,
   quality: null,
   teamAnalytics: [],
@@ -96,6 +97,208 @@ function perspective(match) {
 
 function teamMatches(teamId) {
   return state.matches.filter(match => String(match.ownTeamId) === String(teamId));
+}
+
+function berlinTodayIso() {
+  return new Intl.DateTimeFormat("en-CA", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    timeZone: "Europe/Berlin"
+  }).format(new Date());
+}
+
+function upcomingTeamMatches(teamId, limit = 3) {
+  const today = berlinTodayIso();
+  return state.upcomingMatches
+    .filter(match => String(match.ownTeamId) === String(teamId))
+    .filter(match => !match.date || match.date >= today)
+    .slice()
+    .sort((a, b) => `${a.date || ""}T${a.time || ""}`.localeCompare(`${b.date || ""}T${b.time || ""}`))
+    .slice(0, limit);
+}
+
+function opponentForUpcoming(match) {
+  const homeOwn = String(match.home?.clubId || "") === CLUB_ID || String(match.home?.id || "") === String(match.ownTeamId || "");
+  return homeOwn ? match.away : match.home;
+}
+
+function upcomingIsHome(match) {
+  return String(match.home?.clubId || "") === CLUB_ID || String(match.home?.id || "") === String(match.ownTeamId || "");
+}
+
+function teamFormBefore(teamId, beforeDate = null, limit = 5) {
+  return teamMatches(teamId)
+    .filter(match => !beforeDate || match.date < beforeDate)
+    .slice()
+    .sort((a, b) => `${a.date}T${a.time || ""}`.localeCompare(`${b.date}T${b.time || ""}`))
+    .slice(-limit);
+}
+
+function sameOpponent(match, opponent) {
+  if (!opponent) return false;
+  const p = perspective(match);
+  const other = p.isHome ? match.away : match.home;
+  if (opponent.id != null && other?.id != null) return String(opponent.id) === String(other.id);
+  return Boolean(opponent.name && other?.name && opponent.name === other.name);
+}
+
+function headToHeadBefore(teamId, opponent, beforeDate) {
+  return teamMatches(teamId)
+    .filter(match => (!beforeDate || match.date < beforeDate) && sameOpponent(match, opponent))
+    .slice()
+    .sort((a, b) => `${b.date}T${b.time || ""}`.localeCompare(`${a.date}T${a.time || ""}`));
+}
+
+function formChip(result) {
+  const cls = result === "W" ? "is-win" : result === "D" ? "is-draw" : "is-loss";
+  return `<span class="preview-form-chip ${cls}">${result}</span>`;
+}
+
+function recentPreviewRow(match) {
+  const p = perspective(match);
+  return `<div class="preview-recent-row">
+    <span>${dateShort(match.date)}</span>
+    <strong>${p.isHome ? "H" : "A"} · ${p.opponent || "Gegner"}</strong>
+    <span class="preview-recent-score">${p.own}:${p.opp} ${formChip(p.result)}</span>
+  </div>`;
+}
+
+function opponentRecentPreviewRow(item) {
+  return `<div class="preview-recent-row">
+    <span>${dateShort(item.date)}</span>
+    <strong>${item.isHome ? "H" : "A"} · ${item.opponent?.name || "Gegner"}</strong>
+    <span class="preview-recent-score">${item.goalsFor}:${item.goalsAgainst} ${formChip(item.result)}</span>
+  </div>`;
+}
+
+function recordText(summary) {
+  if (!summary || !summary.games) return "–";
+  return `${summary.wins || 0}-${summary.draws || 0}-${summary.losses || 0}`;
+}
+
+function previewComparisonRow(label, own, opponent) {
+  return `<tr><td>${label}</td><td class="preview-own">${own}</td><td class="preview-opponent">${opponent}</td></tr>`;
+}
+
+function opponentScorersHtml(profile) {
+  if (!profile) {
+    return `<div class="preview-data-note">Gegnerdaten wurden für dieses Spiel noch nicht geladen.</div>`;
+  }
+
+  const scorers = Array.isArray(profile.topScorers) ? profile.topScorers : [];
+  const coverage = profile.scoringCoverage || {};
+  if (!scorers.length) {
+    return `<div class="preview-data-note">Noch keine Torschützen-Daten aus Gegner-Aufstellungen verfügbar.${coverage.finishedMatches ? ` Aufstellungen: ${coverage.lineupMatches || 0}/${coverage.finishedMatches} Spiele.` : ""}</div>`;
+  }
+
+  const rows = scorers.map((player, index) => {
+    const seven = player.sevenMeterAttempts
+      ? `${player.sevenMeterGoals}/${player.sevenMeterAttempts}`
+      : "–";
+    return `<tr>
+      <td>${index + 1}</td>
+      <td><strong>${player.name}</strong>${player.number != null ? `<span class="preview-player-number">#${player.number}</span>` : ""}</td>
+      <td>${player.games || 0}</td>
+      <td class="preview-scorer-goals">${player.goals || 0}</td>
+      <td>${player.goalsPerGame == null ? "–" : deNumber(player.goalsPerGame, 2)}</td>
+      <td>${seven}</td>
+    </tr>`;
+  }).join("");
+
+  return `<div class="preview-table-wrap">
+    <table class="preview-scorer-table">
+      <thead><tr><th>#</th><th>Spieler</th><th>Sp.</th><th>Tore</th><th>T/Sp.</th><th>7m</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <div class="preview-data-note">Tore aus handball.net-Aufstellungen · Datenabdeckung ${coverage.lineupMatches || 0}/${coverage.finishedMatches || 0} Spiele (${deNumber(coverage.percentage || 0, 0)} %).</div>
+  </div>`;
+}
+
+function renderTrainerUpcoming() {
+  const root = $("#trainer-upcoming");
+  if (!root) return;
+
+  const games = upcomingTeamMatches(state.trainerTeamId, 3);
+  if (!games.length) {
+    root.innerHTML = `<div class="chart-empty trainer-upcoming-empty">Keine kommenden Spiele im aktuellen Spielplan.</div>`;
+    return;
+  }
+
+  root.innerHTML = games.map(match => {
+    const opponent = opponentForUpcoming(match);
+    const isHome = upcomingIsHome(match);
+    const prior = teamFormBefore(state.trainerTeamId, match.date, 5);
+    const seasonBefore = teamMatches(state.trainerTeamId).filter(item => item.date < match.date);
+    const summary = summarize(seasonBefore);
+    const h2h = headToHeadBefore(state.trainerTeamId, opponent, match.date);
+    const profile = match.opponentProfile || null;
+    const opponentSummary = profile?.season || null;
+    const opponentRecent = Array.isArray(profile?.recent) ? profile.recent : [];
+    const venue = match.venue?.name || "Halle offen";
+    const competition = match.competition || match.phase?.name || "";
+    const ownForm = prior.length
+      ? prior.map(item => formChip(perspective(item).result)).join("")
+      : `<span class="preview-muted">Noch keine Spiele</span>`;
+    const opponentForm = opponentRecent.length
+      ? opponentRecent.slice().reverse().map(item => formChip(item.result)).join("")
+      : `<span class="preview-muted">Keine Gegnerdaten</span>`;
+    const recent = prior.slice().reverse().map(recentPreviewRow).join("") || `<div class="preview-muted">Noch keine Saisonspiele.</div>`;
+    const opponentRecentHtml = opponentRecent.map(opponentRecentPreviewRow).join("") || `<div class="preview-muted">Noch keine Gegner-Spiele geladen.</div>`;
+    const h2hHtml = h2h.length
+      ? h2h.map(item => {
+          const p = perspective(item);
+          return `<div class="preview-h2h-row"><span>${dateShort(item.date)}</span><strong>${p.own}:${p.opp}</strong><span>${p.isHome ? "Heim" : "Auswärts"}</span></div>`;
+        }).join("")
+      : `<div class="preview-muted">Noch kein direktes Duell in dieser Saison.</div>`;
+
+    const comparison = [
+      previewComparisonRow("Bilanz", recordText(summary), recordText(opponentSummary)),
+      previewComparisonRow("Siegquote", percent(summary.winRate), opponentSummary ? percent(opponentSummary.winRate) : "–"),
+      previewComparisonRow("Tore / Sp.", deNumber(summary.goalsForAvg, 1), opponentSummary?.goalsForAvg == null ? "–" : deNumber(opponentSummary.goalsForAvg, 1)),
+      previewComparisonRow("GT / Sp.", deNumber(summary.goalsAgainstAvg, 1), opponentSummary?.goalsAgainstAvg == null ? "–" : deNumber(opponentSummary.goalsAgainstAvg, 1))
+    ].join("");
+
+    return `<article class="trainer-upcoming-card">
+      <div class="trainer-upcoming-date">${dateLong(match.date)} · ${match.time || "–"} Uhr</div>
+      <div class="trainer-upcoming-match"><span class="preview-venue-badge ${isHome ? "is-home" : "is-away"}">${isHome ? "HEIM" : "AUSWÄRTS"}</span>${opponent?.name || "Gegner"}</div>
+      <div class="trainer-upcoming-meta">${venue}${competition ? ` · ${competition}` : ""}</div>
+      <div class="trainer-upcoming-form"><span>SG</span>${ownForm}</div>
+      <div class="trainer-upcoming-form"><span>Gegner</span>${opponentForm}</div>
+      <details class="trainer-preview-details">
+        <summary>Matchup-Vorschau</summary>
+        <div class="trainer-preview-body">
+          <div>
+            <h3>Saisonvergleich</h3>
+            <div class="preview-table-wrap">
+              <table class="preview-comparison-table">
+                <thead><tr><th>Stat</th><th>SG</th><th>${opponent?.name || "Gegner"}</th></tr></thead>
+                <tbody>${comparison}</tbody>
+              </table>
+            </div>
+          </div>
+          <div class="preview-recent-grid">
+            <div>
+              <h3>SG · letzte ${prior.length} Spiele</h3>
+              <div class="preview-recent-list">${recent}</div>
+            </div>
+            <div>
+              <h3>${opponent?.name || "Gegner"} · letzte ${opponentRecent.length} Spiele</h3>
+              <div class="preview-recent-list">${opponentRecentHtml}</div>
+            </div>
+          </div>
+          <div>
+            <h3>${opponent?.name || "Gegner"} · Top-Torschützen</h3>
+            ${opponentScorersHtml(profile)}
+          </div>
+          <div>
+            <h3>Direkte Duelle 2026/27</h3>
+            <div class="preview-h2h-list">${h2hHtml}</div>
+          </div>
+        </div>
+      </details>
+    </article>`;
+  }).join("");
 }
 
 function monthKey(iso) {
@@ -763,6 +966,7 @@ function renderTrainerOverview() {
     : "Keine Event-Aggregate verfügbar.";
 
   renderKpis("#trainer-kpis", summary);
+  renderTrainerUpcoming();
   renderTrend("#trainer-trend-chart", matches, { trainer: true });
 
   const split = homeAwayStats(matches);
@@ -1153,12 +1357,25 @@ async function loadJson(path) {
   return response.json();
 }
 
+async function loadOptionalJson(path, fallback) {
+  try {
+    const response = await fetch(path, { cache: "no-store" });
+    if (response.status === 404) return fallback;
+    if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+    return response.json();
+  } catch (error) {
+    console.warn(`Optional data unavailable: ${path}`, error);
+    return fallback;
+  }
+}
+
 async function init() {
   try {
-    const [overview, teams, matches, coverage, quality, teamAnalyticsPayload, playersPayload, indexPayload] = await Promise.all([
+    const [overview, teams, matches, upcomingMatchesPayload, coverage, quality, teamAnalyticsPayload, playersPayload, indexPayload] = await Promise.all([
       loadJson("./data/overview.json"),
       loadJson("./data/teams.json"),
       loadJson("./data/matches.json"),
+      loadOptionalJson("./data/upcoming-matches.json", { matches: [] }),
       loadJson("./data/coverage.json"),
       loadJson("./data/quality.json"),
       loadJson("./data/team-analytics.json"),
@@ -1169,6 +1386,7 @@ async function init() {
     state.overview = overview;
     state.teams = teams.teams || teams || [];
     state.matches = matches.matches || matches || [];
+    state.upcomingMatches = upcomingMatchesPayload.matches || upcomingMatchesPayload || [];
     state.coverage = coverage;
     state.quality = quality;
     state.teamAnalytics = teamAnalyticsPayload.teams || [];

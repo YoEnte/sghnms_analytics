@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#001f44">
   <title>SGHNMS Analytics</title>
-  <link rel="stylesheet" href="./styles.css?v=5.0">
+  <link rel="stylesheet" href="./styles.css?v=6.1">
 </head>
 <body>
   <header class="topbar">
@@ -234,6 +234,17 @@
 
       <section class="kpi-grid" id="trainer-kpis"></section>
 
+      <article class="panel trainer-upcoming-panel">
+        <div class="panel-head">
+          <div>
+            <span class="section-eyebrow">NÄCHSTE SPIELE</span>
+            <h2>Match-Vorschau</h2>
+          </div>
+          <span class="panel-note">nächste 3 Spiele</span>
+        </div>
+        <div id="trainer-upcoming" class="trainer-upcoming-grid"></div>
+      </article>
+
       <section class="trainer-tabs" aria-label="Trainer-Bereiche">
         <button class="trainer-tab is-active" type="button" data-trainer-tab="overview">Übersicht</button>
         <button class="trainer-tab" type="button" data-trainer-tab="players">Spieler</button>
@@ -376,6 +387,6 @@
     <span>Interne Auswertung · Datenquelle handball.net</span>
   </footer>
 
-  <script type="module" src="./app.js?v=5.0"></script>
+  <script type="module" src="./app.js?v=6.1"></script>
 </body>
 </html>
