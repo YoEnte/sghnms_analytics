@@ -32,6 +32,10 @@ const state = {
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
+function compactChartMode() {
+  return window.matchMedia?.("(max-width: 760px)")?.matches ?? false;
+}
+
 function deNumber(value, digits = 0) {
   return new Intl.NumberFormat("de-DE", {
     maximumFractionDigits: digits,
@@ -468,12 +472,14 @@ function standingChartSvg(phase) {
   const history = Array.isArray(phase?.history) ? phase.history.filter(item => item.position != null) : [];
   if (!history.length) return `<div class="chart-empty">Noch kein Tabellenverlauf verfügbar.</div>`;
 
-  const w = 900;
-  const h = 270;
-  const left = 48;
-  const right = 22;
-  const top = 20;
-  const bottom = 38;
+  const compact = compactChartMode();
+  const w = compact ? 460 : 900;
+  const h = compact ? 300 : 270;
+  const left = compact ? 48 : 48;
+  const right = compact ? 14 : 22;
+  const top = compact ? 24 : 20;
+  const bottom = compact ? 46 : 38;
+  const axisFont = compact ? 15 : 11;
   const innerW = w - left - right;
   const innerH = h - top - bottom;
   const teamCount = Math.max(2, Number(phase.teamCount || Math.max(...history.map(item => Number(item.position || 1)))));
@@ -488,14 +494,14 @@ function standingChartSvg(phase) {
         .filter((value, index, array) => array.indexOf(value) === index);
 
   let body = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Tabellenplatz im Saisonverlauf">`;
-  body += gridPositions.map(position => `<line x1="${left}" x2="${w-right}" y1="${y(position)}" y2="${y(position)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-10}" y="${y(position)+4}" text-anchor="end" font-size="11" fill="#7a8798">${position}.</text>`).join("");
+  body += gridPositions.map(position => `<line x1="${left}" x2="${w-right}" y1="${y(position)}" y2="${y(position)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-10}" y="${y(position)+4}" text-anchor="end" font-size="${axisFont}" fill="#7a8798">${position}.</text>`).join("");
 
   const points = history.map(item => `${x(item.round)},${y(item.position)}`).join(" ");
   body += `<polyline points="${points}" fill="none" stroke="#bf0b0f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
   body += history.map(item => `<circle cx="${x(item.round)}" cy="${y(item.position)}" r="4" fill="#fff" stroke="#bf0b0f" stroke-width="2"><title>Spieltag ${item.round} · Platz ${item.position} · ${item.points} Punkte · ${item.played} Spiele</title></circle>`).join("");
 
   const labelIndices = [0, Math.floor((history.length - 1) / 2), history.length - 1].filter((value, index, array) => array.indexOf(value) === index);
-  body += labelIndices.map(index => `<text x="${x(history[index].round)}" y="${h-11}" text-anchor="middle" font-size="11" fill="#7a8798">ST ${history[index].round}</text>`).join("");
+  body += labelIndices.map(index => `<text x="${x(history[index].round)}" y="${h-11}" text-anchor="middle" font-size="${axisFont}" fill="#7a8798">ST ${history[index].round}</text>`).join("");
   body += `</svg>`;
   return body;
 }
@@ -672,12 +678,14 @@ function playerScoringChartHtml(history) {
   if (!totalGoals) return `<div class="chart-empty">Noch keine Tore in den verifizierten Eventdaten.</div>`;
 
   const palette = ["#001f44", "#bf0b0f", "#0d4d8e", "#0f7a49", "#9a6500", "#6f42c1", "#5c6b7a"];
-  const w = 900;
-  const h = 270;
-  const left = 44;
-  const right = 20;
-  const top = 18;
-  const bottom = 38;
+  const compact = compactChartMode();
+  const w = compact ? 460 : 900;
+  const h = compact ? 300 : 270;
+  const left = compact ? 48 : 44;
+  const right = compact ? 14 : 20;
+  const top = compact ? 24 : 18;
+  const bottom = compact ? 46 : 38;
+  const axisFont = compact ? 15 : 11;
   const innerW = w - left - right;
   const innerH = h - top - bottom;
   const yMax = Math.max(1, totalGoals);
@@ -693,7 +701,7 @@ function playerScoringChartHtml(history) {
   });
 
   let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Kumulierte Tore im Saisonverlauf nach Mannschaft">`;
-  svg += gridValues.map(value => `<line x1="${left}" x2="${w-right}" y1="${y(value)}" y2="${y(value)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(value)+4}" text-anchor="end" font-size="11" fill="#7a8798">${value}</text>`).join("");
+  svg += gridValues.map(value => `<line x1="${left}" x2="${w-right}" y1="${y(value)}" y2="${y(value)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(value)+4}" text-anchor="end" font-size="${axisFont}" fill="#7a8798">${value}</text>`).join("");
 
   teamOrder.forEach((teamId, teamIndex) => {
     const lower = lowerByTeam[teamId];
@@ -714,7 +722,7 @@ function playerScoringChartHtml(history) {
   }).join("");
 
   const labelIndices = [0, Math.floor((points.length - 1) / 2), points.length - 1].filter((value, index, array) => array.indexOf(value) === index);
-  svg += labelIndices.map(index => `<text x="${x(index)}" y="${h-11}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(points[index].date)}</text>`).join("");
+  svg += labelIndices.map(index => `<text x="${x(index)}" y="${h-11}" text-anchor="middle" font-size="${axisFont}" fill="#7a8798">${dateShort(points[index].date)}</text>`).join("");
   svg += `</svg>`;
 
   const legend = scoringTeams.map((team, index) => `<span class="scoring-history-legend-item"><i style="background:${palette[index % palette.length]}"></i>${team.teamName} <strong>${team.goals}</strong></span>`).join("");
@@ -968,12 +976,14 @@ function renderTrend(target, matches, { trainer = false } = {}) {
     return;
   }
 
-  const w = 900;
-  const h = 270;
-  const left = 54;
-  const right = 20;
-  const top = 18;
-  const bottom = 34;
+  const compact = compactChartMode();
+  const w = compact ? 460 : 900;
+  const h = compact ? 300 : 270;
+  const left = compact ? 50 : 54;
+  const right = compact ? 14 : 20;
+  const top = compact ? 24 : 18;
+  const bottom = compact ? 46 : 34;
+  const axisFont = compact ? 15 : 11;
   const innerW = w - left - right;
   const innerH = h - top - bottom;
 
@@ -994,7 +1004,7 @@ function renderTrend(target, matches, { trainer = false } = {}) {
     const gridVals = Array.from({ length: 5 }, (_, i) => yMax - i * (yMax - yMin) / 4);
 
     let body = `<svg viewBox="0 0 ${w} ${h}" role="img">`;
-    body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#7a8798">${Math.round(v)}</text>`).join("");
+    body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="${axisFont}" fill="#7a8798">${Math.round(v)}</text>`).join("");
     body += `<line x1="${left}" x2="${w-right}" y1="${zeroY}" y2="${zeroY}" stroke="#aebac9" stroke-width="1.2"/>`;
 
     const barW = Math.max(5, Math.min(28, innerW / Math.max(data.length, 1) * 0.58));
@@ -1007,7 +1017,7 @@ function renderTrend(target, matches, { trainer = false } = {}) {
     }).join("");
 
     const labelIdx = [0, Math.floor((data.length - 1) / 2), data.length - 1].filter((v, i, a) => a.indexOf(v) === i);
-    body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(data[i].match.date)}</text>`).join("");
+    body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="${axisFont}" fill="#7a8798">${dateShort(data[i].match.date)}</text>`).join("");
     body += `</svg>`;
     root.innerHTML = body;
     return;
@@ -1041,14 +1051,14 @@ function renderTrend(target, matches, { trainer = false } = {}) {
   const gridVals = [100, 75, 50, 25, 0];
 
   let body = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Kumulative Siegquote">`;
-  body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="#7a8798">${v}%</text>`).join("");
+  body += gridVals.map(v => `<line x1="${left}" x2="${w-right}" y1="${y(v)}" y2="${y(v)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end" font-size="${axisFont}" fill="#7a8798">${v}%</text>`).join("");
   const pts = data.map((d, i) => `${x(i)},${y(d.winRate)}`).join(" ");
   const area = `${left},${y(0)} ${pts} ${x(data.length - 1)},${y(0)}`;
   body += `<polygon points="${area}" fill="rgba(13,77,142,.08)"/><polyline points="${pts}" fill="none" stroke="#bf0b0f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
   body += data.map((d, i) => `<circle cx="${x(i)}" cy="${y(d.winRate)}" r="3.8" fill="#fff" stroke="#bf0b0f" stroke-width="2"><title>${dateLong(d.date)} · ${percent(d.winRate)} kumulativ · ${d.cumulativeWins}/${d.cumulativeGames} Siege · Spieltag ${d.wins}/${d.games}</title></circle>`).join("");
 
   const labelIdx = [0, Math.floor((data.length - 1) / 2), data.length - 1].filter((v, i, a) => a.indexOf(v) === i);
-  body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(data[i].date)}</text>`).join("");
+  body += labelIdx.map(i => `<text x="${x(i)}" y="${h-10}" text-anchor="middle" font-size="${axisFont}" fill="#7a8798">${dateShort(data[i].date)}</text>`).join("");
   body += `</svg>`;
   root.innerHTML = body;
 }
@@ -1286,12 +1296,14 @@ function renderMatchFlow(analytics) {
     event
   }))];
 
-  const w = 940;
-  const h = 300;
-  const left = 46;
-  const right = 22;
-  const top = 22;
-  const bottom = 42;
+  const compact = compactChartMode();
+  const w = compact ? 500 : 940;
+  const h = compact ? 320 : 300;
+  const left = compact ? 48 : 46;
+  const right = compact ? 14 : 22;
+  const top = compact ? 24 : 22;
+  const bottom = compact ? 48 : 42;
+  const axisFont = compact ? 15 : 11;
   const innerW = w - left - right;
   const innerH = h - top - bottom;
   const minVal = Math.min(0, ...diffs.map(d => d.diff));
@@ -1312,10 +1324,11 @@ function renderMatchFlow(analytics) {
   path += ` L ${x(duration)} ${y(diffs.at(-1).diff)}`;
 
   const grid = [];
-  for (let minute = 0; minute <= duration / 60; minute += 5) {
+  const tickStepMinutes = compact && duration >= 3000 ? 10 : 5;
+  for (let minute = 0; minute <= duration / 60; minute += tickStepMinutes) {
     const sec = minute * 60;
     grid.push(`<line x1="${x(sec)}" x2="${x(sec)}" y1="${top}" y2="${h-bottom}" stroke="#eef2f6" stroke-width="1"/>`);
-    grid.push(`<text x="${x(sec)}" y="${h-15}" text-anchor="middle" font-size="11" fill="#7a8798">${minute}'</text>`);
+    grid.push(`<text x="${x(sec)}" y="${h-15}" text-anchor="middle" font-size="${axisFont}" fill="#7a8798">${minute}'</text>`);
   }
 
   return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Tordifferenz im Spielverlauf">
@@ -1382,7 +1395,7 @@ function renderMatchPlayerTable(players, title) {
       <td>${player.twoMinutes || 0}</td>
       <td>${player.disqualifications || 0}</td>
     </tr>`).join("");
-  return `<article class="panel"><div class="panel-head"><div><span class="section-eyebrow">SPIELER</span><h2>${title}</h2></div></div><div class="table-wrap"><table class="data-table"><thead><tr><th>#</th><th>Spieler</th><th>Tore</th><th>7m</th><th>V</th><th>2 Min.</th><th>Rot</th></tr></thead><tbody>${rows || `<tr><td colspan="7">Keine Daten.</td></tr>`}</tbody></table></div></article>`;
+  return `<article class="panel"><div class="panel-head"><div><span class="section-eyebrow">SPIELER</span><h2>${title}</h2></div></div><div class="table-wrap"><table class="data-table match-player-table"><thead><tr><th>#</th><th>Spieler</th><th>Tore</th><th>7m</th><th>V</th><th>2 Min.</th><th>Rot</th></tr></thead><tbody>${rows || `<tr><td colspan="7">Keine Daten.</td></tr>`}</tbody></table></div></article>`;
 }
 
 function renderMatchDetail(detail) {
