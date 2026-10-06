@@ -345,8 +345,62 @@ button { color: inherit; }
 .notice--error { background: var(--red-soft); color: #8f080c; border: 1px solid #f3c4c6; }
 .footer { max-width: 1540px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px) 34px; display: flex; justify-content: space-between; gap: 16px; color: var(--muted); font-size: 10px; }
 
+
+/* Standings */
+.standings-panel { margin-bottom: 18px; }
+.trainer-standings-panel { margin-bottom: 18px; }
+#club-standings-content, #trainer-standings-content { padding: 16px 20px 20px; }
+.standings-overview-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px; }
+.standing-overview-card { padding: 14px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface-soft); min-width: 0; }
+.standing-overview-card span, .standing-overview-card strong, .standing-overview-card em, .standing-overview-card small { display: block; }
+.standing-overview-card span { font-size: 11px; font-weight: 820; color: var(--ink); overflow-wrap: anywhere; }
+.standing-overview-card strong { margin-top: 7px; color: var(--navy); font-size: 24px; letter-spacing: -.03em; }
+.standing-overview-card em { margin-top: 2px; color: var(--muted); font-size: 10px; font-style: normal; }
+.standing-overview-card small { margin-top: 8px; color: var(--muted); font-size: 9px; line-height: 1.35; }
+.standings-meta-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 12px; }
+.standings-meta-row > div:first-child strong, .standings-meta-row > div:first-child span { display: block; }
+.standings-meta-row > div:first-child strong { color: var(--navy); font-size: 13px; }
+.standings-meta-row > div:first-child span { margin-top: 3px; color: var(--muted); font-size: 10px; }
+.standing-current { min-width: 170px; text-align: right; }
+.standing-current span, .standing-current strong, .standing-current em { display: block; }
+.standing-current span { color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: .08em; font-weight: 850; }
+.standing-current strong { margin-top: 2px; color: var(--red); font-size: 24px; letter-spacing: -.03em; }
+.standing-current em { margin-top: 2px; color: var(--muted); font-size: 10px; font-style: normal; }
+.standings-detail-grid { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(360px,.75fr); gap: 18px; align-items: start; }
+.standings-chart { min-width: 0; border: 1px solid var(--line); border-radius: 13px; background: #fff; padding: 8px; }
+.standings-chart svg { display: block; width: 100%; height: auto; }
+.standings-table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 13px; }
+.standings-table { min-width: 620px; }
+.standings-table th, .standings-table td { padding-top: 9px; padding-bottom: 9px; }
+.standings-table .is-own-standing td { background: #eef5ff; font-weight: 760; }
+.standings-table .is-own-standing td:first-child { box-shadow: inset 3px 0 0 var(--red); }
+.standing-position { font-size: 15px; font-weight: 900; color: var(--navy); }
+
+/* Player scoring history */
+.player-history-toggle-cell { text-align: center; width: 64px; }
+.player-history-toggle { width: 30px; height: 30px; display: inline-grid; place-items: center; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-soft); color: var(--navy); cursor: pointer; font-weight: 900; transition: .18s ease; }
+.player-history-toggle:hover { border-color: #b6c2d0; background: #eef3f8; }
+.player-history-toggle.is-open { transform: rotate(180deg); background: var(--navy); color: #fff; border-color: var(--navy); }
+.player-history-row td { padding: 0 !important; background: #fbfcfe; }
+.player-history-content { padding: 16px 18px 20px; border-bottom: 1px solid var(--line); }
+.scoring-history-wrap { min-width: 0; }
+.scoring-history-head { display: flex; justify-content: space-between; gap: 14px; align-items: flex-start; margin-bottom: 8px; }
+.scoring-history-head strong, .scoring-history-head span { display: block; }
+.scoring-history-head strong { color: var(--navy); font-size: 13px; }
+.scoring-history-head span { margin-top: 2px; color: var(--muted); font-size: 10px; }
+.scoring-history-total { color: var(--red); font-size: 20px; font-weight: 900; white-space: nowrap; }
+.scoring-history-chart { min-width: 560px; }
+.scoring-history-chart svg { width: 100%; height: auto; display: block; }
+.scoring-history-legend { display: flex; flex-wrap: wrap; gap: 7px 14px; margin-top: 8px; color: var(--muted); font-size: 10px; }
+.scoring-history-legend-item { display: inline-flex; align-items: center; gap: 5px; }
+.scoring-history-legend-item i { width: 9px; height: 9px; border-radius: 3px; display: inline-block; }
+.scoring-history-legend-item strong { color: var(--ink); }
+.player-history-content { overflow-x: auto; }
+
 @media (max-width: 1180px) {
   .kpi-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .standings-overview-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .standings-detail-grid { grid-template-columns: 1fr; }
   .trainer-upcoming-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .content-grid--main, .content-grid--split, .club-rankings-grid { grid-template-columns: 1fr; }
   .match-workspace { grid-template-columns: 1fr; }
@@ -365,6 +419,9 @@ button { color: inherit; }
   .team-select-wrap, .team-select-wrap--trainer, .filter-select-wrap { min-width: 0; width: 100%; }
   .trainer-upcoming-grid { grid-template-columns: 1fr; padding: 14px 16px 16px; }
   .preview-recent-grid { grid-template-columns: 1fr; }
+  .standings-overview-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .standings-meta-row { flex-direction: column; }
+  .standing-current { min-width: 0; text-align: left; }
   .kpi-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .panel-head { padding: 17px 17px 0; }
   .split-stats, .split-stats--three { grid-template-columns: 1fr; }
@@ -377,6 +434,7 @@ button { color: inherit; }
 
 @media (max-width: 470px) {
   .kpi-grid { grid-template-columns: 1fr; }
+  .standings-overview-grid { grid-template-columns: 1fr; }
   .product-nav, .trainer-tabs { width: 100%; }
   .product-tab, .trainer-tab { flex: 1; padding-left: 7px; padding-right: 7px; }
   .match-detail-topline { flex-direction: column; }

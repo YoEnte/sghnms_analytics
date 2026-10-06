@@ -5,6 +5,8 @@ const state = {
   teams: [],
   matches: [],
   upcomingMatches: [],
+  standings: [],
+  playerScoringHistory: [],
   coverage: null,
   quality: null,
   teamAnalytics: [],
@@ -452,6 +454,128 @@ function matchIndexEntry(matchId) {
   return state.matchAnalyticsIndex.find(match => String(match.id) === String(matchId)) || null;
 }
 
+function standingTeamData(teamId) {
+  return state.standings.find(item => String(item.teamId) === String(teamId)) || null;
+}
+
+function currentStandingPhase(teamId) {
+  const item = standingTeamData(teamId);
+  if (!item?.phases?.length) return null;
+  return item.phases.find(phase => String(phase.phaseId) === String(item.currentPhaseId)) || item.phases.at(-1) || null;
+}
+
+function standingChartSvg(phase) {
+  const history = Array.isArray(phase?.history) ? phase.history.filter(item => item.position != null) : [];
+  if (!history.length) return `<div class="chart-empty">Noch kein Tabellenverlauf verfügbar.</div>`;
+
+  const w = 900;
+  const h = 270;
+  const left = 48;
+  const right = 22;
+  const top = 20;
+  const bottom = 38;
+  const innerW = w - left - right;
+  const innerH = h - top - bottom;
+  const teamCount = Math.max(2, Number(phase.teamCount || Math.max(...history.map(item => Number(item.position || 1)))));
+  const minRound = Math.min(...history.map(item => Number(item.round || 0)));
+  const maxRound = Math.max(...history.map(item => Number(item.round || 0)));
+  const x = round => left + (maxRound === minRound ? innerW / 2 : ((Number(round) - minRound) / (maxRound - minRound)) * innerW);
+  const y = position => top + ((Math.max(1, Number(position)) - 1) / (teamCount - 1)) * innerH;
+
+  const gridPositions = teamCount <= 12
+    ? Array.from({ length: teamCount }, (_, i) => i + 1)
+    : [1, Math.ceil(teamCount / 4), Math.ceil(teamCount / 2), Math.ceil(teamCount * 3 / 4), teamCount]
+        .filter((value, index, array) => array.indexOf(value) === index);
+
+  let body = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Tabellenplatz im Saisonverlauf">`;
+  body += gridPositions.map(position => `<line x1="${left}" x2="${w-right}" y1="${y(position)}" y2="${y(position)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-10}" y="${y(position)+4}" text-anchor="end" font-size="11" fill="#7a8798">${position}.</text>`).join("");
+
+  const points = history.map(item => `${x(item.round)},${y(item.position)}`).join(" ");
+  body += `<polyline points="${points}" fill="none" stroke="#bf0b0f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
+  body += history.map(item => `<circle cx="${x(item.round)}" cy="${y(item.position)}" r="4" fill="#fff" stroke="#bf0b0f" stroke-width="2"><title>Spieltag ${item.round} · Platz ${item.position} · ${item.points} Punkte · ${item.played} Spiele</title></circle>`).join("");
+
+  const labelIndices = [0, Math.floor((history.length - 1) / 2), history.length - 1].filter((value, index, array) => array.indexOf(value) === index);
+  body += labelIndices.map(index => `<text x="${x(history[index].round)}" y="${h-11}" text-anchor="middle" font-size="11" fill="#7a8798">ST ${history[index].round}</text>`).join("");
+  body += `</svg>`;
+  return body;
+}
+
+function standingsTableHtml(phase, teamId) {
+  const rows = Array.isArray(phase?.table) ? phase.table : [];
+  if (!rows.length) return `<div class="chart-empty">Keine aktuelle Tabelle verfügbar.</div>`;
+
+  return `<div class="standings-table-scroll"><table class="data-table standings-table">
+    <thead><tr><th>Pl.</th><th>Team</th><th>Sp.</th><th>S-U-N</th><th>Tore</th><th>TD</th><th>Pkt.</th></tr></thead>
+    <tbody>${rows.map(row => {
+      const own = String(row.team?.id ?? "") === String(teamId);
+      return `<tr class="${own ? "is-own-standing" : ""}">
+        <td class="standing-position">${row.position ?? "–"}</td>
+        <td class="team-cell"><strong>${row.team?.name || "–"}</strong></td>
+        <td>${row.played || 0}</td>
+        <td>${row.won || 0}-${row.drawn || 0}-${row.lost || 0}</td>
+        <td>${row.goalsFor || 0}:${row.goalsAgainst || 0}</td>
+        <td>${signed(row.goalDifference || 0)}</td>
+        <td class="rate">${row.points || 0}</td>
+      </tr>`;
+    }).join("")}</tbody>
+  </table></div>`;
+}
+
+function detailedStandingsHtml(teamId, phase) {
+  const current = phase?.current || null;
+  const meta = [phase?.competition, phase?.phaseName].filter(Boolean).filter((value, index, array) => array.indexOf(value) === index).join(" · ");
+  return `<div class="standings-meta-row">
+      <div><strong>${meta || "Liga"}</strong><span>Stand nach Spieltag ${phase?.currentRound || current?.round || "–"}</span></div>
+      <div class="standing-current"><span>Aktuell</span><strong>${current?.position ? `${current.position}. Platz` : "–"}</strong><em>${current?.points ?? 0} Punkte · ${current?.played ?? 0} Spiele</em></div>
+    </div>
+    <div class="standings-detail-grid">
+      <div class="standings-chart">${standingChartSvg(phase)}</div>
+      <div>${standingsTableHtml(phase, teamId)}</div>
+    </div>`;
+}
+
+function renderClubStandings() {
+  const root = $("#club-standings-content");
+  const note = $("#club-standings-note");
+  if (!root) return;
+
+  if (state.clubTeamId) {
+    const phase = currentStandingPhase(state.clubTeamId);
+    note.textContent = phase ? "Liga unabhängig von Zeitraum/Spielort" : "keine Tabellendaten";
+    root.innerHTML = phase
+      ? detailedStandingsHtml(state.clubTeamId, phase)
+      : `<div class="chart-empty">Für diese Mannschaft liegen noch keine Tabellendaten vor.</div>`;
+    return;
+  }
+
+  const cards = scopeTeams().map(team => {
+    const phase = currentStandingPhase(team.id);
+    if (!phase?.current) return null;
+    return `<div class="standing-overview-card">
+      <span>${team.name}</span>
+      <strong>${phase.current.position}. / ${phase.teamCount}</strong>
+      <em>${phase.current.points} Pkt. · ${phase.current.played} Sp.</em>
+      <small>${phase.phaseName || phase.competition || "Liga"}</small>
+    </div>`;
+  }).filter(Boolean);
+
+  note.textContent = "Mannschaft wählen für Verlauf";
+  root.innerHTML = cards.length
+    ? `<div class="standings-overview-grid">${cards.join("")}</div>`
+    : `<div class="chart-empty">Noch keine Tabellenstände für den gewählten Bereich verfügbar.</div>`;
+}
+
+function renderTrainerStandings() {
+  const root = $("#trainer-standings-content");
+  const note = $("#trainer-standings-note");
+  if (!root) return;
+  const phase = currentStandingPhase(state.trainerTeamId);
+  note.textContent = phase ? `${phase.phaseName || phase.competition || "Liga"} · ST ${phase.currentRound || "–"}` : "keine Tabellendaten";
+  root.innerHTML = phase
+    ? detailedStandingsHtml(state.trainerTeamId, phase)
+    : `<div class="chart-empty">Für diese Mannschaft liegen noch keine Tabellendaten vor.</div>`;
+}
+
 function kpiHtml(label, value, sub, tone = "") {
   return `<article class="kpi ${tone ? `kpi--${tone}` : ""}">
     <div class="kpi-label">${label}</div>
@@ -506,6 +630,126 @@ function renderTeamTable() {
 
 function scopedTeamIds() {
   return new Set(scopeTeams().map(team => String(team.id)));
+}
+
+function normalizePlayerName(value) {
+  return String(value || "").trim().toLocaleLowerCase("de-DE");
+}
+
+function scoringHistoryFor(playerId, name) {
+  if (playerId != null && playerId !== "") {
+    const byId = state.playerScoringHistory.find(item => String(item.playerId ?? "") === String(playerId));
+    if (byId) return byId;
+  }
+  const normalized = normalizePlayerName(name);
+  return state.playerScoringHistory.find(item => normalizePlayerName(item.name) === normalized) || null;
+}
+
+function playerScoringChartHtml(history) {
+  if (!history?.matches?.length) return `<div class="chart-empty">Kein Torverlauf verfügbar.</div>`;
+
+  const scoringTeams = (history.teams || []).filter(team => Number(team.goals || 0) > 0);
+  if (!scoringTeams.length) return `<div class="chart-empty">Noch keine Tore in den verifizierten Eventdaten.</div>`;
+
+  const teamOrder = scoringTeams.map(team => String(team.teamId));
+  const teamById = new Map(scoringTeams.map(team => [String(team.teamId), team]));
+  const byDate = new Map();
+  for (const match of history.matches.slice().sort((a, b) => `${a.date}T${a.time || ""}`.localeCompare(`${b.date}T${b.time || ""}`))) {
+    if (!byDate.has(match.date)) byDate.set(match.date, []);
+    byDate.get(match.date).push(match);
+  }
+
+  const cumulative = Object.fromEntries(teamOrder.map(teamId => [teamId, 0]));
+  const points = [...byDate.entries()].map(([date, matches]) => {
+    for (const match of matches) {
+      const teamId = String(match.teamId);
+      if (teamId in cumulative) cumulative[teamId] += Number(match.goals || 0);
+    }
+    return { date, values: { ...cumulative } };
+  });
+
+  const totalGoals = points.length ? teamOrder.reduce((sum, teamId) => sum + Number(points.at(-1).values[teamId] || 0), 0) : 0;
+  if (!totalGoals) return `<div class="chart-empty">Noch keine Tore in den verifizierten Eventdaten.</div>`;
+
+  const palette = ["#001f44", "#bf0b0f", "#0d4d8e", "#0f7a49", "#9a6500", "#6f42c1", "#5c6b7a"];
+  const w = 900;
+  const h = 270;
+  const left = 44;
+  const right = 20;
+  const top = 18;
+  const bottom = 38;
+  const innerW = w - left - right;
+  const innerH = h - top - bottom;
+  const yMax = Math.max(1, totalGoals);
+  const x = index => left + (points.length === 1 ? innerW / 2 : (index / (points.length - 1)) * innerW);
+  const y = value => top + ((yMax - Number(value || 0)) / yMax) * innerH;
+  const gridValues = Array.from({ length: 5 }, (_, i) => Math.round((yMax * (4 - i)) / 4));
+
+  const lowerByTeam = {};
+  let runningLower = points.map(() => 0);
+  teamOrder.forEach(teamId => {
+    lowerByTeam[teamId] = runningLower.slice();
+    runningLower = runningLower.map((base, index) => base + Number(points[index].values[teamId] || 0));
+  });
+
+  let svg = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Kumulierte Tore im Saisonverlauf nach Mannschaft">`;
+  svg += gridValues.map(value => `<line x1="${left}" x2="${w-right}" y1="${y(value)}" y2="${y(value)}" stroke="#e7ecf3" stroke-width="1"/><text x="${left-8}" y="${y(value)+4}" text-anchor="end" font-size="11" fill="#7a8798">${value}</text>`).join("");
+
+  teamOrder.forEach((teamId, teamIndex) => {
+    const lower = lowerByTeam[teamId];
+    const upper = points.map((point, index) => lower[index] + Number(point.values[teamId] || 0));
+    const forward = upper.map((value, index) => `${index === 0 ? "M" : "L"} ${x(index)} ${y(value)}`).join(" ");
+    const backward = lower.map((value, index) => ({ value, index })).reverse().map(item => `L ${x(item.index)} ${y(item.value)}`).join(" ");
+    svg += `<path d="${forward} ${backward} Z" fill="${palette[teamIndex % palette.length]}" opacity="0.72"/>`;
+  });
+
+  const totalPoints = points.map((point, index) => {
+    const total = teamOrder.reduce((sum, teamId) => sum + Number(point.values[teamId] || 0), 0);
+    return { index, total, point };
+  });
+  svg += `<polyline points="${totalPoints.map(item => `${x(item.index)},${y(item.total)}`).join(" ")}" fill="none" stroke="#17243a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+  svg += totalPoints.map(item => {
+    const breakdown = teamOrder.map(teamId => `${teamById.get(teamId)?.teamName || teamId}: ${item.point.values[teamId] || 0}`).join(" · ");
+    return `<circle cx="${x(item.index)}" cy="${y(item.total)}" r="3.3" fill="#fff" stroke="#17243a" stroke-width="1.5"><title>${dateLong(item.point.date)} · ${item.total} Tore · ${breakdown}</title></circle>`;
+  }).join("");
+
+  const labelIndices = [0, Math.floor((points.length - 1) / 2), points.length - 1].filter((value, index, array) => array.indexOf(value) === index);
+  svg += labelIndices.map(index => `<text x="${x(index)}" y="${h-11}" text-anchor="middle" font-size="11" fill="#7a8798">${dateShort(points[index].date)}</text>`).join("");
+  svg += `</svg>`;
+
+  const legend = scoringTeams.map((team, index) => `<span class="scoring-history-legend-item"><i style="background:${palette[index % palette.length]}"></i>${team.teamName} <strong>${team.goals}</strong></span>`).join("");
+  return `<div class="scoring-history-wrap">
+    <div class="scoring-history-head"><div><strong>${history.name}</strong><span>Kumulierte Tore · alle SG-Mannschaften</span></div><div class="scoring-history-total">${totalGoals} Tore</div></div>
+    <div class="scoring-history-chart">${svg}</div>
+    <div class="scoring-history-legend">${legend}</div>
+  </div>`;
+}
+
+function playerHistoryRows(player, index, columnCount, prefix) {
+  const targetId = `${prefix}-history-${index}`;
+  const playerId = player.playerId ?? "";
+  const encodedName = encodeURIComponent(player.name || "");
+  return {
+    button: `<button class="player-history-toggle" type="button" data-history-target="${targetId}" data-player-id="${playerId}" data-player-name="${encodedName}" aria-expanded="false">▾</button>`,
+    row: `<tr class="player-history-row" id="${targetId}" hidden><td colspan="${columnCount}"><div class="player-history-content"></div></td></tr>`
+  };
+}
+
+function togglePlayerHistory(button) {
+  const row = document.getElementById(button.dataset.historyTarget || "");
+  if (!row) return;
+  const opening = row.hidden;
+  row.hidden = !opening;
+  button.classList.toggle("is-open", opening);
+  button.setAttribute("aria-expanded", opening ? "true" : "false");
+  if (!opening || row.dataset.rendered === "1") return;
+
+  const playerId = button.dataset.playerId || null;
+  const name = decodeURIComponent(button.dataset.playerName || "");
+  const history = scoringHistoryFor(playerId, name);
+  const target = $(".player-history-content", row);
+  if (target) target.innerHTML = playerScoringChartHtml(history);
+  row.dataset.rendered = "1";
 }
 
 function scopePlayers() {
@@ -607,9 +851,10 @@ function renderClubPlayers() {
     .sort((a, b) => compareSortValue(a, b, spec.key, spec.dir))
     .slice(0, 20);
 
-  $("#club-player-table-body").innerHTML = players.map(player => {
+  $("#club-player-table-body").innerHTML = players.map((player, index) => {
     const teams = player.teamNames.join(" · ");
     const seven = `${player.sevenMeterGoals}/${player.sevenMeterAttempts}`;
+    const history = playerHistoryRows(player, index, 7, "club-player");
     return `<tr>
       <td class="team-cell"><strong>${player.name}</strong><span>${teams || "–"}</span></td>
       <td>${player.appearances}</td>
@@ -617,8 +862,9 @@ function renderClubPlayers() {
       <td>${deNumber(player.goalsPerAppearance, 2)}</td>
       <td>${seven}</td>
       <td>${player.sevenMeterPercentage === null ? "–" : percent(player.sevenMeterPercentage)}</td>
-    </tr>`;
-  }).join("") || `<tr><td colspan="6">Keine Spielerdaten im gewählten Filter.</td></tr>`;
+      <td class="player-history-toggle-cell">${history.button}</td>
+    </tr>${history.row}`;
+  }).join("") || `<tr><td colspan="7">Keine Spielerdaten im gewählten Filter.</td></tr>`;
 
   updateSortIndicators("players");
 }
@@ -822,6 +1068,7 @@ function renderClub() {
   renderTeamTable();
   renderRecentMatches();
   renderCoverage();
+  renderClubStandings();
   renderClubPlayers();
   renderClubTeamRankings();
 }
@@ -936,8 +1183,9 @@ function renderTeamRuns(team) {
 
 function renderTeamPlayers(team) {
   const players = team?.players || [];
-  $("#team-player-table").innerHTML = players.map(player => `
-    <tr>
+  $("#team-player-table").innerHTML = players.map((player, index) => {
+    const history = playerHistoryRows(player, index, 9, "team-player");
+    return `<tr>
       <td>${player.number ?? "–"}</td>
       <td class="team-cell"><strong>${player.name}</strong><span>${player.playerId}</span></td>
       <td>${player.appearances || 0}</td>
@@ -946,7 +1194,9 @@ function renderTeamPlayers(team) {
       <td>${percent(player.goalSharePercent || 0)}</td>
       <td>${player.sevenMeters?.attempts ? `${player.sevenMeters.goals}/${player.sevenMeters.attempts} · ${percent(player.sevenMeters.percentage)}` : "–"}</td>
       <td>${player.twoMinutes || 0}</td>
-    </tr>`).join("") || `<tr><td colspan="8">Keine Spielerstatistiken vorhanden.</td></tr>`;
+      <td class="player-history-toggle-cell">${history.button}</td>
+    </tr>${history.row}`;
+  }).join("") || `<tr><td colspan="9">Keine Spielerstatistiken vorhanden.</td></tr>`;
 }
 
 function renderTrainerMatches(matches) {
@@ -967,6 +1217,7 @@ function renderTrainerOverview() {
 
   renderKpis("#trainer-kpis", summary);
   renderTrainerUpcoming();
+  renderTrainerStandings();
   renderTrend("#trainer-trend-chart", matches, { trainer: true });
 
   const split = homeAwayStats(matches);
@@ -1345,6 +1596,16 @@ function bindEvents() {
     toggleClubSort(button.dataset.sortTable, button.dataset.sortKey, button.dataset.defaultDir || "desc");
   }));
 
+  $("#club-player-table-body").addEventListener("click", event => {
+    const button = event.target.closest("[data-history-target]");
+    if (button) togglePlayerHistory(button);
+  });
+
+  $("#team-player-table").addEventListener("click", event => {
+    const button = event.target.closest("[data-history-target]");
+    if (button) togglePlayerHistory(button);
+  });
+
   $("#trainer-matches").addEventListener("click", event => {
     const row = event.target.closest("[data-match-id]");
     if (row) selectMatch(row.dataset.matchId);
@@ -1371,15 +1632,17 @@ async function loadOptionalJson(path, fallback) {
 
 async function init() {
   try {
-    const [overview, teams, matches, upcomingMatchesPayload, coverage, quality, teamAnalyticsPayload, playersPayload, indexPayload] = await Promise.all([
+    const [overview, teams, matches, upcomingMatchesPayload, standingsPayload, coverage, quality, teamAnalyticsPayload, playersPayload, scoringHistoryPayload, indexPayload] = await Promise.all([
       loadJson("./data/overview.json"),
       loadJson("./data/teams.json"),
       loadJson("./data/matches.json"),
       loadOptionalJson("./data/upcoming-matches.json", { matches: [] }),
+      loadOptionalJson("./data/standings.json", { teams: [] }),
       loadJson("./data/coverage.json"),
       loadJson("./data/quality.json"),
       loadJson("./data/team-analytics.json"),
       loadJson("./data/players.json"),
+      loadOptionalJson("./data/player-scoring-history.json", { players: [] }),
       loadJson("./data/match-analytics/index.json")
     ]);
 
@@ -1387,6 +1650,8 @@ async function init() {
     state.teams = teams.teams || teams || [];
     state.matches = matches.matches || matches || [];
     state.upcomingMatches = upcomingMatchesPayload.matches || upcomingMatchesPayload || [];
+    state.standings = standingsPayload.teams || standingsPayload || [];
+    state.playerScoringHistory = scoringHistoryPayload.players || scoringHistoryPayload || [];
     state.coverage = coverage;
     state.quality = quality;
     state.teamAnalytics = teamAnalyticsPayload.teams || [];

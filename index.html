@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#001f44">
   <title>SGHNMS Analytics</title>
-  <link rel="stylesheet" href="./styles.css?v=6.1">
+  <link rel="stylesheet" href="./styles.css?v=7.0">
 </head>
 <body>
   <header class="topbar">
@@ -100,6 +100,17 @@
         </article>
       </section>
 
+      <article class="panel standings-panel" id="club-standings-panel">
+        <div class="panel-head">
+          <div>
+            <span class="section-eyebrow">TABELLE</span>
+            <h2>Tabellenverlauf</h2>
+          </div>
+          <span class="panel-note" id="club-standings-note">aktuelle Platzierung</span>
+        </div>
+        <div id="club-standings-content"></div>
+      </article>
+
       <section class="content-grid content-grid--split">
         <article class="panel">
           <div class="panel-head">
@@ -155,6 +166,7 @@
                 <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="goalsPerAppearance" data-default-dir="desc">Tore/Sp.</button></th>
                 <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="sevenMeterGoals" data-default-dir="desc">7m</button></th>
                 <th><button class="sort-button" type="button" data-sort-table="players" data-sort-key="sevenMeterPercentage" data-default-dir="desc">7m-Quote</button></th>
+                <th>Verlauf</th>
               </tr>
             </thead>
             <tbody id="club-player-table-body"></tbody>
@@ -252,6 +264,17 @@
       </section>
 
       <section id="trainer-tab-overview" class="trainer-tab-panel">
+        <article class="panel standings-panel trainer-standings-panel">
+          <div class="panel-head">
+            <div>
+              <span class="section-eyebrow">TABELLE</span>
+              <h2>Tabellenverlauf</h2>
+            </div>
+            <span class="panel-note" id="trainer-standings-note">Liga & Platzierung</span>
+          </div>
+          <div id="trainer-standings-content"></div>
+        </article>
+
         <section class="content-grid content-grid--main">
           <article class="panel chart-panel">
             <div class="panel-head">
@@ -353,6 +376,7 @@
                   <th>Anteil</th>
                   <th>7m</th>
                   <th>2 Min.</th>
+                  <th>Verlauf</th>
                 </tr>
               </thead>
               <tbody id="team-player-table"></tbody>
@@ -387,6 +411,6 @@
     <span>Interne Auswertung · Datenquelle handball.net</span>
   </footer>
 
-  <script type="module" src="./app.js?v=6.1"></script>
+  <script type="module" src="./app.js?v=7.0"></script>
 </body>
 </html>
