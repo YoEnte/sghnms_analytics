@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:39:29.669Z",
+  "generatedAt": "2026-10-06T00:45:24.513Z",
   "matches": [
     {
       "id": 448676,
@@ -18,6 +18,10 @@
       "result": {
         "home": 32,
         "away": 30
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Oberliga Schleswig-Holstein Frauen",
       "phase": {
@@ -90,6 +94,10 @@
       "result": {
         "home": 1,
         "away": 21
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -165,6 +173,10 @@
         "home": 35,
         "away": 13
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga WEIBLICH",
       "phase": {
         "id": 14637,
@@ -236,6 +248,10 @@
       "result": {
         "home": 26,
         "away": 10
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -322,6 +338,10 @@
         "home": 37,
         "away": 35
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
       "phase": {
         "id": 14076,
@@ -393,6 +413,10 @@
       "result": {
         "home": 17,
         "away": 13
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisklasse mD Neumünster",
       "phase": {
@@ -468,6 +492,10 @@
         "home": 18,
         "away": 20
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "wJA-Regionsoberliga",
       "phase": {
         "id": 13872,
@@ -539,6 +567,10 @@
       "result": {
         "home": 37,
         "away": 10
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisklasse wD Neumünster",
       "phase": {
@@ -614,6 +646,10 @@
         "home": 25,
         "away": 24
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
         "id": 14688,
@@ -686,6 +722,10 @@
         "home": 26,
         "away": 31
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisliga Männer",
       "phase": {
         "id": 12972,
@@ -757,6 +797,10 @@
       "result": {
         "home": 19,
         "away": 28
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -831,6 +875,10 @@
       "result": {
         "home": 14,
         "away": 20
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
@@ -910,6 +958,10 @@
         "home": 36,
         "away": 11
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisliga mD Neumünster",
       "phase": {
         "id": 15492,
@@ -984,6 +1036,10 @@
         "home": 13,
         "away": 13
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "wJA-Regionsoberliga",
       "phase": {
         "id": 13873,
@@ -1055,6 +1111,10 @@
       "result": {
         "home": 26,
         "away": 26
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga Männer",
       "phase": {
@@ -1128,6 +1188,10 @@
         "home": 20,
         "away": 9
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisklasse Frauen",
       "phase": {
         "id": 12993,
@@ -1199,6 +1263,10 @@
       "result": {
         "home": 16,
         "away": 34
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsoberliga MÄNNLICH",
       "phase": {
@@ -1272,6 +1340,10 @@
         "home": 34,
         "away": 26
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga Männer",
       "phase": {
         "id": 12963,
@@ -1343,6 +1415,10 @@
       "result": {
         "home": 29,
         "away": 26
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga Frauen",
       "phase": {
@@ -1416,6 +1492,10 @@
         "home": 29,
         "away": 26
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
       "phase": {
         "id": 14073,
@@ -1488,6 +1568,10 @@
         "home": 30,
         "away": 24
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga Frauen",
       "phase": {
         "id": 12967,
@@ -1559,6 +1643,10 @@
       "result": {
         "home": 13,
         "away": 20
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisklasse mD Neumünster",
       "phase": {
@@ -1634,6 +1722,10 @@
         "home": 28,
         "away": 27
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
         "id": 14688,
@@ -1705,6 +1797,10 @@
       "result": {
         "home": 20,
         "away": 9
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -1780,6 +1876,10 @@
         "home": 25,
         "away": 46
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga WEIBLICH",
       "phase": {
         "id": 14637,
@@ -1852,6 +1952,10 @@
         "home": 33,
         "away": 27
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisliga Männer",
       "phase": {
         "id": 12973,
@@ -1923,6 +2027,10 @@
       "result": {
         "home": 25,
         "away": 11
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -1998,6 +2106,10 @@
         "home": 7,
         "away": 26
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisklasse wD Neumünster",
       "phase": {
         "id": 15531,
@@ -2071,6 +2183,10 @@
       "result": {
         "home": 9,
         "away": 15
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -2146,6 +2262,10 @@
         "home": 33,
         "away": 28
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga Frauen",
       "phase": {
         "id": 12967,
@@ -2217,6 +2337,10 @@
       "result": {
         "home": 18,
         "away": 25
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga mD Neumünster",
       "phase": {
@@ -2292,6 +2416,10 @@
         "home": 17,
         "away": 33
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "wJA-Regionsoberliga",
       "phase": {
         "id": 13872,
@@ -2363,6 +2491,10 @@
       "result": {
         "home": 36,
         "away": 21
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -2438,6 +2570,10 @@
         "home": 32,
         "away": 38
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
       "phase": {
         "id": 14076,
@@ -2509,6 +2645,10 @@
       "result": {
         "home": 28,
         "away": 17
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsoberliga MÄNNLICH",
       "phase": {
@@ -2582,6 +2722,10 @@
         "home": 33,
         "away": 19
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein Frauen",
       "phase": {
         "id": 14062,
@@ -2653,6 +2797,10 @@
       "result": {
         "home": 36,
         "away": 14
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "wJA-Regionsoberliga",
       "phase": {
@@ -2726,6 +2874,10 @@
         "home": 15,
         "away": 32
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
       "phase": {
         "id": 14073,
@@ -2798,6 +2950,10 @@
         "home": 10,
         "away": 42
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga WEIBLICH",
       "phase": {
         "id": 14637,
@@ -2869,6 +3025,10 @@
       "result": {
         "home": 15,
         "away": 27
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -2944,6 +3104,10 @@
         "home": 16,
         "away": 6
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
         "id": 15509,
@@ -3018,6 +3182,10 @@
         "home": 11,
         "away": 23
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
         "id": 14688,
@@ -3089,6 +3257,10 @@
       "result": {
         "home": 9,
         "away": 22
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisklasse mD Neumünster",
       "phase": {
@@ -3164,6 +3336,10 @@
         "home": 32,
         "away": 28
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga MÄNNLICH",
       "phase": {
         "id": 14617,
@@ -3235,6 +3411,10 @@
       "result": {
         "home": 27,
         "away": 15
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
@@ -3308,6 +3488,10 @@
         "home": 24,
         "away": 26
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "wJA-Regionsoberliga",
       "phase": {
         "id": 13873,
@@ -3379,6 +3563,10 @@
       "result": {
         "home": 31,
         "away": 25
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga Frauen",
       "phase": {
@@ -3452,6 +3640,10 @@
         "home": 32,
         "away": 31
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga MÄNNLICH",
       "phase": {
         "id": 14694,
@@ -3523,6 +3715,10 @@
       "result": {
         "home": 33,
         "away": 28
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga Männer",
       "phase": {
@@ -3596,6 +3792,10 @@
         "home": 28,
         "away": 22
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
       "phase": {
         "id": 14073,
@@ -3667,6 +3867,10 @@
       "result": {
         "home": 26,
         "away": 15
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
@@ -3740,6 +3944,10 @@
         "home": 25,
         "away": 15
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
       "phase": {
         "id": 14073,
@@ -3811,6 +4019,10 @@
       "result": {
         "home": 24,
         "away": 29
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
       "phase": {
@@ -3884,6 +4096,10 @@
         "home": 28,
         "away": 29
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga MÄNNLICH",
       "phase": {
         "id": 14694,
@@ -3956,6 +4172,10 @@
         "home": 19,
         "away": 27
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga Frauen",
       "phase": {
         "id": 12967,
@@ -4027,6 +4247,10 @@
       "result": {
         "home": 7,
         "away": 19
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -4102,6 +4326,10 @@
         "home": 15,
         "away": 36
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "wJA-Regionsoberliga",
       "phase": {
         "id": 13873,
@@ -4173,6 +4401,10 @@
       "result": {
         "home": 12,
         "away": 20
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga mE Neumünster",
       "phase": {
@@ -4248,6 +4480,10 @@
         "home": 13,
         "away": 34
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
         "id": 14626,
@@ -4319,6 +4555,10 @@
       "result": {
         "home": 13,
         "away": 40
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsoberliga WEIBLICH",
       "phase": {
@@ -4392,6 +4632,10 @@
         "home": 24,
         "away": 25
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein Frauen",
       "phase": {
         "id": 14062,
@@ -4464,6 +4708,10 @@
         "home": 25,
         "away": 25
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisliga Männer",
       "phase": {
         "id": 12972,
@@ -4535,6 +4783,10 @@
       "result": {
         "home": 10,
         "away": 5
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -4610,6 +4862,10 @@
         "home": 39,
         "away": 34
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisoberliga Männer",
       "phase": {
         "id": 12963,
@@ -4681,6 +4937,10 @@
       "result": {
         "home": 35,
         "away": 19
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga Männer",
       "phase": {
@@ -4754,6 +5014,10 @@
         "home": 32,
         "away": 30
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Oberliga Schleswig-Holstein Frauen",
       "phase": {
         "id": 14062,
@@ -4825,6 +5089,10 @@
       "result": {
         "home": 7,
         "away": 15
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisoberliga wE Neumünster",
       "phase": {
@@ -4900,6 +5168,10 @@
         "home": 43,
         "away": 15
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Kreisklasse mD Neumünster",
       "phase": {
         "id": 15702,
@@ -4974,6 +5246,10 @@
         "home": 21,
         "away": 18
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsliga WEIBLICH",
       "phase": {
         "id": 14626,
@@ -5045,6 +5321,10 @@
       "result": {
         "home": 34,
         "away": 24
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Kreisliga mD Neumünster",
       "phase": {
@@ -5120,6 +5400,10 @@
         "home": 22,
         "away": 39
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga WEIBLICH",
       "phase": {
         "id": 14637,
@@ -5192,6 +5476,10 @@
         "home": 37,
         "away": 24
       },
+      "status": {
+        "finished": true,
+        "live": false
+      },
       "competition": "Regionsoberliga MÄNNLICH",
       "phase": {
         "id": 14694,
@@ -5263,6 +5551,10 @@
       "result": {
         "home": 23,
         "away": 12
+      },
+      "status": {
+        "finished": true,
+        "live": false
       },
       "competition": "Regionsliga MÄNNLICH",
       "phase": {
