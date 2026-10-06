@@ -1,6 +1,404 @@
 {
-  "generatedAt": "2026-10-06T00:45:24.513Z",
+  "generatedAt": "2026-10-06T05:46:50.607Z",
   "matches": [
+    {
+      "id": 504541,
+      "date": "2026-08-29",
+      "time": "19:00",
+      "home": {
+        "id": 81694,
+        "name": "TuRa Meldorf",
+        "clubId": "1gz2zvt"
+      },
+      "away": {
+        "id": 86805,
+        "name": "SG Handball Neumünster",
+        "clubId": "1yrb3n9"
+      },
+      "result": {
+        "home": 22,
+        "away": 30
+      },
+      "status": {
+        "finished": true,
+        "live": false
+      },
+      "competition": "Kreisoberliga Männer",
+      "phase": {
+        "id": 12963,
+        "name": "Kreisoberliga Männer West"
+      },
+      "venue": {
+        "name": "GROßSPORTHALLE AM SCHWIMMBAD",
+        "address": "BüTTELSWEG 2, 25704 MELDORF"
+      },
+      "ownTeamId": "86805",
+      "ownTeam": {
+        "label": "HERREN 1",
+        "name": "1. Herren",
+        "ageGroup": "senior",
+        "gender": "male",
+        "matchMinutes": 60
+      },
+      "quality": {
+        "status": "warning",
+        "eventsAvailable": true,
+        "lineupsAvailable": true,
+        "officialScore": {
+          "home": 22,
+          "away": 30
+        },
+        "eventFinalScore": {
+          "home": 22,
+          "away": 30
+        },
+        "lineupGoalTotals": {
+          "home": 22,
+          "away": 30
+        },
+        "eventScoreMatchesOfficial": true,
+        "lineupScoreMatchesOfficial": true,
+        "scorerLineupCoverage": {
+          "goalEvents": 52,
+          "goalEventsWithPlayer": 52,
+          "matchedGoalEvents": 52,
+          "percentage": 100
+        },
+        "halftimeAvailable": true,
+        "halftimeSource": "derived",
+        "expectedDurationSeconds": 3600,
+        "eventDurationSeconds": 4200,
+        "durationDeltaSeconds": 600,
+        "durationMatchesExpected": false,
+        "analyticsEligible": true,
+        "lineupEligible": true,
+        "warnings": [
+          {
+            "code": "DURATION_MISMATCH",
+            "severity": "warning",
+            "message": "Event duration 4200s differs from expected duration 3600s by 600s."
+          }
+        ]
+      },
+      "analyticsAvailable": true,
+      "analyticsPath": "match-analytics/504541.json"
+    },
+    {
+      "id": 677884,
+      "date": "2026-08-30",
+      "time": "12:15",
+      "home": {
+        "id": 87276,
+        "name": "SG Handball Neumünster II",
+        "clubId": "1yrb3n9"
+      },
+      "away": {
+        "id": 82195,
+        "name": "TURA MELDORF II",
+        "clubId": "1gz2zvt"
+      },
+      "result": {
+        "home": 37,
+        "away": 26
+      },
+      "status": {
+        "finished": true,
+        "live": false
+      },
+      "competition": "Regionsliga MÄNNLICH",
+      "phase": {
+        "id": 14617,
+        "name": "MJC-RL-2"
+      },
+      "venue": {
+        "name": "KSV-HALLE NMS",
+        "address": "HANSARING 130, 24534 NEUMüNSTER"
+      },
+      "ownTeamId": "87276",
+      "ownTeam": {
+        "label": "MJC 2",
+        "name": "mJC 2",
+        "ageGroup": "youth",
+        "gender": "male",
+        "matchMinutes": 50
+      },
+      "quality": {
+        "status": "warning",
+        "eventsAvailable": true,
+        "lineupsAvailable": true,
+        "officialScore": {
+          "home": 37,
+          "away": 26
+        },
+        "eventFinalScore": {
+          "home": 37,
+          "away": 26
+        },
+        "lineupGoalTotals": {
+          "home": 37,
+          "away": 26
+        },
+        "eventScoreMatchesOfficial": true,
+        "lineupScoreMatchesOfficial": true,
+        "scorerLineupCoverage": {
+          "goalEvents": 63,
+          "goalEventsWithPlayer": 63,
+          "matchedGoalEvents": 63,
+          "percentage": 100
+        },
+        "halftimeAvailable": true,
+        "halftimeSource": "derived",
+        "expectedDurationSeconds": 3000,
+        "eventDurationSeconds": 3600,
+        "durationDeltaSeconds": 600,
+        "durationMatchesExpected": false,
+        "analyticsEligible": true,
+        "lineupEligible": true,
+        "warnings": [
+          {
+            "code": "DURATION_MISMATCH",
+            "severity": "warning",
+            "message": "Event duration 3600s differs from expected duration 3000s by 600s."
+          }
+        ]
+      },
+      "analyticsAvailable": true,
+      "analyticsPath": "match-analytics/677884.json"
+    },
+    {
+      "id": 450659,
+      "date": "2026-08-30",
+      "time": "14:15",
+      "home": {
+        "id": 87175,
+        "name": "SG HANDBALL NEUMÜNSTER",
+        "clubId": "1yrb3n9"
+      },
+      "away": {
+        "id": 87171,
+        "name": "HSG Schülp/Westerrönfeld/Rendsburg",
+        "clubId": "1myb91w"
+      },
+      "result": {
+        "home": 23,
+        "away": 21
+      },
+      "status": {
+        "finished": true,
+        "live": false
+      },
+      "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
+      "phase": {
+        "id": 14073,
+        "name": "Vorrunde A"
+      },
+      "venue": {
+        "name": "KSV-HALLE NMS",
+        "address": "HANSARING 130, 24534 NEUMüNSTER"
+      },
+      "ownTeamId": "87175",
+      "ownTeam": {
+        "label": "WJB 1",
+        "name": "wJB 1",
+        "ageGroup": "youth",
+        "gender": "female",
+        "matchMinutes": 50
+      },
+      "quality": {
+        "status": "verified",
+        "eventsAvailable": true,
+        "lineupsAvailable": true,
+        "officialScore": {
+          "home": 23,
+          "away": 21
+        },
+        "eventFinalScore": {
+          "home": 23,
+          "away": 21
+        },
+        "lineupGoalTotals": {
+          "home": 23,
+          "away": 21
+        },
+        "eventScoreMatchesOfficial": true,
+        "lineupScoreMatchesOfficial": true,
+        "scorerLineupCoverage": {
+          "goalEvents": 44,
+          "goalEventsWithPlayer": 44,
+          "matchedGoalEvents": 44,
+          "percentage": 100
+        },
+        "halftimeAvailable": true,
+        "halftimeSource": "derived",
+        "expectedDurationSeconds": 3000,
+        "eventDurationSeconds": 3000,
+        "durationDeltaSeconds": 0,
+        "durationMatchesExpected": true,
+        "analyticsEligible": true,
+        "lineupEligible": true,
+        "warnings": []
+      },
+      "analyticsAvailable": true,
+      "analyticsPath": "match-analytics/450659.json"
+    },
+    {
+      "id": 450747,
+      "date": "2026-08-30",
+      "time": "16:00",
+      "home": {
+        "id": 87187,
+        "name": "SG Handball Neumünster",
+        "clubId": "1yrb3n9"
+      },
+      "away": {
+        "id": 87188,
+        "name": "VFL Lübeck-SCHWARTAU",
+        "clubId": "0gll3ig"
+      },
+      "result": {
+        "home": 18,
+        "away": 31
+      },
+      "status": {
+        "finished": true,
+        "live": false
+      },
+      "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
+      "phase": {
+        "id": 14076,
+        "name": "Vorrunde B"
+      },
+      "venue": {
+        "name": "KSV-HALLE NMS",
+        "address": "HANSARING 130, 24534 NEUMüNSTER"
+      },
+      "ownTeamId": "87187",
+      "ownTeam": {
+        "label": "MJC 1",
+        "name": "mJC 1",
+        "ageGroup": "youth",
+        "gender": "male",
+        "matchMinutes": 50
+      },
+      "quality": {
+        "status": "warning",
+        "eventsAvailable": true,
+        "lineupsAvailable": true,
+        "officialScore": {
+          "home": 18,
+          "away": 31
+        },
+        "eventFinalScore": {
+          "home": 18,
+          "away": 31
+        },
+        "lineupGoalTotals": {
+          "home": 18,
+          "away": 31
+        },
+        "eventScoreMatchesOfficial": true,
+        "lineupScoreMatchesOfficial": true,
+        "scorerLineupCoverage": {
+          "goalEvents": 49,
+          "goalEventsWithPlayer": 49,
+          "matchedGoalEvents": 49,
+          "percentage": 100
+        },
+        "halftimeAvailable": true,
+        "halftimeSource": "derived",
+        "expectedDurationSeconds": 3000,
+        "eventDurationSeconds": 3600,
+        "durationDeltaSeconds": 600,
+        "durationMatchesExpected": false,
+        "analyticsEligible": true,
+        "lineupEligible": true,
+        "warnings": [
+          {
+            "code": "DURATION_MISMATCH",
+            "severity": "warning",
+            "message": "Event duration 3600s differs from expected duration 3000s by 600s."
+          }
+        ]
+      },
+      "analyticsAvailable": true,
+      "analyticsPath": "match-analytics/450747.json"
+    },
+    {
+      "id": 417841,
+      "date": "2026-08-30",
+      "time": "17:30",
+      "home": {
+        "id": 87274,
+        "name": "SG HANDBALL NEUMÜNSTER",
+        "clubId": "1yrb3n9"
+      },
+      "away": {
+        "id": 87227,
+        "name": "HSG OSTSEE NEUSTADT/GRÖMITZ",
+        "clubId": "0jkvdbu"
+      },
+      "result": {
+        "home": 19,
+        "away": 27
+      },
+      "status": {
+        "finished": true,
+        "live": false
+      },
+      "competition": "Regionsoberliga MÄNNLICH",
+      "phase": {
+        "id": 14694,
+        "name": "mJB-ROL-2"
+      },
+      "venue": {
+        "name": "KSV-HALLE NMS",
+        "address": "HANSARING 130, 24534 NEUMüNSTER"
+      },
+      "ownTeamId": "87274",
+      "ownTeam": {
+        "label": "MJB",
+        "name": "mJB",
+        "ageGroup": "youth",
+        "gender": "male",
+        "matchMinutes": 50
+      },
+      "quality": {
+        "status": "verified",
+        "eventsAvailable": true,
+        "lineupsAvailable": true,
+        "officialScore": {
+          "home": 19,
+          "away": 27
+        },
+        "eventFinalScore": {
+          "home": 19,
+          "away": 27
+        },
+        "lineupGoalTotals": {
+          "home": 19,
+          "away": 27
+        },
+        "eventScoreMatchesOfficial": true,
+        "lineupScoreMatchesOfficial": true,
+        "scorerLineupCoverage": {
+          "goalEvents": 46,
+          "goalEventsWithPlayer": 46,
+          "matchedGoalEvents": 46,
+          "percentage": 100
+        },
+        "halftimeAvailable": true,
+        "halftimeSource": "derived",
+        "expectedDurationSeconds": 3000,
+        "eventDurationSeconds": 3000,
+        "durationDeltaSeconds": 0,
+        "durationMatchesExpected": true,
+        "analyticsEligible": true,
+        "lineupEligible": true,
+        "warnings": []
+      },
+      "analyticsAvailable": true,
+      "analyticsPath": "match-analytics/417841.json"
+    },
     {
       "id": 448676,
       "date": "2026-09-04",

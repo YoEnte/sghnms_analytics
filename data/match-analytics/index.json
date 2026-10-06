@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-10-06T00:45:24.901Z",
+  "generatedAt": "2026-10-06T05:46:51.194Z",
   "matches": [
+    {
+      "id": 504541,
+      "date": "2026-08-29",
+      "time": "19:00",
+      "ownTeamId": "86805",
+      "opponent": "TuRa Meldorf",
+      "analyticsEligible": true,
+      "qualityStatus": "warning",
+      "path": "match-analytics/504541.json"
+    },
+    {
+      "id": 677884,
+      "date": "2026-08-30",
+      "time": "12:15",
+      "ownTeamId": "87276",
+      "opponent": "TURA MELDORF II",
+      "analyticsEligible": true,
+      "qualityStatus": "warning",
+      "path": "match-analytics/677884.json"
+    },
+    {
+      "id": 450659,
+      "date": "2026-08-30",
+      "time": "14:15",
+      "ownTeamId": "87175",
+      "opponent": "HSG Schülp/Westerrönfeld/Rendsburg",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/450659.json"
+    },
+    {
+      "id": 450747,
+      "date": "2026-08-30",
+      "time": "16:00",
+      "ownTeamId": "87187",
+      "opponent": "VFL Lübeck-SCHWARTAU",
+      "analyticsEligible": true,
+      "qualityStatus": "warning",
+      "path": "match-analytics/450747.json"
+    },
+    {
+      "id": 417841,
+      "date": "2026-08-30",
+      "time": "17:30",
+      "ownTeamId": "87274",
+      "opponent": "HSG OSTSEE NEUSTADT/GRÖMITZ",
+      "analyticsEligible": true,
+      "qualityStatus": "verified",
+      "path": "match-analytics/417841.json"
+    },
     {
       "id": 448676,
       "date": "2026-09-04",

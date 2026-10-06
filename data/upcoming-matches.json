@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:45:24.678Z",
+  "generatedAt": "2026-10-06T05:46:50.862Z",
   "matches": [
     {
       "id": 448683,
@@ -1140,17 +1140,17 @@
         "phaseName": "MJC-RL-2",
         "competition": "Regionsliga MÄNNLICH",
         "season": {
-          "games": 4,
-          "wins": 4,
+          "games": 5,
+          "wins": 5,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 134,
-          "goalsAgainst": 95,
-          "goalDifference": 39,
+          "goalsFor": 159,
+          "goalsAgainst": 117,
+          "goalDifference": 42,
           "winRate": 100,
-          "goalsForAvg": 33.5,
-          "goalsAgainstAvg": 23.75,
-          "goalDifferenceAvg": 9.75
+          "goalsForAvg": 31.8,
+          "goalsAgainstAvg": 23.4,
+          "goalDifferenceAvg": 8.4
         },
         "recent": [
           {
@@ -1208,6 +1208,20 @@
             "goalsFor": 42,
             "goalsAgainst": 29,
             "result": "W"
+          },
+          {
+            "id": 677886,
+            "date": "2026-08-30",
+            "time": "12:30",
+            "isHome": true,
+            "opponent": {
+              "id": 0,
+              "name": "#POS-11",
+              "clubId": null
+            },
+            "goalsFor": 25,
+            "goalsAgainst": 22,
+            "result": "W"
           }
         ],
         "topScorers": [
@@ -1215,11 +1229,11 @@
             "playerId": "0yu9qyp",
             "name": "Thies Hans Petersen",
             "number": 2,
-            "games": 4,
-            "goals": 38,
+            "games": 5,
+            "goals": 43,
             "sevenMeterGoals": 1,
             "sevenMeterAttempts": 1,
-            "goalsPerGame": 9.5,
+            "goalsPerGame": 8.6,
             "sevenMeterPercentage": 100
           },
           {
@@ -1234,6 +1248,28 @@
             "sevenMeterPercentage": null
           },
           {
+            "playerId": "09le4wk",
+            "name": "Erik Mehlem",
+            "number": 14,
+            "games": 4,
+            "goals": 19,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 4.75,
+            "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "1qeb3ju",
+            "name": "Jannes Lutschewitz",
+            "number": 5,
+            "games": 5,
+            "goals": 18,
+            "sevenMeterGoals": 3,
+            "sevenMeterAttempts": 3,
+            "goalsPerGame": 3.6,
+            "sevenMeterPercentage": 100
+          },
+          {
             "playerId": "0fwjb8h",
             "name": "Hannes Ploog",
             "number": 11,
@@ -1243,33 +1279,11 @@
             "sevenMeterAttempts": 1,
             "goalsPerGame": 8.5,
             "sevenMeterPercentage": 100
-          },
-          {
-            "playerId": "09le4wk",
-            "name": "Erik Mehlem",
-            "number": 14,
-            "games": 3,
-            "goals": 16,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 5.33,
-            "sevenMeterPercentage": null
-          },
-          {
-            "playerId": "1rtxpgu",
-            "name": "Jacob Hennings",
-            "number": 7,
-            "games": 4,
-            "goals": 9,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.25,
-            "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -2251,17 +2265,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 0,
           "draws": 0,
-          "losses": 4,
-          "goalsFor": 85,
-          "goalsAgainst": 143,
-          "goalDifference": -58,
+          "losses": 5,
+          "goalsFor": 123,
+          "goalsAgainst": 197,
+          "goalDifference": -74,
           "winRate": 0,
-          "goalsForAvg": 21.25,
-          "goalsAgainstAvg": 35.75,
-          "goalDifferenceAvg": -14.5
+          "goalsForAvg": 24.6,
+          "goalsAgainstAvg": 39.4,
+          "goalDifferenceAvg": -14.8
         },
         "recent": [
           {
@@ -2319,6 +2333,20 @@
             "goalsFor": 23,
             "goalsAgainst": 39,
             "result": "L"
+          },
+          {
+            "id": 417843,
+            "date": "2026-08-30",
+            "time": "15:15",
+            "isHome": false,
+            "opponent": {
+              "id": 82011,
+              "name": "VFL GEESTHACHT",
+              "clubId": "06kfb6c"
+            },
+            "goalsFor": 38,
+            "goalsAgainst": 54,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -2326,23 +2354,45 @@
             "playerId": "1500t7x",
             "name": "Thore Daglioglu",
             "number": 2,
-            "games": 3,
-            "goals": 19,
-            "sevenMeterGoals": 4,
-            "sevenMeterAttempts": 4,
-            "goalsPerGame": 6.33,
+            "games": 4,
+            "goals": 28,
+            "sevenMeterGoals": 7,
+            "sevenMeterAttempts": 7,
+            "goalsPerGame": 7,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1tjk808",
             "name": "Noah Maximilian Weisser",
             "number": 7,
-            "games": 3,
-            "goals": 13,
+            "games": 4,
+            "goals": 19,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4.33,
+            "goalsPerGame": 4.75,
             "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "09qp3fh",
+            "name": "Momme Hoop",
+            "number": 55,
+            "games": 2,
+            "goals": 16,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 8,
+            "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "1o7cb0l",
+            "name": "Paul Levi Lasse Schroeder",
+            "number": 25,
+            "games": 4,
+            "goals": 12,
+            "sevenMeterGoals": 3,
+            "sevenMeterAttempts": 3,
+            "goalsPerGame": 3,
+            "sevenMeterPercentage": 100
           },
           {
             "playerId": "09rmfgu",
@@ -2354,34 +2404,12 @@
             "sevenMeterAttempts": 0,
             "goalsPerGame": 3.67,
             "sevenMeterPercentage": null
-          },
-          {
-            "playerId": "1o7cb0l",
-            "name": "Paul Levi Lasse Schroeder",
-            "number": 25,
-            "games": 3,
-            "goals": 9,
-            "sevenMeterGoals": 3,
-            "sevenMeterAttempts": 3,
-            "goalsPerGame": 3,
-            "sevenMeterPercentage": 100
-          },
-          {
-            "playerId": "0yrew7y",
-            "name": "Tobias Heilek",
-            "number": 81,
-            "games": 3,
-            "goals": 7,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.33,
-            "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 3,
-          "percentage": 75
+          "finishedMatches": 5,
+          "lineupMatches": 4,
+          "percentage": 80
         }
       }
     },
@@ -2779,17 +2807,17 @@
         "phaseName": "Vorrunde B",
         "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
         "season": {
-          "games": 4,
-          "wins": 2,
+          "games": 5,
+          "wins": 3,
           "draws": 1,
           "losses": 1,
-          "goalsFor": 122,
-          "goalsAgainst": 109,
-          "goalDifference": 13,
-          "winRate": 50,
-          "goalsForAvg": 30.5,
-          "goalsAgainstAvg": 27.25,
-          "goalDifferenceAvg": 3.25
+          "goalsFor": 153,
+          "goalsAgainst": 127,
+          "goalDifference": 26,
+          "winRate": 60,
+          "goalsForAvg": 30.6,
+          "goalsAgainstAvg": 25.4,
+          "goalDifferenceAvg": 5.2
         },
         "recent": [
           {
@@ -2847,6 +2875,20 @@
             "goalsFor": 31,
             "goalsAgainst": 25,
             "result": "W"
+          },
+          {
+            "id": 450747,
+            "date": "2026-08-30",
+            "time": "16:00",
+            "isHome": false,
+            "opponent": {
+              "id": 87187,
+              "name": "SG Handball Neumünster",
+              "clubId": "1yrb3n9"
+            },
+            "goalsFor": 31,
+            "goalsAgainst": 18,
+            "result": "W"
           }
         ],
         "topScorers": [
@@ -2854,61 +2896,61 @@
             "playerId": "1hvc6z2",
             "name": "Piet Holst",
             "number": 11,
-            "games": 4,
-            "goals": 25,
-            "sevenMeterGoals": 9,
-            "sevenMeterAttempts": 9,
-            "goalsPerGame": 6.25,
+            "games": 5,
+            "goals": 30,
+            "sevenMeterGoals": 10,
+            "sevenMeterAttempts": 10,
+            "goalsPerGame": 6,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1pixxe0",
             "name": "Theo Hering",
             "number": 20,
-            "games": 4,
-            "goals": 22,
+            "games": 5,
+            "goals": 26,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 5.5,
-            "sevenMeterPercentage": null
-          },
-          {
-            "playerId": "0o1fv6l",
-            "name": "Johann Erwin Tecklenburg",
-            "number": 49,
-            "games": 4,
-            "goals": 14,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.5,
-            "sevenMeterPercentage": null
-          },
-          {
-            "playerId": "0np8mhj",
-            "name": "Lasse Paarmann",
-            "number": 71,
-            "games": 4,
-            "goals": 13,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.25,
+            "goalsPerGame": 5.2,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "15649s7",
             "name": "Justus Hammwöhner",
             "number": 2,
-            "games": 3,
-            "goals": 12,
+            "games": 4,
+            "goals": 15,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4,
+            "goalsPerGame": 3.75,
+            "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "0o1fv6l",
+            "name": "Johann Erwin Tecklenburg",
+            "number": 49,
+            "games": 5,
+            "goals": 15,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 3,
+            "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "0np8mhj",
+            "name": "Lasse Paarmann",
+            "number": 71,
+            "games": 5,
+            "goals": 15,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 3,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -4723,17 +4765,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 5,
-          "wins": 4,
+          "games": 6,
+          "wins": 5,
           "draws": 0,
           "losses": 1,
-          "goalsFor": 177,
-          "goalsAgainst": 137,
-          "goalDifference": 40,
-          "winRate": 80,
-          "goalsForAvg": 35.4,
-          "goalsAgainstAvg": 27.4,
-          "goalDifferenceAvg": 8
+          "goalsFor": 204,
+          "goalsAgainst": 163,
+          "goalDifference": 41,
+          "winRate": 83.3,
+          "goalsForAvg": 34,
+          "goalsAgainstAvg": 27.17,
+          "goalDifferenceAvg": 6.83
         },
         "recent": [
           {
@@ -4812,22 +4854,22 @@
             "playerId": "1y0lsf8",
             "name": "Benedikt Kummetz",
             "number": 91,
-            "games": 5,
-            "goals": 48,
-            "sevenMeterGoals": 7,
-            "sevenMeterAttempts": 7,
-            "goalsPerGame": 9.6,
+            "games": 6,
+            "goals": 64,
+            "sevenMeterGoals": 11,
+            "sevenMeterAttempts": 11,
+            "goalsPerGame": 10.67,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "0yj7s9f",
             "name": "Cord Wenzel",
             "number": 33,
-            "games": 4,
-            "goals": 28,
+            "games": 5,
+            "goals": 31,
             "sevenMeterGoals": 1,
             "sevenMeterAttempts": 1,
-            "goalsPerGame": 7,
+            "goalsPerGame": 6.2,
             "sevenMeterPercentage": 100
           },
           {
@@ -4845,28 +4887,28 @@
             "playerId": "0tqqsks",
             "name": "Karl Anton Siegmon",
             "number": 21,
-            "games": 5,
-            "goals": 19,
+            "games": 6,
+            "goals": 21,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.8,
+            "goalsPerGame": 3.5,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "141yrz3",
             "name": "Gustav Theo Sitta",
             "number": 11,
-            "games": 5,
-            "goals": 14,
+            "games": 6,
+            "goals": 16,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.8,
+            "goalsPerGame": 2.67,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 5,
-          "lineupMatches": 5,
+          "finishedMatches": 6,
+          "lineupMatches": 6,
           "percentage": 100
         }
       }
@@ -6955,17 +6997,17 @@
         "phaseName": "Vorrunde B",
         "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 1,
-          "draws": 3,
+          "draws": 4,
           "losses": 0,
-          "goalsFor": 131,
-          "goalsAgainst": 129,
+          "goalsFor": 159,
+          "goalsAgainst": 157,
           "goalDifference": 2,
-          "winRate": 25,
-          "goalsForAvg": 32.75,
-          "goalsAgainstAvg": 32.25,
-          "goalDifferenceAvg": 0.5
+          "winRate": 20,
+          "goalsForAvg": 31.8,
+          "goalsAgainstAvg": 31.4,
+          "goalDifferenceAvg": 0.4
         },
         "recent": [
           {
@@ -7023,68 +7065,82 @@
             "goalsFor": 37,
             "goalsAgainst": 35,
             "result": "W"
+          },
+          {
+            "id": 450749,
+            "date": "2026-08-30",
+            "time": "14:15",
+            "isHome": false,
+            "opponent": {
+              "id": 87191,
+              "name": "HSG TILLS LÖWEN 08",
+              "clubId": "0okba70"
+            },
+            "goalsFor": 28,
+            "goalsAgainst": 28,
+            "result": "D"
           }
         ],
         "topScorers": [
           {
-            "playerId": "1vri0ma",
-            "name": "Malte Ferber",
-            "number": 6,
-            "games": 4,
-            "goals": 23,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 5.75,
-            "sevenMeterPercentage": null
-          },
-          {
             "playerId": "0fnq3i0",
             "name": "Jannik Radeke",
             "number": 30,
-            "games": 3,
-            "goals": 22,
+            "games": 4,
+            "goals": 27,
             "sevenMeterGoals": 2,
             "sevenMeterAttempts": 2,
-            "goalsPerGame": 7.33,
+            "goalsPerGame": 6.75,
             "sevenMeterPercentage": 100
+          },
+          {
+            "playerId": "1vri0ma",
+            "name": "Malte Ferber",
+            "number": 6,
+            "games": 5,
+            "goals": 23,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 4.6,
+            "sevenMeterPercentage": null
           },
           {
             "playerId": "0wqenhc",
             "name": "Joshua Luc Wiese",
             "number": 21,
-            "games": 3,
-            "goals": 18,
-            "sevenMeterGoals": 3,
-            "sevenMeterAttempts": 3,
-            "goalsPerGame": 6,
+            "games": 4,
+            "goals": 20,
+            "sevenMeterGoals": 5,
+            "sevenMeterAttempts": 5,
+            "goalsPerGame": 5,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1d79z9k",
             "name": "Lauren Meinert",
             "number": 34,
-            "games": 4,
-            "goals": 15,
+            "games": 5,
+            "goals": 19,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.75,
+            "goalsPerGame": 3.8,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "0lieu7h",
             "name": "Tom Mansour Fedder",
             "number": 5,
-            "games": 4,
-            "goals": 11,
+            "games": 5,
+            "goals": 17,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.75,
+            "goalsPerGame": 3.4,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -9757,17 +9813,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 2,
           "draws": 0,
-          "losses": 2,
-          "goalsFor": 110,
-          "goalsAgainst": 119,
-          "goalDifference": -9,
-          "winRate": 50,
-          "goalsForAvg": 27.5,
-          "goalsAgainstAvg": 29.75,
-          "goalDifferenceAvg": -2.25
+          "losses": 3,
+          "goalsFor": 133,
+          "goalsAgainst": 150,
+          "goalDifference": -17,
+          "winRate": 40,
+          "goalsForAvg": 26.6,
+          "goalsAgainstAvg": 30,
+          "goalDifferenceAvg": -3.4
         },
         "recent": [
           {
@@ -9825,6 +9881,20 @@
             "goalsFor": 35,
             "goalsAgainst": 27,
             "result": "W"
+          },
+          {
+            "id": 417842,
+            "date": "2026-08-30",
+            "time": "14:45",
+            "isHome": true,
+            "opponent": {
+              "id": 82010,
+              "name": "SG GLINDE-REINBEK",
+              "clubId": "1muw0yi"
+            },
+            "goalsFor": 23,
+            "goalsAgainst": 31,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -9832,41 +9902,41 @@
             "playerId": "1w4hacs",
             "name": "Miko Gerhard Braun",
             "number": 5,
-            "games": 4,
-            "goals": 34,
-            "sevenMeterGoals": 15,
-            "sevenMeterAttempts": 15,
-            "goalsPerGame": 8.5,
+            "games": 5,
+            "goals": 40,
+            "sevenMeterGoals": 16,
+            "sevenMeterAttempts": 16,
+            "goalsPerGame": 8,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "11w63ix",
             "name": "Finn Melvin Gleu",
             "number": 3,
-            "games": 4,
-            "goals": 25,
+            "games": 5,
+            "goals": 29,
             "sevenMeterGoals": 2,
             "sevenMeterAttempts": 2,
-            "goalsPerGame": 6.25,
+            "goalsPerGame": 5.8,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "059eyuj",
             "name": "Jano Tiedemann",
             "number": 13,
-            "games": 4,
-            "goals": 17,
+            "games": 5,
+            "goals": 20,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4.25,
+            "goalsPerGame": 4,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "0q1blnu",
             "name": "Bennet Henke",
             "number": 10,
-            "games": 4,
-            "goals": 8,
+            "games": 5,
+            "goals": 10,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
             "goalsPerGame": 2,
@@ -9876,17 +9946,17 @@
             "playerId": "1ssttdt",
             "name": "Lennart Schlapper",
             "number": 66,
-            "games": 4,
+            "games": 5,
             "goals": 8,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2,
+            "goalsPerGame": 1.6,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -9937,17 +10007,17 @@
         "phaseName": "Vorrunde B",
         "competition": "Oberliga Schleswig-Holstein männliche C-Jugend",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 2,
           "draws": 1,
-          "losses": 1,
-          "goalsFor": 136,
-          "goalsAgainst": 133,
-          "goalDifference": 3,
-          "winRate": 50,
-          "goalsForAvg": 34,
-          "goalsAgainstAvg": 33.25,
-          "goalDifferenceAvg": 0.75
+          "losses": 2,
+          "goalsFor": 157,
+          "goalsAgainst": 162,
+          "goalDifference": -5,
+          "winRate": 40,
+          "goalsForAvg": 31.4,
+          "goalsAgainstAvg": 32.4,
+          "goalDifferenceAvg": -1
         },
         "recent": [
           {
@@ -10005,6 +10075,20 @@
             "goalsFor": 26,
             "goalsAgainst": 32,
             "result": "L"
+          },
+          {
+            "id": 450748,
+            "date": "2026-08-29",
+            "time": "18:30",
+            "isHome": false,
+            "opponent": {
+              "id": 87192,
+              "name": "SG GLINDE-REINBEK",
+              "clubId": "1muw0yi"
+            },
+            "goalsFor": 21,
+            "goalsAgainst": 29,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -10012,61 +10096,61 @@
             "playerId": "0c1p9y2",
             "name": "Mattes Großmann",
             "number": 37,
-            "games": 4,
-            "goals": 45,
-            "sevenMeterGoals": 6,
-            "sevenMeterAttempts": 6,
-            "goalsPerGame": 11.25,
+            "games": 5,
+            "goals": 49,
+            "sevenMeterGoals": 8,
+            "sevenMeterAttempts": 8,
+            "goalsPerGame": 9.8,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1tltk56",
             "name": "Bjarne Jenß",
             "number": 4,
-            "games": 4,
-            "goals": 29,
-            "sevenMeterGoals": 5,
-            "sevenMeterAttempts": 5,
-            "goalsPerGame": 7.25,
+            "games": 5,
+            "goals": 33,
+            "sevenMeterGoals": 6,
+            "sevenMeterAttempts": 6,
+            "goalsPerGame": 6.6,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "0dttloz",
             "name": "Ande Bräuer",
             "number": 27,
-            "games": 4,
-            "goals": 20,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 5,
-            "sevenMeterPercentage": null
+            "games": 5,
+            "goals": 26,
+            "sevenMeterGoals": 1,
+            "sevenMeterAttempts": 1,
+            "goalsPerGame": 5.2,
+            "sevenMeterPercentage": 100
           },
           {
             "playerId": "1s0kpwo",
             "name": "Alexander Walter",
             "number": 22,
-            "games": 3,
-            "goals": 14,
+            "games": 4,
+            "goals": 17,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4.67,
+            "goalsPerGame": 4.25,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "1lwg8td",
             "name": "Hannes Fischer",
             "number": 40,
-            "games": 4,
-            "goals": 11,
+            "games": 5,
+            "goals": 13,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.75,
+            "goalsPerGame": 2.6,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -10117,17 +10201,17 @@
         "phaseName": "Kreisliga Männer - Staffel E",
         "competition": "Kreisliga Männer",
         "season": {
-          "games": 3,
+          "games": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "goalsFor": 77,
-          "goalsAgainst": 95,
-          "goalDifference": -18,
-          "winRate": 33.3,
-          "goalsForAvg": 25.67,
-          "goalsAgainstAvg": 31.67,
-          "goalDifferenceAvg": -6
+          "losses": 3,
+          "goalsFor": 101,
+          "goalsAgainst": 122,
+          "goalDifference": -21,
+          "winRate": 25,
+          "goalsForAvg": 25.25,
+          "goalsAgainstAvg": 30.5,
+          "goalDifferenceAvg": -5.25
         },
         "recent": [
           {
@@ -10170,6 +10254,20 @@
             },
             "goalsFor": 28,
             "goalsAgainst": 43,
+            "result": "L"
+          },
+          {
+            "id": 561250,
+            "date": "2026-08-30",
+            "time": "17:30",
+            "isHome": true,
+            "opponent": {
+              "id": 81691,
+              "name": "DIE HAIE I HSG Horst/Kiebitzreihe III",
+              "clubId": "1w9jsx8"
+            },
+            "goalsFor": 24,
+            "goalsAgainst": 27,
             "result": "L"
           }
         ],
@@ -10231,9 +10329,9 @@
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 3,
+          "finishedMatches": 4,
           "lineupMatches": 3,
-          "percentage": 100
+          "percentage": 75
         }
       }
     },
@@ -10283,17 +10381,17 @@
         "phaseName": "Kreisoberliga Männer West",
         "competition": "Kreisoberliga Männer",
         "season": {
-          "games": 2,
+          "games": 3,
           "wins": 1,
           "draws": 1,
-          "losses": 0,
-          "goalsFor": 51,
-          "goalsAgainst": 49,
-          "goalDifference": 2,
-          "winRate": 50,
-          "goalsForAvg": 25.5,
-          "goalsAgainstAvg": 24.5,
-          "goalDifferenceAvg": 1
+          "losses": 1,
+          "goalsFor": 79,
+          "goalsAgainst": 81,
+          "goalDifference": -2,
+          "winRate": 33.3,
+          "goalsForAvg": 26.33,
+          "goalsAgainstAvg": 27,
+          "goalDifferenceAvg": -0.67
         },
         "recent": [
           {
@@ -10323,6 +10421,20 @@
             "goalsFor": 25,
             "goalsAgainst": 23,
             "result": "W"
+          },
+          {
+            "id": 504542,
+            "date": "2026-08-29",
+            "time": "18:00",
+            "isHome": false,
+            "opponent": {
+              "id": 81682,
+              "name": "SG Kollmar/Neuendorf",
+              "clubId": "0txboff"
+            },
+            "goalsFor": 28,
+            "goalsAgainst": 32,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -10383,9 +10495,9 @@
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 2,
+          "finishedMatches": 3,
           "lineupMatches": 2,
-          "percentage": 100
+          "percentage": 66.7
         }
       }
     },
@@ -10771,17 +10883,17 @@
         "phaseName": "Vorrunde A",
         "competition": "Oberliga Schleswig-Holstein weibliche B-Jugend",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 1,
           "draws": 1,
-          "losses": 2,
-          "goalsFor": 82,
-          "goalsAgainst": 88,
-          "goalDifference": -6,
-          "winRate": 25,
-          "goalsForAvg": 20.5,
-          "goalsAgainstAvg": 22,
-          "goalDifferenceAvg": -1.5
+          "losses": 3,
+          "goalsFor": 103,
+          "goalsAgainst": 111,
+          "goalDifference": -8,
+          "winRate": 20,
+          "goalsForAvg": 20.6,
+          "goalsAgainstAvg": 22.2,
+          "goalDifferenceAvg": -1.6
         },
         "recent": [
           {
@@ -10839,6 +10951,20 @@
             "goalsFor": 20,
             "goalsAgainst": 30,
             "result": "L"
+          },
+          {
+            "id": 450659,
+            "date": "2026-08-30",
+            "time": "14:15",
+            "isHome": false,
+            "opponent": {
+              "id": 87175,
+              "name": "SG HANDBALL NEUMÜNSTER",
+              "clubId": "1yrb3n9"
+            },
+            "goalsFor": 21,
+            "goalsAgainst": 23,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -10846,61 +10972,61 @@
             "playerId": "1heuxh1",
             "name": "Lene Kempcke",
             "number": 55,
-            "games": 4,
+            "games": 5,
             "goals": 21,
             "sevenMeterGoals": 2,
             "sevenMeterAttempts": 2,
-            "goalsPerGame": 5.25,
+            "goalsPerGame": 4.2,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1tp13q1",
             "name": "Leni Hackbusch",
             "number": 2,
-            "games": 4,
-            "goals": 14,
+            "games": 5,
+            "goals": 16,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.5,
+            "goalsPerGame": 3.2,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "1rn09mq",
             "name": "Leony Riemenschneider",
             "number": 10,
-            "games": 4,
-            "goals": 11,
+            "games": 5,
+            "goals": 16,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.75,
+            "goalsPerGame": 3.2,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "0twx1i5",
             "name": "Ava Goschütz",
             "number": 26,
-            "games": 4,
-            "goals": 9,
+            "games": 5,
+            "goals": 13,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.25,
+            "goalsPerGame": 2.6,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "1i4dqe0",
             "name": "Zoe Marie Herrmann",
             "number": 24,
-            "games": 4,
-            "goals": 9,
-            "sevenMeterGoals": 1,
-            "sevenMeterAttempts": 1,
-            "goalsPerGame": 2.25,
+            "games": 5,
+            "goals": 13,
+            "sevenMeterGoals": 2,
+            "sevenMeterAttempts": 2,
+            "goalsPerGame": 2.6,
             "sevenMeterPercentage": 100
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -19661,17 +19787,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 0,
           "draws": 0,
-          "losses": 4,
-          "goalsFor": 85,
-          "goalsAgainst": 143,
-          "goalDifference": -58,
+          "losses": 5,
+          "goalsFor": 123,
+          "goalsAgainst": 197,
+          "goalDifference": -74,
           "winRate": 0,
-          "goalsForAvg": 21.25,
-          "goalsAgainstAvg": 35.75,
-          "goalDifferenceAvg": -14.5
+          "goalsForAvg": 24.6,
+          "goalsAgainstAvg": 39.4,
+          "goalDifferenceAvg": -14.8
         },
         "recent": [
           {
@@ -19729,6 +19855,20 @@
             "goalsFor": 23,
             "goalsAgainst": 39,
             "result": "L"
+          },
+          {
+            "id": 417843,
+            "date": "2026-08-30",
+            "time": "15:15",
+            "isHome": false,
+            "opponent": {
+              "id": 82011,
+              "name": "VFL GEESTHACHT",
+              "clubId": "06kfb6c"
+            },
+            "goalsFor": 38,
+            "goalsAgainst": 54,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -19736,23 +19876,45 @@
             "playerId": "1500t7x",
             "name": "Thore Daglioglu",
             "number": 2,
-            "games": 3,
-            "goals": 19,
-            "sevenMeterGoals": 4,
-            "sevenMeterAttempts": 4,
-            "goalsPerGame": 6.33,
+            "games": 4,
+            "goals": 28,
+            "sevenMeterGoals": 7,
+            "sevenMeterAttempts": 7,
+            "goalsPerGame": 7,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "1tjk808",
             "name": "Noah Maximilian Weisser",
             "number": 7,
-            "games": 3,
-            "goals": 13,
+            "games": 4,
+            "goals": 19,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4.33,
+            "goalsPerGame": 4.75,
             "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "09qp3fh",
+            "name": "Momme Hoop",
+            "number": 55,
+            "games": 2,
+            "goals": 16,
+            "sevenMeterGoals": 0,
+            "sevenMeterAttempts": 0,
+            "goalsPerGame": 8,
+            "sevenMeterPercentage": null
+          },
+          {
+            "playerId": "1o7cb0l",
+            "name": "Paul Levi Lasse Schroeder",
+            "number": 25,
+            "games": 4,
+            "goals": 12,
+            "sevenMeterGoals": 3,
+            "sevenMeterAttempts": 3,
+            "goalsPerGame": 3,
+            "sevenMeterPercentage": 100
           },
           {
             "playerId": "09rmfgu",
@@ -19764,34 +19926,12 @@
             "sevenMeterAttempts": 0,
             "goalsPerGame": 3.67,
             "sevenMeterPercentage": null
-          },
-          {
-            "playerId": "1o7cb0l",
-            "name": "Paul Levi Lasse Schroeder",
-            "number": 25,
-            "games": 3,
-            "goals": 9,
-            "sevenMeterGoals": 3,
-            "sevenMeterAttempts": 3,
-            "goalsPerGame": 3,
-            "sevenMeterPercentage": 100
-          },
-          {
-            "playerId": "0yrew7y",
-            "name": "Tobias Heilek",
-            "number": 81,
-            "games": 3,
-            "goals": 7,
-            "sevenMeterGoals": 0,
-            "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.33,
-            "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 3,
-          "percentage": 75
+          "finishedMatches": 5,
+          "lineupMatches": 4,
+          "percentage": 80
         }
       }
     },
@@ -20087,17 +20227,17 @@
         "phaseName": "Kreisliga Männer - Staffel E",
         "competition": "Kreisliga Männer",
         "season": {
-          "games": 3,
+          "games": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "goalsFor": 77,
-          "goalsAgainst": 95,
-          "goalDifference": -18,
-          "winRate": 33.3,
-          "goalsForAvg": 25.67,
-          "goalsAgainstAvg": 31.67,
-          "goalDifferenceAvg": -6
+          "losses": 3,
+          "goalsFor": 101,
+          "goalsAgainst": 122,
+          "goalDifference": -21,
+          "winRate": 25,
+          "goalsForAvg": 25.25,
+          "goalsAgainstAvg": 30.5,
+          "goalDifferenceAvg": -5.25
         },
         "recent": [
           {
@@ -20140,6 +20280,20 @@
             },
             "goalsFor": 28,
             "goalsAgainst": 43,
+            "result": "L"
+          },
+          {
+            "id": 561250,
+            "date": "2026-08-30",
+            "time": "17:30",
+            "isHome": true,
+            "opponent": {
+              "id": 81691,
+              "name": "DIE HAIE I HSG Horst/Kiebitzreihe III",
+              "clubId": "1w9jsx8"
+            },
+            "goalsFor": 24,
+            "goalsAgainst": 27,
             "result": "L"
           }
         ],
@@ -20201,9 +20355,9 @@
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 3,
+          "finishedMatches": 4,
           "lineupMatches": 3,
-          "percentage": 100
+          "percentage": 75
         }
       }
     },
@@ -20651,17 +20805,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 5,
-          "wins": 4,
+          "games": 6,
+          "wins": 5,
           "draws": 0,
           "losses": 1,
-          "goalsFor": 177,
-          "goalsAgainst": 137,
-          "goalDifference": 40,
-          "winRate": 80,
-          "goalsForAvg": 35.4,
-          "goalsAgainstAvg": 27.4,
-          "goalDifferenceAvg": 8
+          "goalsFor": 204,
+          "goalsAgainst": 163,
+          "goalDifference": 41,
+          "winRate": 83.3,
+          "goalsForAvg": 34,
+          "goalsAgainstAvg": 27.17,
+          "goalDifferenceAvg": 6.83
         },
         "recent": [
           {
@@ -20740,22 +20894,22 @@
             "playerId": "1y0lsf8",
             "name": "Benedikt Kummetz",
             "number": 91,
-            "games": 5,
-            "goals": 48,
-            "sevenMeterGoals": 7,
-            "sevenMeterAttempts": 7,
-            "goalsPerGame": 9.6,
+            "games": 6,
+            "goals": 64,
+            "sevenMeterGoals": 11,
+            "sevenMeterAttempts": 11,
+            "goalsPerGame": 10.67,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "0yj7s9f",
             "name": "Cord Wenzel",
             "number": 33,
-            "games": 4,
-            "goals": 28,
+            "games": 5,
+            "goals": 31,
             "sevenMeterGoals": 1,
             "sevenMeterAttempts": 1,
-            "goalsPerGame": 7,
+            "goalsPerGame": 6.2,
             "sevenMeterPercentage": 100
           },
           {
@@ -20773,28 +20927,28 @@
             "playerId": "0tqqsks",
             "name": "Karl Anton Siegmon",
             "number": 21,
-            "games": 5,
-            "goals": 19,
+            "games": 6,
+            "goals": 21,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 3.8,
+            "goalsPerGame": 3.5,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "141yrz3",
             "name": "Gustav Theo Sitta",
             "number": 11,
-            "games": 5,
-            "goals": 14,
+            "games": 6,
+            "goals": 16,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2.8,
+            "goalsPerGame": 2.67,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 5,
-          "lineupMatches": 5,
+          "finishedMatches": 6,
+          "lineupMatches": 6,
           "percentage": 100
         }
       }
@@ -21695,17 +21849,17 @@
         "phaseName": "mJB-ROL-2",
         "competition": "Regionsoberliga MÄNNLICH",
         "season": {
-          "games": 4,
+          "games": 5,
           "wins": 2,
           "draws": 0,
-          "losses": 2,
-          "goalsFor": 110,
-          "goalsAgainst": 119,
-          "goalDifference": -9,
-          "winRate": 50,
-          "goalsForAvg": 27.5,
-          "goalsAgainstAvg": 29.75,
-          "goalDifferenceAvg": -2.25
+          "losses": 3,
+          "goalsFor": 133,
+          "goalsAgainst": 150,
+          "goalDifference": -17,
+          "winRate": 40,
+          "goalsForAvg": 26.6,
+          "goalsAgainstAvg": 30,
+          "goalDifferenceAvg": -3.4
         },
         "recent": [
           {
@@ -21763,6 +21917,20 @@
             "goalsFor": 35,
             "goalsAgainst": 27,
             "result": "W"
+          },
+          {
+            "id": 417842,
+            "date": "2026-08-30",
+            "time": "14:45",
+            "isHome": true,
+            "opponent": {
+              "id": 82010,
+              "name": "SG GLINDE-REINBEK",
+              "clubId": "1muw0yi"
+            },
+            "goalsFor": 23,
+            "goalsAgainst": 31,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -21770,41 +21938,41 @@
             "playerId": "1w4hacs",
             "name": "Miko Gerhard Braun",
             "number": 5,
-            "games": 4,
-            "goals": 34,
-            "sevenMeterGoals": 15,
-            "sevenMeterAttempts": 15,
-            "goalsPerGame": 8.5,
+            "games": 5,
+            "goals": 40,
+            "sevenMeterGoals": 16,
+            "sevenMeterAttempts": 16,
+            "goalsPerGame": 8,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "11w63ix",
             "name": "Finn Melvin Gleu",
             "number": 3,
-            "games": 4,
-            "goals": 25,
+            "games": 5,
+            "goals": 29,
             "sevenMeterGoals": 2,
             "sevenMeterAttempts": 2,
-            "goalsPerGame": 6.25,
+            "goalsPerGame": 5.8,
             "sevenMeterPercentage": 100
           },
           {
             "playerId": "059eyuj",
             "name": "Jano Tiedemann",
             "number": 13,
-            "games": 4,
-            "goals": 17,
+            "games": 5,
+            "goals": 20,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 4.25,
+            "goalsPerGame": 4,
             "sevenMeterPercentage": null
           },
           {
             "playerId": "0q1blnu",
             "name": "Bennet Henke",
             "number": 10,
-            "games": 4,
-            "goals": 8,
+            "games": 5,
+            "goals": 10,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
             "goalsPerGame": 2,
@@ -21814,17 +21982,17 @@
             "playerId": "1ssttdt",
             "name": "Lennart Schlapper",
             "number": 66,
-            "games": 4,
+            "games": 5,
             "goals": 8,
             "sevenMeterGoals": 0,
             "sevenMeterAttempts": 0,
-            "goalsPerGame": 2,
+            "goalsPerGame": 1.6,
             "sevenMeterPercentage": null
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 4,
-          "lineupMatches": 4,
+          "finishedMatches": 5,
+          "lineupMatches": 5,
           "percentage": 100
         }
       }
@@ -21875,17 +22043,17 @@
         "phaseName": "Kreisoberliga Männer West",
         "competition": "Kreisoberliga Männer",
         "season": {
-          "games": 2,
+          "games": 3,
           "wins": 1,
           "draws": 1,
-          "losses": 0,
-          "goalsFor": 51,
-          "goalsAgainst": 49,
-          "goalDifference": 2,
-          "winRate": 50,
-          "goalsForAvg": 25.5,
-          "goalsAgainstAvg": 24.5,
-          "goalDifferenceAvg": 1
+          "losses": 1,
+          "goalsFor": 79,
+          "goalsAgainst": 81,
+          "goalDifference": -2,
+          "winRate": 33.3,
+          "goalsForAvg": 26.33,
+          "goalsAgainstAvg": 27,
+          "goalDifferenceAvg": -0.67
         },
         "recent": [
           {
@@ -21915,6 +22083,20 @@
             "goalsFor": 25,
             "goalsAgainst": 23,
             "result": "W"
+          },
+          {
+            "id": 504542,
+            "date": "2026-08-29",
+            "time": "18:00",
+            "isHome": false,
+            "opponent": {
+              "id": 81682,
+              "name": "SG Kollmar/Neuendorf",
+              "clubId": "0txboff"
+            },
+            "goalsFor": 28,
+            "goalsAgainst": 32,
+            "result": "L"
           }
         ],
         "topScorers": [
@@ -21975,9 +22157,9 @@
           }
         ],
         "scoringCoverage": {
-          "finishedMatches": 2,
+          "finishedMatches": 3,
           "lineupMatches": 2,
-          "percentage": 100
+          "percentage": 66.7
         }
       }
     },

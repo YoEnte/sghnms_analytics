@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:45:24.511Z",
+  "generatedAt": "2026-10-06T05:46:50.604Z",
   "teams": [
     {
       "id": "86801",
@@ -24,14 +24,14 @@
       "ageGroup": "senior",
       "gender": "male",
       "matchMinutes": 60,
-      "games": 2,
-      "wins": 1,
+      "games": 3,
+      "wins": 2,
       "draws": 0,
       "losses": 1,
-      "goalsFor": 68,
-      "goalsAgainst": 65,
-      "goalDifference": 3,
-      "winRate": 50
+      "goalsFor": 98,
+      "goalsAgainst": 87,
+      "goalDifference": 11,
+      "winRate": 66.7
     },
     {
       "id": "87103",
@@ -166,14 +166,14 @@
       "ageGroup": "youth",
       "gender": "female",
       "matchMinutes": 50,
-      "games": 4,
-      "wins": 0,
+      "games": 5,
+      "wins": 1,
       "draws": 0,
       "losses": 4,
-      "goalsFor": 78,
-      "goalsAgainst": 114,
-      "goalDifference": -36,
-      "winRate": 0
+      "goalsFor": 101,
+      "goalsAgainst": 135,
+      "goalDifference": -34,
+      "winRate": 20
     },
     {
       "id": "87187",
@@ -182,13 +182,13 @@
       "ageGroup": "youth",
       "gender": "male",
       "matchMinutes": 50,
-      "games": 3,
+      "games": 4,
       "wins": 0,
       "draws": 0,
-      "losses": 3,
-      "goalsFor": 91,
-      "goalsAgainst": 104,
-      "goalDifference": -13,
+      "losses": 4,
+      "goalsFor": 109,
+      "goalsAgainst": 135,
+      "goalDifference": -26,
       "winRate": 0
     },
     {
@@ -246,14 +246,14 @@
       "ageGroup": "youth",
       "gender": "male",
       "matchMinutes": 50,
-      "games": 5,
+      "games": 6,
       "wins": 2,
       "draws": 0,
-      "losses": 3,
-      "goalsFor": 145,
-      "goalsAgainst": 131,
-      "goalDifference": 14,
-      "winRate": 40
+      "losses": 4,
+      "goalsFor": 164,
+      "goalsAgainst": 158,
+      "goalDifference": 6,
+      "winRate": 33.3
     },
     {
       "id": "87275",
@@ -278,13 +278,13 @@
       "ageGroup": "youth",
       "gender": "male",
       "matchMinutes": 50,
-      "games": 2,
-      "wins": 2,
+      "games": 3,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goalsFor": 55,
-      "goalsAgainst": 40,
-      "goalDifference": 15,
+      "goalsFor": 92,
+      "goalsAgainst": 66,
+      "goalDifference": 26,
       "winRate": 100
     },
     {
