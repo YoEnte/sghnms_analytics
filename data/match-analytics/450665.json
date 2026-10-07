@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T18:41:17.138Z",
+  "generatedAt": "2026-10-07T00:49:12.377Z",
   "match": {
     "id": 450665,
     "date": "2026-09-24",
@@ -97,6 +97,7 @@
     "matchFlow": [
       {
         "eventId": 30531886,
+        "timestamp": "2026-10-05T17:58:31+00:00",
         "seconds": 18,
         "clock": "00:18",
         "side": "own",
@@ -110,6 +111,7 @@
       },
       {
         "eventId": 30531885,
+        "timestamp": "2026-10-05T17:58:46+00:00",
         "seconds": 35,
         "clock": "00:35",
         "side": "opponent",
@@ -123,6 +125,7 @@
       },
       {
         "eventId": 30531884,
+        "timestamp": "2026-10-05T17:59:39+00:00",
         "seconds": 89,
         "clock": "01:29",
         "side": "own",
@@ -136,6 +139,7 @@
       },
       {
         "eventId": 30531883,
+        "timestamp": "2026-10-05T18:01:35+00:00",
         "seconds": 205,
         "clock": "03:25",
         "side": "opponent",
@@ -149,6 +153,7 @@
       },
       {
         "eventId": 30531882,
+        "timestamp": "2026-10-05T18:02:56+00:00",
         "seconds": 285,
         "clock": "04:45",
         "side": "own",
@@ -162,6 +167,7 @@
       },
       {
         "eventId": 30531881,
+        "timestamp": "2026-10-05T18:04:03+00:00",
         "seconds": 347,
         "clock": "05:47",
         "side": "opponent",
@@ -175,6 +181,7 @@
       },
       {
         "eventId": 30531880,
+        "timestamp": "2026-10-05T18:04:49+00:00",
         "seconds": 400,
         "clock": "06:40",
         "side": "opponent",
@@ -188,6 +195,7 @@
       },
       {
         "eventId": 30531879,
+        "timestamp": "2026-10-05T18:05:13+00:00",
         "seconds": 423,
         "clock": "07:03",
         "side": "own",
@@ -201,6 +209,7 @@
       },
       {
         "eventId": 30531878,
+        "timestamp": "2026-10-05T18:05:39+00:00",
         "seconds": 449,
         "clock": "07:29",
         "side": "opponent",
@@ -214,6 +223,7 @@
       },
       {
         "eventId": 30531877,
+        "timestamp": "2026-10-05T18:06:26+00:00",
         "seconds": 496,
         "clock": "08:16",
         "side": "opponent",
@@ -227,6 +237,7 @@
       },
       {
         "eventId": 30531876,
+        "timestamp": "2026-10-05T18:07:01+00:00",
         "seconds": 532,
         "clock": "08:52",
         "side": "own",
@@ -240,6 +251,7 @@
       },
       {
         "eventId": 30531875,
+        "timestamp": "2026-10-05T18:07:32+00:00",
         "seconds": 563,
         "clock": "09:23",
         "side": "opponent",
@@ -253,6 +265,7 @@
       },
       {
         "eventId": 30531874,
+        "timestamp": "2026-10-05T18:08:29+00:00",
         "seconds": 620,
         "clock": "10:20",
         "side": "own",
@@ -266,6 +279,7 @@
       },
       {
         "eventId": 30531872,
+        "timestamp": "2026-10-05T18:10:48+00:00",
         "seconds": 674,
         "clock": "11:14",
         "side": "own",
@@ -279,6 +293,7 @@
       },
       {
         "eventId": 30531870,
+        "timestamp": "2026-10-05T18:13:35+00:00",
         "seconds": 807,
         "clock": "13:27",
         "side": "own",
@@ -292,6 +307,7 @@
       },
       {
         "eventId": 30531868,
+        "timestamp": "2026-10-05T18:14:15+00:00",
         "seconds": 822,
         "clock": "13:42",
         "side": "opponent",
@@ -305,6 +321,7 @@
       },
       {
         "eventId": 30531867,
+        "timestamp": "2026-10-05T18:14:47+00:00",
         "seconds": 848,
         "clock": "14:08",
         "side": "opponent",
@@ -318,6 +335,7 @@
       },
       {
         "eventId": 30531866,
+        "timestamp": "2026-10-05T18:15:58+00:00",
         "seconds": 918,
         "clock": "15:18",
         "side": "opponent",
@@ -331,6 +349,7 @@
       },
       {
         "eventId": 30531865,
+        "timestamp": "2026-10-05T18:17:35+00:00",
         "seconds": 1016,
         "clock": "16:56",
         "side": "opponent",
@@ -344,6 +363,7 @@
       },
       {
         "eventId": 30531864,
+        "timestamp": "2026-10-05T18:19:22+00:00",
         "seconds": 1122,
         "clock": "18:42",
         "side": "own",
@@ -357,6 +377,7 @@
       },
       {
         "eventId": 30531863,
+        "timestamp": "2026-10-05T18:20:51+00:00",
         "seconds": 1212,
         "clock": "20:12",
         "side": "own",
@@ -370,6 +391,7 @@
       },
       {
         "eventId": 30531862,
+        "timestamp": "2026-10-05T18:22:30+00:00",
         "seconds": 1311,
         "clock": "21:51",
         "side": "opponent",
@@ -383,6 +405,7 @@
       },
       {
         "eventId": 30531861,
+        "timestamp": "2026-10-05T18:22:42+00:00",
         "seconds": 1323,
         "clock": "22:03",
         "side": "own",
@@ -396,6 +419,7 @@
       },
       {
         "eventId": 30531859,
+        "timestamp": "2026-10-05T18:23:45+00:00",
         "seconds": 1364,
         "clock": "22:44",
         "side": "own",
@@ -409,6 +433,7 @@
       },
       {
         "eventId": 30531858,
+        "timestamp": "2026-10-05T18:25:02+00:00",
         "seconds": 1442,
         "clock": "24:02",
         "side": "own",
@@ -422,6 +447,7 @@
       },
       {
         "eventId": 30531857,
+        "timestamp": "2026-10-05T18:25:48+00:00",
         "seconds": 1488,
         "clock": "24:48",
         "side": "own",
@@ -435,6 +461,7 @@
       },
       {
         "eventId": 30531854,
+        "timestamp": "2026-10-05T18:36:25+00:00",
         "seconds": 1531,
         "clock": "25:31",
         "side": "opponent",
@@ -448,6 +475,7 @@
       },
       {
         "eventId": 30531853,
+        "timestamp": "2026-10-05T18:40:54+00:00",
         "seconds": 1787,
         "clock": "29:47",
         "side": "opponent",
@@ -461,6 +489,7 @@
       },
       {
         "eventId": 30531852,
+        "timestamp": "2026-10-05T18:41:25+00:00",
         "seconds": 1830,
         "clock": "30:30",
         "side": "own",
@@ -474,6 +503,7 @@
       },
       {
         "eventId": 30531851,
+        "timestamp": "2026-10-05T18:43:34+00:00",
         "seconds": 1889,
         "clock": "31:29",
         "side": "own",
@@ -487,6 +517,7 @@
       },
       {
         "eventId": 30531850,
+        "timestamp": "2026-10-05T18:43:50+00:00",
         "seconds": 1906,
         "clock": "31:46",
         "side": "opponent",
@@ -500,6 +531,7 @@
       },
       {
         "eventId": 30531849,
+        "timestamp": "2026-10-05T18:45:07+00:00",
         "seconds": 1983,
         "clock": "33:03",
         "side": "opponent",
@@ -513,6 +545,7 @@
       },
       {
         "eventId": 30531848,
+        "timestamp": "2026-10-05T18:46:15+00:00",
         "seconds": 2051,
         "clock": "34:11",
         "side": "opponent",
@@ -526,6 +559,7 @@
       },
       {
         "eventId": 30531847,
+        "timestamp": "2026-10-05T18:46:39+00:00",
         "seconds": 2075,
         "clock": "34:35",
         "side": "own",
@@ -539,6 +573,7 @@
       },
       {
         "eventId": 30531845,
+        "timestamp": "2026-10-05T18:48:31+00:00",
         "seconds": 2095,
         "clock": "34:55",
         "side": "opponent",
@@ -552,6 +587,7 @@
       },
       {
         "eventId": 30531843,
+        "timestamp": "2026-10-05T18:50:09+00:00",
         "seconds": 2172,
         "clock": "36:12",
         "side": "opponent",
@@ -565,6 +601,7 @@
       },
       {
         "eventId": 30531842,
+        "timestamp": "2026-10-05T18:51:04+00:00",
         "seconds": 2226,
         "clock": "37:06",
         "side": "own",
@@ -578,6 +615,7 @@
       },
       {
         "eventId": 30531841,
+        "timestamp": "2026-10-05T18:51:26+00:00",
         "seconds": 2248,
         "clock": "37:28",
         "side": "opponent",
@@ -591,6 +629,7 @@
       },
       {
         "eventId": 30531840,
+        "timestamp": "2026-10-05T18:52:09+00:00",
         "seconds": 2291,
         "clock": "38:11",
         "side": "opponent",
@@ -604,6 +643,7 @@
       },
       {
         "eventId": 30531838,
+        "timestamp": "2026-10-05T18:54:52+00:00",
         "seconds": 2378,
         "clock": "39:38",
         "side": "opponent",
@@ -617,6 +657,7 @@
       },
       {
         "eventId": 30531836,
+        "timestamp": "2026-10-05T18:57:01+00:00",
         "seconds": 2506,
         "clock": "41:46",
         "side": "own",
@@ -630,6 +671,7 @@
       },
       {
         "eventId": 30531835,
+        "timestamp": "2026-10-05T18:57:20+00:00",
         "seconds": 2526,
         "clock": "42:06",
         "side": "opponent",
@@ -643,6 +685,7 @@
       },
       {
         "eventId": 30531834,
+        "timestamp": "2026-10-05T18:58:12+00:00",
         "seconds": 2577,
         "clock": "42:57",
         "side": "opponent",
@@ -656,6 +699,7 @@
       },
       {
         "eventId": 30531833,
+        "timestamp": "2026-10-05T18:59:19+00:00",
         "seconds": 2645,
         "clock": "44:05",
         "side": "opponent",
@@ -669,6 +713,7 @@
       },
       {
         "eventId": 30531831,
+        "timestamp": "2026-10-05T19:01:42+00:00",
         "seconds": 2703,
         "clock": "45:03",
         "side": "opponent",
@@ -682,6 +727,7 @@
       },
       {
         "eventId": 30531830,
+        "timestamp": "2026-10-05T19:01:59+00:00",
         "seconds": 2721,
         "clock": "45:21",
         "side": "own",
@@ -695,6 +741,7 @@
       },
       {
         "eventId": 30531829,
+        "timestamp": "2026-10-05T19:02:18+00:00",
         "seconds": 2742,
         "clock": "45:42",
         "side": "opponent",
@@ -708,6 +755,7 @@
       },
       {
         "eventId": 30531828,
+        "timestamp": "2026-10-05T19:03:08+00:00",
         "seconds": 2792,
         "clock": "46:32",
         "side": "opponent",
@@ -721,6 +769,7 @@
       },
       {
         "eventId": 30531827,
+        "timestamp": "2026-10-05T19:05:35+00:00",
         "seconds": 2936,
         "clock": "48:56",
         "side": "own",
@@ -734,6 +783,7 @@
       },
       {
         "eventId": 30531826,
+        "timestamp": "2026-10-05T19:06:25+00:00",
         "seconds": 2988,
         "clock": "49:48",
         "side": "own",
