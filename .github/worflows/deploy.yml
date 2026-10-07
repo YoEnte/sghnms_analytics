@@ -1,0 +1,20 @@
+name: Deploy Dashboard
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ship files
+        run: |
+          rsync -a --delete \
+            --chmod=D755,F644 \
+            --exclude='.git' --exclude='.github' \
+            --exclude='README.md' --exclude='*.py' \
+            ./ /var/www/sghn-dashboard/
