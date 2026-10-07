@@ -17,4 +17,4 @@ jobs:
             --chmod=D755,F644 \
             --exclude='.git' --exclude='.github' \
             --exclude='README.md' --exclude='*.py' \
-            ./ /var/www/sghn-dashboard/
+            ./ ${{ vars.DEPLOY_PATH }}/
